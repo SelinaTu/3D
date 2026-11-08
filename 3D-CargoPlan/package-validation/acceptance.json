@@ -1,0 +1,19 @@
+{
+  "snapshot": "20261031-180602",
+  "verified_at": "2026-10-31T18:18:11.902178+08:00",
+  "fresh_dependency_install": "passed using isolated npm cache",
+  "unit_tests": {
+    "files": 38,
+    "tests": 271,
+    "result": "passed"
+  },
+  "lint_typecheck_web_build": "passed",
+  "native_compile": "passed",
+  "native_test": "NATIVE_ROUTE_DEMO_OK visible_entry=true dirty_assembly_allowed=true pending_preserved=5 source=html_iraq_baseline cabinets=11 catalog=1371 initial_inventory=93 stops=5 audit=valid animation=moving context_refresh=preserved return_to_generator=visible",
+  "native_runtime": "exact pinned Electron 45.2.1 reused from trusted existing project; npm lifecycle policy unchanged",
+  "installed_app_package_version": "1.7.2",
+  "source_native_build_version": "1.7.2",
+  "source_contains_new_web_customer_value_page": true,
+  "source_packet_excludes_personal_state": true,
+  "native_executable_test_working_directory": "/tmp"
+}

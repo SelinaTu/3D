@@ -1,0 +1,2 @@
+#created 11/08/2026
+NATIVE_MANUAL_ROUTE_OK source=empty manual_pickups=2 destinations=assigned stops=4 human_access=true audit=valid explicit_calculation=true

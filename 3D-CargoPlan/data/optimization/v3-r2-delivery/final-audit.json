@@ -1,0 +1,2900 @@
+{
+  "schemaVersion": 1,
+  "phase": "final",
+  "checkedAt": "2026-10-18T07:54:54.515Z",
+  "allChecksPassed": true,
+  "scope": "Independent invocation of the authoritative validator with freshly loaded frozen contract and authoritative source manifest; not an independently implemented solver or physical transport certification.",
+  "input": {
+    "path": "data/optimization/v3-r2-delivery/current-best.json",
+    "sha256": "fa4fa9261fdcc0c7e1a852eb3455299f2e268695d9690a379e950058c68014d5",
+    "physicalLayoutSha256": "edfee104844d2e8230c1417bd1eda12673b8268596691527342b09663375ac82"
+  },
+  "provenance": {
+    "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v3-contract.json",
+    "contractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+    "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+    "sourceFiles": [
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reference/manual-11-container-baseline.pdf",
+        "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+        "role": "pdf"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/sample-cargo.xlsx",
+        "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+        "role": "excel"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+        "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+        "role": "normalized-manifest"
+      }
+    ],
+    "engineFiles": [
+      {
+        "path": "src/core/research-calibration.ts",
+        "sha256": "f58b63e71279448efa9c77cb955ae70ea1c41d48f35b90d69d7d6fec452484f1"
+      },
+      {
+        "path": "src/core/research-metrics.ts",
+        "sha256": "412299bd5d7615b4699e86611485494ed30ee55fd02f0ad0243f229cf81f45f1"
+      },
+      {
+        "path": "src/core/packing-utils.ts",
+        "sha256": "19d21dd1a90f7411283970008ba85682fd19c231093533c21901d657dd6423be"
+      },
+      {
+        "path": "src/core/solid-geometry.ts",
+        "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+      },
+      {
+        "path": "src/core/validation.ts",
+        "sha256": "d4b08a5608bece885f50e2d0b015d636f95efcf65abe262a565372b2e197f1b3"
+      },
+      {
+        "path": "src/core/loading-profile.ts",
+        "sha256": "fdd4da416cd0951f472f99d3b16c8ab54f6b3a081ef5062fbe47db9ea8a55d49"
+      }
+    ],
+    "scriptSha256": "a6aef8ebaa4b8035c1dcdc687a674366b2358088308e2ba4580601f158a3c743"
+  },
+  "checks": {
+    "frozenContractHash": true,
+    "candidateContractHash": true,
+    "configMatchesContract": true,
+    "exact1371SourceIds": true,
+    "expectedTotalWeight": true,
+    "exactSolidVolume": true,
+    "allGeometryClearanceCavityAndLoadRules": true,
+    "completeEligibleEleven": true,
+    "oldBaselineAlsoValid": true,
+    "strictlySmallerTailThanPriorBest": true,
+    "strictlyHigherFrontTenMinimumThanPriorBest": true,
+    "actualAllocationChanged": true,
+    "noAdditionalSupportObjects": true,
+    "heightExceptionsOnlyAuthorizedW02": true
+  },
+  "identity": {
+    "expected": 1371,
+    "placed": 1371,
+    "distinct": 1371,
+    "missingIds": [],
+    "unknownIds": [],
+    "sourceIdSha256": "c0ad31b05fb9f8617d3a2a33c9d2f172296118b60a16f62e553e354a37add715",
+    "sourceSheetCounts": {
+      "门窗": 1196,
+      "玻璃架": 30,
+      "辅材": 145
+    },
+    "totalWeightKg": 134777.37000000008
+  },
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "原表“尽量靠柜门”为软偏好，当前未优化近门位置。",
+      "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+      "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+      "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+    ],
+    "scope": "geometry-and-load-assumptions"
+  },
+  "metrics": {
+    "independentlyValid": true,
+    "complete": true,
+    "eligible": true,
+    "totalContainers": 11,
+    "placedItems": 1371,
+    "unpackedItems": 0,
+    "totalSolidVolumeMm3": 495748311447,
+    "totalOuterEnvelopeSumMm3": 590112711447,
+    "tailSolidVolumeMm3": 35581997340,
+    "front10MinimumSolidUtilization": 0.6621846212413793,
+    "physicalLayoutSha256": "edfee104844d2e8230c1417bd1eda12673b8268596691527342b09663375ac82",
+    "allocationSha256": "a3fa4c4af7888ea8b176432f603cc2073c92bbc96f534cac3aa925b1a1220c67",
+    "containers": [
+      {
+        "canonicalId": "container-1",
+        "sourceContainerId": "repair-v3-9",
+        "sourceIndex": 8,
+        "physicalLayoutSha256": "7f2524e0ddb6d4ec6a63fa422039a4c8d21d2f6ed68e0af5dedbe5dddfeb5db0",
+        "placedItems": 93,
+        "solidVolumeMm3": 48412373729,
+        "solidVolumeM3": 48.412373729,
+        "solidUtilization": 0.7419520878007663,
+        "outerEnvelopeSumMm3": 56860373729,
+        "outerEnvelopeSumM3": 56.860373729,
+        "outerEnvelopeSumRatio": 0.8714233521685824,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2250,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66816000000
+      },
+      {
+        "canonicalId": "container-2",
+        "sourceContainerId": "repair-v3-8",
+        "sourceIndex": 7,
+        "physicalLayoutSha256": "8b1e570a641ee4cfbe69140fcf3be26fd3194ad6b07c072630d94aa9fe5b2390",
+        "placedItems": 91,
+        "solidVolumeMm3": 48276917112.5,
+        "solidVolumeM3": 48.2769171125,
+        "solidUtilization": 0.7398761243295019,
+        "outerEnvelopeSumMm3": 53345717112.5,
+        "outerEnvelopeSumM3": 53.3457171125,
+        "outerEnvelopeSumRatio": 0.8175588829501915,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2250,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66816000000
+      },
+      {
+        "canonicalId": "container-3",
+        "sourceContainerId": "repair-v3-10",
+        "sourceIndex": 9,
+        "physicalLayoutSha256": "dda377a8226c5b244aedf01fd1db9788e1879a516886bc40f6e6603218d1f109",
+        "placedItems": 117,
+        "solidVolumeMm3": 48156925736,
+        "solidVolumeM3": 48.156925736,
+        "solidUtilization": 0.7380371760306513,
+        "outerEnvelopeSumMm3": 52803325736,
+        "outerEnvelopeSumM3": 52.803325736,
+        "outerEnvelopeSumRatio": 0.8092463714329502,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2250,
+          "height": 2438
+        },
+        "enclosingBoxVolumeMm3": 63631800000
+      },
+      {
+        "canonicalId": "container-4",
+        "sourceContainerId": "repair-v3-6",
+        "sourceIndex": 5,
+        "physicalLayoutSha256": "90c92e83404ee0355a605e714c5221f7e24de870ca79a619e08c690a8960230c",
+        "placedItems": 111,
+        "solidVolumeMm3": 46841846361.5,
+        "solidVolumeM3": 46.8418463615,
+        "solidUtilization": 0.7178827028582375,
+        "outerEnvelopeSumMm3": 50643446361.5,
+        "outerEnvelopeSumM3": 50.6434463615,
+        "outerEnvelopeSumRatio": 0.7761447718237547,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2248,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66756608000
+      },
+      {
+        "canonicalId": "container-5",
+        "sourceContainerId": "repair-v3-7",
+        "sourceIndex": 6,
+        "physicalLayoutSha256": "3386350d9f2c7bc5f318a0796e80ccab1d9fd597e2612601064b458f82d50059",
+        "placedItems": 86,
+        "solidVolumeMm3": 45990553188,
+        "solidVolumeM3": 45.990553188,
+        "solidUtilization": 0.7048360641839081,
+        "outerEnvelopeSumMm3": 54016153188,
+        "outerEnvelopeSumM3": 54.016153188,
+        "outerEnvelopeSumRatio": 0.8278337653333333,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2250,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66816000000
+      },
+      {
+        "canonicalId": "container-6",
+        "sourceContainerId": "repair-v3-5",
+        "sourceIndex": 4,
+        "physicalLayoutSha256": "6a158356640271bfd31d1195835cd0daed4820ab81c8f9d8382d6620b4f16fbf",
+        "placedItems": 221,
+        "solidVolumeMm3": 45602773285,
+        "solidVolumeM3": 45.602773285,
+        "solidUtilization": 0.6988930771647509,
+        "outerEnvelopeSumMm3": 50882773285,
+        "outerEnvelopeSumM3": 50.882773285,
+        "outerEnvelopeSumRatio": 0.779812617394636,
+        "enclosingBox": {
+          "length": 11594,
+          "width": 2250,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66781440000
+      },
+      {
+        "canonicalId": "container-7",
+        "sourceContainerId": "repair-v3-2",
+        "sourceIndex": 1,
+        "physicalLayoutSha256": "c6023f30ff89d2ca50ffbf132019acd300acb252ddf7950889a074bd5bc89239",
+        "placedItems": 144,
+        "solidVolumeMm3": 45543697181.5,
+        "solidVolumeM3": 45.5436971815,
+        "solidUtilization": 0.6979876962681992,
+        "outerEnvelopeSumMm3": 61425997181.5,
+        "outerEnvelopeSumM3": 61.4259971815,
+        "outerEnvelopeSumRatio": 0.9413945928199233,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2220,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 65925120000
+      },
+      {
+        "canonicalId": "container-8",
+        "sourceContainerId": "repair-v3-11",
+        "sourceIndex": 10,
+        "physicalLayoutSha256": "174631de79e7078b0007c893e27d586b23620216a744e143a52de07613ebfac4",
+        "placedItems": 97,
+        "solidVolumeMm3": 44774839924,
+        "solidVolumeM3": 44.774839924,
+        "solidUtilization": 0.6862044432796934,
+        "outerEnvelopeSumMm3": 44774839924,
+        "outerEnvelopeSumM3": 44.774839924,
+        "outerEnvelopeSumRatio": 0.6862044432796934,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2250,
+          "height": 2430
+        },
+        "enclosingBoxVolumeMm3": 63423000000
+      },
+      {
+        "canonicalId": "container-9",
+        "sourceContainerId": "repair-v3-4",
+        "sourceIndex": 3,
+        "physicalLayoutSha256": "3894d6b78ed3561ee10ba7878b0b598c151963194d6f006ec192d04c1107a1e5",
+        "placedItems": 120,
+        "solidVolumeMm3": 43358841053.5,
+        "solidVolumeM3": 43.3588410535,
+        "solidUtilization": 0.6645033111647509,
+        "outerEnvelopeSumMm3": 59241141053.5,
+        "outerEnvelopeSumM3": 59.2411410535,
+        "outerEnvelopeSumRatio": 0.9079102077164751,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2245,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66667520000
+      },
+      {
+        "canonicalId": "container-10",
+        "sourceContainerId": "repair-v3-1",
+        "sourceIndex": 0,
+        "physicalLayoutSha256": "063307c3ff1a65abff972419d1fe54921731ee7f1f1215d5de18b6926f56545c",
+        "placedItems": 238,
+        "solidVolumeMm3": 43207546536,
+        "solidVolumeM3": 43.207546536,
+        "solidUtilization": 0.6621846212413793,
+        "outerEnvelopeSumMm3": 55077046536,
+        "outerEnvelopeSumM3": 55.077046536,
+        "outerEnvelopeSumRatio": 0.8440926672183908,
+        "enclosingBox": {
+          "length": 11579,
+          "width": 2230,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 66102195200
+      },
+      {
+        "canonicalId": "container-11",
+        "sourceContainerId": "repair-v3-3",
+        "sourceIndex": 2,
+        "physicalLayoutSha256": "7f58e27bc058ed2174b56d2814b1415a0c5c8d6c3382378e733842f6f7ef97ae",
+        "placedItems": 53,
+        "solidVolumeMm3": 35581997340,
+        "solidVolumeM3": 35.58199734,
+        "solidUtilization": 0.5453179668965518,
+        "outerEnvelopeSumMm3": 51041897340,
+        "outerEnvelopeSumM3": 51.04189734,
+        "outerEnvelopeSumRatio": 0.7822513002298851,
+        "enclosingBox": {
+          "length": 11600,
+          "width": 2195,
+          "height": 2560
+        },
+        "enclosingBoxVolumeMm3": 65182720000
+      }
+    ]
+  },
+  "comparison": {
+    "baselinePath": "data/optimization/v3-tail-independent/frozen-complete.json",
+    "baselineSha256": "0a274506802290cf613caac102454d81a90ca458beb6e6088986e118d148f897",
+    "baselineMetrics": {
+      "independentlyValid": true,
+      "complete": true,
+      "eligible": true,
+      "totalContainers": 11,
+      "placedItems": 1371,
+      "unpackedItems": 0,
+      "totalSolidVolumeMm3": 495748311447,
+      "totalOuterEnvelopeSumMm3": 590112711447,
+      "tailSolidVolumeMm3": 36716754180,
+      "front10MinimumSolidUtilization": 0.6514719775632184,
+      "physicalLayoutSha256": "b6728a6fad670bb1bf0eb3bc51ab2fb652007212d9bdcebce277116a60edfaef",
+      "allocationSha256": "44900f623bc6986995bce337c300b65d988323840e85a06716ffaa1a12a17ece",
+      "containers": [
+        {
+          "canonicalId": "container-1",
+          "sourceContainerId": "repair-v3-8",
+          "sourceIndex": 7,
+          "physicalLayoutSha256": "21138fe18569577629947d9ebde8e5bc627d5d28b4434ed71452dc6ea8cce56b",
+          "placedItems": 111,
+          "solidVolumeMm3": 48951077112.5,
+          "solidVolumeM3": 48.9510771125,
+          "solidUtilization": 0.7502080783524904,
+          "outerEnvelopeSumMm3": 54019877112.5,
+          "outerEnvelopeSumM3": 54.0198771125,
+          "outerEnvelopeSumRatio": 0.8278908369731801,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2250,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66816000000
+        },
+        {
+          "canonicalId": "container-2",
+          "sourceContainerId": "repair-v3-9",
+          "sourceIndex": 8,
+          "physicalLayoutSha256": "08056cbd0c088136a19b3c6a588c0ad7df52363bec89208527e102b1d786e1fc",
+          "placedItems": 94,
+          "solidVolumeMm3": 48437213729,
+          "solidVolumeM3": 48.437213729,
+          "solidUtilization": 0.7423327774559387,
+          "outerEnvelopeSumMm3": 56885213729,
+          "outerEnvelopeSumM3": 56.885213729,
+          "outerEnvelopeSumRatio": 0.8718040418237548,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2250,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66816000000
+        },
+        {
+          "canonicalId": "container-3",
+          "sourceContainerId": "repair-v3-10",
+          "sourceIndex": 9,
+          "physicalLayoutSha256": "dda377a8226c5b244aedf01fd1db9788e1879a516886bc40f6e6603218d1f109",
+          "placedItems": 117,
+          "solidVolumeMm3": 48156925736,
+          "solidVolumeM3": 48.156925736,
+          "solidUtilization": 0.7380371760306513,
+          "outerEnvelopeSumMm3": 52803325736,
+          "outerEnvelopeSumM3": 52.803325736,
+          "outerEnvelopeSumRatio": 0.8092463714329502,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2250,
+            "height": 2438
+          },
+          "enclosingBoxVolumeMm3": 63631800000
+        },
+        {
+          "canonicalId": "container-4",
+          "sourceContainerId": "repair-v3-6",
+          "sourceIndex": 5,
+          "physicalLayoutSha256": "90c92e83404ee0355a605e714c5221f7e24de870ca79a619e08c690a8960230c",
+          "placedItems": 111,
+          "solidVolumeMm3": 46841846361.5,
+          "solidVolumeM3": 46.8418463615,
+          "solidUtilization": 0.7178827028582375,
+          "outerEnvelopeSumMm3": 50643446361.5,
+          "outerEnvelopeSumM3": 50.6434463615,
+          "outerEnvelopeSumRatio": 0.7761447718237547,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2248,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66756608000
+        },
+        {
+          "canonicalId": "container-5",
+          "sourceContainerId": "repair-v3-7",
+          "sourceIndex": 6,
+          "physicalLayoutSha256": "3386350d9f2c7bc5f318a0796e80ccab1d9fd597e2612601064b458f82d50059",
+          "placedItems": 86,
+          "solidVolumeMm3": 45990553188,
+          "solidVolumeM3": 45.990553188,
+          "solidUtilization": 0.7048360641839081,
+          "outerEnvelopeSumMm3": 54016153188,
+          "outerEnvelopeSumM3": 54.016153188,
+          "outerEnvelopeSumRatio": 0.8278337653333333,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2250,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66816000000
+        },
+        {
+          "canonicalId": "container-6",
+          "sourceContainerId": "repair-v3-2",
+          "sourceIndex": 1,
+          "physicalLayoutSha256": "c6023f30ff89d2ca50ffbf132019acd300acb252ddf7950889a074bd5bc89239",
+          "placedItems": 144,
+          "solidVolumeMm3": 45543697181.5,
+          "solidVolumeM3": 45.5436971815,
+          "solidUtilization": 0.6979876962681992,
+          "outerEnvelopeSumMm3": 61425997181.5,
+          "outerEnvelopeSumM3": 61.4259971815,
+          "outerEnvelopeSumRatio": 0.9413945928199233,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2220,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 65925120000
+        },
+        {
+          "canonicalId": "container-7",
+          "sourceContainerId": "repair-v3-5",
+          "sourceIndex": 4,
+          "physicalLayoutSha256": "941234997bc47085168cb98e922992571ce6bd866c00f2aa23bb9cb19ae94ba2",
+          "placedItems": 218,
+          "solidVolumeMm3": 44775786445,
+          "solidVolumeM3": 44.775786445,
+          "solidUtilization": 0.686218949348659,
+          "outerEnvelopeSumMm3": 50266986445,
+          "outerEnvelopeSumM3": 50.266986445,
+          "outerEnvelopeSumRatio": 0.7703752711877395,
+          "enclosingBox": {
+            "length": 11594,
+            "width": 2250,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66781440000
+        },
+        {
+          "canonicalId": "container-8",
+          "sourceContainerId": "repair-v3-11",
+          "sourceIndex": 10,
+          "physicalLayoutSha256": "174631de79e7078b0007c893e27d586b23620216a744e143a52de07613ebfac4",
+          "placedItems": 97,
+          "solidVolumeMm3": 44774839924,
+          "solidVolumeM3": 44.774839924,
+          "solidUtilization": 0.6862044432796934,
+          "outerEnvelopeSumMm3": 44774839924,
+          "outerEnvelopeSumM3": 44.774839924,
+          "outerEnvelopeSumRatio": 0.6862044432796934,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2250,
+            "height": 2430
+          },
+          "enclosingBoxVolumeMm3": 63423000000
+        },
+        {
+          "canonicalId": "container-9",
+          "sourceContainerId": "repair-v3-4",
+          "sourceIndex": 3,
+          "physicalLayoutSha256": "19b90f31e7f4c0348d7dc381f9885d168adc2a12fd77024f95ef40b7344e6cd8",
+          "placedItems": 118,
+          "solidVolumeMm3": 43051071053.5,
+          "solidVolumeM3": 43.0510710535,
+          "solidUtilization": 0.6597865295555555,
+          "outerEnvelopeSumMm3": 58933371053.5,
+          "outerEnvelopeSumM3": 58.9333710535,
+          "outerEnvelopeSumRatio": 0.9031934261072797,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2245,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66667520000
+        },
+        {
+          "canonicalId": "container-10",
+          "sourceContainerId": "repair-v3-1",
+          "sourceIndex": 0,
+          "physicalLayoutSha256": "5c91a8c499d4ff2242289b4316c8867bb10ee2198d2210269844a28b7c897619",
+          "placedItems": 217,
+          "solidVolumeMm3": 42508546536,
+          "solidVolumeM3": 42.508546536,
+          "solidUtilization": 0.6514719775632184,
+          "outerEnvelopeSumMm3": 54378046536,
+          "outerEnvelopeSumM3": 54.378046536,
+          "outerEnvelopeSumRatio": 0.8333800235402299,
+          "enclosingBox": {
+            "length": 11579,
+            "width": 2230,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 66102195200
+        },
+        {
+          "canonicalId": "container-11",
+          "sourceContainerId": "repair-v3-3",
+          "sourceIndex": 2,
+          "physicalLayoutSha256": "41392be2d0cb2b00cf21dc304c009764d2cbfb7ee679b0f28e6d08600d6a69b7",
+          "placedItems": 58,
+          "solidVolumeMm3": 36716754180,
+          "solidVolumeM3": 36.71675418,
+          "solidUtilization": 0.5627088763218391,
+          "outerEnvelopeSumMm3": 51965454180,
+          "outerEnvelopeSumM3": 51.96545418,
+          "outerEnvelopeSumRatio": 0.796405428045977,
+          "enclosingBox": {
+            "length": 11600,
+            "width": 2195,
+            "height": 2560
+          },
+          "enclosingBoxVolumeMm3": 65182720000
+        }
+      ]
+    },
+    "tailReductionM3": 1.13475684,
+    "tailReductionPercent": 3.0905695923909127,
+    "frontTenIncreasePercentagePoints": 1.0712643678160938,
+    "originalPdf": {
+      "containerCount": 11,
+      "originalTailContainerNumber": 11,
+      "originalTailSolidVolumeMm3": 41549138446.5,
+      "permutationInvariantMinSolidVolumeMm3": 39312162536,
+      "sortedFirstTenMinimumSolidUtilization": 0.6352022895019157,
+      "allocationSha256": "cb2cd1b008a1e2d9cd6f83b866d63de67abe1cf5a5585d56fb653b3b11695c45"
+    }
+  },
+  "loadingAudit": [
+    {
+      "containerId": "repair-v3-1",
+      "itemCount": 238,
+      "pairGeometryComparisons": 28203,
+      "totalWeightKg": 10398.030000000033,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:20#玻璃架:r24",
+          "topLoadKg": 596.3307259169594,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:21#玻璃架:r25",
+          "topLoadKg": 593.1243377029224,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:22#玻璃架:r26",
+          "topLoadKg": 525.144936380118,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r23:u1",
+          "topLoadKg": 83.66060606060606,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u2",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u3",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u4",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u5",
+          "topLoadKg": 119.72121212121212,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u6",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u7",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u8",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u9",
+          "topLoadKg": 116.14399999999999,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u1",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u2",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u135",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u137",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:34:r42",
+          "hostId": "门窗:W01:r23:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u41",
+          "hostId": "门窗:W01:r23:u2",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u42",
+          "hostId": "门窗:W01:r23:u2",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u43",
+          "hostId": "门窗:W01:r23:u3",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u44",
+          "hostId": "门窗:W01:r23:u3",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u45",
+          "hostId": "门窗:W01:r23:u4",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W06:r19:u46",
+          "hostId": "门窗:W01:r23:u4",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u32",
+          "hostId": "门窗:W01:r23:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u33",
+          "hostId": "门窗:W01:r23:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u34",
+          "hostId": "门窗:W01:r23:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u35",
+          "hostId": "门窗:W01:r23:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u36",
+          "hostId": "门窗:W01:r23:u6",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u37",
+          "hostId": "门窗:W01:r23:u6",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u38",
+          "hostId": "门窗:W01:r23:u7",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u39",
+          "hostId": "门窗:W01:r23:u7",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u40",
+          "hostId": "门窗:W01:r23:u8",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u41",
+          "hostId": "门窗:W01:r23:u8",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u42",
+          "hostId": "门窗:W01:r23:u9",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u43",
+          "hostId": "门窗:W01:r23:u9",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u44",
+          "hostId": "门窗:W01:r23:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u45",
+          "hostId": "门窗:W01:r23:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W09:r13:u46",
+          "hostId": "门窗:W01:r23:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u1",
+          "hostId": "门窗:W01:r23:u2",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u2",
+          "hostId": "门窗:W01:r23:u2",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u3",
+          "hostId": "门窗:W01:r23:u3",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u4",
+          "hostId": "门窗:W01:r23:u3",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u5",
+          "hostId": "门窗:W01:r23:u4",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u9",
+          "hostId": "门窗:W01:r23:u4",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u10",
+          "hostId": "门窗:W01:r23:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u11",
+          "hostId": "门窗:W01:r23:u5",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u12",
+          "hostId": "门窗:W01:r23:u6",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u13",
+          "hostId": "门窗:W01:r23:u6",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u14",
+          "hostId": "门窗:W01:r23:u7",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u15",
+          "hostId": "门窗:W01:r23:u7",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u16",
+          "hostId": "门窗:W01:r23:u8",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u17",
+          "hostId": "门窗:W01:r23:u8",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u18",
+          "hostId": "门窗:W01:r23:u9",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u19",
+          "hostId": "门窗:W01:r23:u9",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u117",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u121",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u27",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u28",
+          "hostId": "门窗:W02:r16:u1",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u1",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-2",
+      "itemCount": 144,
+      "pairGeometryComparisons": 10296,
+      "totalWeightKg": 7402.320000000008,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:11#玻璃架:r15",
+          "topLoadKg": 509.2,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r23:u21",
+          "topLoadKg": 83.66060606060606,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u22",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u23",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u24",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u29",
+          "topLoadKg": 119.72121212121212,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u31",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u33",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u35",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u37",
+          "topLoadKg": 116.14399999999999,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u8",
+          "hostId": "门窗:W02:r16:u2",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u9",
+          "hostId": "门窗:W02:r16:u2",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u10",
+          "hostId": "门窗:W02:r16:u3",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u11",
+          "hostId": "门窗:W02:r16:u3",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u12",
+          "hostId": "门窗:W02:r16:u4",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u13",
+          "hostId": "门窗:W02:r16:u4",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u14",
+          "hostId": "门窗:W02:r16:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u15",
+          "hostId": "门窗:W02:r16:u5",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u16",
+          "hostId": "门窗:W02:r16:u6",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u17",
+          "hostId": "门窗:W02:r16:u6",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u18",
+          "hostId": "门窗:W02:r16:u7",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u19",
+          "hostId": "门窗:W02:r16:u7",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u20",
+          "hostId": "门窗:W02:r16:u8",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u20",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u25",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u26",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u27",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u28",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u29",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u30",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u31",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u32",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:8:r13:u33",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:11:r17:u1",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 90
+        },
+        {
+          "id": "辅材:25:r33",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u7",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u8",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u9",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u10",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u11",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u12",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:5:r10",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:18:r25:u3",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:18:r25:u4",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:18:r25:u5",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:18:r25:u6",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:35:r43",
+          "hostId": "门窗:W01:r23:u21",
+          "orientation": "lying",
+          "rotation": 90
+        },
+        {
+          "id": "辅材:18:r25:u8",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:18:r25:u7",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:13:r19",
+          "hostId": "门窗:W01:r23:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u28",
+          "hostId": "门窗:W01:r23:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u39",
+          "hostId": "门窗:W01:r23:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u27",
+          "hostId": "门窗:W01:r23:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u38",
+          "hostId": "门窗:W01:r23:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u26",
+          "hostId": "门窗:W01:r23:u33",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u37",
+          "hostId": "门窗:W01:r23:u35",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u25",
+          "hostId": "门窗:W01:r23:u37",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u36",
+          "hostId": "门窗:W01:r23:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u24",
+          "hostId": "门窗:W01:r23:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u35",
+          "hostId": "门窗:W01:r23:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u23",
+          "hostId": "门窗:W01:r23:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u34",
+          "hostId": "门窗:W01:r23:u33",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u22",
+          "hostId": "门窗:W01:r23:u35",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u33",
+          "hostId": "门窗:W01:r23:u37",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u21",
+          "hostId": "门窗:W01:r23:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u32",
+          "hostId": "门窗:W01:r23:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u20",
+          "hostId": "门窗:W01:r23:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u31",
+          "hostId": "门窗:W01:r23:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u19",
+          "hostId": "门窗:W01:r23:u33",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u30",
+          "hostId": "门窗:W01:r23:u35",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u18",
+          "hostId": "门窗:W01:r23:u37",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u2",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u3",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u4",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u5",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u6",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u7",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u8",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u9",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u10",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u11",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-3",
+      "itemCount": 53,
+      "pairGeometryComparisons": 1378,
+      "totalWeightKg": 5092.959999999999,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:13#玻璃架:r17",
+          "topLoadKg": 60,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r23:u43",
+          "topLoadKg": 83.66060606060606,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u44",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u45",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u46",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u51",
+          "topLoadKg": 119.72121212121212,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u53",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u55",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u57",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u59",
+          "topLoadKg": 116.14399999999999,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u4",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u87",
+          "hostId": "门窗:W02:r16:u12",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u6",
+          "hostId": "门窗:W02:r16:u12",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u7",
+          "hostId": "门窗:W02:r16:u12",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u12",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u13",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u14",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u15",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u16",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u17",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u18",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u19",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u20",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-4",
+      "itemCount": 120,
+      "pairGeometryComparisons": 7140,
+      "totalWeightKg": 6993.29,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:18#玻璃架:r22",
+          "topLoadKg": 580,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r22:u2",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u1",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u65",
+          "topLoadKg": 83.66060606060606,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u66",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u67",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u68",
+          "topLoadKg": 90.87272727272727,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u69",
+          "topLoadKg": 119.72121212121212,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u70",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u71",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u72",
+          "topLoadKg": 119.952,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r23:u73",
+          "topLoadKg": 116.14399999999999,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u35",
+          "hostId": "门窗:W02:r16:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u36",
+          "hostId": "门窗:W02:r16:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u37",
+          "hostId": "门窗:W02:r16:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u38",
+          "hostId": "门窗:W02:r16:u21",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u39",
+          "hostId": "门窗:W02:r16:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u40",
+          "hostId": "门窗:W02:r16:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u41",
+          "hostId": "门窗:W02:r16:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u42",
+          "hostId": "门窗:W02:r16:u22",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u43",
+          "hostId": "门窗:W02:r16:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u44",
+          "hostId": "门窗:W02:r16:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u45",
+          "hostId": "门窗:W02:r16:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u46",
+          "hostId": "门窗:W02:r16:u23",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u47",
+          "hostId": "门窗:W02:r16:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u48",
+          "hostId": "门窗:W02:r16:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u49",
+          "hostId": "门窗:W02:r16:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u50",
+          "hostId": "门窗:W02:r16:u24",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u51",
+          "hostId": "门窗:W02:r16:u25",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u52",
+          "hostId": "门窗:W02:r16:u25",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u53",
+          "hostId": "门窗:W02:r16:u25",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u54",
+          "hostId": "门窗:W02:r16:u25",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u55",
+          "hostId": "门窗:W02:r16:u26",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u56",
+          "hostId": "门窗:W02:r16:u26",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u57",
+          "hostId": "门窗:W02:r16:u26",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u58",
+          "hostId": "门窗:W02:r16:u26",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u59",
+          "hostId": "门窗:W02:r16:u27",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u60",
+          "hostId": "门窗:W02:r16:u27",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u61",
+          "hostId": "门窗:W02:r16:u27",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u62",
+          "hostId": "门窗:W02:r16:u27",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u63",
+          "hostId": "门窗:W02:r16:u28",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u64",
+          "hostId": "门窗:W02:r16:u28",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u65",
+          "hostId": "门窗:W02:r16:u28",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u66",
+          "hostId": "门窗:W02:r16:u28",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u67",
+          "hostId": "门窗:W02:r16:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u68",
+          "hostId": "门窗:W02:r16:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u69",
+          "hostId": "门窗:W02:r16:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u70",
+          "hostId": "门窗:W02:r16:u29",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u71",
+          "hostId": "门窗:W02:r16:u30",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u72",
+          "hostId": "门窗:W02:r16:u30",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W01:r24:u29",
+          "hostId": "门窗:W01:r23:u65",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u21",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u22",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u23",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u24",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u25",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u26",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u27",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u28",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u29",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u30",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-5",
+      "itemCount": 221,
+      "pairGeometryComparisons": 24310,
+      "totalWeightKg": 15220.54999999999,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:23#玻璃架:r27",
+          "topLoadKg": 370.40000000000003,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:5#玻璃架:r9",
+          "topLoadKg": 597.5,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:9#玻璃架:r13",
+          "topLoadKg": 599.8,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u73",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u74",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u3",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u4",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u93",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u94",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u103",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u104",
+          "hostId": "门窗:W02:r16:u31",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:26:r34",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:23:r31",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:30:r38",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u1",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u2",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u3",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u4",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "flat",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u5",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "辅材:7:r12:u6",
+          "hostId": "门窗:W02:r16:u76",
+          "orientation": "flat",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u31",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u76",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-6",
+      "itemCount": 111,
+      "pairGeometryComparisons": 6105,
+      "totalWeightKg": 15121.980000000014,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:8#玻璃架:r12",
+          "topLoadKg": 598.4000000000001,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:25#玻璃架:r29",
+          "topLoadKg": 599.4,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:26#玻璃架:r30",
+          "topLoadKg": 580.8475471698113,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:27#玻璃架:r31",
+          "topLoadKg": 594.6524528301886,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W06:r20:u41",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u3",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u40",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u2",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u77",
+          "hostId": "门窗:W02:r16:u32",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u81",
+          "hostId": "门窗:W02:r16:u32",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u78",
+          "hostId": "门窗:W02:r16:u33",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u82",
+          "hostId": "门窗:W02:r16:u33",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u79",
+          "hostId": "门窗:W02:r16:u34",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u80",
+          "hostId": "门窗:W02:r16:u35",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u32",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u33",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u34",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u35",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u36",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u37",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u40",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u38",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u39",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-7",
+      "itemCount": 86,
+      "pairGeometryComparisons": 3655,
+      "totalWeightKg": 12823.130000000006,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:1#玻璃架:r5",
+          "topLoadKg": 466.58238993710694,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:2#玻璃架:r6",
+          "topLoadKg": 559.0176100628931,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:28#玻璃架:r32",
+          "topLoadKg": 520,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W06:r20:u8",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u9",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u39",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u53",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u54",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u58",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u56",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u55",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u52",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u59",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u41",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u49",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u57",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u44",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u46",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u50",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u48",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u47",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u42",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u43",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u45",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u51",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-8",
+      "itemCount": 91,
+      "pairGeometryComparisons": 4095,
+      "totalWeightKg": 8372.299999999996,
+      "stackErrors": [],
+      "racks": [],
+      "strictLying": [
+        {
+          "id": "门窗:W06:r20:u12",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u13",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u14",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u15",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u16",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u17",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u18",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u19",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u20",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u21",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u22",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u23",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u24",
+          "topLoadKg": 65.87693320171108,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u10",
+          "topLoadKg": 53.59986837775584,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u33",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u37",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u35",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u32",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u34",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u36",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u11",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [
+        {
+          "id": "门窗:W05:r8:u29",
+          "hostId": "门窗:W02:r16:u62",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u30",
+          "hostId": "门窗:W02:r16:u63",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u31",
+          "hostId": "门窗:W02:r16:u63",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u32",
+          "hostId": "门窗:W02:r16:u68",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u33",
+          "hostId": "门窗:W02:r16:u68",
+          "orientation": "lying",
+          "rotation": 0
+        },
+        {
+          "id": "门窗:W05:r8:u34",
+          "hostId": "门窗:W02:r16:u67",
+          "orientation": "lying",
+          "rotation": 0
+        }
+      ],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u64",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u60",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u71",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u62",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u63",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u68",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u67",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u66",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u69",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u65",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u70",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u61",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-9",
+      "itemCount": 93,
+      "pairGeometryComparisons": 4278,
+      "totalWeightKg": 14301.070000000005,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:4#玻璃架:r8",
+          "topLoadKg": 433.4,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:24#玻璃架:r28",
+          "topLoadKg": 598.4000000000001,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:16#玻璃架:r20",
+          "topLoadKg": 600,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W02:r17:u82",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [],
+      "heightExceptionsUsed": [
+        {
+          "id": "门窗:W02:r16:u81",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u82",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u83",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u84",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u85",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u86",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u87",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u88",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u89",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u90",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u72",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u77",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u91",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u73",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u78",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u92",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u74",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u79",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u80",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        },
+        {
+          "id": "门窗:W02:r16:u75",
+          "sourceSheet": "门窗",
+          "sourceRow": 16,
+          "topZ": 2560
+        }
+      ]
+    },
+    {
+      "containerId": "repair-v3-10",
+      "itemCount": 117,
+      "pairGeometryComparisons": 6786,
+      "totalWeightKg": 18115.37,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:3#玻璃架:r7",
+          "topLoadKg": 600,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:7#玻璃架:r11",
+          "topLoadKg": 244,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:12#玻璃架:r16",
+          "topLoadKg": 192,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r22:u7",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u35",
+          "topLoadKg": 100,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u36",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u37",
+          "topLoadKg": 100,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u38",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u39",
+          "topLoadKg": 100,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u40",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W01:r22:u8",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u45",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W06:r20:u46",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [],
+      "heightExceptionsUsed": []
+    },
+    {
+      "containerId": "repair-v3-11",
+      "itemCount": 97,
+      "pairGeometryComparisons": 4656,
+      "totalWeightKg": 20936.370000000003,
+      "stackErrors": [],
+      "racks": [
+        {
+          "id": "玻璃架:6#玻璃架:r10",
+          "topLoadKg": 600,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:19#玻璃架:r23",
+          "topLoadKg": 600,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:29#玻璃架:r33",
+          "topLoadKg": 520,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:30#玻璃架:r34",
+          "topLoadKg": 600,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:14#玻璃架:r18",
+          "topLoadKg": 599.9999999999998,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:15#玻璃架:r19",
+          "topLoadKg": 600.0000000000002,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:10#玻璃架:r14",
+          "topLoadKg": 143.3,
+          "limitKg": 600
+        },
+        {
+          "id": "玻璃架:17#玻璃架:r21",
+          "topLoadKg": 336.6,
+          "limitKg": 600
+        }
+      ],
+      "strictLying": [
+        {
+          "id": "门窗:W01:r22:u46",
+          "topLoadKg": 0,
+          "limitKg": 120
+        },
+        {
+          "id": "门窗:W02:r17:u29",
+          "topLoadKg": 0,
+          "limitKg": 120
+        }
+      ],
+      "nested": [],
+      "heightExceptionsUsed": []
+    }
+  ],
+  "excludedResults": {
+    "macro24": "data/optimization/v3-r2-eight-seed/macro-24.json is a valid 24-item substructure only; failed global transfers and macro-exchange-diagnostic.json are ineligible and not used in this full 1371-item solution.",
+    "globalOptimalityProven": false
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_comment": "#created 11/08/2026",
+  "product": "CargoPlan · 舱策",
+  "verifiedAt": "2026-11-08T09:46:13.935770+00:00",
+  "changes": [
+    "Shared 3D container/cargo style across workbench, sea-land studio and customer value",
+    "Open double doors, outward arrow, door-side and overall cameras",
+    "Slider warning ticks, visible-only unloading obstructions and selectable blocker relations",
+    "Visible cargo weight, utilization and center of gravity"
+  ],
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed including final camera fix",
+    "tests": {
+      "passed": 275,
+      "files": 39
+    },
+    "builds": [
+      "web",
+      "standalone globe",
+      "backend",
+      "local deployed website"
+    ],
+    "browser": {
+      "checks": [
+        {
+          "name": "land slider zero/first warning/full/reverse, focused selection, priority clear",
+          "firstWarning": 6,
+          "ticks": [
+            {
+              "step": 6,
+              "label": "跳到第 6 件，新增 2 件卸货阻挡"
+            },
+            {
+              "step": 14,
+              "label": "跳到第 14 件，新增 1 件卸货阻挡"
+            }
+          ],
+          "fullCount": 3
+        },
+        {
+          "name": "sea slider zero/first warning/full/reverse, focused selection, priority clear",
+          "firstWarning": 12,
+          "ticks": [
+            {
+              "step": 12,
+              "label": "跳到第 12 件，新增 1 件卸货阻挡"
+            },
+            {
+              "step": 13,
+              "label": "跳到第 13 件，新增 6 件卸货阻挡"
+            }
+          ],
+          "fullCount": 7
+        },
+        {
+          "name": "Correct X-min and X-max door switching"
+        },
+        {
+          "name": "Workbench actual 29-piece Excel import, optimize, selected dimensions/position and shared style"
+        },
+        {
+          "name": "Sea/land same shared visual style, 11-container view and cabinet switching",
+          "firstCount": "93"
+        },
+        {
+          "name": "Route generation, solve, annotations, selection and animated playback remain functional"
+        },
+        {
+          "name": "Port knowledge and retained CargoPlan helper unchanged"
+        },
+        {
+          "name": "Fresh browser, cache disabled, HTTPS blocked; bundled assets and triggered lazy views load",
+          "resources": 15
+        },
+        {
+          "name": "Final focused view keeps door label in frame and camera controls work",
+          "door": {
+            "doorX": 677.6737670898438,
+            "doorY": 557.480224609375,
+            "within": true
+          }
+        }
+      ],
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0,
+      "remoteRequests": 0,
+      "bundledAssets": 15,
+      "freshContext": true,
+      "cacheDisabled": true
+    }
+  },
+  "semantics": {
+    "landBulk": 3,
+    "seaBulk": 7,
+    "priority": 0,
+    "count": "blocked cargo pieces, not blocker pairs or actual rehandling operations",
+    "door": "x-max for the 29-piece examples; shared viewer honors other configured access faces",
+    "shell": "cutaway rendering; walls and roof are not dismantled for unloading",
+    "collisionScope": "unloading-order door projection; not a physical loading-path collision simulation"
+  },
+  "reproduce": [
+    "npm ci",
+    "npm run check"
+  ]
+}

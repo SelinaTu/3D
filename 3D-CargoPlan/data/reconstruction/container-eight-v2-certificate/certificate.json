@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "status": "conditionally-infeasible",
+  "sourceContainerNumber": 8,
+  "scope": "Only original PDF container 8 allocation under the frozen normalized v2 geometric/load model including 80% support. Not a verdict on the PDF on-site plan, and not a proof about other allocations or global 11/10-container feasibility.",
+  "verificationMethod": "analytic necessary conditions with machine-checked source and arithmetic premises",
+  "sourceIds": [
+    "门窗:W03:r5:u30",
+    "门窗:W03:r5:u31",
+    "门窗:W03:r5:u32",
+    "门窗:W03:r5:u33",
+    "门窗:W03:r5:u34",
+    "门窗:W03:r5:u35",
+    "门窗:W03:r5:u36",
+    "门窗:W03:r5:u37",
+    "门窗:W03:r5:u38",
+    "门窗:W04(1F):r6:u29",
+    "门窗:W04(1F):r6:u30",
+    "门窗:W04(1F):r6:u31",
+    "门窗:W04(1F):r6:u32",
+    "门窗:W04(2F):r7:u33",
+    "门窗:W04(2F):r7:u34",
+    "门窗:W05:r8:u105",
+    "门窗:W05:r8:u106",
+    "门窗:W05:r8:u107",
+    "门窗:W05:r8:u108",
+    "门窗:W05:r8:u109",
+    "门窗:W05:r8:u110",
+    "门窗:W05:r8:u111",
+    "门窗:W05:r8:u112",
+    "门窗:W05:r8:u113",
+    "门窗:W05:r8:u114",
+    "门窗:W05:r8:u115",
+    "门窗:W05:r8:u116",
+    "门窗:W05:r8:u117",
+    "门窗:W05:r8:u118",
+    "门窗:W05:r8:u119",
+    "门窗:W05:r8:u120",
+    "门窗:W05:r8:u121",
+    "门窗:W05:r8:u122",
+    "门窗:W07:r9:u20",
+    "门窗:W07:r9:u21",
+    "门窗:W07:r9:u22",
+    "门窗:W07:r9:u23",
+    "门窗:W07:r9:u24",
+    "门窗:W07:r9:u25",
+    "门窗:W07:r9:u26",
+    "门窗:W07:r9:u27",
+    "门窗:W07:r9:u28",
+    "门窗:W07:r9:u29",
+    "门窗:W07:r9:u30",
+    "门窗:W07:r9:u31",
+    "门窗:W07:r9:u32",
+    "门窗:W07:r9:u33",
+    "门窗:W07:r9:u34",
+    "门窗:W07:r9:u35",
+    "门窗:W07:r9:u36",
+    "门窗:W07:r9:u37",
+    "门窗:W07:r9:u38",
+    "门窗:W07:r9:u39",
+    "门窗:W07:r9:u40",
+    "门窗:W07:r9:u41",
+    "门窗:W07:r9:u42",
+    "门窗:W07:r9:u43",
+    "门窗:W07:r9:u44",
+    "门窗:W07:r9:u45",
+    "门窗:W12:r15:u25",
+    "门窗:W12:r15:u26",
+    "门窗:W02:r16:u60",
+    "门窗:W02:r16:u61",
+    "门窗:W02:r16:u62",
+    "门窗:W02:r16:u63",
+    "门窗:W02:r16:u64",
+    "门窗:W02:r16:u65",
+    "门窗:W02:r16:u66",
+    "门窗:W02:r16:u67",
+    "门窗:W02:r16:u68",
+    "门窗:W02:r16:u69",
+    "门窗:W02:r16:u70",
+    "门窗:W02:r16:u71",
+    "门窗:W02:r17:u15",
+    "门窗:W02:r17:u16",
+    "门窗:W02:r17:u17",
+    "门窗:W02:r17:u18",
+    "门窗:W02:r17:u19",
+    "门窗:W02:r17:u20",
+    "门窗:W06:r20:u12",
+    "门窗:W06:r20:u13",
+    "门窗:W06:r20:u14",
+    "门窗:W06:r20:u15",
+    "门窗:W06:r20:u16",
+    "门窗:W06:r20:u17",
+    "门窗:W06:r20:u18",
+    "门窗:W06:r20:u19",
+    "门窗:W06:r20:u20",
+    "门窗:W06:r20:u21",
+    "门窗:W06:r20:u22",
+    "门窗:W06:r20:u23",
+    "门窗:W06:r20:u24",
+    "门窗:W06:r20:u25",
+    "门窗:W06:r20:u26",
+    "门窗:W06:r20:u27",
+    "门窗:W06:r20:u28",
+    "门窗:W06:r20:u29",
+    "门窗:W06:r20:u30",
+    "门窗:W06:r20:u31",
+    "门窗:W06:r20:u32",
+    "门窗:W06:r20:u33",
+    "门窗:W06:r20:u34",
+    "门窗:W06:r20:u35",
+    "门窗:W06:r20:u36",
+    "门窗:W06:r20:u37"
+  ],
+  "config": {
+    "loadingProfile": "villa-pdf",
+    "containerDimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "containerMaxWeight": 28000,
+    "algorithm": "hybrid",
+    "timeLimit": 60000,
+    "weights": {
+      "containerCount": 100,
+      "volumeUtilization": 10,
+      "weightBalance": 1,
+      "stabilityPenalty": 10
+    },
+    "verticalSupport": "pdf-clearance-projection",
+    "offsetStackScope": "item-only"
+  },
+  "supportAreaFraction": 0.8,
+  "clearanceMm": 5,
+  "provenance": {
+    "status": "ready",
+    "projectRoot": "/Users/lege/Documents/ChatGPT/集装箱运筹",
+    "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v2-contract.json",
+    "contractSha256": "b9d6731c3ce5ff617e9d011933854ed611b7bcf080d48916c76386ed009cab7f",
+    "calibrationHash": "e828ba54482892586fc83b393873e338e7cf12dad516a1f06f1439213a8701ae",
+    "auditPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/calibration/source-baseline.json",
+    "auditSha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547",
+    "manifestPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+    "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+    "inputSha256": "a156204f41e25cd4ce55b81da0c4d7aa50330a6f23ae1a80205270968f78c831",
+    "configSha256": "c58a30d48ce866ff25f61f8c0982aa0b6452fab9ccf00d66b17f0b88743301fc",
+    "sourceFiles": [
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reference/manual-11-container-baseline.pdf",
+        "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+        "role": "pdf"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/sample-cargo.xlsx",
+        "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+        "role": "excel"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+        "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+        "role": "normalized-manifest"
+      }
+    ],
+    "support": {
+      "gapMm": 5,
+      "mechanism": "pdf-clearance-projection",
+      "confirmed": true
+    },
+    "pdfBaseline": {
+      "containerCount": 11,
+      "originalTailContainerNumber": 11,
+      "originalTailSolidVolumeMm3": 41549138446.5,
+      "permutationInvariantMinSolidVolumeMm3": 39312162536,
+      "sortedFirstTenMinimumSolidUtilization": 0.6352022895019157,
+      "allocationSha256": "cb2cd1b008a1e2d9cd6f83b866d63de67abe1cf5a5585d56fb653b3b11695c45"
+    },
+    "engineFiles": [
+      {
+        "path": "src/scripts/prove-container-eight-v2.ts",
+        "sha256": "7229123d03b95197056ea16d05617a1779bc22a620fa12b8ab5b4b34f7d11fbb"
+      },
+      {
+        "path": "src/core/packing-utils.ts",
+        "sha256": "ed284f188f6d645e9d9a731f9ea9b50fef4ee7ead25e80a5b5897628e6f4f396"
+      },
+      {
+        "path": "src/core/solid-geometry.ts",
+        "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+      },
+      {
+        "path": "src/core/validation.ts",
+        "sha256": "dce7f72064593186e0685d90defaced5913b41f64e25218ed226df9e6fce8271"
+      },
+      {
+        "path": "src/core/loading-profile.ts",
+        "sha256": "ddf88e6210444fde9175bc568897cd689bc9e6dcb2d430bf4da29b575507f2db"
+      }
+    ],
+    "engineSha256": "c68cfa5f3425c1fd669dbae2aaf045e18c5c7ce1118cc81736aa7d0dd2f6e5cc"
+  },
+  "checks": [
+    {
+      "name": "exact v2 envelope and clearance projection",
+      "passed": true
+    },
+    {
+      "name": "exact original container 8 allocation",
+      "passed": true
+    },
+    {
+      "name": "no other categories or racks",
+      "passed": true
+    },
+    {
+      "name": "source row 5 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 6 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 7 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 8 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 17 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 20 supports its exact source only",
+      "passed": true
+    },
+    {
+      "name": "source row 9 upper-unit limit is 5kg in every orientation",
+      "passed": true
+    },
+    {
+      "name": "source row 15 upper-unit limit is 5kg in every orientation",
+      "passed": true
+    },
+    {
+      "name": "W07 actually allows lying only",
+      "passed": true
+    },
+    {
+      "name": "W02 frames actually allow lying only",
+      "passed": true
+    },
+    {
+      "name": "long strip dimensions",
+      "passed": true
+    },
+    {
+      "name": "W06 dimensions",
+      "passed": true
+    },
+    {
+      "name": "W06 and W02-sash load rules retained",
+      "passed": true
+    },
+    {
+      "name": "W02 floor rail occupies the entire rectangle",
+      "passed": true
+    },
+    {
+      "name": "W02 cavity is only 1200x160x2200 with strict lying-door authorization",
+      "passed": true
+    },
+    {
+      "name": "no other cavity",
+      "passed": true
+    },
+    {
+      "name": "at most three long intervals outside a W06 flat band",
+      "passed": true
+    },
+    {
+      "name": "at most two long intervals inside a W06 flat band",
+      "passed": true
+    },
+    {
+      "name": "integrated transverse capacity contradiction",
+      "passed": true,
+      "actual": {
+        "required": 5230,
+        "available": 5175.5,
+        "deficit": 54.5
+      }
+    },
+    {
+      "name": "W03 first elevated flat cannot be supported by its eight remaining units",
+      "passed": true,
+      "actual": {
+        "maximumContact": 1468800,
+        "required": 1627920
+      }
+    },
+    {
+      "name": "W04 first elevated flat impossible in both small groups",
+      "passed": true
+    },
+    {
+      "name": "two standing W04 floor units cannot support two lying uppers",
+      "passed": true
+    },
+    {
+      "name": "one standing W04 cannot support one lying upper at 80%",
+      "passed": true
+    },
+    {
+      "name": "one lying W04 cannot support two disjoint upper units",
+      "passed": true
+    },
+    {
+      "name": "third vertical W04 layer cannot fit",
+      "passed": true
+    },
+    {
+      "name": "W02-sash first elevated flat lacks support among five possible bases",
+      "passed": true
+    },
+    {
+      "name": "standing W02-sash cannot support a flat within net height",
+      "passed": true
+    },
+    {
+      "name": "floor area contradiction even ignoring W05 and every inter-item gap",
+      "passed": true,
+      "actual": {
+        "minimum": 26133040,
+        "floor": 26100000,
+        "deficit": 33040
+      }
+    }
+  ],
+  "transverseCertificate": {
+    "inflated": {
+      "length": 11605,
+      "width": 2255,
+      "longLength": 3035,
+      "w06Length": 2659.5,
+      "w06Width": 1589.5
+    },
+    "requiredLongTransverseMm": 5230,
+    "maximumLongTransverseMmWithAnyFirstW06Flat": 5175.5,
+    "deficitMm": 54.5
+  },
+  "floorCertificate": {
+    "areas": [
+      {
+        "sourceRow": 16,
+        "name": "W02 frame",
+        "quantity": 12,
+        "minFloorAreaMm2": 5817600
+      },
+      {
+        "sourceRow": 9,
+        "name": "W07",
+        "quantity": 26,
+        "minFloorAreaMm2": 9453600
+      },
+      {
+        "sourceRow": 20,
+        "name": "W06 sash (flat ruled out by transverse capacity)",
+        "quantity": 26,
+        "minFloorAreaMm2": 7591870
+      },
+      {
+        "sourceRow": 5,
+        "name": "W03",
+        "quantity": 9,
+        "minFloorAreaMm2": 1436400
+      },
+      {
+        "sourceRow": 6,
+        "name": "W04(1F)",
+        "quantity": 4,
+        "minFloorAreaMm2": 319200
+      },
+      {
+        "sourceRow": 7,
+        "name": "W04(2F)",
+        "quantity": 2,
+        "minFloorAreaMm2": 159600
+      },
+      {
+        "sourceRow": 15,
+        "name": "W12",
+        "quantity": 2,
+        "minFloorAreaMm2": 309000
+      },
+      {
+        "sourceRow": 17,
+        "name": "W02 sash",
+        "quantity": 6,
+        "minFloorAreaMm2": 1045770
+      },
+      {
+        "sourceRow": 8,
+        "name": "W05 completely ignored (may occupy cavities)",
+        "quantity": 18,
+        "minFloorAreaMm2": 0
+      }
+    ],
+    "minimumFloorAreaMm2": 26133040,
+    "availableFloorAreaMm2": 26100000,
+    "deficitMm2": 33040,
+    "ignoredW05": true,
+    "ignoredClearanceArea": true
+  }
+}

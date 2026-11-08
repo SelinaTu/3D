@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "author_id": "1550139212954972163",
+      "created_at": "2026-10-24T21:21:15.000Z",
+      "edit_history_tweet_ids": [
+        "2114104959117746436"
+      ],
+      "id": "2114104959117746436",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2113614679771914292",
+          "type": "quoted"
+        }
+      ],
+      "text": "Freight-audit agents can check detention/demurrage invoices against contracts, port timestamps and free-time rules. A wrong container ID or invented timestamp can trigger a false dispute. @FailproofAI can gate submissions on evidence, block duplicates and stop retry loops. https://t.co/xUqyTlAuRf",
+      "url": "https://x.com/Shobhit22660999/status/2114104959117746436"
+    },
+    {
+      "author_id": "1539224089419583493",
+      "created_at": "2026-10-14T09:00:00.000Z",
+      "edit_history_tweet_ids": [
+        "2110294541341171727"
+      ],
+      "id": "2110294541341171727",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Freight term of the day: free time.\n\nThe days you can use or hold a container before demurrage or detention starts. Terminal and carrier free time run on separate clocks.\n\nIt's often negotiable at booking, and asking then is far cheaper than paying later. https://t.co/YvYtCuPBRp",
+      "url": "https://x.com/cargolinked_com/status/2110294541341171727"
+    },
+    {
+      "author_id": "2093444093531865088",
+      "created_at": "2026-10-27T18:57:19.000Z",
+      "edit_history_tweet_ids": [
+        "2115155903746056641"
+      ],
+      "id": "2115155903746056641",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 96704,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "📦 ERADICATING INTERMODAL FREIGHT FRICTION: AUTOMATING PORT DETENTION RECONCILIATIONS\n\nGlobal container shipping networks frequently face costly intermodal logistics gridlock, where cargo containers become backlogged at international marine terminals, leading to billions of https://t.co/Xv7mDwuFqV",
+      "url": "https://x.com/kimkhanhlinh179/status/2115155903746056641"
+    },
+    {
+      "author_id": "1539224089419583493",
+      "created_at": "2026-10-12T09:00:01.000Z",
+      "edit_history_tweet_ids": [
+        "2109569769674280962"
+      ],
+      "id": "2109569769674280962",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Freight term of the day: demurrage.\n\nThe charge for leaving a full container inside the terminal after its free time runs out. It rises in tiers, so two weeks costs far more than twice one week.\n\nNot the same as detention. That one's tomorrow. https://t.co/SPrgVO9q06",
+      "url": "https://x.com/cargolinked_com/status/2109569769674280962"
+    },
+    {
+      "author_id": "1916327124",
+      "created_at": "2026-10-29T05:40:07.000Z",
+      "edit_history_tweet_ids": [
+        "2115680058258202747"
+      ],
+      "id": "2115680058258202747",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "DELAYS DON'T JUST COST TIME. THEY CAN COST MONEY.\n\nIn international shipping, a container's cost doesn't always stop at ocean freight.\n\nWhen containers exceed their agreed free time, demurrage and detention charges may apply—adding avoidable pressure to your logistics budget. https://t.co/MMuiqLbEFz",
+      "url": "https://x.com/sarvamlogistics/status/2115680058258202747"
+    },
+    {
+      "author_id": "1848762681588617216",
+      "created_at": "2026-10-29T14:02:12.000Z",
+      "edit_history_tweet_ids": [
+        "2115806410776666270"
+      ],
+      "id": "2115806410776666270",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "No ships waiting offshore doesn’t mean your freight is moving. At LA and Long Beach, the backlog has moved onto the terminal, and the clock is running on your free time.\n\nWhat changed: As of Oct. 26, nearly 35,700 import containers were sitting at the San Pedro Bay ports waiting https://t.co/edKbJ2i34a",
+      "url": "https://x.com/TransmodalCorp/status/2115806410776666270"
+    },
+    {
+      "author_id": "1646904243637420034",
+      "created_at": "2026-10-29T14:02:11.000Z",
+      "edit_history_tweet_ids": [
+        "2115806406758593013"
+      ],
+      "id": "2115806406758593013",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 60,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "No ships waiting offshore doesn’t mean your freight is moving. At LA and Long Beach, the backlog has moved onto the terminal, and the clock is running on your free time.\n\nWhat changed: As of Oct. 26, nearly 35,700 import containers were sitting at the San Pedro Bay ports waiting https://t.co/rtMdYmvpk5",
+      "url": "https://x.com/MaxKntzr/status/2115806406758593013"
+    },
+    {
+      "author_id": "823914968487788544",
+      "created_at": "2026-10-06T09:57:43.000Z",
+      "edit_history_tweet_ids": [
+        "2107409962024780035"
+      ],
+      "id": "2107409962024780035",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 89,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "HIRING: LOGISTICS MANAGER\n\nIf freight rates and vessel schedules are your everyday world, this one is for you 🚢\n\n• Company: Global Alliance Group DMCC\n\n• Location: Dubai, UAE\n\n• Salary: AED 12,000 – 18,000/month (est.)\n\n• Minimum 5 years of international logistics and",
+      "url": "https://x.com/gulfcareerhunt/status/2107409962024780035"
+    },
+    {
+      "author_id": "2093444093531865088",
+      "created_at": "2026-10-07T09:03:17.000Z",
+      "edit_history_tweet_ids": [
+        "2107758649989034093"
+      ],
+      "id": "2107758649989034093",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5524,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "⚓ DOCKING WITH PRECISION: WINKLINK'S PORT TELEMETRY ARBITRATING AUTOMATED CONTAINER DEMURRAGE ESCROWS\n\nIn the global container shipping sector, vessel turnaround time at deepwater container terminals dictates maritime logistics margins. Demurrage and detention fees—penalties https://t.co/4TFCNvBHOE",
+      "url": "https://x.com/kimkhanhlinh179/status/2107758649989034093"
+    },
+    {
+      "author_id": "1990248422289629185",
+      "created_at": "2026-10-26T01:38:15.000Z",
+      "edit_history_tweet_ids": [
+        "2114532022844850568"
+      ],
+      "id": "2114532022844850568",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Detention and demurrage are not the same charge, though they get used interchangeably. Demurrage: a container sits inside the terminal past free time. Detention: a container or chassis is held outside the terminal past free time. Different clocks, often different bills. (1/3)",
+      "url": "https://x.com/CandCWarehouse/status/2114532022844850568"
+    },
+    {
+      "author_id": "2100020598156238848",
+      "created_at": "2026-10-26T07:41:34.000Z",
+      "edit_history_tweet_ids": [
+        "2114623456641999053"
+      ],
+      "id": "2114623456641999053",
+      "in_reply_to_user_id": "2100020598156238848",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2114623452191555693",
+          "type": "replied_to"
+        }
+      ],
+      "text": "One line is worth arguing about before the vessel sails: free time.\n\nHow many days, for demurrage and for detention, and when the clock starts.\n\nThe cheapest freight quote often carries the shortest free time. That is not a coincidence.",
+      "url": "https://x.com/GAOYIHOMEGROUP/status/2114623456641999053"
+    },
+    {
+      "author_id": "2097529268431732736",
+      "created_at": "2026-10-08T06:46:00.000Z",
+      "edit_history_tweet_ids": [
+        "2108086491457225056"
+      ],
+      "id": "2108086491457225056",
+      "in_reply_to_user_id": "2097529268431732736",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2108086023662321721",
+          "type": "replied_to"
+        }
+      ],
+      "text": "4. Demurrage &amp; Detention\n\nExceeding free time can create unexpected container charges.\n\nKnow your free time before your cargo arrives.",
+      "url": "https://x.com/Toncentx/status/2108086491457225056"
+    },
+    {
+      "author_id": "1841056177595301893",
+      "created_at": "2026-10-01T08:53:50.000Z",
+      "edit_history_tweet_ids": [
+        "2105581948458745922"
+      ],
+      "id": "2105581948458745922",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🚢 Demurrage vs. Detention\n\n📍 Demurrage: Container stays inside the terminal beyond free time.\n\n🚛 Detention: Container stays outside the terminal beyond free time.\n\nEasy rule:\nInside = Demurrage\nOutside = Detention\n\nKnow the difference. Avoid unnecessary costs. 💰 https://t.co/DUbYJlWUEG",
+      "url": "https://x.com/niryatsetu1/status/2105581948458745922"
+    },
+    {
+      "author_id": "1966113315752386560",
+      "created_at": "2026-10-05T21:32:22.000Z",
+      "edit_history_tweet_ids": [
+        "2107222387741671835"
+      ],
+      "id": "2107222387741671835",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "افهم رسوم الحاويات قبل وصول شحنتك.\n\nDemurrage: رسوم الاحتفاظ بحاوية الناقل داخل الميناء بعد انتهاء الفترة المجانية المتفق عليها.\n\nDetention: رسوم الاحتفاظ بحاوية الناقل خارج الميناء بعد انتهاء الفترة المجانية المتفق عليها.\n\nقد تحتسب الرسوم منفصلة أو مجمعة حسب شروط الناقل. تحقق من https://t.co/cFX7yK0TY3",
+      "url": "https://x.com/AlmukhlesGroup/status/2107222387741671835"
+    },
+    {
+      "author_id": "1990248422289629185",
+      "created_at": "2026-10-08T01:45:01.000Z",
+      "edit_history_tweet_ids": [
+        "2108010747838320819"
+      ],
+      "id": "2108010747838320819",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Explainer: detention vs demurrage. They get conflated on invoices but are different clocks. Demurrage: a loaded container sits inside the terminal past its last free day. Detention: the container is outside the terminal past free time and the empty hasn't been returned. (1/2)",
+      "url": "https://x.com/CandCWarehouse/status/2108010747838320819"
+    },
+    {
+      "author_id": "1990248422289629185",
+      "created_at": "2026-10-26T01:38:15.000Z",
+      "edit_history_tweet_ids": [
+        "2114532024056713352"
+      ],
+      "id": "2114532024056713352",
+      "in_reply_to_user_id": "1990248422289629185",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2114532022844850568",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Demurrage runs from discharge until the container gates out. Detention runs from gate-out until the empty is returned. One box can accrue both in sequence. Trucker detention is a third thing: a driver waiting at your dock past free time, billed hourly. (2/3)",
+      "url": "https://x.com/CandCWarehouse/status/2114532024056713352"
+    },
+    {
+      "author_id": "2072868928766808064",
+      "created_at": "2026-10-10T18:01:48.000Z",
+      "edit_history_tweet_ids": [
+        "2108981338518777980"
+      ],
+      "id": "2108981338518777980",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "A shipping invoice can be calculated correctly-and still deserve a closer look.\n\nDemurrage. Detention. Storage.\n\nI'm building FreightAuditly to compare charges with free-time terms and shipment evidence.\n\nHow do you check them today: Excel, manual review, or software?\n\n#Logistics",
+      "url": "https://x.com/GilbertKiplimoM/status/2108981338518777980"
+    },
+    {
+      "author_id": "1942477002642186240",
+      "created_at": "2026-10-19T06:03:01.000Z",
+      "edit_history_tweet_ids": [
+        "2112061938519965720"
+      ],
+      "id": "2112061938519965720",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🚢 EXIM term: DEMURRAGE\n\nA charge that may apply when a container stays at the port or terminal beyond its permitted free time.\n\nExtra time can mean extra cost. Know your free time. Plan ahead.\n\n#ATCUniverse #EXIM https://t.co/lBIvWogsB8",
+      "url": "https://x.com/ATCIndia1957/status/2112061938519965720"
+    },
+    {
+      "author_id": "1608415632869163009",
+      "created_at": "2026-10-19T06:02:24.000Z",
+      "edit_history_tweet_ids": [
+        "2112061785037795718"
+      ],
+      "id": "2112061785037795718",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🚢 EXIM term: DEMURRAGE\n\nA charge that may apply when a container stays at the port or terminal beyond its permitted free time.\n\nExtra time can mean extra cost. Know your free time. Plan ahead.\n\n#ATCUniverse #EXIM https://t.co/d30IYm23wq",
+      "url": "https://x.com/ATCGroup1957/status/2112061785037795718"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-14T02:20:02.000Z",
+      "edit_history_tweet_ids": [
+        "2110193883577553130"
+      ],
+      "id": "2110193883577553130",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110193882667376711",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Buat importir Indonesia, risiko nyata bukan cuma ocean freight. Free time habis, demurrage, dan jadwal pabrik yang geser. Cek ETA aktual, bukan tanggal booking.",
+      "url": "https://x.com/jasacustoms/status/2110193883577553130"
+    },
+    {
+      "author_id": "2089726691652341760",
+      "created_at": "2026-10-16T07:48:09.000Z",
+      "edit_history_tweet_ids": [
+        "2111001234685796573"
+      ],
+      "id": "2111001234685796573",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Big shippers track containers. West African SMEs often find out what went wrong when the demurrage bill arrives. I built Mooringbird: send a booking or container number on WhatsApp for shipment alerts and free-time warnings before charges start. Live soon.",
+      "url": "https://x.com/newonpolsia/status/2111001234685796573"
+    },
+    {
+      "author_id": "2097197876502044672",
+      "created_at": "2026-10-01T07:32:54.000Z",
+      "edit_history_tweet_ids": [
+        "2105561578456145971"
+      ],
+      "id": "2105561578456145971",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Your container's riskiest week isn't at sea - it's the week after it berths. North Europe now: Bremerhaven yards ~90% full, Rotterdam barge/feeder 24-48h late, two UK terminals shut berths from 4 Oct. Lock in demurrage free time before arrival. #freight #logistics #ChinaEurope",
+      "url": "https://x.com/yolanda_xia1010/status/2105561578456145971"
+    },
+    {
+      "author_id": "2112775316993126400",
+      "created_at": "2026-10-24T08:48:52.000Z",
+      "edit_history_tweet_ids": [
+        "2113915619070370058"
+      ],
+      "id": "2113915619070370058",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "FreightSignal is live. We help small US freight forwarders stop missed container deadlines — demurrage, detention, empty returns — and catch freight invoice errors before they're paid. Now enrolling 4-week pilots. Free D&amp;D Calculator on our site: https://t.co/TmHrtLMyJq https://t.co/cNQF4wpCmZ",
+      "url": "https://x.com/GetFreightSigna/status/2113915619070370058"
+    },
+    {
+      "author_id": "968721638350041090",
+      "created_at": "2026-10-07T15:47:04.000Z",
+      "edit_history_tweet_ids": [
+        "2107860266490724572"
+      ],
+      "id": "2107860266490724572",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 16,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Demurrage vs Detention 🚨 Two fees shippers mix up ALL THE TIME!\nEver opened your freight invoice and saw these charges pop up out of nowhere? 😫\n\n✅ Demurrage = INSIDE the terminal (full container stuck at port)\n✅ Detention = OUTSIDE the terminal (container off-terminal on https://t.co/OvsxWfBRuv",
+      "url": "https://x.com/CubeworkUs/status/2107860266490724572"
+    },
+    {
+      "author_id": "2112775316993126400",
+      "created_at": "2026-10-22T08:15:49.000Z",
+      "edit_history_tweet_ids": [
+        "2113182523534839892"
+      ],
+      "id": "2113182523534839892",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "FreightSignal is live.\n\nWe help small US freight forwarders stop missed container deadlines — demurrage, detention, empty returns — and catch freight invoice errors before they're paid.\n\nNow enrolling 4-week paid pilots. Free D&amp;D Calculator on our site: https://t.co/TmHrtLN6yY",
+      "url": "https://x.com/GetFreightSigna/status/2113182523534839892"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "1550139212954972163",
+        "name": "Shobhit Gupta",
+        "username": "Shobhit22660999"
+      },
+      {
+        "id": "1539224089419583493",
+        "name": "CargoLinked",
+        "username": "cargolinked_com"
+      },
+      {
+        "id": "2093444093531865088",
+        "name": "LUCY",
+        "username": "kimkhanhlinh179"
+      },
+      {
+        "id": "1916327124",
+        "name": "Sarvam Logistics India Pvt Ltd",
+        "username": "sarvamlogistics"
+      },
+      {
+        "id": "1848762681588617216",
+        "name": "transmodal.corp",
+        "username": "TransmodalCorp"
+      },
+      {
+        "id": "1646904243637420034",
+        "name": "Max Kantzer",
+        "username": "MaxKntzr"
+      },
+      {
+        "id": "823914968487788544",
+        "name": "Gulfcareerhunt",
+        "username": "gulfcareerhunt"
+      },
+      {
+        "id": "1990248422289629185",
+        "name": "C&C Warehouse",
+        "username": "CandCWarehouse"
+      },
+      {
+        "id": "2100020598156238848",
+        "name": "GAOYI",
+        "username": "GAOYIHOMEGROUP"
+      },
+      {
+        "id": "2097529268431732736",
+        "name": "Toncent",
+        "username": "Toncentx"
+      },
+      {
+        "id": "1841056177595301893",
+        "name": "niryatsetu",
+        "username": "niryatsetu1"
+      },
+      {
+        "id": "1966113315752386560",
+        "name": "AlmukhlesGroup",
+        "username": "AlmukhlesGroup"
+      },
+      {
+        "id": "2072868928766808064",
+        "name": "Gilbert",
+        "username": "GilbertKiplimoM"
+      },
+      {
+        "id": "1942477002642186240",
+        "name": "ATCIndia",
+        "username": "ATCIndia1957"
+      },
+      {
+        "id": "1608415632869163009",
+        "name": "Kumarsen Bole",
+        "username": "ATCGroup1957"
+      },
+      {
+        "id": "2091527743142068224",
+        "name": "jasacustomslogistik",
+        "username": "jasacustoms"
+      },
+      {
+        "id": "2089726691652341760",
+        "name": "Polsia",
+        "username": "newonpolsia"
+      },
+      {
+        "id": "2097197876502044672",
+        "name": "Yolanda",
+        "username": "yolanda_xia1010"
+      },
+      {
+        "id": "2112775316993126400",
+        "name": "FreightSignal",
+        "username": "GetFreightSigna"
+      },
+      {
+        "id": "968721638350041090",
+        "name": "Cubework",
+        "username": "CubeworkUs"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2115806410776666270",
+    "next_token": "b26v89c19zqg8o3juzixw8i4550xu7938mgvscxix87el",
+    "oldest_id": "2105561578456145971",
+    "result_count": 25
+  }
+}

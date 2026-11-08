@@ -1,0 +1,109 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "primary",
+  "port_id": "CNSHA",
+  "port_name": "Shanghai",
+  "port_name_zh": "上海",
+  "country": "CN",
+  "tier": "P0",
+  "fine_profile": "CN-road",
+  "vgm": {
+    "required_for_load": true,
+    "method_pref": null,
+    "tolerance_note": "CN enforcement narrative ±5% and ≤1t — verify current MSA rule",
+    "via": null
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "topic": "vgm",
+      "severity": "block",
+      "title": "Verified Gross Mass before vessel load",
+      "detail": "SOLAS VI/2 — no VGM, no load",
+      "sources": [
+        "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx"
+      ],
+      "evidence_refs": [
+        {
+          "source_id": "a0ffd0c21d7aefcb6f9e",
+          "sha256": "1af655175cdbad6865916880f51e6d4b382a5c19bf0d2e79a84dc671cae95ce6",
+          "page": null,
+          "locator": "IMO VGM official webpage",
+          "status": "source_file_hash_verified_applicability_pending",
+          "automatic_decision_allowed": false
+        }
+      ]
+    },
+    {
+      "id": "cn_road_gross_mass",
+      "topic": "overweight_road",
+      "severity": "warn",
+      "title": "CN highway gross-mass limit by axle config",
+      "sources": [
+        "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+      ]
+    },
+    {
+      "id": "customs_packing_list_align",
+      "topic": "customs",
+      "severity": "info",
+      "title": "Packing list align with load plan (customs inspection evidence)",
+      "sources": [
+        "https://www.gov.cn/gongbao/2025/issue_12026/202505/content_7022577.html"
+      ]
+    },
+    {
+      "id": "ispm15_if_wood",
+      "topic": "ispm15",
+      "severity": "info",
+      "title": "ISPM15 mark if wood packing",
+      "sources": [
+        "https://www.ippc.int/"
+      ]
+    }
+  ],
+  "fine_refs": [
+    {
+      "id": "CN-OW-MASS",
+      "currency": "CNY",
+      "cap": 30000,
+      "formula_note": "warn if ≤1000kg over; else 500 per 1000kg; cap 30000",
+      "sources": [
+        "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+      ]
+    }
+  ],
+  "commercial_cost_hints": [],
+  "flags": {
+    "customs_photo": true,
+    "terminal_cluster": true
+  },
+  "notes": [
+    "上海海事局 / 洋山重量验证智能监管公开报道",
+    "未见柜内 stuffing 独法"
+  ],
+  "sources": [
+    {
+      "url": "https://www.portshanghai.com.cn/",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "url": "https://www.sh.msa.gov.cn/mtbd/87299.jhtml",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm",
+      "layer": "L2",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/02_china_national.md",
+    "port-knowledge/03_china_ports/shanghai.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

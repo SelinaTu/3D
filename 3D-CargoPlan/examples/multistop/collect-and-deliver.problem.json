@@ -1,0 +1,53 @@
+{
+  "schema": "cargoplan.route-problem/v1",
+  "seed": 42,
+  "door": "x-max",
+  "initial": {
+    "id": "demo-truck",
+    "dimensions": {
+      "length": 4000,
+      "width": 2100,
+      "height": 2200
+    },
+    "maxWeight": 1000,
+    "items": [],
+    "totalWeight": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  "stops": [
+    {
+      "name": "仓库取货",
+      "unloadIds": [],
+      "pickup": [
+        {
+          "id": "box-001",
+          "name": "设备箱 A",
+          "category": "木箱",
+          "dimensions": {
+            "length": 600,
+            "width": 400,
+            "height": 300
+          },
+          "weight": 10,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "canStackOnTop": false,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#168766",
+          "rawData": {}
+        }
+      ]
+    },
+    {
+      "name": "客户交付",
+      "unloadIds": [
+        "box-001"
+      ],
+      "pickup": []
+    }
+  ]
+}

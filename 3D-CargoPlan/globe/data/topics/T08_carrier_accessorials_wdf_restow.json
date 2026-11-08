@@ -1,0 +1,134 @@
+{
+  "id": "T08_carrier_accessorials_wdf_restow",
+  "title_zh": "承运人杂费 · WDF / Restow / Per diem",
+  "title_en": "Carrier accessorials · WDF / Restow / Per diem",
+  "product_use": "deep_field",
+  "confidence": "medium_one_carrier_example",
+  "why_attention": {
+    "summary_zh": "承运人杂费。近 90 天 WDF/restow/accessorial 抽样 ≥21，但绝大多数是快递/LTL 重量差异——海运 WDF 仍薄。近 7 天 counts=3。",
+    "heat_7d": {
+      "wdf_restow_accessorial": 3
+    },
+    "heat_90d": {
+      "wdf_restow_accessorial": "≥21_courier_noise"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "Accessorial",
+      "zh": "附加服务费",
+      "def": "Carrier charges beyond ocean freight (THC, demurrage, WDF, restow, amendment, etc.)."
+    },
+    {
+      "term": "WDF",
+      "zh": "重量不符费",
+      "def": "Weight Discrepancy Fee — commercial; e.g. Maersk when |SI weight − VGM| > threshold or VGM vs CSC/tare invalid."
+    },
+    {
+      "term": "Restow",
+      "zh": "倒柜/重积载",
+      "def": "Moving containers on vessel/yard due to plan change — cost often commercial opaque."
+    },
+    {
+      "term": "Per diem",
+      "zh": "按日设备费",
+      "def": "Often synonym/near to detention or chassis daily in US trades — check tariff wording."
+    }
+  ],
+  "who_pays": {
+    "typical": "Shipper/merchant per carrier invoice; NOT an administrative fine."
+  },
+  "who_responsible": [
+    "Carrier tariff publication",
+    "Shipper accurate SI/VGM"
+  ],
+  "common_pitfalls": [
+    "Writing WDF into fine_refs as government penalty.",
+    "Inventing restow USD amounts without tariff URL.",
+    "Confusing courier 'weight discrepancy' tweets with ocean WDF."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia",
+      "org": "Maersk",
+      "note": "ID refresher: WDF USD 300/container; >3000 kg SI vs VGM; VGM>max gross; VGM<tare (commercial)"
+    },
+    {
+      "url": "https://www.maersk.com/news/articles/2024/09/12/update-wdf-weight-discrepancy-fee",
+      "org": "Maersk",
+      "note": "2024-10-15 effective update — USD 300 world origins stated"
+    },
+    {
+      "url": "https://www.maersk.com/news/articles/2026/04/28/weight-discrepancy-fee-update-pre-notification",
+      "org": "Maersk",
+      "note": "2026-05-07 cutoff-date billing + pre-notification; tank threshold 5000 kg"
+    },
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "org": "IMO",
+      "note": "VGM statutory backdrop for WDF commercial overlays"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "ID",
+      "field": "carrier_fees_examples Maersk WDF",
+      "note": "Documented in countries.json"
+    },
+    {
+      "iso2": "SG",
+      "note": "Maersk WDF PDF advisory also for SG local info"
+    },
+    {
+      "iso2": "CN",
+      "note": "Other carriers' WDF TBD"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "IDTPP"
+    },
+    {
+      "locode": "IDSUB"
+    },
+    {
+      "locode": "SGSIN"
+    },
+    {
+      "locode": "CNSHA"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Maersk WDF 多少钱？",
+      "a": "公开 advisory 写 USD 300/柜（条件：SI 与 VGM 差 >3000 kg 等）。这是承运人费，不是行政罚。以船司当期通知为准（2026-05 起计费时点改到 cutoff）。"
+    },
+    {
+      "q": "Restow 为什么不写金额？",
+      "a": "可靠公开价目稀缺；禁止编造。有 dated tariff URL 再写入 L4。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "archive": 19
+    },
+    "samples": [],
+    "honesty": "search for WDF|restow|accessorial returned mostly India courier Shiprocket disputes — not ocean. Prefer Maersk URLs over X.",
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "wdf_restow_accessorial": "≥21_courier_noise"
+    }
+  },
+  "gaps": [
+    "Hapag/MSC/COSCO WDF tables",
+    "Restow rate cards",
+    "Chassis per-diem US schedules"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

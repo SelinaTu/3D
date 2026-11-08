@@ -1,0 +1,1124 @@
+{
+  "source": "data/demo-items.json",
+  "project": "伊拉克Villa 2&3门窗项目",
+  "note": "从完整清单按源身份抽取的可装子集，不是 1371 件/11 柜冻结最优解。",
+  "items": [
+    {
+      "id": "门窗:W03:r5:u1",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W03:r5:u2",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W03:r5:u3",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W03:r5:u4",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W03:r5:u5",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W03:r5:u6",
+      "name": "W03 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1530,
+        "height": 120
+      },
+      "weight": 37.3,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "绿色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W03",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 5,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W04(1F):r6:u1",
+      "name": "W04(1F) 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1030,
+        "height": 120
+      },
+      "weight": 30,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "蓝色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W04(1F)",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 6,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W04(1F):r6:u2",
+      "name": "W04(1F) 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1030,
+        "height": 120
+      },
+      "weight": 30,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "蓝色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W04(1F)",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 6,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W04(1F):r6:u3",
+      "name": "W04(1F) 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1030,
+        "height": 120
+      },
+      "weight": 30,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "蓝色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W04(1F)",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 6,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W04(1F):r6:u4",
+      "name": "W04(1F) 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 1330,
+        "width": 1030,
+        "height": 120
+      },
+      "weight": 30,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "蓝色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W04(1F)",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 6,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W07:r9:u1",
+      "name": "W07 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 3030,
+        "width": 2030,
+        "height": 120
+      },
+      "weight": 94.2,
+      "quantity": 1,
+      "allowedOrientations": [
+        "lying"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "紫色",
+      "constraints": {
+        "orientationRules": {
+          "standing": {
+            "maxSupportedItemWeight": 5
+          },
+          "lying": {
+            "maxSupportedItemWeight": 5
+          },
+          "flat": {
+            "maxSupportedItemWeight": 5
+          }
+        }
+      },
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W07",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 9,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W07:r9:u2",
+      "name": "W07 框+扇",
+      "category": "框+扇",
+      "dimensions": {
+        "length": 3030,
+        "width": 2030,
+        "height": 120
+      },
+      "weight": 94.2,
+      "quantity": 1,
+      "allowedOrientations": [
+        "lying"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "hasGlass": true,
+      "canOffsetStack": true,
+      "colorTag": "紫色",
+      "constraints": {
+        "orientationRules": {
+          "standing": {
+            "maxSupportedItemWeight": 5
+          },
+          "lying": {
+            "maxSupportedItemWeight": 5
+          },
+          "flat": {
+            "maxSupportedItemWeight": 5
+          }
+        }
+      },
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W07",
+        "构件名称": "框+扇",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 9,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u1",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u2",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u3",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u4",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u5",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u6",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u7",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "门窗:W05:r8:u8",
+      "name": "W05 框",
+      "category": "框",
+      "dimensions": {
+        "length": 530,
+        "width": 530,
+        "height": 120
+      },
+      "weight": 3.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "orientationVerticalAxes": {
+        "standing": "length",
+        "lying": "width",
+        "flat": "height"
+      },
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "白色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": "W05",
+        "构件名称": "框",
+        "_sourceSheet": "门窗",
+        "_sourceRow": 8,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:2:r7",
+      "name": "2 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 310,
+        "width": 410,
+        "height": 210
+      },
+      "weight": 7.8,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "橙色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 7,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:4:r9",
+      "name": "4 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 300,
+        "width": 360,
+        "height": 230
+      },
+      "weight": 6.5,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "橙色+蓝色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 9,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:5:r10",
+      "name": "5 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 300,
+        "height": 165
+      },
+      "weight": 15.4,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "蓝色+黑色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 10,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:7:r12:u1",
+      "name": "7 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 360,
+        "height": 140
+      },
+      "weight": 23,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "黄色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 12,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:7:r12:u2",
+      "name": "7 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 360,
+        "height": 140
+      },
+      "weight": 23,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "黄色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 12,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:7:r12:u3",
+      "name": "7 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 360,
+        "height": 140
+      },
+      "weight": 23,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "黄色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 12,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:7:r12:u4",
+      "name": "7 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 360,
+        "height": 140
+      },
+      "weight": 23,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "黄色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 12,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "辅材:7:r12:u5",
+      "name": "7 辅材",
+      "category": "辅材",
+      "dimensions": {
+        "length": 260,
+        "width": 360,
+        "height": 140
+      },
+      "weight": 23,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing",
+        "lying",
+        "flat"
+      ],
+      "canStackOnTop": true,
+      "stackableWith": [
+        "@self"
+      ],
+      "hasGlass": false,
+      "canOffsetStack": true,
+      "colorTag": "黄色",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3 A",
+        "门窗编号": null,
+        "构件名称": "辅材",
+        "_sourceSheet": "辅材",
+        "_sourceRow": 12,
+        "重量口径": "电子秤称重"
+      }
+    },
+    {
+      "id": "玻璃架:6#玻璃架:r10",
+      "name": "6#玻璃架 玻璃架",
+      "category": "玻璃架",
+      "dimensions": {
+        "length": 1543,
+        "width": 1488,
+        "height": 1323
+      },
+      "weight": 2033.19,
+      "quantity": 1,
+      "allowedOrientations": [
+        "standing"
+      ],
+      "canStackOnTop": true,
+      "maxStackWeight": 600,
+      "stackableWith": [
+        "@not-self"
+      ],
+      "hasGlass": true,
+      "canOffsetStack": false,
+      "colorTag": "默认",
+      "rawData": {
+        "项目名称": "伊拉克Villa 2&3门窗项目",
+        "门窗编号": null,
+        "构件名称": "玻璃架",
+        "_sourceSheet": "玻璃架",
+        "_sourceRow": 10,
+        "重量口径": null
+      }
+    }
+  ],
+  "landStops": {
+    "A": [
+      "门窗:W03:r5:u1",
+      "门窗:W03:r5:u2",
+      "门窗:W03:r5:u3",
+      "门窗:W03:r5:u4",
+      "门窗:W03:r5:u5",
+      "门窗:W03:r5:u6",
+      "门窗:W04(1F):r6:u1",
+      "门窗:W04(1F):r6:u2",
+      "门窗:W04(1F):r6:u3",
+      "门窗:W04(1F):r6:u4"
+    ],
+    "B": [
+      "门窗:W07:r9:u1",
+      "门窗:W07:r9:u2",
+      "门窗:W05:r8:u1",
+      "门窗:W05:r8:u2",
+      "门窗:W05:r8:u3",
+      "门窗:W05:r8:u4",
+      "门窗:W05:r8:u5",
+      "门窗:W05:r8:u6",
+      "门窗:W05:r8:u7",
+      "门窗:W05:r8:u8"
+    ],
+    "C": [
+      "辅材:2:r7",
+      "辅材:4:r9",
+      "辅材:5:r10",
+      "辅材:7:r12:u1",
+      "辅材:7:r12:u2",
+      "辅材:7:r12:u3",
+      "辅材:7:r12:u4",
+      "辅材:7:r12:u5",
+      "玻璃架:6#玻璃架:r10"
+    ]
+  },
+  "seaStops": {
+    "door": [
+      "辅材:2:r7",
+      "辅材:4:r9",
+      "辅材:5:r10",
+      "辅材:7:r12:u1",
+      "辅材:7:r12:u2",
+      "辅材:7:r12:u3",
+      "辅材:7:r12:u4",
+      "辅材:7:r12:u5"
+    ],
+    "mid": [
+      "门窗:W03:r5:u1",
+      "门窗:W03:r5:u2",
+      "门窗:W03:r5:u3",
+      "门窗:W03:r5:u4",
+      "门窗:W03:r5:u5",
+      "门窗:W03:r5:u6",
+      "门窗:W04(1F):r6:u1",
+      "门窗:W04(1F):r6:u2",
+      "门窗:W04(1F):r6:u3",
+      "门窗:W04(1F):r6:u4",
+      "门窗:W05:r8:u1",
+      "门窗:W05:r8:u2",
+      "门窗:W05:r8:u3",
+      "门窗:W05:r8:u4",
+      "门窗:W05:r8:u5",
+      "门窗:W05:r8:u6",
+      "门窗:W05:r8:u7",
+      "门窗:W05:r8:u8"
+    ],
+    "deep": [
+      "门窗:W07:r9:u1",
+      "门窗:W07:r9:u2",
+      "玻璃架:6#玻璃架:r10"
+    ]
+  }
+}

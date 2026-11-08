@@ -1,0 +1,1314 @@
+{
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "start_utc": "2026-08-02T00:00:00Z",
+    "end_utc": "2026-10-31T03:09:00Z",
+    "label": "2026-08-02 → 2026-10-31 Asia/Shanghai"
+  },
+  "method": {
+    "tool": "x.search_posts_all",
+    "max_results_per_query_month": 25,
+    "pages": 1,
+    "sort_order": "relevancy",
+    "queries": [
+      "blank_sailing",
+      "red_sea",
+      "scfi_rates",
+      "dd_freetime",
+      "odol",
+      "vgm",
+      "ispm15",
+      "customs_dd"
+    ],
+    "news": "x.search_news max_age_hours=720",
+    "honesty": "samples≠totals; capped when next_token or n>=25; X=yellow light only"
+  },
+  "counts": {
+    "query_month_cells": 24,
+    "unique_post_ids": 459,
+    "on_topic_labeled": 424,
+    "noise_labeled": 35,
+    "named_events": 28
+  },
+  "per_query_month": {
+    "m1:blank_sailing": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "blank_sailing",
+      "retrieved": 23,
+      "capped": true,
+      "on_topic_est": 23,
+      "noise_est": 0,
+      "event_types": {
+        "C_rate_index": 1,
+        "B_capacity_schedule": 22
+      },
+      "next_token_present": true,
+      "result_count_meta": 23
+    },
+    "m1:red_sea": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "red_sea",
+      "retrieved": 24,
+      "capped": true,
+      "on_topic_est": 24,
+      "noise_est": 0,
+      "event_types": {
+        "A_geopolitics_disruption": 24
+      },
+      "next_token_present": true,
+      "result_count_meta": 24
+    },
+    "m1:scfi_rates": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "scfi_rates",
+      "retrieved": 10,
+      "capped": true,
+      "on_topic_est": 1,
+      "noise_est": 9,
+      "event_types": {
+        "C_rate_index": 1
+      },
+      "next_token_present": true,
+      "result_count_meta": 10
+    },
+    "m1:dd_freetime": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "dd_freetime",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 18,
+      "noise_est": 7,
+      "event_types": {
+        "D_commercial_charges": 15,
+        "C_rate_index": 3
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m1:odol": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "odol",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 25
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m1:vgm": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "vgm",
+      "retrieved": 5,
+      "capped": true,
+      "on_topic_est": 5,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 5
+      },
+      "next_token_present": true,
+      "result_count_meta": 5
+    },
+    "m1:ispm15": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "ispm15",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "F_quarantine_packaging": 25
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m1:customs_dd": {
+      "month": "m1",
+      "month_label": "2026-08",
+      "query": "customs_dd",
+      "retrieved": 17,
+      "capped": true,
+      "on_topic_est": 10,
+      "noise_est": 7,
+      "event_types": {
+        "G_customs_clock": 10
+      },
+      "next_token_present": true,
+      "result_count_meta": 17
+    },
+    "m2:blank_sailing": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "blank_sailing",
+      "retrieved": 24,
+      "capped": true,
+      "on_topic_est": 24,
+      "noise_est": 0,
+      "event_types": {
+        "B_capacity_schedule": 22,
+        "C_rate_index": 2
+      },
+      "next_token_present": true,
+      "result_count_meta": 24
+    },
+    "m2:red_sea": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "red_sea",
+      "retrieved": 21,
+      "capped": true,
+      "on_topic_est": 21,
+      "noise_est": 0,
+      "event_types": {
+        "A_geopolitics_disruption": 21
+      },
+      "next_token_present": true,
+      "result_count_meta": 21
+    },
+    "m2:scfi_rates": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "scfi_rates",
+      "retrieved": 24,
+      "capped": true,
+      "on_topic_est": 24,
+      "noise_est": 0,
+      "event_types": {
+        "C_rate_index": 24
+      },
+      "next_token_present": true,
+      "result_count_meta": 24
+    },
+    "m2:dd_freetime": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "dd_freetime",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "D_commercial_charges": 24,
+        "C_rate_index": 1
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m2:odol": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "odol",
+      "retrieved": 23,
+      "capped": true,
+      "on_topic_est": 23,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 23
+      },
+      "next_token_present": true,
+      "result_count_meta": 23
+    },
+    "m2:vgm": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "vgm",
+      "retrieved": 3,
+      "capped": true,
+      "on_topic_est": 3,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 3
+      },
+      "next_token_present": true,
+      "result_count_meta": 3
+    },
+    "m2:ispm15": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "ispm15",
+      "retrieved": 14,
+      "capped": true,
+      "on_topic_est": 12,
+      "noise_est": 2,
+      "event_types": {
+        "F_quarantine_packaging": 12
+      },
+      "next_token_present": true,
+      "result_count_meta": 14
+    },
+    "m2:customs_dd": {
+      "month": "m2",
+      "month_label": "2026-09",
+      "query": "customs_dd",
+      "retrieved": 23,
+      "capped": true,
+      "on_topic_est": 19,
+      "noise_est": 4,
+      "event_types": {
+        "G_customs_clock": 19
+      },
+      "next_token_present": true,
+      "result_count_meta": 23
+    },
+    "m3:blank_sailing": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "blank_sailing",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "B_capacity_schedule": 25
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m3:red_sea": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "red_sea",
+      "retrieved": 18,
+      "capped": true,
+      "on_topic_est": 18,
+      "noise_est": 0,
+      "event_types": {
+        "A_geopolitics_disruption": 18
+      },
+      "next_token_present": true,
+      "result_count_meta": 18
+    },
+    "m3:scfi_rates": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "scfi_rates",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "C_rate_index": 25
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m3:dd_freetime": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "dd_freetime",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 25,
+      "noise_est": 0,
+      "event_types": {
+        "D_commercial_charges": 24,
+        "C_rate_index": 1
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    },
+    "m3:odol": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "odol",
+      "retrieved": 23,
+      "capped": true,
+      "on_topic_est": 23,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 23
+      },
+      "next_token_present": true,
+      "result_count_meta": 23
+    },
+    "m3:vgm": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "vgm",
+      "retrieved": 9,
+      "capped": true,
+      "on_topic_est": 9,
+      "noise_est": 0,
+      "event_types": {
+        "E_compliance_weight": 9
+      },
+      "next_token_present": true,
+      "result_count_meta": 9
+    },
+    "m3:ispm15": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "ispm15",
+      "retrieved": 10,
+      "capped": true,
+      "on_topic_est": 10,
+      "noise_est": 0,
+      "event_types": {
+        "F_quarantine_packaging": 10
+      },
+      "next_token_present": true,
+      "result_count_meta": 10
+    },
+    "m3:customs_dd": {
+      "month": "m3",
+      "month_label": "2026-10",
+      "query": "customs_dd",
+      "retrieved": 25,
+      "capped": true,
+      "on_topic_est": 18,
+      "noise_est": 7,
+      "event_types": {
+        "G_customs_clock": 18
+      },
+      "next_token_present": true,
+      "result_count_meta": 25
+    }
+  },
+  "event_type_counts_by_month": {
+    "m1": {
+      "C_rate_index": 5,
+      "B_capacity_schedule": 22,
+      "A_geopolitics_disruption": 24,
+      "D_commercial_charges": 15,
+      "E_compliance_weight": 30,
+      "F_quarantine_packaging": 25,
+      "G_customs_clock": 7
+    },
+    "m2": {
+      "B_capacity_schedule": 22,
+      "C_rate_index": 27,
+      "A_geopolitics_disruption": 19,
+      "D_commercial_charges": 23,
+      "E_compliance_weight": 26,
+      "F_quarantine_packaging": 12,
+      "G_customs_clock": 15
+    },
+    "m3": {
+      "B_capacity_schedule": 25,
+      "A_geopolitics_disruption": 18,
+      "C_rate_index": 26,
+      "D_commercial_charges": 24,
+      "E_compliance_weight": 32,
+      "F_quarantine_packaging": 10,
+      "G_customs_clock": 17
+    }
+  },
+  "event_type_shares": [
+    {
+      "month": "m1",
+      "label": "2026-08",
+      "on_topic": 128,
+      "shares": {
+        "A_geopolitics_disruption": {
+          "n": 24,
+          "pct": 18.8
+        },
+        "B_capacity_schedule": {
+          "n": 22,
+          "pct": 17.2
+        },
+        "C_rate_index": {
+          "n": 5,
+          "pct": 3.9
+        },
+        "D_commercial_charges": {
+          "n": 15,
+          "pct": 11.7
+        },
+        "E_compliance_weight": {
+          "n": 30,
+          "pct": 23.4
+        },
+        "F_quarantine_packaging": {
+          "n": 25,
+          "pct": 19.5
+        },
+        "G_customs_clock": {
+          "n": 7,
+          "pct": 5.5
+        }
+      }
+    },
+    {
+      "month": "m2",
+      "label": "2026-09",
+      "on_topic": 144,
+      "shares": {
+        "A_geopolitics_disruption": {
+          "n": 19,
+          "pct": 13.2
+        },
+        "B_capacity_schedule": {
+          "n": 22,
+          "pct": 15.3
+        },
+        "C_rate_index": {
+          "n": 27,
+          "pct": 18.8
+        },
+        "D_commercial_charges": {
+          "n": 23,
+          "pct": 16.0
+        },
+        "E_compliance_weight": {
+          "n": 26,
+          "pct": 18.1
+        },
+        "F_quarantine_packaging": {
+          "n": 12,
+          "pct": 8.3
+        },
+        "G_customs_clock": {
+          "n": 15,
+          "pct": 10.4
+        }
+      }
+    },
+    {
+      "month": "m3",
+      "label": "2026-10",
+      "on_topic": 152,
+      "shares": {
+        "A_geopolitics_disruption": {
+          "n": 18,
+          "pct": 11.8
+        },
+        "B_capacity_schedule": {
+          "n": 25,
+          "pct": 16.4
+        },
+        "C_rate_index": {
+          "n": 26,
+          "pct": 17.1
+        },
+        "D_commercial_charges": {
+          "n": 24,
+          "pct": 15.8
+        },
+        "E_compliance_weight": {
+          "n": 32,
+          "pct": 21.1
+        },
+        "F_quarantine_packaging": {
+          "n": 10,
+          "pct": 6.6
+        },
+        "G_customs_clock": {
+          "n": 17,
+          "pct": 11.2
+        }
+      }
+    }
+  ],
+  "shifts": [
+    {
+      "type": "A_geopolitics_disruption",
+      "m1": 24,
+      "m2": 19,
+      "m3": 18,
+      "direction": "falling",
+      "note": ""
+    },
+    {
+      "type": "B_capacity_schedule",
+      "m1": 22,
+      "m2": 22,
+      "m3": 25,
+      "direction": "flat",
+      "note": ""
+    },
+    {
+      "type": "C_rate_index",
+      "m1": 5,
+      "m2": 27,
+      "m3": 26,
+      "direction": "peaked_m2",
+      "note": ""
+    },
+    {
+      "type": "D_commercial_charges",
+      "m1": 15,
+      "m2": 23,
+      "m3": 24,
+      "direction": "rising",
+      "note": ""
+    },
+    {
+      "type": "E_compliance_weight",
+      "m1": 30,
+      "m2": 26,
+      "m3": 32,
+      "direction": "flat",
+      "note": ""
+    },
+    {
+      "type": "F_quarantine_packaging",
+      "m1": 25,
+      "m2": 12,
+      "m3": 10,
+      "direction": "falling",
+      "note": ""
+    },
+    {
+      "type": "G_customs_clock",
+      "m1": 7,
+      "m2": 15,
+      "m3": 17,
+      "direction": "rising",
+      "note": "rising in clean sample but absolute n still small; many consumer/customs-storage false friends filtered"
+    }
+  ],
+  "named_events": [
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-05",
+      "event_type": "A_geopolitics_disruption",
+      "what": "Houthi claim strike on NCC WAFA tanker",
+      "example_post_id": "2084915351628697664",
+      "url": "https://x.com/WindwardAI/status/2084915351628697664",
+      "snippet": "🚨 The Houthis claimed a ballistic missile strike on NCC WAFA (IMO 9688348), a Saudi-flagged product tanker, off the coast of Yanbu in the northern Red Sea.  The vessel was last see",
+      "query": "red_sea"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-11",
+      "event_type": "D_commercial_charges",
+      "what": "Empty-return friction + detention complaints (e.g. NAGAFF/NG)",
+      "example_post_id": "2087277146154705064",
+      "url": "https://x.com/GuardianNigeria/status/2087277146154705064",
+      "snippet": "National Association of Government Approved Freight Forwarders accuses shipping lines of frustrating empty container returns while imposing detention charges on importers and freig",
+      "query": "dd_freetime"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-14",
+      "event_type": "B_capacity_schedule",
+      "what": "Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2099401511038013614",
+      "url": "https://x.com/Twaharashid/status/2099401511038013614",
+      "snippet": "Container spot rates are stable. But the supply response is getting aggressive.  8 blank sailings next week, up from 7.  Across major East-West trades: 47 blank sailings / 729 tota",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-12",
+      "event_type": "E_compliance_weight",
+      "what": "Indonesia Zero ODOL 2027 discourse",
+      "example_post_id": "2087430767043571946",
+      "url": "https://x.com/kompascom/status/2087430767043571946",
+      "snippet": "Baca disini: https://t.co/O5EHS1ME0i  Korlantas Polri siap mendukung Zero ODOL 2027 lewat pendekatan preventif dan komunikasi dengan pengemudi, sekaligus memastikan penertiban tida",
+      "query": "odol"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-06",
+      "event_type": "A_geopolitics_disruption",
+      "what": "Bab el-Mandeb transit suppression narrative",
+      "example_post_id": "2085360285393834178",
+      "url": "https://x.com/PiQMarkets/status/2085360285393834178",
+      "snippet": "Gulf Shipping Grinds to a Halt Following Houthi Missile Claim  Vessel traffic through the Strait of Hormuz and the Bab el-Mandeb Strait plummeted on Wednesday after the Houthi grou",
+      "query": "red_sea"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-13",
+      "event_type": "E_compliance_weight",
+      "what": "Indonesia Zero ODOL 2027 discourse",
+      "example_post_id": "2109900925871820827",
+      "url": "https://x.com/kompascom/status/2109900925871820827",
+      "snippet": "Baca di sini: https://t.co/mbk5ffrOBb  Pelabuhan Tanjung Perak ditunjuk sebagai lokasi uji coba pemberantasan kendaraan ODOL dari hulu. Pengawasan ini mendukung kebijakan nasional ",
+      "query": "odol"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-24",
+      "event_type": "B_capacity_schedule",
+      "what": "Drewry blank-sailing / WCI capacity print",
+      "example_post_id": "2103116489494519897",
+      "url": "https://x.com/christankerfund/status/2103116489494519897",
+      "snippet": "On the Transpacific trade, rates from Shanghai to Los Angeles increased 2% to $7,838 per 40ft container, while those from Shanghai to New York remained stable at $10,373 per 40ft c",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-17",
+      "event_type": "A_geopolitics_disruption",
+      "what": "Tihamah Bab el-Mandeb fatal attack (~4 crew)",
+      "example_post_id": "2089155832005222586",
+      "url": "https://x.com/IntelHQ26/status/2089155832005222586",
+      "snippet": "This is a serious escalation, but calling Bab el-Mandeb a “second Strait of Hormuz” right now would be premature.  The August 11 attack is a major warning sign. The Egyptian-owned ",
+      "query": "red_sea"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-25",
+      "event_type": "E_compliance_weight",
+      "what": "Indonesia Zero ODOL 2027 discourse",
+      "example_post_id": "2103370802926329913",
+      "url": "https://x.com/kompascom/status/2103370802926329913",
+      "snippet": "Zero ODOL 2027, BPJT Pasang Puluhan WIM di Jalan Tol. ~NJ [20260925094200615]  Klik untuk baca: https://t.co/pDzV3jshbe",
+      "query": "odol"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-20",
+      "event_type": "B_capacity_schedule",
+      "what": "Carrier Golden Week blank sailings (MSC/Maersk); Multi-week blank sailing slate (capacity defense); SCFI/index rate commentary",
+      "example_post_id": "2112441219364336010",
+      "url": "https://x.com/Evergreener1977/status/2112441219364336010",
+      "snippet": "Containers are holding, but only by force. Despite a record orderbook, the SCFI is defended at 3,664. Carriers have \"weaponized\" blank sailings, canceling 18% of loops post-Golden ",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-27",
+      "event_type": "B_capacity_schedule",
+      "what": "Drewry blank-sailing / WCI capacity print; Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2093119539873779905",
+      "url": "https://x.com/Shipsnapxx/status/2093119539873779905",
+      "snippet": "7. DREWRY'S WCI HOLDS AT $4,526 AS 49 BLANK SAILINGS RUN THROUGH LATE SEPTEMBER  The August 20 print, still the latest confirmed read, shows the WCI up 4% on Transpacific strength,",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-25",
+      "event_type": "B_capacity_schedule",
+      "what": "Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2092382778293666133",
+      "url": "https://x.com/container_news/status/2092382778293666133",
+      "snippet": "#MSC announces #Golden #Week #blank sailings  https://t.co/olSThXmCVu https://t.co/4rXgiXHNT5",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-08",
+      "event_type": "B_capacity_schedule",
+      "what": "Drewry blank-sailing / WCI capacity print; Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2108215905654308954",
+      "url": "https://x.com/TerminusRisk/status/2108215905654308954",
+      "snippet": "@christankerfund Asia-Europe is the weak leg: Drewry has it down 13 weeks running, and the Premier Alliance is moving FE1 back to Suez, first transit Nov 9 with One Continuity (Alp",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-18",
+      "event_type": "B_capacity_schedule",
+      "what": "Carrier Golden Week blank sailings (MSC/Maersk); Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2101017669113717193",
+      "url": "https://x.com/Gatewaylines/status/2101017669113717193",
+      "snippet": "Golden Week 2026 Blank Sailings: Transpacific Space Is Tightening https://t.co/ewcCKMCMs9",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-25",
+      "event_type": "B_capacity_schedule",
+      "what": "Carrier Golden Week blank sailings (MSC/Maersk); Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2092266026687692926",
+      "url": "https://x.com/riyadhcargo/status/2092266026687692926",
+      "snippet": "On the wire — MSC announces Golden Week blank sailings (via Container News) https://t.co/dwXeH4Snxs #Logistics #SupplyChain https://t.co/KMd9lprilq",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-30",
+      "event_type": "A_geopolitics_disruption",
+      "what": "Bab el-Mandeb transit suppression narrative",
+      "example_post_id": "2116117255415079089",
+      "url": "https://x.com/free_watcher_DI/status/2116117255415079089",
+      "snippet": "Container Ships Return to the Red Sea, but Carriers Remain Divided.  Container traffic through Suez and Bab el-Mandeb rose during the first nine months of 2026, despite continuing ",
+      "query": "red_sea"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-05",
+      "event_type": "D_commercial_charges",
+      "what": "Empty-return friction + detention complaints (e.g. NAGAFF/NG)",
+      "example_post_id": "2096357969772318903",
+      "url": "https://x.com/Suppplychain/status/2096357969772318903",
+      "snippet": "Ocean freight carries hidden penalties. Demurrage fees hit when a full container sits too long at the port. Detention fees hit when you hold the empty container too long before ret",
+      "query": "dd_freetime"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-24",
+      "event_type": "C_rate_index",
+      "what": "Carrier earnings / capacity-discipline narrative",
+      "example_post_id": "2103064166013776126",
+      "url": "https://x.com/algotradingdesk/status/2103064166013776126",
+      "snippet": "🇩🇪 $HLAG  CONTAINER SHIPPING IS ENTERING A CAPACITY-DISCIPLINE TEST  H1 Revenue: €10.4B EBITDA: €1.7B EBITDA Margin: 16.3% Transport Volume: ~6.3M TEU Cash &amp; Liquidity: &gt;€7B",
+      "query": "scfi_rates"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-09",
+      "event_type": "C_rate_index",
+      "what": "SCFI/index rate commentary",
+      "example_post_id": "2097709114923110662",
+      "url": "https://x.com/yiba484655/status/2097709114923110662",
+      "snippet": "📈 SCFI up six weeks in a row. US West ocean freight hits $7,242/FEU, US East $10,324/FEU. Pre-holiday cargo surge + port delays + Panama Canal constraints push rates higher. Book y",
+      "query": "scfi_rates"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-30",
+      "event_type": "B_capacity_schedule",
+      "what": "Multi-week blank sailing slate (capacity defense)",
+      "example_post_id": "2116213541090812268",
+      "url": "https://x.com/FARPOINTGLOBAL/status/2116213541090812268",
+      "snippet": "Asia–Europe rates have fallen 12 straight weeks while transpacific rates sit near their highest since mid-2022. Blank sailings are concentrated on the transpacific. The same carrie",
+      "query": "blank_sailing"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-27",
+      "event_type": "D_commercial_charges",
+      "what": "High-attention: 📦 ERADICATING INTERMODAL FREIGHT FRICTION: AUTOMATING PORT DETENTION RECONCILIATIONS  Global container shippin",
+      "example_post_id": "2115155903746056641",
+      "url": "https://x.com/kimkhanhlinh179/status/2115155903746056641",
+      "snippet": "📦 ERADICATING INTERMODAL FREIGHT FRICTION: AUTOMATING PORT DETENTION RECONCILIATIONS  Global container shipping networks frequently face costly intermodal logis",
+      "query": "dd_freetime"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-27",
+      "event_type": "G_customs_clock",
+      "what": "High-attention: 🧊 PRESERVING VACCINE EFFICACY: PARAMETRIC SPOILAGE INDEMNITY CONTRACTS FOR BIOLOGICS SHIPMENTS  The internatio",
+      "example_post_id": "2115157704469803509",
+      "url": "https://x.com/kimkhanhlinh179/status/2115157704469803509",
+      "snippet": "🧊 PRESERVING VACCINE EFFICACY: PARAMETRIC SPOILAGE INDEMNITY CONTRACTS FOR BIOLOGICS SHIPMENTS  The international transport of life-saving biological vaccines, ",
+      "query": "customs_dd"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-17",
+      "event_type": "G_customs_clock",
+      "what": "High-attention: If you have ever successfully shipped goods from overseas to Nigeria, you will understand that clearing them i",
+      "example_post_id": "2100634732748828778",
+      "url": "https://x.com/General_Oluchi/status/2100634732748828778",
+      "snippet": "If you have ever successfully shipped goods from overseas to Nigeria, you will understand that clearing them is not child’s play. Forget the expenses incurred a",
+      "query": "customs_dd"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-30",
+      "event_type": "A_geopolitics_disruption",
+      "what": "High-attention: 🚨 Yemeni forces intercepted a weapons-smuggling vessel carrying drone equipment sent by the IRGC to the Houthi",
+      "example_post_id": "2094089168884252728",
+      "url": "https://x.com/TheIranWatcher/status/2094089168884252728",
+      "snippet": "🚨 Yemeni forces intercepted a weapons-smuggling vessel carrying drone equipment sent by the IRGC to the Houthis.  The dhow was seized off Al-Makha in the Red Se",
+      "query": "red_sea"
+    },
+    {
+      "month": "m1",
+      "month_label": "2026-08",
+      "date": "2026-08-11",
+      "event_type": "A_geopolitics_disruption",
+      "what": "High-attention: 🚨 HOUTHIS KILL 4 IN BAB EL-MANDEB ATTACK  Yemeni authorities say Houthi forces fired three ballistic missiles ",
+      "example_post_id": "2087196088423821780",
+      "url": "https://x.com/MOSSADil/status/2087196088423821780",
+      "snippet": "🚨 HOUTHIS KILL 4 IN BAB EL-MANDEB ATTACK  Yemeni authorities say Houthi forces fired three ballistic missiles at a commercial vessel in the Bab el-Mandeb, killi",
+      "query": "red_sea"
+    },
+    {
+      "month": "m2",
+      "month_label": "2026-09",
+      "date": "2026-09-01",
+      "event_type": "D_commercial_charges",
+      "what": "High-attention: 𝗔𝗖𝗖𝗘𝗟𝗘𝗥𝗔𝗧𝗜𝗡𝗚 𝗧𝗛𝗘 𝗔𝗚𝗜 𝗔鄧𝗩𝗘𝗡𝗧: GLOBAL FREIGHT LOGISTICS &amp; CUSTOMS CLEARANCE  Customs AI agents review intern",
+      "example_post_id": "2094817853535068199",
+      "url": "https://x.com/Rubycryptoz/status/2094817853535068199",
+      "snippet": "𝗔𝗖𝗖𝗘𝗟𝗘𝗥𝗔𝗧𝗜𝗡𝗚 𝗧𝗛𝗘 𝗔𝗚𝗜 𝗔鄧𝗩𝗘𝗡𝗧: GLOBAL FREIGHT LOGISTICS &amp; CUSTOMS CLEARANCE  Customs AI agents review international shipping manifests, calculate cross-border",
+      "query": "dd_freetime"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-22",
+      "event_type": "A_geopolitics_disruption",
+      "what": "High-attention: Is the Red Sea safe?  An accelerating return of container shipping to the Suez Canal, Red Sea and Bab El Mande",
+      "example_post_id": "2113233495380066374",
+      "url": "https://x.com/mercoglianos/status/2113233495380066374",
+      "snippet": "Is the Red Sea safe?  An accelerating return of container shipping to the Suez Canal, Red Sea and Bab El Mandeb, amid an escalating and widening conflict betwee",
+      "query": "red_sea"
+    },
+    {
+      "month": "m3",
+      "month_label": "2026-10",
+      "date": "2026-10-07",
+      "event_type": "D_commercial_charges",
+      "what": "High-attention: ⚓ DOCKING WITH PRECISION: WINKLINK'S PORT TELEMETRY ARBITRATING AUTOMATED CONTAINER DEMURRAGE ESCROWS  In the ",
+      "example_post_id": "2107758649989034093",
+      "url": "https://x.com/kimkhanhlinh179/status/2107758649989034093",
+      "snippet": "⚓ DOCKING WITH PRECISION: WINKLINK'S PORT TELEMETRY ARBITRATING AUTOMATED CONTAINER DEMURRAGE ESCROWS  In the global container shipping sector, vessel turnaroun",
+      "query": "dd_freetime"
+    }
+  ],
+  "news_sample": [
+    {
+      "source_file": "news_red_sea",
+      "id": "2106832528203993451",
+      "title": "Explosions Reported Near Tanker South of Yemen's Al Mukha",
+      "summary": "The UKMTO issued alert 151-26 on Sunday after the tanker's security officer reported blasts about 60 nautical miles south of Al Mukha, near the vital Bab al-Mandab strait. The crew emerged unharmed, no environmental damage occurred, and no responsibility has been assigned as investigations continue. Authorities urged nearby vessels to proceed cautiously and report suspicious activity, amid a patte",
+      "url": "https://x.com/i/trending/2106832528203993451",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2105584754980745405",
+      "title": "Houthi Siege Tightens on Yemen's Taiz as Saudi Offensive Looms",
+      "summary": "Houthi fighters have seized all roads into Taiz and appeared on the route to Aden, raising fears of the city's imminent fall. Saudi Arabia plans a large offensive with over 100,000 Yemeni troops to retake the Bab el-Mandeb Strait, backed by airstrikes, as Pakistan sends 30,000-40,000 troops to defend against Houthi missiles targeting Riyadh and Aramco sites. The U.S. offers intelligence but skips ",
+      "url": "https://x.com/i/trending/2105584754980745405",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2108522522966683723",
+      "title": "Saudi Ambassador to Yemen Mohammed Al Jaber Announces Bab al-Mandab Strait Cleared of Houthi Militia",
+      "summary": "Saudi Arabia's Ambassador to Yemen, Mohammed Al Jaber, stated that the Bab al-Mandab Strait has been cleared of Houthi militia remnants following the capture of Mayun Island by Yemeni government-aligned forces during Operation Dawn of Yemen. Saudi jets provided air support to these forces, including the Giants Brigades, in pushing back Houthi positions along the strait connecting the Red Sea to th",
+      "url": "https://x.com/i/trending/2108522522966683723",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2107168158088052742",
+      "title": "Saudi-Backed Forces Seize Key Yemeni Coastal Areas from Houthis",
+      "summary": "Yemeni government forces, supported by Saudi-led coalition airstrikes, launched Operation Dawn of Yemen on Monday and captured Dhubab district, its airport, and routes to Mocha, severing Houthi supply lines. The Bab al-Mandeb Strait, a major global shipping route between the Red Sea and Gulf of Aden, saw intense clashes with videos showing pursuits by armored vehicles. Houthis responded by warning",
+      "url": "https://x.com/i/trending/2107168158088052742",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2106701259138867432",
+      "title": "Injured Pakistani Sailors and Fallen Crew Return Home from Somali Pirate Hijacking",
+      "summary": "Four injured Pakistani crew members from the hijacked oil tanker MT Honour 25, along with the remains of three killed by Somali pirates, flew from Addis Ababa to Karachi on Ethiopian Airlines flight ET 694. Pakistan’s ambassadors to Ethiopia and Djibouti saw them off, following Prime Minister Shehbaz Sharif’s directive for their safe return. The Palau-flagged vessel was seized on April 21 off Punt",
+      "url": "https://x.com/i/trending/2106701259138867432",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2111521722642133461",
+      "title": "LNG Tanker Fires Warning Shots at Approaching Skiff off Yemen",
+      "summary": "On October 17 at around 1030 UTC, the tanker's master reported the skiff approaching near Al Mukalla. The boat fired two shots, prompting the tanker's armed security team to fire two warning shots in response; the skiff then retreated with no reported injuries or damage. UK Maritime Trade Operations urged vessels in the area to transit with caution, report suspicious activity, and stay vigilant am",
+      "url": "https://x.com/i/trending/2111521722642133461",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2114972035797413925",
+      "title": "Report Alleges Secret UAE Aid to Yemen's Houthis Against Saudi Forces",
+      "summary": "Drop Site News reporters Ryan Grim and Iona Craig cite four sources alleging UAE-aligned forces gave targeting help to Ansarallah, known as the Houthis, while avoiding clashes with them. Two sources say the UAE shared intelligence directly for strikes inside Yemen, but not on Saudi soil. Saudi Ambassador Reema Bandar Al-Saud condemned the Houthis as a terrorist threat, while Houthi official Mohamm",
+      "url": "https://x.com/i/trending/2114972035797413925",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_red_sea",
+      "id": "2107126180423844281",
+      "title": "Yemen Releases Footage of Missile Strikes on Saudi-Backed Forces in Ras al-Ara",
+      "summary": "On October 5, 2026, Yemeni armed forces shared drone and aerial footage showing locally made ballistic missiles hitting concentrations of Saudi-backed troops and vehicles in Ras al-Ara, a coastal spot in Lahj Governorate. The targeted area sits near the Bab al-Mandab Strait, a key chokepoint linking the Red Sea to the Indian Ocean, amid renewed clashes with forces loyal to the Saudi-backed Preside",
+      "url": "https://x.com/i/trending/2107126180423844281",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2115782981239636011",
+      "title": "Container Ship Tilts in Storm, Sparking Cargo Insurance Talk",
+      "summary": "Images from the UNI Florida, which arrived at Jebel Ali in the UAE with toppled containers after rough weather, showed red and blue stacks shifting dangerously amid crashing waves. Users noted that cargo owners rarely get refunds from carriers due to rules like the Hague-Visby Rules, which treat severe weather as a 'peril of the sea' if the ship was prepared. Instead, shippers rely on marine cargo",
+      "url": "https://x.com/i/trending/2115782981239636011",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2107466721997312475",
+      "title": "Nigerian Woman Finds More Wood Than Fish in ₦2.4 Million Shipment",
+      "summary": "A woman abroad ordered dried fish from Nigeria costing around ₦2.4 million total, but discovered large wooden pieces dominated the packages, apparently added to inflate the weight sold by the kilogram. Videos and images showed her inspecting bowls of shriveled fish mixed with thick wood chunks, prompting widespread outrage online. Many called it deliberate fraud that damages trust in exports to di",
+      "url": "https://x.com/i/trending/2107466721997312475",
+      "category": "Other",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2112293570472292456",
+      "title": "Trump Administration Opens Review for Repurposing Sanctioned Tankers",
+      "summary": "The administration is setting up a case-by-case process for private investors to buy, refurbish, and operate sanctioned vessels strictly for legitimate crude, aiming to boost the available tanker pool. Wright estimated dozens or even hundreds of ships could shift from the 'bad-guy fleet' to the 'good-guy fleet' amid record-high oil volumes at sea and surging freight rates, like $1.37 million per d",
+      "url": "https://x.com/i/trending/2112293570472292456",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2112367158009454677",
+      "title": "Boring Company Adapts Prufrock Trucks for Shipping Container Freight",
+      "summary": "The company modified its Prufrock Liner Truck to carry standard 20-foot containers, fitting them snugly into circular tunnels at speeds up to 12 mph with remote piloting. Current payload stands at 45,000 pounds, aiming for 75,000 by January 2027, building on a platform previously used for tunnel supports. Online reactions mix enthusiasm for direct port-to-factory routes free of road delays with qu",
+      "url": "https://x.com/i/trending/2112367158009454677",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2114640163599159329",
+      "title": "Storm Gust Pushes Mein Schiff 3 into Container Ships in Bremerhaven",
+      "summary": "The 293-meter TUI Cruises ship collided with moored ships like the MSC Victorine around 5:30 p.m. on October 25 in Bremerhaven, Germany, while departing for a Canary Islands voyage. The impact tore a 10-meter breach in one container ship's hull above the waterline, damaged deck structures, and wrecked several lifeboats on the cruise liner, though no one was hurt and no flooding occurred. TUI Cruis",
+      "url": "https://x.com/i/trending/2114640163599159329",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2115419415756128743",
+      "title": "Israeli-Chartered Ship Sinks in Black Sea After Drone Strikes Off Bulgaria",
+      "summary": "The Liberian-flagged Contship Jet, chartered by Israel's ZIM shipping company, sank Wednesday night about 20 nautical miles off Bulgaria's Cape Kaliakra while heading from Haifa to Romania's Constanța port. It carried 421 containers with hazardous materials like lithium-ion batteries and chemicals; some fell overboard during the attack, which analysts link to Russian drone designs. This is the fif",
+      "url": "https://x.com/i/trending/2115419415756128743",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2113838501989122098",
+      "title": "Bored Ape Holders Chase Rare Mudwater Cards from ApeFest Airdrop",
+      "summary": "Yuga Labs airdropped Totems to every Bored Ape and Mutant Ape holder during ApeFest in mid-October, letting them claim up to 10 free packs each from the Swamp Origins set—a mix of Solana NFTs and physical cards. Packs with 10 cards from a 120-card base have seen floor prices jump from 0.4 SOL to near 0.7 SOL, with collectors sharing epic pulls like 'The Prophet' and completing the first Master Set",
+      "url": "https://x.com/i/trending/2113838501989122098",
+      "category": "Other",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_blank_sailing",
+      "id": "2108600787995652232",
+      "title": "Cost of hiring oil tanker from US to China reaches $80 million, exceeding SpaceX Falcon 9 launch cost of $74 million",
+      "summary": "A Bloomberg report indicates that the cost to hire an oil tanker for the journey from the US to China has hit $80 million, surpassing the $74 million price for a standard SpaceX Falcon 9 rocket launch. This surge is attributed to stressed global energy logistics and limited tanker availability, as referenced by sources like Gibson Shipbrokers.",
+      "url": "https://x.com/i/trending/2108600787995652232",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_odol",
+      "id": "2105640127947235605",
+      "title": "Sri Lankan Prime Minister Harini Amarasuriya Inaugurates Phase II Expansion of Adani Ports' Colombo West International Terminal Doubling Capacity to 3.2 Million TEUs",
+      "summary": "Adani Ports and Special Economic Zone (APSEZ), in partnership with John Keells Holdings and the Sri Lanka Ports Authority, completed the USD 750 million Phase II expansion of the Colombo West International Terminal (CWIT), increasing its annual capacity from 1.6 million to 3.2 million TEUs and enabling simultaneous berthing of three ultra-large container vessels. The fully automated deep-water ter",
+      "url": "https://x.com/i/trending/2105640127947235605",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_odol",
+      "id": "2115693985435996341",
+      "title": "Marcos Opens NLEX C5 Northlink Segment Toll-Free Until 2026 End",
+      "summary": "The two-kilometer NLEX C5 Northlink Segment 8.2 Section 1A connects Mindanao Avenue in Valenzuela City to Quirino Highway in Quezon City, slashing travel time from 40 minutes to just five. Marcos inaugurated the ₱2.2-billion project ahead of Undas holidays, joined by top officials, and declared it toll-free until year's end to ease congestion on local roads. It handles up to 11,000 vehicles daily ",
+      "url": "https://x.com/i/trending/2115693985435996341",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_odol",
+      "id": "2113846642822529208",
+      "title": "Indonesia Cuts Gas Exports to Singapore for Domestic Power Needs",
+      "summary": "From October 24, Indonesia reduced gas exports by 31 million standard cubic feet per day from Natuna and Sumatra fields to boost electricity in Batam, Bintan, and Sumatra. Singapore's Prime Minister Lawrence Wong stressed honoring commercial contracts, while the Energy Market Authority said the cut affects less than 2% of daily demand and LNG can fill the gap. The city-state relies on gas for 95% ",
+      "url": "https://x.com/i/trending/2113846642822529208",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    },
+    {
+      "source_file": "news_odol",
+      "id": "2114601844630511992",
+      "title": "Indonesia Cuts Gas Exports to Singapore for Domestic Needs",
+      "summary": "Starting October 24, Indonesia reduced exports by 31 billion British thermal units per day to prioritize energy security for its own power plants and industries. Singapore's Energy Market Authority noted the cut affects less than 2% of its daily demand, with LNG imports and buffers keeping supplies steady. Prime Minister Lawrence Wong emphasized honoring commercial contracts, while some Singaporea",
+      "url": "https://x.com/i/trending/2114601844630511992",
+      "category": "News",
+      "keys": [
+        "category",
+        "contexts",
+        "disclaimer",
+        "hook",
+        "id",
+        "name",
+        "summary",
+        "updated_at",
+        "url"
+      ]
+    }
+  ],
+  "watch_items": [
+    {
+      "kind": "market_yellow",
+      "item": "红海/Bab el-Mandeb 袭击与过境压制（Tihamah 致命袭击、NCC WAFA 宣称打击等）→ Cape 绕航/港口扎堆 → ETA 与 free time 风险；非法条"
+    },
+    {
+      "kind": "market_yellow",
+      "item": "Blank sailing 工具化（Drewry 多周取消班期、MSC/Maersk Golden Week blanks）→ 订舱、甩柜缓冲、船期变更通知进产品"
+    },
+    {
+      "kind": "market_yellow",
+      "item": "运价/指数叙事（WCI/SCFI/跨太 vs 亚欧）持续；X 垃圾号多，只作优先级黄灯，不写进费率字段"
+    },
+    {
+      "kind": "statute_or_ops",
+      "item": "D&D / free time 教育与还箱难投诉（含目的港协会声量）→ 继续船司条款+港 Pack 为裁判"
+    },
+    {
+      "kind": "statute_or_ops",
+      "item": "印尼 Zero ODOL 2027 / Pelindo·Kemenhub 治超 → 国别包跟官方；X 标热度不写法条"
+    },
+    {
+      "kind": "statute_or_ops",
+      "item": "VGM SOLAS、ISPM15 为长尾合规教育（周热度低、90 天有基线）→ 保持官方 FAQ 深链"
+    },
+    {
+      "kind": "ops",
+      "item": "海关查验/仓储与 demurrage 时钟叠加主题上升但仍小样本 → 产品区分行政滞留 vs 承运人费"
+    },
+    {
+      "kind": "product",
+      "item": "关注层分权：A/B/C=market yellow；D/E/F/G=可核字段+官方 URL；勿把声量迁移误读为法规迁移"
+    }
+  ],
+  "continuity_vs_prior_7d": [
+    "Red Sea prior 7d=1200 与三旬抽样持续高相关 → 宏观地缘声量连续，非法条「转移」。",
+    "Blank sailing 7d=24 与 M1–M3 均可检且与 WCI/Golden Week 同框 → 产能工具叙事连续。",
+    "D&D 7d=70；清洁后仍为稳定商业条款层（教育+投诉）。",
+    "ODOL 7d=36；Zero ODOL 2027 三旬都在 → 合规重量层未退潮。",
+    "VGM 7d=2 但分月有基线 → 非热点迁出，属长尾。",
+    "SCFI 7d=65；M1 查询几乎被股票垃圾号占满，M2/M3 有效帖回升——「C rising」含样本结构伪影，解读需谨慎。"
+  ],
+  "prior_7d_counts_reference": {
+    "red_sea": 1200,
+    "dd_freetime": 70,
+    "scfi": 65,
+    "odol": 36,
+    "blank": 24,
+    "vgm": 2,
+    "ispm15": 8,
+    "customs": 6
+  },
+  "verdict": "layer_shift_not_topic_swap",
+  "verdict_zh": "有层内迁移（地缘冲击峰、blank 常态化、海关时钟抽样上升），无主题换挡；合规条款层仍在。"
+}

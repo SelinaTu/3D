@@ -1,0 +1,5409 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-16T19:29:16.459Z",
+  "manifest": {
+    "path": "data/demo-items.json",
+    "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf"
+  },
+  "status": "conditional-lower-bound",
+  "conditions": {
+    "dimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "clearanceMm": 5,
+    "clearanceAxes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "glassRackPairClearanceMm": 0,
+    "verticalSupportMechanism": "none",
+    "supportGapMm": 0
+  },
+  "reasoning": [
+    "Any non-rack cargo pair needs 5 mm separation, including a non-rack resting above a rack.",
+    "Without a spacer or other declared bridge, load transfer requires actual contact. A 5 mm air gap cannot support cargo.",
+    "Thus every non-rack must touch the container floor, including cargo nested within a frame; an internal frame rail still needs a supported gap.",
+    "For each non-rack, minimize its true material bottom-contact area over all legal orientations, with the W02 height exception.",
+    "Distinct cargo floor-contact material regions cannot overlap. Hollow openings are excluded, and all rack floor area and all clearance floor area are omitted.",
+    "The sum of these minima divided by one container floor area is a necessary container-count lower bound under the stated no-spacer conditions."
+  ],
+  "nonRackCargoUnits": 1341,
+  "minimumNonRackActualFloorAreaM2": 469.96215,
+  "bySourceM2": {
+    "门窗": 455.4195500000035,
+    "辅材": 14.542600000000006
+  },
+  "singleContainerFloorAreaM2": 26.1,
+  "elevenContainerFloorAreaM2": 287.1,
+  "requiredContainersAtLeast": 19,
+  "conclusion": "With all-axis 5 mm clearance and no spacer load transfer, 11 containers is infeasible; this is a model-calibration finding, not an optimized packing result.",
+  "rows": [
+    {
+      "id": "门窗:W03:r5:u1",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u2",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u3",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u4",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u5",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u6",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u7",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u8",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u9",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u10",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u11",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u12",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u13",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u14",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u15",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u16",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u17",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u18",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u19",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u20",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u21",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u22",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u23",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u24",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u25",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u26",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u27",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u28",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u29",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u30",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u31",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u32",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u33",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u34",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u35",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u36",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u37",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u38",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u39",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u40",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u41",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u42",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u43",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u44",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u45",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W03:r5:u46",
+      "minimumActualFloorContactAreaM2": 0.1596
+    },
+    {
+      "id": "门窗:W04(1F):r6:u1",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u2",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u3",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u4",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u5",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u6",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u7",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u8",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u9",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u10",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u11",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u12",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u13",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u14",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u15",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u16",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u17",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u18",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u19",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u20",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u21",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u22",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u23",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u24",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u25",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u26",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u27",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u28",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u29",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u30",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u31",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u32",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u33",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u34",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u35",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u36",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u37",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u38",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u39",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u40",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u41",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u42",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u43",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u44",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u45",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(1F):r6:u46",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u1",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u2",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u3",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u4",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u5",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u6",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u7",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u8",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u9",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u10",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u11",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u12",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u13",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u14",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u15",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u16",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u17",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u18",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u19",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u20",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u21",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u22",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u23",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u24",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u25",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u26",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u27",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u28",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u29",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u30",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u31",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u32",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u33",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u34",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u35",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u36",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u37",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u38",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u39",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u40",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u41",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u42",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u43",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u44",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u45",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W04(2F):r7:u46",
+      "minimumActualFloorContactAreaM2": 0.1236
+    },
+    {
+      "id": "门窗:W05:r8:u1",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u2",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u3",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u4",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u5",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u6",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u7",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u8",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u9",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u10",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u11",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u12",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u13",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u14",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u15",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u16",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u17",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u18",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u19",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u20",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u21",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u22",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u23",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u24",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u25",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u26",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u27",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u28",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u29",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u30",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u31",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u32",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u33",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u34",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u35",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u36",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u37",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u38",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u39",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u40",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u41",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u42",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u43",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u44",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u45",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u46",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u47",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u48",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u49",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u50",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u51",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u52",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u53",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u54",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u55",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u56",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u57",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u58",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u59",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u60",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u61",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u62",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u63",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u64",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u65",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u66",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u67",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u68",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u69",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u70",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u71",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u72",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u73",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u74",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u75",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u76",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u77",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u78",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u79",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u80",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u81",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u82",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u83",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u84",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u85",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u86",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u87",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u88",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u89",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u90",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u91",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u92",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u93",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u94",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u95",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u96",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u97",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u98",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u99",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u100",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u101",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u102",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u103",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u104",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u105",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u106",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u107",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u108",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u109",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u110",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u111",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u112",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u113",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u114",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u115",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u116",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u117",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u118",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u119",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u120",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u121",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u122",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u123",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u124",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u125",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u126",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u127",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u128",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u129",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u130",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u131",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u132",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u133",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u134",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u135",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u136",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u137",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W05:r8:u138",
+      "minimumActualFloorContactAreaM2": 0.0636
+    },
+    {
+      "id": "门窗:W07:r9:u1",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u2",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u3",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u4",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u5",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u6",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u7",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u8",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u9",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u10",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u11",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u12",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u13",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u14",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u15",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u16",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u17",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u18",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u19",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u20",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u21",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u22",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u23",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u24",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u25",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u26",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u27",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u28",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u29",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u30",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u31",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u32",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u33",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u34",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u35",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u36",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u37",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u38",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u39",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u40",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u41",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u42",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u43",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u44",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u45",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W07:r9:u46",
+      "minimumActualFloorContactAreaM2": 0.3636
+    },
+    {
+      "id": "门窗:W08:r10:u1",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u2",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u3",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u4",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u5",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u6",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u7",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u8",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u9",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u10",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u11",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u12",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u13",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u14",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u15",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u16",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u17",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u18",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u19",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u20",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u21",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u22",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u23",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u24",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u25",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u26",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u27",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u28",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u29",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u30",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u31",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u32",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u33",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u34",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u35",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u36",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u37",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u38",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u39",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u40",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u41",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u42",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u43",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u44",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u45",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r10:u46",
+      "minimumActualFloorContactAreaM2": 0.6996
+    },
+    {
+      "id": "门窗:W08:r11:u1",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u2",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u3",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u4",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u5",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u6",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u7",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u8",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u9",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u10",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u11",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u12",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u13",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u14",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u15",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u16",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u17",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u18",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u19",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u20",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u21",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u22",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u23",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u24",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u25",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u26",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u27",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u28",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u29",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u30",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u31",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u32",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u33",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u34",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u35",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u36",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u37",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u38",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u39",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u40",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u41",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u42",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u43",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u44",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u45",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W08:r11:u46",
+      "minimumActualFloorContactAreaM2": 0.21
+    },
+    {
+      "id": "门窗:W09:r12:u1",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u2",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u3",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u4",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u5",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u6",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u7",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u8",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u9",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u10",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u11",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u12",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u13",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u14",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u15",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u16",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u17",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u18",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u19",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u20",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u21",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u22",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u23",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u24",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u25",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u26",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u27",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u28",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u29",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u30",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u31",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u32",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u33",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u34",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u35",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u36",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u37",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u38",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u39",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u40",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u41",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u42",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u43",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u44",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u45",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r12:u46",
+      "minimumActualFloorContactAreaM2": 0.7942
+    },
+    {
+      "id": "门窗:W09:r13:u1",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u2",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u3",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u4",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u5",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u6",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u7",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u8",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u9",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u10",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u11",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u12",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u13",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u14",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u15",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u16",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u17",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u18",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u19",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u20",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u21",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u22",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u23",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u24",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u25",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u26",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u27",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u28",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u29",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u30",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u31",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u32",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u33",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u34",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u35",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u36",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u37",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u38",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u39",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u40",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u41",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u42",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u43",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u44",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u45",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W09:r13:u46",
+      "minimumActualFloorContactAreaM2": 0.2064
+    },
+    {
+      "id": "门窗:W11:r14:u1",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u2",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u3",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u4",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u5",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u6",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u7",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u8",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u9",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u10",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u11",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u12",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u13",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u14",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u15",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u16",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u17",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u18",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u19",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u20",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u21",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u22",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u23",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u24",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u25",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u26",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u27",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u28",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u29",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u30",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u31",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u32",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u33",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u34",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u35",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u36",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u37",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u38",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u39",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u40",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u41",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u42",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u43",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u44",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u45",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W11:r14:u46",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u1",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u2",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u3",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u4",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u5",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u6",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u7",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u8",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u9",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u10",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u11",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u12",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u13",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u14",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u15",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u16",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u17",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u18",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u19",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u20",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u21",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u22",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u23",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u24",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u25",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u26",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u27",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u28",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u29",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u30",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u31",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u32",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u33",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u34",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u35",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u36",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u37",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u38",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u39",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u40",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u41",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u42",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u43",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u44",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u45",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W12:r15:u46",
+      "minimumActualFloorContactAreaM2": 0.1545
+    },
+    {
+      "id": "门窗:W02:r16:u1",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u2",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u3",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u4",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u5",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u6",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u7",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u8",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u9",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u10",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u11",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u12",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u13",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u14",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u15",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u16",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u17",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u18",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u19",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u20",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u21",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u22",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u23",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u24",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u25",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u26",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u27",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u28",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u29",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u30",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u31",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u32",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u33",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u34",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u35",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u36",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u37",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u38",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u39",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u40",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u41",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u42",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u43",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u44",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u45",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u46",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u47",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u48",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u49",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u50",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u51",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u52",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u53",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u54",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u55",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u56",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u57",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u58",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u59",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u60",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u61",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u62",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u63",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u64",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u65",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u66",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u67",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u68",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u69",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u70",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u71",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u72",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u73",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u74",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u75",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u76",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u77",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u78",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u79",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u80",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u81",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u82",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u83",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u84",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u85",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u86",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u87",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u88",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u89",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u90",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u91",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r16:u92",
+      "minimumActualFloorContactAreaM2": 0.4848
+    },
+    {
+      "id": "门窗:W02:r17:u1",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u2",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u3",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u4",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u5",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u6",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u7",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u8",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u9",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u10",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u11",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u12",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u13",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u14",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u15",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u16",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u17",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u18",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u19",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u20",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u21",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u22",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u23",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u24",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u25",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u26",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u27",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u28",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u29",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u30",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u31",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u32",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u33",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u34",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u35",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u36",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u37",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u38",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u39",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u40",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u41",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u42",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u43",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u44",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u45",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u46",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u47",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u48",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u49",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u50",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u51",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u52",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u53",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u54",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u55",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u56",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u57",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u58",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u59",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u60",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u61",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u62",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u63",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u64",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u65",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u66",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u67",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u68",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u69",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u70",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u71",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u72",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u73",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u74",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u75",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u76",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u77",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u78",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u79",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u80",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u81",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u82",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u83",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u84",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u85",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u86",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u87",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u88",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u89",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u90",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u91",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W02:r17:u92",
+      "minimumActualFloorContactAreaM2": 0.174295
+    },
+    {
+      "id": "门窗:W06:r18:u1",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u2",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u3",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u4",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u5",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u6",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u7",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u8",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u9",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u10",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u11",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u12",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u13",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u14",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u15",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u16",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u17",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u18",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u19",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u20",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u21",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u22",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u23",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u24",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u25",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u26",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u27",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u28",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u29",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u30",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u31",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u32",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u33",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u34",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u35",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u36",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u37",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u38",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u39",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u40",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u41",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u42",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u43",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u44",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u45",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r18:u46",
+      "minimumActualFloorContactAreaM2": 0.63
+    },
+    {
+      "id": "门窗:W06:r19:u1",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u2",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u3",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u4",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u5",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u6",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u7",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u8",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u9",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u10",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u11",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u12",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u13",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u14",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u15",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u16",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u17",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u18",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u19",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u20",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u21",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u22",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u23",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u24",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u25",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u26",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u27",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u28",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u29",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u30",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u31",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u32",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u33",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u34",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u35",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u36",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u37",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u38",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u39",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u40",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u41",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u42",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u43",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u44",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u45",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r19:u46",
+      "minimumActualFloorContactAreaM2": 0.2128
+    },
+    {
+      "id": "门窗:W06:r20:u1",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u2",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u3",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u4",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u5",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u6",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u7",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u8",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u9",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u10",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u11",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u12",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u13",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u14",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u15",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u16",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u17",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u18",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u19",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u20",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u21",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u22",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u23",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u24",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u25",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u26",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u27",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u28",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u29",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u30",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u31",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u32",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u33",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u34",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u35",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u36",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u37",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u38",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u39",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u40",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u41",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u42",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u43",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u44",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u45",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W06:r20:u46",
+      "minimumActualFloorContactAreaM2": 0.291995
+    },
+    {
+      "id": "门窗:W01:r21:u1",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u2",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u3",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u4",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u5",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u6",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u7",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u8",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u9",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u10",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u11",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u12",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u13",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u14",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u15",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u16",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u17",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u18",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u19",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u20",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u21",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u22",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u23",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u24",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u25",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u26",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u27",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u28",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u29",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u30",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u31",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u32",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u33",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u34",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u35",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u36",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u37",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u38",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u39",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u40",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u41",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u42",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u43",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u44",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u45",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r21:u46",
+      "minimumActualFloorContactAreaM2": 0.18414
+    },
+    {
+      "id": "门窗:W01:r22:u1",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u2",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u3",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u4",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u5",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u6",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u7",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u8",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u9",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u10",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u11",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u12",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u13",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u14",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u15",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u16",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u17",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u18",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u19",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u20",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u21",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u22",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u23",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u24",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u25",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u26",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u27",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u28",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u29",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u30",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u31",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u32",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u33",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u34",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u35",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u36",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u37",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u38",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u39",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u40",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u41",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u42",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u43",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u44",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u45",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r22:u46",
+      "minimumActualFloorContactAreaM2": 0.1166
+    },
+    {
+      "id": "门窗:W01:r23:u1",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u2",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u3",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u4",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u5",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u6",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u7",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u8",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u9",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u10",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u11",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u12",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u13",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u14",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u15",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u16",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u17",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u18",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u19",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u20",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u21",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u22",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u23",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u24",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u25",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u26",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u27",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u28",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u29",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u30",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u31",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u32",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u33",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u34",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u35",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u36",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u37",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u38",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u39",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u40",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u41",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u42",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u43",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u44",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u45",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u46",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u47",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u48",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u49",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u50",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u51",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u52",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u53",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u54",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u55",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u56",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u57",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u58",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u59",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u60",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u61",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u62",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u63",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u64",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u65",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u66",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u67",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u68",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u69",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u70",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u71",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u72",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u73",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u74",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u75",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u76",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u77",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u78",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u79",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u80",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u81",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u82",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u83",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u84",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u85",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u86",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u87",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u88",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u89",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u90",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u91",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r23:u92",
+      "minimumActualFloorContactAreaM2": 1.386
+    },
+    {
+      "id": "门窗:W01:r24:u1",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u2",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u3",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u4",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u5",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u6",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u7",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u8",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u9",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u10",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u11",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u12",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u13",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u14",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u15",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u16",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u17",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u18",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u19",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u20",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u21",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u22",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u23",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u24",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u25",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u26",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u27",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u28",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u29",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u30",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u31",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u32",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u33",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u34",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u35",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u36",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u37",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u38",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u39",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u40",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u41",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u42",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u43",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u44",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u45",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r24:u46",
+      "minimumActualFloorContactAreaM2": 0.4683
+    },
+    {
+      "id": "门窗:W01:r25:u1",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u2",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u3",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u4",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u5",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u6",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u7",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u8",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u9",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u10",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u11",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u12",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u13",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u14",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u15",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u16",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u17",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u18",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u19",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u20",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u21",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u22",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u23",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u24",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u25",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u26",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u27",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u28",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u29",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u30",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u31",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u32",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u33",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u34",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u35",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u36",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u37",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u38",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u39",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u40",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u41",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u42",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u43",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u44",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u45",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "门窗:W01:r25:u46",
+      "minimumActualFloorContactAreaM2": 0.726
+    },
+    {
+      "id": "辅材:1:r5:u1",
+      "minimumActualFloorContactAreaM2": 0.1085
+    },
+    {
+      "id": "辅材:1:r5:u2",
+      "minimumActualFloorContactAreaM2": 0.1085
+    },
+    {
+      "id": "辅材:1:r5:u3",
+      "minimumActualFloorContactAreaM2": 0.1085
+    },
+    {
+      "id": "辅材:1:r5:u4",
+      "minimumActualFloorContactAreaM2": 0.1085
+    },
+    {
+      "id": "辅材:2:r6:u1",
+      "minimumActualFloorContactAreaM2": 0.1216
+    },
+    {
+      "id": "辅材:2:r6:u2",
+      "minimumActualFloorContactAreaM2": 0.1216
+    },
+    {
+      "id": "辅材:2:r7",
+      "minimumActualFloorContactAreaM2": 0.0651
+    },
+    {
+      "id": "辅材:3:r8:u1",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u2",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u3",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u4",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u5",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u6",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u7",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u8",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u9",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u10",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u11",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u12",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u13",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u14",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u15",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u16",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u17",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u18",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u19",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u20",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u21",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u22",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:3:r8:u23",
+      "minimumActualFloorContactAreaM2": 0.126
+    },
+    {
+      "id": "辅材:4:r9",
+      "minimumActualFloorContactAreaM2": 0.069
+    },
+    {
+      "id": "辅材:5:r10",
+      "minimumActualFloorContactAreaM2": 0.0429
+    },
+    {
+      "id": "辅材:6:r11:u1",
+      "minimumActualFloorContactAreaM2": 0.102
+    },
+    {
+      "id": "辅材:6:r11:u2",
+      "minimumActualFloorContactAreaM2": 0.102
+    },
+    {
+      "id": "辅材:6:r11:u3",
+      "minimumActualFloorContactAreaM2": 0.102
+    },
+    {
+      "id": "辅材:7:r12:u1",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u2",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u3",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u4",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u5",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u6",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u7",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u8",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u9",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u10",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u11",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:7:r12:u12",
+      "minimumActualFloorContactAreaM2": 0.0364
+    },
+    {
+      "id": "辅材:8:r13:u1",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u2",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u3",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u4",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u5",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u6",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u7",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u8",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u9",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u10",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u11",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u12",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u13",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u14",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u15",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u16",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u17",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u18",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u19",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u20",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u21",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u22",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u23",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u24",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u25",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u26",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u27",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u28",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u29",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u30",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u31",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u32",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:8:r13:u33",
+      "minimumActualFloorContactAreaM2": 0.051
+    },
+    {
+      "id": "辅材:9:r14:u1",
+      "minimumActualFloorContactAreaM2": 0.0644
+    },
+    {
+      "id": "辅材:9:r14:u2",
+      "minimumActualFloorContactAreaM2": 0.0644
+    },
+    {
+      "id": "辅材:9:r14:u3",
+      "minimumActualFloorContactAreaM2": 0.0644
+    },
+    {
+      "id": "辅材:10:r15:u1",
+      "minimumActualFloorContactAreaM2": 0.0529
+    },
+    {
+      "id": "辅材:10:r15:u2",
+      "minimumActualFloorContactAreaM2": 0.0529
+    },
+    {
+      "id": "辅材:10:r15:u3",
+      "minimumActualFloorContactAreaM2": 0.0529
+    },
+    {
+      "id": "辅材:11:r16:u1",
+      "minimumActualFloorContactAreaM2": 0.0832
+    },
+    {
+      "id": "辅材:11:r16:u2",
+      "minimumActualFloorContactAreaM2": 0.0832
+    },
+    {
+      "id": "辅材:11:r16:u3",
+      "minimumActualFloorContactAreaM2": 0.0832
+    },
+    {
+      "id": "辅材:11:r17:u1",
+      "minimumActualFloorContactAreaM2": 0.0483
+    },
+    {
+      "id": "辅材:11:r17:u2",
+      "minimumActualFloorContactAreaM2": 0.0483
+    },
+    {
+      "id": "辅材:12:r18:u1",
+      "minimumActualFloorContactAreaM2": 0.078
+    },
+    {
+      "id": "辅材:12:r18:u2",
+      "minimumActualFloorContactAreaM2": 0.078
+    },
+    {
+      "id": "辅材:12:r18:u3",
+      "minimumActualFloorContactAreaM2": 0.078
+    },
+    {
+      "id": "辅材:13:r19",
+      "minimumActualFloorContactAreaM2": 0.0306
+    },
+    {
+      "id": "辅材:14:r20:u1",
+      "minimumActualFloorContactAreaM2": 0.0638
+    },
+    {
+      "id": "辅材:14:r20:u2",
+      "minimumActualFloorContactAreaM2": 0.0638
+    },
+    {
+      "id": "辅材:14:r20:u3",
+      "minimumActualFloorContactAreaM2": 0.0638
+    },
+    {
+      "id": "辅材:15:r21",
+      "minimumActualFloorContactAreaM2": 0.1188
+    },
+    {
+      "id": "辅材:16:r22",
+      "minimumActualFloorContactAreaM2": 0.0945
+    },
+    {
+      "id": "辅材:17:r23",
+      "minimumActualFloorContactAreaM2": 0.0651
+    },
+    {
+      "id": "辅材:18:r24:u1",
+      "minimumActualFloorContactAreaM2": 0.0875
+    },
+    {
+      "id": "辅材:18:r24:u2",
+      "minimumActualFloorContactAreaM2": 0.0875
+    },
+    {
+      "id": "辅材:18:r25:u1",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u2",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u3",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u4",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u5",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u6",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u7",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r25:u8",
+      "minimumActualFloorContactAreaM2": 0.0308
+    },
+    {
+      "id": "辅材:18:r26",
+      "minimumActualFloorContactAreaM2": 0.036
+    },
+    {
+      "id": "辅材:19:r27",
+      "minimumActualFloorContactAreaM2": 0.081
+    },
+    {
+      "id": "辅材:20:r28",
+      "minimumActualFloorContactAreaM2": 1.44
+    },
+    {
+      "id": "辅材:21:r29",
+      "minimumActualFloorContactAreaM2": 1.44
+    },
+    {
+      "id": "辅材:22:r30",
+      "minimumActualFloorContactAreaM2": 1.44
+    },
+    {
+      "id": "辅材:23:r31",
+      "minimumActualFloorContactAreaM2": 0.03915
+    },
+    {
+      "id": "辅材:24:r32",
+      "minimumActualFloorContactAreaM2": 0.1419
+    },
+    {
+      "id": "辅材:25:r33",
+      "minimumActualFloorContactAreaM2": 0.0425
+    },
+    {
+      "id": "辅材:26:r34",
+      "minimumActualFloorContactAreaM2": 0.0435
+    },
+    {
+      "id": "辅材:27:r35",
+      "minimumActualFloorContactAreaM2": 0.0609
+    },
+    {
+      "id": "辅材:28:r36",
+      "minimumActualFloorContactAreaM2": 0.0551
+    },
+    {
+      "id": "辅材:29:r37",
+      "minimumActualFloorContactAreaM2": 0.0627
+    },
+    {
+      "id": "辅材:30:r38",
+      "minimumActualFloorContactAreaM2": 0.042
+    },
+    {
+      "id": "辅材:31:r39",
+      "minimumActualFloorContactAreaM2": 0.0208
+    },
+    {
+      "id": "辅材:32:r40:u1",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u2",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u3",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u4",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u5",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u6",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u7",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u8",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u9",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u10",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u11",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u12",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u13",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:32:r40:u14",
+      "minimumActualFloorContactAreaM2": 0.0884
+    },
+    {
+      "id": "辅材:33:r41:u1",
+      "minimumActualFloorContactAreaM2": 0.0594
+    },
+    {
+      "id": "辅材:33:r41:u2",
+      "minimumActualFloorContactAreaM2": 0.0594
+    },
+    {
+      "id": "辅材:33:r41:u3",
+      "minimumActualFloorContactAreaM2": 0.0594
+    },
+    {
+      "id": "辅材:33:r41:u4",
+      "minimumActualFloorContactAreaM2": 0.0594
+    },
+    {
+      "id": "辅材:34:r42",
+      "minimumActualFloorContactAreaM2": 0.0595
+    },
+    {
+      "id": "辅材:35:r43",
+      "minimumActualFloorContactAreaM2": 0.03045
+    }
+  ]
+}

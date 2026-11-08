@@ -1,0 +1,597 @@
+{
+  "data": [
+    {
+      "author_id": "842199935877500929",
+      "created_at": "2026-09-30T06:09:40.000Z",
+      "edit_history_tweet_ids": [
+        "2105178243670343860"
+      ],
+      "id": "2105178243670343860",
+      "in_reply_to_user_id": "842199935877500929",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2105178207309996441",
+          "type": "replied_to"
+        }
+      ],
+      "text": "A dry port takes some of the jobs normally done near the coast and moves them inland:\n\ncustoms\nstorage\ncontainer handling\ndistribution\nrail transfer",
+      "url": "https://x.com/steelspaceframe/status/2105178243670343860"
+    },
+    {
+      "author_id": "1889200753731923968",
+      "created_at": "2026-09-08T15:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2097346724251697212"
+      ],
+      "id": "2097346724251697212",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "When moving from the U.S. to Sweden, the cheapest estimate isn’t always the best choice. Shipment size, packing, customs, storage, and destination services can all affect the final cost. \n\nKnow what to compare before you decide.\nhttps://t.co/vedmdZwVXs\n\n#MovingToSweden https://t.co/FNsWU1hdMI",
+      "url": "https://x.com/nilsonvanco/status/2097346724251697212"
+    },
+    {
+      "author_id": "2049762670895939584",
+      "created_at": "2026-09-12T08:12:35.000Z",
+      "edit_history_tweet_ids": [
+        "2098686194414727234"
+      ],
+      "id": "2098686194414727234",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 42,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The $186 Million Question: When Does a Carrier’s Responsibility End?\n𝗜𝗳 𝘁𝗵𝗲 𝗶𝗺𝗽𝗼𝗿𝘁𝗲𝗿 𝗶𝘀 𝗿𝗲𝗮𝗱𝘆 𝘁𝗼 𝘁𝗮𝗸𝗲 𝗱𝗲𝗹𝗶𝘃𝗲𝗿𝘆, 𝗯𝘂𝘁 𝘁𝗵𝗲 𝗹𝗼𝗴𝗶𝘀𝘁𝗶𝗰𝘀 𝗰𝗵𝗮𝗶𝗻 𝗰𝗮𝗻𝗻𝗼𝘁 𝗺𝗼𝘃𝗲 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿, 𝘀𝗵𝗼𝘂𝗹𝗱 𝘁𝗵𝗲 𝗶𝗺𝗽𝗼𝗿𝘁𝗲𝗿 https://t.co/1sxf321AxG",
+      "url": "https://x.com/youreximinsider/status/2098686194414727234"
+    },
+    {
+      "author_id": "185970111",
+      "created_at": "2026-09-16T11:15:00.000Z",
+      "edit_history_tweet_ids": [
+        "2100181653725618680"
+      ],
+      "id": "2100181653725618680",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 44,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🚢 Global supply chain resilience isn't built on lagging economic indicators—it’s built on real-time market intelligence at the world's most critical transit corridors.\n\nFor logistics leaders, freight forwarders, and trade analysts operating in East Africa, tracking raw transport",
+      "url": "https://x.com/FrancisIsberto/status/2100181653725618680"
+    },
+    {
+      "author_id": "1975421875607248904",
+      "created_at": "2026-09-01T08:53:31.000Z",
+      "edit_history_tweet_ids": [
+        "2094710232270172316"
+      ],
+      "id": "2094710232270172316",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 31,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Your container is sitting at Apapa port. Customs wants a SONCAP certificate. Your Chinese supplier says \"don't worry, we have paper.\" The paper is fake. Demurrage: $180/day. This happens every single day on the China-Africa lane. We built a tool to end it.",
+      "url": "https://x.com/ne1tmillionaire/status/2094710232270172316"
+    },
+    {
+      "author_id": "2081687342520352769",
+      "created_at": "2026-09-11T09:49:49.000Z",
+      "edit_history_tweet_ids": [
+        "2098348278031290420"
+      ],
+      "id": "2098348278031290420",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "One supplier's document error = your ENTIRE consolidated container held at customs.\n\nDemurrage: $75–$300/day. Every carton pays, even the compliant ones.\n\nWe published our internal document checklist for multi-supplier shipments out of China 👇\n\nhttps://t.co/7PiunQ3VHt",
+      "url": "https://x.com/Deeplinkerdp/status/2098348278031290420"
+    },
+    {
+      "author_id": "1839239876308529152",
+      "created_at": "2026-09-30T20:33:11.000Z",
+      "edit_history_tweet_ids": [
+        "2105395555140841928"
+      ],
+      "id": "2105395555140841928",
+      "in_reply_to_user_id": "4523322167",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 53,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2105336736624636080",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@Usmanlafiagi1 @HauwaAllahbura You …I am going to arrest you😂😅🤣 which kain interrogation be this one? You no Dey fear customs? Are ready to pay demurrage? Do you want them to seize your container? Be careful o!",
+      "url": "https://x.com/SyncFlow21/status/2105395555140841928"
+    },
+    {
+      "author_id": "2081343253576818688",
+      "created_at": "2026-09-11T09:02:04.000Z",
+      "edit_history_tweet_ids": [
+        "2098336260301738418"
+      ],
+      "id": "2098336260301738418",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Priya ships cotton shirts to the same Rotterdam buyer every month. Last month, someone copied an HS code off a US customs site. First 6 digits matched nobody checked further. Container pulled for review. 3 days lost. Demurrage bill for nothing. Read more.\n\nhttps://t.co/okatUKSEX2",
+      "url": "https://x.com/Impactexapp/status/2098336260301738418"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-09-18T06:09:56.000Z",
+      "edit_history_tweet_ids": [
+        "2100829657327116606"
+      ],
+      "id": "2100829657327116606",
+      "in_reply_to_user_id": "1600503259826982912",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2100829546245161050",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@Mubee411 @Stacia__finest No verified evidence supports this specific claim. Nigerian port clearance for a 40ft container commonly totals around 19-20m naira (per IMAN data), driven by duties, fees, and delays based on cargo value and HS codes. These apply uniformly under ECOWAS tariffs. China-Nigeria",
+      "url": "https://x.com/grok/status/2100829657327116606"
+    },
+    {
+      "author_id": "946767709",
+      "created_at": "2026-09-11T20:15:21.000Z",
+      "edit_history_tweet_ids": [
+        "2098505698586021923"
+      ],
+      "id": "2098505698586021923",
+      "in_reply_to_user_id": "946767709",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2098505697101332936",
+          "type": "replied_to"
+        }
+      ],
+      "text": "agent who charges you for storage, demurrage, and \"expediting\" fees you never agreed to. Afimex clears your container in-house at Port Autonome de Nouakchott with our own customs team. No handoff. No surprise fees. Send your origin city on WhatsApp +1 (212) 461-1846 (US) for the",
+      "url": "https://x.com/afimexlogistics/status/2098505698586021923"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-09-18T13:18:49.000Z",
+      "edit_history_tweet_ids": [
+        "2100937589532307820"
+      ],
+      "id": "2100937589532307820",
+      "in_reply_to_user_id": "1864580434018877441",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 67,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2100937475518550239",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@nodowerecomeher @Stacia__finest No, the claim is not accurate. Nigerian customs clearance for a 40ft container has no fixed rate of 18m for Igbo importers or 5m for Chinese ones. Costs vary widely (often 10-25m Naira) based on the goods' CIF value, HS code duties (typically 5-60%), VAT, levies, port fees, and",
+      "url": "https://x.com/grok/status/2100937589532307820"
+    },
+    {
+      "author_id": "748756549535838208",
+      "created_at": "2026-09-25T18:19:18.000Z",
+      "edit_history_tweet_ids": [
+        "2103549923446927661"
+      ],
+      "id": "2103549923446927661",
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 162,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 2
+      },
+      "text": "The debate over Tema Port security is often reduced to cheap partisan spin:\n\n\"The NPP removed security and let drugs flow.\" \n\"The NDC ran a slow, extortionist port.\"\n\nThe reality? Both regimes failed, they just failed for completely different reasons.\n\nA breakdown of 2013–2016",
+      "url": "https://x.com/IbraAddo/status/2103549923446927661"
+    },
+    {
+      "author_id": "458109833",
+      "created_at": "2026-09-01T16:01:10.000Z",
+      "edit_history_tweet_ids": [
+        "2094817853535068199"
+      ],
+      "id": "2094817853535068199",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12179,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      },
+      "text": "𝗔𝗖𝗖𝗘𝗟𝗘𝗥𝗔𝗧𝗜𝗡𝗚 𝗧𝗛𝗘 𝗔𝗚𝗜 𝗔鄧𝗩𝗘𝗡𝗧: GLOBAL FREIGHT LOGISTICS &amp; CUSTOMS CLEARANCE\n\nCustoms AI agents review international shipping manifests, calculate cross-border tariff duties, and release shipping container holds automatically at global ports.\n\nParsing https://t.co/5qEoI4A2KJ",
+      "url": "https://x.com/Rubycryptoz/status/2094817853535068199"
+    },
+    {
+      "author_id": "1176895744017436672",
+      "created_at": "2026-09-19T14:46:31.000Z",
+      "edit_history_tweet_ids": [
+        "2101322047339008188"
+      ],
+      "id": "2101322047339008188",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 349,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2081732826102370393",
+          "type": "quoted"
+        }
+      ],
+      "text": "I asked Google Gemini how can the recent devolopment help Kalyani Cast-Tech help generate Revenue(Model) and the answer was:-\n\n*Container Manufacturing (Rewari Facility):-\n 1. Direct Sales &amp; Leasing: The company can sell manufactured containers outright to third-party logistics https://t.co/xOIm5bRR3D",
+      "url": "https://x.com/Darshan27503236/status/2101322047339008188"
+    },
+    {
+      "author_id": "1500439944464113665",
+      "created_at": "2026-09-16T10:10:43.000Z",
+      "edit_history_tweet_ids": [
+        "2100165476181528933"
+      ],
+      "id": "2100165476181528933",
+      "in_reply_to_user_id": "383173078",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 31,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2099869145563115712",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@ghonetv Massa Massa, you people and mischief. NPP is dazed, they can’t believe the economic progress. \nThe congestion at Tema Port is largely a byproduct of Ghana’s expanding economy, not a government scheme to confiscate goods. Real GDP grew 6% in 2025 and 6.4% in Q1 2026, with strong",
+      "url": "https://x.com/NafokormlaHo/status/2100165476181528933"
+    },
+    {
+      "author_id": "738211894448775172",
+      "created_at": "2026-09-17T17:15:22.000Z",
+      "edit_history_tweet_ids": [
+        "2100634732748828778"
+      ],
+      "id": "2100634732748828778",
+      "public_metrics": {
+        "bookmark_count": 19,
+        "impression_count": 10755,
+        "like_count": 300,
+        "quote_count": 5,
+        "reply_count": 31,
+        "retweet_count": 93
+      },
+      "text": "If you have ever successfully shipped goods from overseas to Nigeria, you will understand that clearing them is not child’s play. Forget the expenses incurred abroad and start calculating what you will spend from the moment the container arrives in Lagos. You may not even know",
+      "url": "https://x.com/General_Oluchi/status/2100634732748828778"
+    },
+    {
+      "author_id": "1735934638382538753",
+      "created_at": "2026-09-12T12:24:22.000Z",
+      "edit_history_tweet_ids": [
+        "2098749559065264219"
+      ],
+      "id": "2098749559065264219",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1127,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "🚢⚡ GLOBAL TRADE MOVES ON SHIPS.\n\nBut finding the right shipping capacity can still feel like an industry designed around:\n\nPhone calls.\n\nEmails.\n\nBrokers.\n\nPDFs.\n\nSpreadsheets.\n\nWhatsApp.\n\nPrivate relationships.\n\nAnd:\n\n“LET ME CHECK WHAT'S AVAILABLE.”\n\n😂\n\nMeanwhile, businesses https://t.co/ajIQlpIAOq",
+      "url": "https://x.com/UpHonestReal/status/2098749559065264219"
+    },
+    {
+      "author_id": "1432997751537774603",
+      "created_at": "2026-09-04T08:46:14.000Z",
+      "edit_history_tweet_ids": [
+        "2095795563036123613"
+      ],
+      "id": "2095795563036123613",
+      "in_reply_to_user_id": "980145571",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 91,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2095783881295151233",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@AdaniOnline “Streamlining operations” at Mundra is not reform. It is a land grab dressed up as efficiency.\n\nFrom 1 September, Adani Ports froze empty-yard codes outside Mundra’s port/SEZ limits. Shipping lines must now nominate empties only to designated yards inside Adani’s own ecosystem. https://t.co/LOzxZABrtH",
+      "url": "https://x.com/jagdish_2204/status/2095795563036123613"
+    },
+    {
+      "author_id": "1303645100828811265",
+      "created_at": "2026-09-15T21:20:05.000Z",
+      "edit_history_tweet_ids": [
+        "2099971540762886478"
+      ],
+      "id": "2099971540762886478",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 68,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Malaysia detains 3-more Is*ael-bound containers at Tanjung Pelepas\n\nMalaysian authorities have detained 3-additional Is*ael-bound containers at the Port of Tanjung Pelepas in Johor, the country's second-largest port and largest transshipment hub where nearly 90% of cargo is https://t.co/MES8gTkuM2",
+      "url": "https://x.com/Yashika10614068/status/2099971540762886478"
+    },
+    {
+      "author_id": "1432997751537774603",
+      "created_at": "2026-09-04T08:48:45.000Z",
+      "edit_history_tweet_ids": [
+        "2095796194727629093"
+      ],
+      "id": "2095796194727629093",
+      "in_reply_to_user_id": "2451476942",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 84,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2095794887434383843",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@SwarajyaMag “Streamlining operations” at Mundra is not reform. It is a land grab dressed up as efficiency.\n\nFrom 1 September, Adani Ports froze empty-yard codes outside Mundra’s port/SEZ limits. Shipping lines must now nominate empties only to designated yards inside Adani’s own ecosystem.",
+      "url": "https://x.com/jagdish_2204/status/2095796194727629093"
+    },
+    {
+      "author_id": "1432997751537774603",
+      "created_at": "2026-09-04T08:08:42.000Z",
+      "edit_history_tweet_ids": [
+        "2095786114258788429"
+      ],
+      "id": "2095786114258788429",
+      "in_reply_to_user_id": "1841169729924567040",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 64,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2095756963217039689",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@Anuradha498900 “Streamlining operations” at Mundra is not reform. It is a land grab dressed up as efficiency.\n\nFrom 1 September, Adani Ports froze empty-yard codes outside Mundra’s port/SEZ limits. Shipping lines must now nominate empties only to designated yards inside Adani’s own ecosystem.",
+      "url": "https://x.com/jagdish_2204/status/2095786114258788429"
+    },
+    {
+      "author_id": "2416327918",
+      "created_at": "2026-09-20T12:18:26.000Z",
+      "edit_history_tweet_ids": [
+        "2101647170042462577"
+      ],
+      "id": "2101647170042462577",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 384,
+        "like_count": 0,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "THE CHINESE SHOP NEXT DOOR: Trade Fair and the Death of the Nigerian Middleman\n\nThe world is waking up. On May 19 in Kansas City, Vice President J.D. Vance told factory workers what America denied for thirty years: America borrows from Chinese peasants to buy what Chinese",
+      "url": "https://x.com/Donendy2003/status/2101647170042462577"
+    },
+    {
+      "author_id": "1449325908200935424",
+      "created_at": "2026-09-19T05:31:10.000Z",
+      "edit_history_tweet_ids": [
+        "2101182287844933752"
+      ],
+      "id": "2101182287844933752",
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 881,
+        "like_count": 13,
+        "quote_count": 2,
+        "reply_count": 1,
+        "retweet_count": 16
+      },
+      "text": "THE MINNA 37: THIRTY-SEVEN ENTERED GOVERNMENT CUSTODY ALIVE — NOW NIGERIA MUST ANSWER EVERY QUESTION\n\nLetters from Stockholm\nBy Kio Amachree\n\nThirty-seven Nigerians entered the custody of the Nigerian state alive.\n\nThirty-seven came out dead.\n\nBefore we discuss illegal mining, https://t.co/ivwN1xYvRf",
+      "url": "https://x.com/Ivory1957/status/2101182287844933752"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "842199935877500929",
+        "name": "Jessie",
+        "username": "steelspaceframe"
+      },
+      {
+        "id": "1889200753731923968",
+        "name": "Nilson Van and Storage",
+        "username": "nilsonvanco"
+      },
+      {
+        "id": "2049762670895939584",
+        "name": "kapish Laur",
+        "username": "youreximinsider"
+      },
+      {
+        "id": "185970111",
+        "name": "Francis Isberto 🐈‍⬛",
+        "username": "FrancisIsberto"
+      },
+      {
+        "id": "1975421875607248904",
+        "name": "Taoufiq",
+        "username": "ne1tmillionaire"
+      },
+      {
+        "id": "2081687342520352769",
+        "name": "Deeplinker",
+        "username": "Deeplinkerdp"
+      },
+      {
+        "id": "1839239876308529152",
+        "name": "SyncFlow (Hon. Minister of Chicken)",
+        "username": "SyncFlow21"
+      },
+      {
+        "id": "2081343253576818688",
+        "name": "Impactex",
+        "username": "Impactexapp"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "946767709",
+        "name": "Afimex Logistics",
+        "username": "afimexlogistics"
+      },
+      {
+        "id": "748756549535838208",
+        "name": "Ibrah Addo",
+        "username": "IbraAddo"
+      },
+      {
+        "id": "458109833",
+        "name": "Ruby💎",
+        "username": "Rubycryptoz"
+      },
+      {
+        "id": "1176895744017436672",
+        "name": "CA Darshan Bharuka",
+        "username": "Darshan27503236"
+      },
+      {
+        "id": "1500439944464113665",
+        "name": "#NAFOKormla Fella 🇬🇭🤝🇺🇦",
+        "username": "NafokormlaHo"
+      },
+      {
+        "id": "738211894448775172",
+        "name": "Field Marshal of the Han Dynasty",
+        "username": "General_Oluchi"
+      },
+      {
+        "id": "1735934638382538753",
+        "name": "TheGuyWhoKnows // UpHonestRealEstate",
+        "username": "UpHonestReal"
+      },
+      {
+        "id": "1432997751537774603",
+        "name": "JH",
+        "username": "jagdish_2204"
+      },
+      {
+        "id": "1303645100828811265",
+        "name": "Yashika Suri",
+        "username": "Yashika10614068"
+      },
+      {
+        "id": "2416327918",
+        "name": "Olu Awolowo | Eni Oba nke | Okanlomo Oodua",
+        "username": "Donendy2003"
+      },
+      {
+        "id": "1449325908200935424",
+        "name": "Kio Amachree",
+        "username": "Ivory1957"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2105395555140841928",
+    "next_token": "b26v89c19zqg8o3juezh4ewobbutkktjbl9wjjw1up7r1",
+    "oldest_id": "2094710232270172316",
+    "result_count": 23
+  }
+}

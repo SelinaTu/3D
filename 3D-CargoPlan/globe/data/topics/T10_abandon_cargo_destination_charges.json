@@ -1,0 +1,129 @@
+{
+  "id": "T10_abandon_cargo_destination_charges",
+  "title_zh": "弃货 / 目的港费用回追",
+  "title_en": "Abandoned cargo · destination charges chase-back",
+  "product_use": "faq_yellow",
+  "confidence": "medium_experience_not_statute",
+  "why_attention": {
+    "summary_zh": "弃货与目的港费用。近 90 天紧查询抽样约 10（弃船/俚语噪声）；先前 7 天宽口径 counts=56 不可直接等同本查询。",
+    "heat_7d": {
+      "abandon": 56
+    },
+    "heat_90d": {
+      "abandon": 10
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "Abandoned cargo",
+      "zh": "弃货",
+      "def": "Consignee fails to take delivery; cargo sits accruing storage/D&D; may be auctioned/destroyed under local rules."
+    },
+    {
+      "term": "Destination charges",
+      "zh": "目的港费用",
+      "def": "THC, storage, demurrage, customs, disposal — who ultimately pays depends on contract & local recovery practice."
+    },
+    {
+      "term": "Chase-back",
+      "zh": "回追",
+      "def": "Industry practice of billing origin shipper/forwarder when destination party disappears — contractual, not a universal statute."
+    }
+  ],
+  "who_pays": {
+    "typical": "Often shipper/forwarder at origin gets chased when consignee abandons — verify BL terms & local law; experience yellow light."
+  },
+  "who_responsible": [
+    "Consignee for delivery",
+    "Shipper credit control / release strategy",
+    "Carrier recovery teams"
+  ],
+  "common_pitfalls": [
+    "Telex release without payment security",
+    "Verbal '包过' promises",
+    "Ignoring escalating storage while negotiating"
+  ],
+  "official_sources": [
+    {
+      "url": "https://fiata.org/n/fiata-calls-for-reasonable-free-time-for-container/",
+      "org": "FIATA",
+      "note": "D&D context when cargo cannot move — still commercial"
+    },
+    {
+      "url": "https://unctad.org/news/demurrage-and-detention-charges-container-shipping",
+      "org": "UNCTAD",
+      "note": "Industry D&D cost pressure context"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "note": "ZH experience posts on chase-back"
+    },
+    {
+      "iso2": "US",
+      "note": "Longstanding / auction regimes vary by terminal"
+    },
+    {
+      "iso2": "ID",
+      "note": "Destination dwell + ODOL delays"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "USLAX"
+    },
+    {
+      "locode": "USNYC"
+    },
+    {
+      "locode": "CNSHA"
+    },
+    {
+      "locode": "IDTPP"
+    }
+  ],
+  "faq": [
+    {
+      "q": "买家不提货，费用谁扛？",
+      "a": "实务上常回追发货人/订舱货代，但取决于运输合同、提单条款与当地处置规则。属经验黄灯，不是单一法典条文。"
+    },
+    {
+      "q": "产品建议？",
+      "a": "收款/放单节点、信用管控文案；监控目的港费用钟——不做罚单计算。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "counts": 56,
+      "archive_zh": 16
+    },
+    "samples": [
+      {
+        "url": "https://x.com/APBLOODTYPE/status/2107425676563464254",
+        "kind": "organic",
+        "note": "Prior corpus: destination fee chase (v1.1)"
+      },
+      {
+        "url": "https://x.com/Vita1945598/status/1847111378789957648",
+        "kind": "edu",
+        "note": "LCL destination charges education"
+      }
+    ],
+    "honesty": "This-run ZH abandon query was noisy (promo/macro); keep prior organic URL.",
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "abandon": 10
+    }
+  },
+  "gaps": [
+    "Per-country abandonment statutory procedures not compiled"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

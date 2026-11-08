@@ -1,0 +1,135 @@
+{
+  "data": [
+    {
+      "author_id": "1450064107",
+      "created_at": "2026-08-13T08:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2087818943604138493"
+      ],
+      "id": "2087818943604138493",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 43,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "A confirmed vessel booking starts the preparation process, while actual container loading depends on completing several requirements within specific operational deadlines\nThe SI Cut-Off is the deadline for submitting the shipping instructions required to prepare the shipment https://t.co/rnIx5hog9M",
+      "url": "https://x.com/smi_logistics/status/2087818943604138493"
+    },
+    {
+      "author_id": "1535309081644179456",
+      "created_at": "2026-08-23T09:01:48.000Z",
+      "edit_history_tweet_ids": [
+        "2091450823192502314"
+      ],
+      "id": "2091450823192502314",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@TransworldTweet Absolut, B ist korrekt. Verified Gross Mass ist Pflicht vor jeder Verladung. Wir bei Dachser stellen sicher, dass die Dokumentation stets korrekt und vollständig ist.",
+      "url": "https://x.com/TradeSolverMK/status/2091450823192502314"
+    },
+    {
+      "author_id": "3192139901",
+      "created_at": "2026-08-17T17:36:59.000Z",
+      "edit_history_tweet_ids": [
+        "2089406146163470422"
+      ],
+      "id": "2089406146163470422",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Wrong container weights cause accidents, fines and crane incidents. SOLAS VGM requires verified weighing, documented methods, balanced loading and accurate packing; mismatches halt loading. ARI Shipping 40+ years. #VGM https://t.co/CUL3uKkQHD",
+      "url": "https://x.com/ARIshippingCorp/status/2089406146163470422"
+    },
+    {
+      "author_id": "1330198578132897799",
+      "created_at": "2026-08-10T02:20:50.000Z",
+      "edit_history_tweet_ids": [
+        "2086638876550914445"
+      ],
+      "id": "2086638876550914445",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 66,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "📦دليل سريع للحاويات البحرية\n\nاختيار الحاوية المناسبة ليس مجرد اختيار بين 20 أو 40 قدم.\n\nالقرار الصحيح يعتمد على الحجم CBM، الوزن، عدد الطبالي، نوع البضاعة، وطريقة الرص والقيود المحلية.\n\n🔹 20 قدم: غالبًا أفضل للبضائع الثقيلة\n🔹 40 قدم: أفضل للبضائع الحجمية\n🔹 High Cube: عندما https://t.co/oECrA1RhaB",
+      "url": "https://x.com/ialzin_/status/2086638876550914445"
+    },
+    {
+      "author_id": "384344148",
+      "created_at": "2026-08-13T06:52:55.000Z",
+      "edit_history_tweet_ids": [
+        "2087794512072700254"
+      ],
+      "id": "2087794512072700254",
+      "public_metrics": {
+        "bookmark_count": 5,
+        "impression_count": 3690,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2087608445625344263",
+          "type": "quoted"
+        }
+      ],
+      "text": "Being from similar field I want to share about the shipping containers that \n\nmanufacturing a container is not simply “fabricating a steel box.” \nA container intended for international shipping need some standards \n\n1. So many ISO codes (may be more than 10) \n2. CSC safety https://t.co/giWbaNJxg7",
+      "url": "https://x.com/suryachaudhary1/status/2087794512072700254"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "1450064107",
+        "name": "صناع الحلول الدولية | SMI LOGISTICS",
+        "username": "smi_logistics"
+      },
+      {
+        "id": "1535309081644179456",
+        "name": "M. König",
+        "username": "TradeSolverMK"
+      },
+      {
+        "id": "3192139901",
+        "name": "ARI Shipping Corporation",
+        "username": "ARIshippingCorp"
+      },
+      {
+        "id": "1330198578132897799",
+        "name": "IBRAHIM SALEH🖌️",
+        "username": "ialzin_"
+      },
+      {
+        "id": "384344148",
+        "name": "Capt. Sachin Chaudhary",
+        "username": "suryachaudhary1"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2091450823192502314",
+    "next_token": "b26v89c19zqg8o3juewhrduzo8jb9cfp9fqni1ixi0j25",
+    "oldest_id": "2086638876550914445",
+    "result_count": 5
+  }
+}

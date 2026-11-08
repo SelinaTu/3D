@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "updatedAt": "2026-10-17T00:10:02.519Z",
+  "auditPath": "data/calibration/source-baseline.json",
+  "manifest": {
+    "path": "data/demo-items.json",
+    "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf"
+  },
+  "sourceFiles": [
+    {
+      "role": "pdf",
+      "path": "data/reference/manual-11-container-baseline.pdf",
+      "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+      "bytes": 15103913
+    },
+    {
+      "role": "excel",
+      "path": "data/sample-cargo.xlsx",
+      "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+      "bytes": 46848
+    },
+    {
+      "role": "normalized-manifest",
+      "path": "data/demo-items.json",
+      "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+      "bytes": 2980564
+    }
+  ],
+  "config": {
+    "loadingProfile": "villa-pdf",
+    "containerDimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "containerMaxWeight": 28000,
+    "algorithm": "hybrid",
+    "timeLimit": 60000,
+    "weights": {
+      "containerCount": 100,
+      "volumeUtilization": 10,
+      "weightBalance": 1,
+      "stabilityPenalty": 10
+    },
+    "verticalSupport": "pdf-clearance-projection",
+    "offsetStackScope": "item-only"
+  },
+  "support": {
+    "gapMm": 5,
+    "mechanism": "pdf-clearance-projection",
+    "confirmed": true,
+    "userReply": "参考PDF如果没有就不用",
+    "definition": "PDF未注明隔垫，因此不增加实物垫料。5mm为几何预留；按上下件投影和名义高度差核算叠放载荷，不构成实际接触承托证明。",
+    "validationScope": "geometry-and-load-assumptions"
+  },
+  "confirmedRules": {
+    "cargoUnits": 1371,
+    "totalCargoWeightKg": 134777.37,
+    "clearanceMm": 5,
+    "clearanceAxes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "glassRackPairClearanceMm": 0,
+    "wallClearanceMm": 0,
+    "floorContactAllowed": true,
+    "w02HeightExceptionMm": 2560,
+    "centeredCavities": true,
+    "supportedItemsLargestFaceDown": true
+  },
+  "engineeringAssumptions": [
+    "28000kg为系统保守载重参数，非PDF载重额定值",
+    "80%实际底材承托面积及支撑凸包内重心为程序工程判据",
+    "5mm作用于货物真实实体之间；地板允许接触，贯通孔开放端面允许贴齐但不得突出",
+    "PDF几何间隙可按投影建立叠放载荷关系，无额外实物隔垫；实际承托未证实",
+    "是否可错位叠放仅约束该货物自身作上件的摆放；不额外禁止其顶部允许错位的货物跨多个下件。承托覆盖80%、重心与载荷仍检查。依据PDF第2页W09跨20/21/22架策略及可复现fixture。"
+  ],
+  "objective": {
+    "ordering": [
+      "allUnitsPresentAndIndependentlyValid",
+      "fewerContainers",
+      "smallerTailSolidVolume",
+      "higherMinimumFirstTenSolidUtilization"
+    ],
+    "metrics": [
+      "solidVolumeM3",
+      "envelopeVolumeM3",
+      "cargoUnits",
+      "weightKg"
+    ],
+    "renumberingAloneIsNotImprovement": true
+  },
+  "phase2": {
+    "authorized": true,
+    "instruction": "先复现原PDF固定11柜配货并验证，再调优，记录过程",
+    "startCondition": "all eleven fixed-allocation containers complete and independently valid under this same model version"
+  },
+  "baseline": {
+    "originalTailContainer": 11,
+    "originalTailSolidVolumeM3": 41.5491384465,
+    "permutationInvariantMinimumSolidVolumeM3": 39.312162536
+  },
+  "supportFeasibilityPath": "data/calibration/support-feasibility.json",
+  "modelVersion": "pdf-replay-v2-item-offset",
+  "replayStatus": "in-progress",
+  "optimizationUnlocked": false
+}

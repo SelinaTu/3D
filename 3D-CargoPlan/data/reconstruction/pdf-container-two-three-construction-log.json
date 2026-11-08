@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-17T11:54:56.848Z",
+  "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v2-contract.json",
+  "contractSha256": "b9d6731c3ce5ff617e9d011933854ed611b7bcf080d48916c76386ed009cab7f",
+  "auditSha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547",
+  "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+  "scope": "Original PDF containers 2 and 3 fixed allocations only; no cross-container moves or source-rule relaxation.",
+  "chronology": [
+    {
+      "step": 1,
+      "strategy": "20 flat frames in two ten-high piles plus a separate two-high lying pile",
+      "container2": {
+        "loaded": 118,
+        "expected": 124,
+        "validPlacedSubset": true,
+        "missing": "six W01 r22 sashes"
+      },
+      "container3": {
+        "loaded": 114,
+        "expected": 180,
+        "validPlacedSubset": true
+      },
+      "status": "rejected as incomplete; no full 11-container replay claim"
+    },
+    {
+      "step": 2,
+      "strategy": "10 lying frames in five two-high columns plus two flat bridge frames and a separate ten-flat-frame pile",
+      "reason": "Preserves max ten flat, strictly below 120kg lying top load, distributed bridge support; reduces long-block floor width from2200to2065mm.",
+      "container2": {
+        "loaded": 124,
+        "expected": 124,
+        "complete": true
+      },
+      "container3": {
+        "loaded": 144,
+        "expected": 180,
+        "validPlacedSubset": true,
+        "rejection": "Second 9.7kg trim item in first upper cavity exceeded 120kg cumulative top load of lower lying frame."
+      }
+    },
+    {
+      "step": 3,
+      "strategy": "Put one upper trim unit in first upper cavity and two in second; keep all 80% support, direction, nesting and load rules. Fill remaining same-allocation cargo through canPlaceAt.",
+      "container2": {
+        "loaded": 124,
+        "expected": 124,
+        "complete": true
+      },
+      "container3": {
+        "loaded": 180,
+        "expected": 180,
+        "complete": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "sourceContainerNumber": 2,
+      "path": "data/reconstruction/pdf-container-two-seed/result.json",
+      "resultSha256": "d5bc0ddca3a338d9942b6fb6a8f40b067277670587436f3ca72a0f83a8f9419c",
+      "units": 124,
+      "complete": true,
+      "independentValidation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+          "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+          "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+        ],
+        "scope": "geometry-and-load-assumptions"
+      },
+      "maximumLyingLongFrameTopLoadKg": 103.09677419354838,
+      "engineFiles": [
+        {
+          "path": "src/core/packing-utils.ts",
+          "sha256": "ed284f188f6d645e9d9a731f9ea9b50fef4ee7ead25e80a5b5897628e6f4f396"
+        },
+        {
+          "path": "src/core/solid-geometry.ts",
+          "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+        },
+        {
+          "path": "src/core/validation.ts",
+          "sha256": "dce7f72064593186e0685d90defaced5913b41f64e25218ed226df9e6fce8271"
+        },
+        {
+          "path": "src/core/loading-profile.ts",
+          "sha256": "ddf88e6210444fde9175bc568897cd689bc9e6dcb2d430bf4da29b575507f2db"
+        },
+        {
+          "path": "src/core/greedy-algorithm.ts",
+          "sha256": "68dec14019035ba7110313c45dd4fe5a9328710bc620d9f35a6c6839ef17f230"
+        },
+        {
+          "path": "src/core/solution-builder.ts",
+          "sha256": "5146c86a6a4e96638610f6812d1648b6fdac8633d7a3bee3cd4d5deda5993cbd"
+        },
+        {
+          "path": "src/core/research-calibration.ts",
+          "sha256": "f58b63e71279448efa9c77cb955ae70ea1c41d48f35b90d69d7d6fec452484f1"
+        },
+        {
+          "path": "src/types/packing.ts",
+          "sha256": "006afe6858100bb2fac81f679802faba291c8e2b6b86e03e0936ba0ebdd5b4c4"
+        },
+        {
+          "path": "src/scripts/reconstruct-pdf-two-three-seed.ts",
+          "sha256": "9276adff4406fed24e99dcd457a96a781ba5bcbf10c11d80d5fa5875e8dec426"
+        }
+      ]
+    },
+    {
+      "sourceContainerNumber": 3,
+      "path": "data/reconstruction/pdf-container-three-seed/result.json",
+      "resultSha256": "1a73629ff63c0b8781e4e80c369c227ab60b12b363c0d5485a3afcd4814d42d6",
+      "units": 180,
+      "complete": true,
+      "independentValidation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+          "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+          "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+        ],
+        "scope": "geometry-and-load-assumptions"
+      },
+      "maximumLyingLongFrameTopLoadKg": 112.79677419354839,
+      "engineFiles": [
+        {
+          "path": "src/core/packing-utils.ts",
+          "sha256": "ed284f188f6d645e9d9a731f9ea9b50fef4ee7ead25e80a5b5897628e6f4f396"
+        },
+        {
+          "path": "src/core/solid-geometry.ts",
+          "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+        },
+        {
+          "path": "src/core/validation.ts",
+          "sha256": "dce7f72064593186e0685d90defaced5913b41f64e25218ed226df9e6fce8271"
+        },
+        {
+          "path": "src/core/loading-profile.ts",
+          "sha256": "ddf88e6210444fde9175bc568897cd689bc9e6dcb2d430bf4da29b575507f2db"
+        },
+        {
+          "path": "src/core/greedy-algorithm.ts",
+          "sha256": "68dec14019035ba7110313c45dd4fe5a9328710bc620d9f35a6c6839ef17f230"
+        },
+        {
+          "path": "src/core/solution-builder.ts",
+          "sha256": "5146c86a6a4e96638610f6812d1648b6fdac8633d7a3bee3cd4d5deda5993cbd"
+        },
+        {
+          "path": "src/core/research-calibration.ts",
+          "sha256": "f58b63e71279448efa9c77cb955ae70ea1c41d48f35b90d69d7d6fec452484f1"
+        },
+        {
+          "path": "src/types/packing.ts",
+          "sha256": "006afe6858100bb2fac81f679802faba291c8e2b6b86e03e0936ba0ebdd5b4c4"
+        },
+        {
+          "path": "src/scripts/reconstruct-pdf-two-three-seed.ts",
+          "sha256": "9276adff4406fed24e99dcd457a96a781ba5bcbf10c11d80d5fa5875e8dec426"
+        }
+      ]
+    }
+  ]
+}

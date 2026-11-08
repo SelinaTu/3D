@@ -1,0 +1,586 @@
+{
+  "data": [
+    {
+      "author_id": "719566939",
+      "created_at": "2026-08-09T13:30:41.000Z",
+      "edit_history_tweet_ids": [
+        "2086445062574231654"
+      ],
+      "id": "2086445062574231654",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 27,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Weekly Market Outlook — Week of August 10, 2026\n\nLast Week in Review:\nGlobal container spot rates snapped a three-week slide, with Drewry’s World Container Index ticking up 1% to $4,297/FEU. Transpacific lanes led the rebound (Shanghai-to-NY up 4% to $7,893/FEU; Shanghai-to-LA up https://t.co/rFN0Onc6Rg",
+      "url": "https://x.com/EGoh3SAM/status/2086445062574231654"
+    },
+    {
+      "article": {
+        "title": "Rates Are Falling and Rising at the Same Time — What That Actually Tells You"
+      },
+      "author_id": "1983144146811662338",
+      "created_at": "2026-08-05T10:17:17.000Z",
+      "edit_history_tweet_ids": [
+        "2084946837870432636"
+      ],
+      "id": "2084946837870432636",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/DHFoRdZ20d",
+      "url": "https://x.com/conteu_io/status/2084946837870432636"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-03T11:24:21.000Z",
+      "edit_history_tweet_ids": [
+        "2084238939410641329"
+      ],
+      "id": "2084238939410641329",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 129,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2084238937137287534",
+          "type": "replied_to"
+        }
+      ],
+      "text": "5. BLANK SAILINGS HIT 8% AS ROTTERDAM AND SINGAPORE STAY BACKED UP\n\nDrewry data shows blank sailings running at an 8% cancellation rate through mid-August, concentrated on transpacific eastbound legs, while Rotterdam and Singapore dwell times stay elevated on Cape-route bunching.",
+      "url": "https://x.com/Shipsnapxx/status/2084238939410641329"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-27T23:32:41.000Z",
+      "edit_history_tweet_ids": [
+        "2093119539873779905"
+      ],
+      "id": "2093119539873779905",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 74,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2093119537214611948",
+          "type": "replied_to"
+        }
+      ],
+      "text": "7. DREWRY'S WCI HOLDS AT $4,526 AS 49 BLANK SAILINGS RUN THROUGH LATE SEPTEMBER\n\nThe August 20 print, still the latest confirmed read, shows the WCI up 4% on Transpacific strength, with 49 blank sailings locked in across weeks 35-39, a 6% cancellation rate. Nearly 50",
+      "url": "https://x.com/Shipsnapxx/status/2093119539873779905"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-03T23:48:05.000Z",
+      "edit_history_tweet_ids": [
+        "2084426109463245018"
+      ],
+      "id": "2084426109463245018",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 46,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2084426106636325358",
+          "type": "replied_to"
+        }
+      ],
+      "text": "4. TRANSPACIFIC BLANK SAILINGS CLIMB WHILE ASIA EUROPE CUTS EASE OFF\n\nDrewry's capacity tracker shows eight blank sailings scheduled on the transpacific next week, up from seven, while Asia Europe cuts fall to three from four. The split shows carriers defending transpacific rates",
+      "url": "https://x.com/Shipsnapxx/status/2084426109463245018"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-28T11:15:18.000Z",
+      "edit_history_tweet_ids": [
+        "2093296359512096795"
+      ],
+      "id": "2093296359512096795",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 18,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2093296356433777143",
+          "type": "replied_to"
+        }
+      ],
+      "text": "6. DREWRY'S WCI HOLDS AT $4,526 AS 49 BLANK SAILINGS RUN THROUGH LATE SEPTEMBER\n\nThe August 20 print, still the latest confirmed read, shows the WCI up 4% on Transpacific strength, with 49 blank sailings locked in across weeks 35-39, a 6% cancellation rate. Nearly 50",
+      "url": "https://x.com/Shipsnapxx/status/2093296359512096795"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-27T11:56:43.000Z",
+      "edit_history_tweet_ids": [
+        "2092944393938604215"
+      ],
+      "id": "2092944393938604215",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2092944391644278884",
+          "type": "replied_to"
+        }
+      ],
+      "text": "6. DREWRY'S WCI HOLDS AT $4,526 AS 49 BLANK SAILINGS RUN THROUGH LATE SEPTEMBER\n\nThe August 20 print, still the latest confirmed read (today's Thursday release is due but not yet published), shows the WCI up 4% on Transpacific strength, with 49 blank sailings now locked in across",
+      "url": "https://x.com/Shipsnapxx/status/2092944393938604215"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-17T23:32:47.000Z",
+      "edit_history_tweet_ids": [
+        "2089495686467432922"
+      ],
+      "id": "2089495686467432922",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2089495683598590452",
+          "type": "replied_to"
+        }
+      ],
+      "text": "5. DREWRY'S WCI HITS $4,339, 49 BLANK SAILINGS PLANNED THROUGH MID-SEPTEMBER\n\nWCI up 1% to $4,339/40ft (Aug 13); Shanghai-NY +10% to $8,706, Shanghai-LA +6% to $6,244. 49 blank sailings scheduled through Sept 20, a 7% cancellation rate. Nearly 50 planned cuts over five weeks",
+      "url": "https://x.com/Shipsnapxx/status/2089495686467432922"
+    },
+    {
+      "author_id": "727809231391473664",
+      "created_at": "2026-08-25T22:45:03.000Z",
+      "edit_history_tweet_ids": [
+        "2092382778293666133"
+      ],
+      "id": "2092382778293666133",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 289,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "#MSC announces #Golden #Week #blank sailings\n\nhttps://t.co/olSThXmCVu https://t.co/4rXgiXHNT5",
+      "url": "https://x.com/container_news/status/2092382778293666133"
+    },
+    {
+      "author_id": "727809231391473664",
+      "created_at": "2026-08-23T13:00:19.000Z",
+      "edit_history_tweet_ids": [
+        "2091510848611066049"
+      ],
+      "id": "2091510848611066049",
+      "in_reply_to_user_id": "380801406",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 290,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@maersk announces #Golden #Week #blank #sailings\n\nhttps://t.co/5j847FuFGF https://t.co/uq0VCS7fr4",
+      "url": "https://x.com/container_news/status/2091510848611066049"
+    },
+    {
+      "author_id": "2069202379573248001",
+      "created_at": "2026-08-26T23:25:01.000Z",
+      "edit_history_tweet_ids": [
+        "2092755224385700085"
+      ],
+      "id": "2092755224385700085",
+      "in_reply_to_user_id": "2069202379573248001",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 26,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2092755222070505763",
+          "type": "replied_to"
+        }
+      ],
+      "text": "7. DREWRY CONFIRMS 49 BLANK SAILINGS THROUGH LATE SEPTEMBER AS THE WCI HOLDS AT $4,526\n\nThe August 20 print (still the latest, next release expected later today), shows the WCI up 4% on Transpacific strength, while Drewry separately confirmed 49 blank sailings scheduled across",
+      "url": "https://x.com/Shipsnapxx/status/2092755224385700085"
+    },
+    {
+      "author_id": "2014924376580489217",
+      "created_at": "2026-08-05T14:13:28.000Z",
+      "edit_history_tweet_ids": [
+        "2085006278313841121"
+      ],
+      "id": "2085006278313841121",
+      "in_reply_to_user_id": "2014924376580489217",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2085006179487678947",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Carrier blank sailings are the key variable to halt price drops. Have you spotted any capacity reduction moves lately?",
+      "url": "https://x.com/bizlysis/status/2085006278313841121"
+    },
+    {
+      "author_id": "1229531047416795136",
+      "created_at": "2026-08-25T15:01:07.000Z",
+      "edit_history_tweet_ids": [
+        "2092266026687692926"
+      ],
+      "id": "2092266026687692926",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "On the wire — MSC announces Golden Week blank sailings (via Container News)\nhttps://t.co/dwXeH4Snxs\n#Logistics #SupplyChain https://t.co/KMd9lprilq",
+      "url": "https://x.com/riyadhcargo/status/2092266026687692926"
+    },
+    {
+      "author_id": "1574448577438314497",
+      "created_at": "2026-08-07T06:00:36.000Z",
+      "edit_history_tweet_ids": [
+        "2085607020275630159"
+      ],
+      "id": "2085607020275630159",
+      "in_reply_to_user_id": "765430697041461249",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2085605803252236585",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@heimbergecon Lived this on a trade finance desk. Q4 2020 meant blank sailings turning into rolled cargo while spot rates climbed weekly. Good to see the causal chain formalised.",
+      "url": "https://x.com/clairefanfun1/status/2085607020275630159"
+    },
+    {
+      "author_id": "2014924376580489217",
+      "created_at": "2026-08-04T10:36:41.000Z",
+      "edit_history_tweet_ids": [
+        "2084589334544761247"
+      ],
+      "id": "2084589334544761247",
+      "in_reply_to_user_id": "2014924376580489217",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2084579773855207894",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Key risk: ad‑hoc carrier blank sailings could reverse this downward trend. We track blankings &amp; spot rates live on our platform. What pricing are you seeing in practice?",
+      "url": "https://x.com/bizlysis/status/2084589334544761247"
+    },
+    {
+      "author_id": "3192139901",
+      "created_at": "2026-08-04T17:02:41.000Z",
+      "edit_history_tweet_ids": [
+        "2084686471340892520"
+      ],
+      "id": "2084686471340892520",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "Transpacific spot rates surged 12%+ in August with liner price hikes and blank sailings. Lock in your rates with ARI Shipping's 40+ years of expertise. #OceanFreight #Logistics https://t.co/bIxVIGpLBQ",
+      "url": "https://x.com/ARIshippingCorp/status/2084686471340892520"
+    },
+    {
+      "author_id": "1535971514436157442",
+      "created_at": "2026-08-17T21:34:40.000Z",
+      "edit_history_tweet_ids": [
+        "2089465963351531777"
+      ],
+      "id": "2089465963351531777",
+      "in_reply_to_user_id": "760164753792757760",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2089464823511719969",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@SupplyChainDive Blank sailings +215% vs 2019 alors que la capacité augmente 🤔 Les transporteurs font quoi qu'ils veulent avec l'offre. Les manufacturiers d'ici vont encore trinquer.",
+      "url": "https://x.com/LucOnFinance/status/2089465963351531777"
+    },
+    {
+      "author_id": "1207884269424529408",
+      "created_at": "2026-08-17T19:02:09.000Z",
+      "edit_history_tweet_ids": [
+        "2089427578838802674"
+      ],
+      "id": "2089427578838802674",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Blank sailings curb ocean capacity gains https://t.co/deHYzrOzhB https://t.co/MuLePaAKvx",
+      "url": "https://x.com/DMA_SoCal/status/2089427578838802674"
+    },
+    {
+      "author_id": "292050483",
+      "created_at": "2026-08-24T01:00:01.000Z",
+      "edit_history_tweet_ids": [
+        "2091691969055711604"
+      ],
+      "id": "2091691969055711604",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Blank sailings to Australia: down to 6.0%. Sounds calm.\n\nIt is actually typhoon delays that are driving carriers’ capacity management.\n\nFull update: https://t.co/2VjZ4DDiMr\n\n#AustraliaFreight #SupplyChain #FreightMarket https://t.co/oNU2BJZm6I",
+      "url": "https://x.com/Magellan_AU/status/2091691969055711604"
+    },
+    {
+      "author_id": "538253067",
+      "created_at": "2026-08-06T14:30:17.000Z",
+      "edit_history_tweet_ids": [
+        "2085372896424173814"
+      ],
+      "id": "2085372896424173814",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Blank sailings have shifted from being an occasional response to weak demand to a core capacity-management tool, with carriers routinely cancelling departures to keep utilisation high and rates from falling too quickly. \nhttps://t.co/vQeRNCtQnl",
+      "url": "https://x.com/MetroShipping/status/2085372896424173814"
+    },
+    {
+      "author_id": "2028335161268711426",
+      "created_at": "2026-08-04T05:36:51.000Z",
+      "edit_history_tweet_ids": [
+        "2084513879577837830"
+      ],
+      "id": "2084513879577837830",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 21,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Ocean rates are easing, but capacity remains managed.\n\nDrewry WCI fell 3% to USD 4,255/40FT, while 58 blank sailings are expected over the next five weeks—60% on the eastbound Transpacific.\n\nBook urgent cargo early.\n\n#VMSGroup #Shipping #Logistics https://t.co/EV2KCHwOJr",
+      "url": "https://x.com/VMSGROUP1995/status/2084513879577837830"
+    },
+    {
+      "author_id": "1635091135264849922",
+      "created_at": "2026-08-25T14:11:58.000Z",
+      "edit_history_tweet_ids": [
+        "2092253654451433797"
+      ],
+      "id": "2092253654451433797",
+      "in_reply_to_user_id": "20148724",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2092237298863587509",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@LloydsList Shanghai-US West Coast at $6,765. North Europe at $4,663. Transpacific gains are masking Europe's weakness. I've watched this divergence widen for seven weeks. Without blank sailings, Asia-Europe margins compress further.",
+      "url": "https://x.com/caf_enthusiast/status/2092253654451433797"
+    },
+    {
+      "author_id": "292050483",
+      "created_at": "2026-08-27T01:00:01.000Z",
+      "edit_history_tweet_ids": [
+        "2092779130924442010"
+      ],
+      "id": "2092779130924442010",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "This month in freight: SE Asia rates surge. New 12.5% US tariff lands.\n\nBlank sailings fall to 6.0%, but typhoon delays are doing the work, not calmer conditions.\n\nBook a logistics review: https://t.co/50CQeAa8c9\n\n#FreightMarket #AustraliaFreight #SupplyChain https://t.co/2AWQxCxcz7",
+      "url": "https://x.com/Magellan_AU/status/2092779130924442010"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "719566939",
+        "name": "Emily Goh Hoon Nee",
+        "username": "EGoh3SAM"
+      },
+      {
+        "id": "1983144146811662338",
+        "name": "Conteu",
+        "username": "conteu_io"
+      },
+      {
+        "id": "2069202379573248001",
+        "name": "Shipsnap 2",
+        "username": "Shipsnapxx"
+      },
+      {
+        "id": "727809231391473664",
+        "name": "Container-News",
+        "username": "container_news"
+      },
+      {
+        "id": "2014924376580489217",
+        "name": "Bizlysis HK",
+        "username": "bizlysis"
+      },
+      {
+        "id": "1229531047416795136",
+        "name": "RIYADHCARGO.COM - Middle East Freight Intelligence",
+        "username": "riyadhcargo"
+      },
+      {
+        "id": "1574448577438314497",
+        "name": "ClaireFanFun",
+        "username": "clairefanfun1"
+      },
+      {
+        "id": "3192139901",
+        "name": "ARI Shipping Corporation",
+        "username": "ARIshippingCorp"
+      },
+      {
+        "id": "1535971514436157442",
+        "name": "LucN Markets",
+        "username": "LucOnFinance"
+      },
+      {
+        "id": "1207884269424529408",
+        "name": "Distribution Management Association",
+        "username": "DMA_SoCal"
+      },
+      {
+        "id": "292050483",
+        "name": "Magellan Logistics",
+        "username": "Magellan_AU"
+      },
+      {
+        "id": "538253067",
+        "name": "Metro",
+        "username": "MetroShipping"
+      },
+      {
+        "id": "2028335161268711426",
+        "name": "VMS GROUP",
+        "username": "VMSGROUP1995"
+      },
+      {
+        "id": "1635091135264849922",
+        "name": "Charlie Charmeleon",
+        "username": "caf_enthusiast"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2093296359512096795",
+    "next_token": "b26v89c19zqg8o3juewhc88gfhfw3al5vqcecznzwbx4t",
+    "oldest_id": "2084238939410641329",
+    "result_count": 23
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-18T02:01:53.318Z",
+  "phase": "verified-improved-eleven-container-round-two-delivery",
+  "contract": "data/reconstruction/model-v3-contract.json",
+  "contractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+  "calibrationHash": "2ef3676320217eb6a89f97f5e887eb4409a5d6b957ac9ea41098de3e51a0e224",
+  "globalReallocationAuthorized": true,
+  "originalReplayGateSatisfied": false,
+  "globalObjectiveAchieved": true,
+  "decisionSource": "Agent workflow decision within the user-authorized continued optimization scope; not a claim that all original containers were reproduced.",
+  "userAuthorization": "好的取消这个规则，继续推进，我不是一定要10柜子，而是要比眼下的11柜更优",
+  "reason": "Bounded fixed-allocation attempts are recorded; after removing the extra 80 percent assumption, continue research using verified components and permit cross-container moves to seek a complete better plan instead of repeating unresolved fixed manifests indefinitely.",
+  "preservedRules": "Only the extra 80 percent area fraction was removed; source identity, dimensions, orientation, cavity authorization, loads, counts, clearance, positive material projection and supported centroid remain.",
+  "objective": [
+    "all1371UnitsUniqueAndIndependentlyValid",
+    "fewerThan11ContainersOrSubstantiallySmallerTailWithin11",
+    "higherMinimumFirstTenSolidUtilization",
+    "excludeRenumberingAlone"
+  ],
+  "acceptance": {
+    "fixedReplayCompletionClaimed": false,
+    "partialCandidatesDeliverable": false,
+    "globalOptimalityProven": false,
+    "completeUnitsVerified": 1371,
+    "canClaimTailConsolidation": true,
+    "front10BottleneckImproved": true
+  },
+  "frozenContractUnmodified": true,
+  "updatedAt": "2026-10-18T07:58:10.700Z",
+  "currentBest": {
+    "at": "2026-10-18T07:58:10.700Z",
+    "path": "data/optimization/v3-r2-delivery/current-best.json",
+    "sha256": "fa4fa9261fdcc0c7e1a852eb3455299f2e268695d9690a379e950058c68014d5",
+    "physicalLayoutSha256": "edfee104844d2e8230c1417bd1eda12673b8268596691527342b09663375ac82",
+    "containers": 11,
+    "placedItems": 1371,
+    "unpackedItems": 0,
+    "independentlyValid": true,
+    "tailSolidVolumeM3": 35.58199734,
+    "front10MinimumSolidUtilization": 0.6621846212413793,
+    "globalOptimalityProven": false
+  },
+  "previousBest": {
+    "at": "2026-10-18T03:02:46.403Z",
+    "path": "data/optimization/v3-tail-independent/best-complete.json",
+    "sha256": "0a274506802290cf613caac102454d81a90ca458beb6e6088986e118d148f897",
+    "physicalLayoutSha256": "b6728a6fad670bb1bf0eb3bc51ab2fb652007212d9bdcebce277116a60edfaef",
+    "containers": 11,
+    "placedItems": 1371,
+    "unpackedItems": 0,
+    "independentlyValid": true,
+    "tailSolidVolumeM3": 36.71675418,
+    "front10MinimumSolidUtilization": 0.6514719775632184,
+    "originalSortedTailSolidVolumeM3": 39.312162536,
+    "originalFront10MinimumSolidUtilization": 0.6352022895019157,
+    "globalOptimalityProven": false
+  },
+  "latestContinuationAuthorization": "那我们继续吧"
+}

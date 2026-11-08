@@ -1,0 +1,53 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "official_secondary",
+  "port_id": "DEHAM",
+  "port_name": "Hamburg",
+  "country": "DE",
+  "tier": "P0",
+  "fine_profile": "EU-DE",
+  "vgm": {
+    "required_for_load": true
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    },
+    {
+      "id": "de_bkatv",
+      "severity": "warn",
+      "title": "BKatV overweight % schedule (driver & owner)"
+    }
+  ],
+  "fine_refs": [
+    {
+      "id": "EU-DE-BKAT",
+      "currency": "EUR",
+      "formula_note": "Example >7.5t: driver ~€30…€380; owner ~€35…€425 — re-check current Anhang",
+      "sources": [
+        "https://www.gesetze-im-internet.de/bkatv_2013/anhang_2.html",
+        "https://www.kba.de/DE/Themen/ZentraleRegister/FAER/Punktekatalog/achslast_gesamtgewicht_anhaengelast_fahrlaessig.html"
+      ]
+    }
+  ],
+  "commercial_cost_hints": [],
+  "flags": {
+    "rail_cre_eu_hub": true
+  },
+  "notes": [],
+  "sources": [
+    {
+      "url": "https://www.hafen-hamburg.de/",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/hamburg.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

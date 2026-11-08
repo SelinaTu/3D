@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-31T17:14:54.740088+08:00",
+  "installed_app": "/Applications/CargoPlan.app",
+  "version": "1.7.2",
+  "build": "9",
+  "binary_sha256": "2460d6a40731c1cf75d5ed10a18ae000d99b7e751256516ad3413fb931ce73e2",
+  "signature_verified": true,
+  "web_assets_sha256": {
+    "index-ClDgHwjF.js": "544947946bca536812d41d6aa0c2b2b6fcde16bc9c188877b5374c322050b2e1"
+  },
+  "baseline": {
+    "source": "/Users/lege/Documents/ChatGPT/集装箱运筹/output/reports/iraq-villa-current-best.plan.json",
+    "bundled_asset": "/Applications/CargoPlan.app/Contents/Resources/runtime/dist/assets/iraq-villa-current-best.plan-DWRu325L.json",
+    "sha256": "f9c84f05484efcb01f4a50270d402e5d741d6320c0df4028c4714650d6d61e32",
+    "byte_identical_to_html_source": true,
+    "containers": 11,
+    "unique_items": 1371,
+    "default_cabinet": 1,
+    "default_pieces": 93,
+    "cabinet_10_pieces": 238,
+    "all_item_poses_match_native_frozen_solution": true
+  },
+  "checks": {
+    "cancel-smoke": "NATIVE_CANCEL_OK before_start=true running=true stale_callback_ignored=true cargo_preserved=true",
+    "drag-smoke": "NATIVE_DRAG_SMOKE_OK picked_cargo=true moved=true click_preserved=true",
+    "edit-preview-smoke": "NATIVE_EDIT_PREVIEW_OK ended_editing=true pending=true continued_width_height=true no_auto_solve=true cargo_conserved=true persisted=true",
+    "full-editor-smoke": "NATIVE_EDITOR_ROUNDTRIP_OK height_changed=true weight=41 max_stack_weight=123 pending=true",
+    "manual-route-smoke": "NATIVE_MANUAL_ROUTE_OK source=empty manual_pickups=2 destinations=assigned stops=4 human_access=true audit=valid explicit_calculation=true",
+    "progress-smoke": "NATIVE_PROGRESS_OK pieces=1371 containers=11 pending=0 events=3 seconds=1.344 quick_no_full_search=true final_percent=100",
+    "resize-smoke": "NATIVE_RESIZE_OK inline=true outside_to_pending=1 conserved=2 undo=true handle_drag=true no_auto_compute=true",
+    "route-demo-smoke": "NATIVE_ROUTE_DEMO_OK visible_entry=true dirty_assembly_allowed=true pending_preserved=5 source=html_iraq_baseline cabinets=11 catalog=1371 initial_inventory=93 stops=5 audit=valid animation=moving context_refresh=preserved return_to_generator=visible",
+    "self-check": "ASSEMBLY_SELF_CHECK_OK",
+    "shell-smoke": "NATIVE_SHELL_SMOKE_OK tabs=5 assistant_answer=true knowledge_catalog=true windows=1 preserved=true web_theme=dark native_globe=true native_cargo=238 five_stop=complete retained_route=true",
+    "support-smoke": "NATIVE_SUPPORT_SMOKE_OK floating_four_workspaces=true retained_history=true local_tianjin=true html_native_same_dossier=true one_window=true cargo_unchanged=true",
+    "ui-smoke": "ASSEMBLY_UI_SMOKE_OK edited_pending=1 conserved=7 async_repack=ok",
+    "vehicle-route-smoke": "NATIVE_VEHICLE_ROUTE_OK preset=curtain-13 dimensions=13000x2450x2600 side_access=true stops=4 audit=valid"
+  },
+  "unit_tests": {
+    "files": 37,
+    "tests": 269,
+    "result": "passed"
+  },
+  "lint_typecheck_build": "passed",
+  "user_workspace": {
+    "backup": "before-upgrade-workspace.json",
+    "pending_at_backup": 8,
+    "pending_now": 11,
+    "same_values_at_snapshot": false,
+    "note": "User operated the main app during QA; validation modes and the isolated QA app never write this file."
+  },
+  "gui": {
+    "window": "isolated QA copy of installed bundle; user main app left available",
+    "source": "same HTML Iraq baseline",
+    "one_click_generation": true,
+    "seed": 4191401434,
+    "stops": 5,
+    "initial_items": 93,
+    "unload_operations": 18,
+    "pickup_operations": 10,
+    "all_stations_complete": true,
+    "animation_played_and_paused": true,
+    "cabinet_menu_all_11_visible": true,
+    "cabinet_selection_binding_seen": "cabinet 5 / 86 pieces",
+    "qa_closed_after_validation": true
+  },
+  "screenshots": [
+    "iraq-full-cabinet-playback.png"
+  ]
+}

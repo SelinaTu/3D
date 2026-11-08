@@ -1,0 +1,31 @@
+{
+  "_comment": "#created 11/08/2026",
+  "product": {
+    "english": "3D CargoPlan",
+    "chinese": "3D舱策"
+  },
+  "verifiedAt": "2026-11-08T10:11:22.518766+00:00",
+  "scope": "Visible brand, titles, navigation, helper and native-source display names; existing IDs, schemas, paths and installed binaries keep their current values.",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "tests": {
+      "passed": 275,
+      "files": 39
+    },
+    "builds": [
+      "web",
+      "standalone globe",
+      "backend",
+      "deployed website"
+    ],
+    "browser": {
+      "fullChecks": 8,
+      "finalHomeCheck": true,
+      "bundleResources": 15,
+      "pageErrors": 0,
+      "failedRequests": 0
+    }
+  },
+  "native": "Mac and Electron display-name source updated; existing installed Mac binary was not rebuilt in this Windows workspace."
+}

@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "author_id": "186810019",
+      "created_at": "2026-09-20T07:43:09.000Z",
+      "edit_history_tweet_ids": [
+        "2101577889795674509"
+      ],
+      "id": "2101577889795674509",
+      "in_reply_to_user_id": "2101568266606936064",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 28,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2101576297138819272",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@cetinsercan1 Konteyner tarafında da benzer bir problem var. Shipper'ın yanlış ve eksik verified gross mass beyanı yalnızca bir ticari dispute değil. SOLAS Chapter 6 kapsamında VgM meselesi doğrudan gemi, terminal ve Cargo Chain'in güvenliğini etkiliyor. Benim açımdan kritik nokta şu,",
+      "url": "https://x.com/igkowners/status/2101577889795674509"
+    },
+    {
+      "author_id": "2066471791522979840",
+      "created_at": "2026-09-22T09:43:01.000Z",
+      "edit_history_tweet_ids": [
+        "2102332834711032172"
+      ],
+      "id": "2102332834711032172",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "SOLAS Chapter VI governs cargo information, VGM, stowage, securing, solid bulk cargoes and grain.\n\nThe new Tide Signal guide also covers CSM, IMSBC, BLU Code and the 2026 PSC cargo-securing focus.\n\nhttps://t.co/dfWTWu8CIX\n\n#SOLAS #MaritimeSafety",
+      "url": "https://x.com/TideSignal/status/2102332834711032172"
+    },
+    {
+      "author_id": "1641309654226731010",
+      "created_at": "2026-09-11T08:42:33.000Z",
+      "edit_history_tweet_ids": [
+        "2098331347777658999"
+      ],
+      "id": "2098331347777658999",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "SOLAS VGM supports safe stowage; it does not prove SKU count, product quality or cargo compliance. Keep those records separate.\n\n🌐 https://t.co/WOKwUhHE8D\n🛠️ https://t.co/pNZ0WWQC4x\n💬 https://t.co/0lHRv35Sl8\n📘 https://t.co/bUBtOpYdOW https://t.co/mr0Rv2dt9V",
+      "url": "https://x.com/ChenJac43616959/status/2098331347777658999"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "186810019",
+        "name": "Gizay ⚓️",
+        "username": "igkowners"
+      },
+      {
+        "id": "2066471791522979840",
+        "name": "Tide Signal",
+        "username": "TideSignal"
+      },
+      {
+        "id": "1641309654226731010",
+        "name": "Jackie-Chen",
+        "username": "ChenJac43616959"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2102332834711032172",
+    "next_token": "b26v89c19zqg8o3juezissu50llgsc7wxnhf73v39p7r1",
+    "oldest_id": "2098331347777658999",
+    "result_count": 3
+  }
+}

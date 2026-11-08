@@ -1,0 +1,127 @@
+{
+  "schema": "cargoplan.route-problem/v1",
+  "seed": 0,
+  "door": "x-max",
+  "initial": {
+    "id": "same-vehicle",
+    "dimensions": {
+      "length": 6000,
+      "width": 2400,
+      "height": 2600
+    },
+    "maxWeight": 10000,
+    "items": [
+      {
+        "item": {
+          "id": "delivery",
+          "name": "本站交付木箱",
+          "category": "木箱",
+          "dimensions": {
+            "length": 800,
+            "width": 800,
+            "height": 800
+          },
+          "weight": 100,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "constraints": {
+            "horizontalRotations": [
+              0
+            ]
+          },
+          "canStackOnTop": true,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#729ddd",
+          "rawData": {}
+        },
+        "position": {
+          "x": 500,
+          "y": 0,
+          "z": 0
+        },
+        "orientation": "standing",
+        "rotation": 0,
+        "actualDimensions": {
+          "length": 800,
+          "width": 800,
+          "height": 800
+        }
+      },
+      {
+        "item": {
+          "id": "later",
+          "name": "后站保留木箱",
+          "category": "木箱",
+          "dimensions": {
+            "length": 800,
+            "width": 800,
+            "height": 800
+          },
+          "weight": 100,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "constraints": {
+            "horizontalRotations": [
+              0
+            ]
+          },
+          "canStackOnTop": true,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#729ddd",
+          "rawData": {}
+        },
+        "position": {
+          "x": 5000,
+          "y": 0,
+          "z": 0
+        },
+        "orientation": "standing",
+        "rotation": 0,
+        "actualDimensions": {
+          "length": 800,
+          "width": 800,
+          "height": 800
+        }
+      }
+    ],
+    "totalWeight": 200,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  "vehicle": {
+    "id": "rear",
+    "name": "后门厢车",
+    "dimensions": {
+      "length": 6000,
+      "width": 2400,
+      "height": 2600
+    },
+    "maxWeight": 10000,
+    "doors": [
+      "x-max"
+    ]
+  },
+  "handling": {
+    "mode": "mechanical",
+    "aisleWidthMm": 600,
+    "aisleHeightMm": 1800,
+    "reachMm": 800,
+    "maxReachHeightMm": 2100
+  },
+  "description": "同一实际装载，禁止出发前重排，用来隔离比较后门与侧面抽取。导入后取消勾选出发前优化。",
+  "stops": [
+    {
+      "name": "本站交付",
+      "unloadIds": [
+        "delivery"
+      ],
+      "pickup": []
+    }
+  ]
+}

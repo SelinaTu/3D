@@ -1,0 +1,48 @@
+{
+  "container": {
+    "id": "container-1",
+    "dimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "maxWeight": 28000,
+    "loadingRules": {
+      "clearanceMm": 5,
+      "supportGapMm": 5,
+      "supportMechanism": "pdf-clearance-projection",
+      "heightExceptions": {
+        "门窗:W02:r16:u72": 2560,
+        "门窗:W02:r16:u73": 2560,
+        "门窗:W02:r16:u74": 2560,
+        "门窗:W02:r16:u75": 2560,
+        "门窗:W02:r16:u76": 2560,
+        "门窗:W02:r16:u77": 2560,
+        "门窗:W02:r16:u78": 2560,
+        "门窗:W02:r16:u79": 2560,
+        "门窗:W02:r16:u80": 2560,
+        "门窗:W02:r16:u81": 2560,
+        "门窗:W02:r16:u82": 2560,
+        "门窗:W02:r16:u83": 2560,
+        "门窗:W02:r16:u84": 2560,
+        "门窗:W02:r16:u85": 2560,
+        "门窗:W02:r16:u86": 2560,
+        "门窗:W02:r16:u87": 2560,
+        "门窗:W02:r16:u88": 2560,
+        "门窗:W02:r16:u89": 2560,
+        "门窗:W02:r16:u90": 2560,
+        "门窗:W02:r16:u91": 2560,
+        "门窗:W02:r16:u92": 2560
+      },
+      "offsetStackScope": "item-only",
+      "supportCriterion": "centroid-hull"
+    },
+    "items": [],
+    "totalWeight": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  "attempts": [],
+  "accepted": 0,
+  "rejected": 0
+}

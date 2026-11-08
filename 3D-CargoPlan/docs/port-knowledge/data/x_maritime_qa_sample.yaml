@@ -1,0 +1,101 @@
+#created 11/08/2026
+# X maritime QA sample — Port Knowledge v1.1
+# as_of: 2026-10-30 Asia/Shanghai
+# post urls: https://x.com/i/status/{id} or https://x.com/{user}/status/{id}
+
+as_of: "2026-10-30"
+method:
+  tools: [x.search_posts_all, x.get_posts_counts_recent]
+  window: "archive 2023-01 / 2024-01 / 2024-06 through 2026-10; recent counts last 7d"
+  max_results_per_call: 25
+  queries_run: 11
+  approx_hits_before_dedupe: 140
+  labeled_examples: 40
+  limitations:
+    - Not exhaustive of X archive
+    - Heavy promo/noise (ISPM15 ads; ZH 超重柜 polluted)
+    - Rp50 miliar ODOL headlines unverified as statute
+
+recent_7d_counts:
+  - query: 'ODOL denda OR overweight kontainer OR "Tanjung Priok" ODOL -is:retweet'
+    total_tweet_count: 8
+  - query: '"VGM" (mismatch OR overweight OR fine OR 罚款) (container OR 柜) -is:retweet'
+    total_tweet_count: 0
+  - query: '(demurrage OR detention OR 滞箱 OR 滞港) (container OR 集装箱) -is:retweet'
+    total_tweet_count: 29
+
+clusters:
+  - id: C4_ODOL_ID
+    label: Indonesia ODOL / Zero ODOL
+    approx_page_hits: 47
+    examples:
+      - {id: "1933815591330345361", url: "https://x.com/kompascom/status/1933815591330345361", kind: media, lang: in, topic: "Zero ODOL from 2025-06-01"}
+      - {id: "2014548688652455983", url: "https://x.com/pasfm/status/2014548688652455983", kind: media, lang: in, topic: "2026 trial enforcement toward 2027"}
+      - {id: "1936104291959455936", url: "https://x.com/soberbuthappy/status/1936104291959455936", kind: organic, lang: in, topic: "driver criminalization Pasal 307 Rp500rb"}
+      - {id: "2086744451846897746", url: "https://x.com/media_akurat/status/2086744451846897746", kind: media, lang: in, topic: "fines from 2027 — amount 待核实"}
+      - {id: "2105196446722953302", url: "https://x.com/cnbcindonesia/status/2105196446722953302", kind: media, lang: in, topic: "headline Rp50 M — unverified statute"}
+      - {id: "2105569459163291836", url: "https://x.com/Harian_Jogja/status/2105569459163291836", kind: media, lang: in, topic: "headline Rp50 miliar — unverified"}
+      - {id: "1947967363770647030", url: "https://x.com/Bintanginnn/status/1947967363770647030", kind: organic, lang: in, topic: "port load vs ODOL company pressure"}
+      - {id: "1914544601077309726", url: "https://x.com/Adetyagung/status/1914544601077309726", kind: organic, lang: in, topic: "Priok-Japek ODOL geography"}
+      - {id: "2099498527340855537", url: "https://x.com/SINDOnews/status/2099498527340855537", kind: media, lang: in, topic: "ETLE ODOL on toll"}
+      - {id: "1920653515833188760", url: "https://x.com/kumparan/status/1920653515833188760", kind: media, lang: in, topic: "license revoke threat"}
+
+  - id: C1_DEMURRAGE_DETENTION
+    label: Demurrage vs Detention vs storage
+    approx_page_hits: 40
+    examples:
+      - {id: "2096272171610112137", url: "https://x.com/koval_global/status/2096272171610112137", kind: promo, lang: en, topic: "demurrage inside vs detention outside"}
+      - {id: "2063223825366466761", url: "https://x.com/rfnautix/status/2063223825366466761", kind: promo, lang: en, topic: "two charges two parties"}
+      - {id: "1851877069762056297", url: "https://x.com/Vita1945598/status/1851877069762056297", kind: organic, lang: zh, topic: "STORAGE vs DETENTION vs DEMURRAGE"}
+      - {id: "2107425676563464254", url: "https://x.com/APBLOODTYPE/status/2107425676563464254", kind: organic, lang: zh, topic: "abandon cargo shipper pays dest fees"}
+      - {id: "2100073714545205535", url: "https://x.com/aaugeART/status/2100073714545205535", kind: organic, lang: zh, topic: "verbal 包过 vs written demurrage"}
+      - {id: "2030805208117243979", url: "https://x.com/Jamieminer/status/2030805208117243979", kind: organic, lang: en, topic: "free time 3-7d anecdotal rates"}
+      - {id: "2114532022844850568", url: "https://x.com/CandCWarehouse/status/2114532022844850568", kind: promo, lang: en, topic: "two clocks"}
+      - {id: "2106602809529450974", url: "https://x.com/xunatlas/status/2106602809529450974", kind: organic, lang: zh, topic: "BL OCR error demurrage"}
+
+  - id: C2_VGM
+    label: VGM mismatch / late / shipper liability
+    approx_page_hits: 15
+    examples:
+      - {id: "1720044368428450261", url: "https://x.com/JohnSJamesCo/status/1720044368428450261", kind: media, lang: en, topic: "VGM misdeclaration Loadstar"}
+      - {id: "2077613860840997286", url: "https://x.com/_shipping_sssm_/status/2077613860840997286", kind: promo, lang: en, topic: "tolerance / no sail"}
+      - {id: "2066787861073138103", url: "https://x.com/harshclearings/status/2066787861073138103", kind: promo, lang: en, topic: "VGM mismatch factory gate"}
+      - {id: "1829370762517733741", url: "https://x.com/sdilogistics1/status/1829370762517733741", kind: promo, lang: en, topic: "overweight fee quote"}
+
+  - id: C5_ROLLED
+    label: Rolled cargo / shut-out
+    approx_page_hits: 25
+    examples:
+      - {id: "2114916498036732410", url: "https://x.com/GuoDavid/status/2114916498036732410", kind: organic, lang: en, topic: "rolled cargo silent"}
+      - {id: "2115007205342593512", url: "https://x.com/perolahammar/status/2115007205342593512", kind: organic, lang: en, topic: "check tracking yourself"}
+      - {id: "2016922659477758168", url: "https://x.com/UniversalCargo/status/2016922659477758168", kind: promo, lang: en, topic: "cost of rolled cargo"}
+      - {id: "2086542782923940047", url: "https://x.com/jetpasslog2010/status/2086542782923940047", kind: promo, lang: en, topic: "what is container roll"}
+      - {id: "1729545334874136801", url: "https://x.com/doft_com/status/1729545334874136801", kind: media, lang: en, topic: "FMC HMM rolled cargo"}
+
+  - id: C6_ISPM15
+    label: ISPM15 / fumigation
+    approx_page_hits: 16
+    notes: Mostly promo ads
+    examples:
+      - {id: "1897618174142521417", url: "https://x.com/centralTSI/status/1897618174142521417", kind: promo, lang: en, topic: "avoid rejections ISPM15"}
+      - {id: "1933584671964631086", url: "https://x.com/JanbazJoyia/status/1933584671964631086", kind: organic, lang: en, topic: "cert vs arrival fumigation"}
+      - {id: "2104748373568049429", url: "https://x.com/GAOYIHOMEGROUP/status/2104748373568049429", kind: promo, lang: en, topic: "ISPM15 + container photos"}
+
+  - id: C3_WEIGHT_LIMITS
+    label: Payload / road vs CSC
+    approx_page_hits: 5
+    examples:
+      - {id: "2045493603594608662", url: "https://x.com/DuncanMaritime/status/2045493603594608662", kind: promo, lang: en, topic: "tare + max gross"}
+      - {id: "2044297809055363250", url: "https://x.com/RD_Aussie/status/2044297809055363250", kind: organic, lang: en, topic: "US vs China road anecdote"}
+
+forum_secondary:
+  - source: reddit r/freightforwarding
+    via: WebSearch summary
+    label: forum_secondary
+    topics:
+      - SI/VGM digit errors hold cargo and demurrage
+      - VGM liability remains with BL shipper
+      - submit VGM before carrier cutoff
+    urls:
+      - https://www.reddit.com/r/freightforwarding/comments/1t0o64q/how_often_do_you_mess_up_in_the_si_and_vgm_stage/
+      - https://www.reddit.com/r/freightforwarding/comments/1ux15d4/worth_flagging_something_on_vgm_that_trips_people/

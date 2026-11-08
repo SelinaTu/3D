@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "knowledge_version": "1.2.2",
+  "globe_version": "0.2.0",
+  "title": "3D CargoPlan Knowledge Globe",
+  "port_count": 11835,
+  "deep_port_count": 22,
+  "countries_covered": [
+    "AE",
+    "CN",
+    "DE",
+    "ID",
+    "KR",
+    "MY",
+    "NL",
+    "SG",
+    "US"
+  ],
+  "thick_countries": [
+    "CN",
+    "ID"
+  ],
+  "skeleton_countries": [
+    "SG",
+    "NL",
+    "US",
+    "KR",
+    "AE",
+    "MY",
+    "DE"
+  ],
+  "port_packs": [
+    "AEJEA",
+    "CNCAN",
+    "CNDLC",
+    "CNNGB",
+    "CNSHA",
+    "CNSZX",
+    "CNTAO",
+    "CNTXG",
+    "CNXMN",
+    "DEHAM",
+    "IDBLW",
+    "IDMAK",
+    "IDSRG",
+    "IDSUB",
+    "IDTPP",
+    "KRPUS",
+    "MYPKG",
+    "NLRTM",
+    "SGSIN",
+    "USLAX",
+    "USLGB",
+    "USNYC"
+  ],
+  "unlocode_source": "https://github.com/datasets/un-locode (code-list.csv) · filter Function contains '1' + coordinates",
+  "unlocode_note": "UNECE official zip returned 403 from this environment; used open datasets/un-locode mirror. Seaport function bit = '1'.",
+  "disclaimer": "Not legal advice. Only verified fields shown. Thin ports marked thin. No invented in-box stuffing bans. Carrier fees ≠ administrative fines. Amounts require source URL + as_of.",
+  "disclaimer_zh": "不构成法律意见。只展示已核实字段；薄港标薄。不编造柜内 stuffing 禁令。承运人费 ≠ 行政罚。金额须带出处 URL + as_of。",
+  "gaps": [
+    "Most of ~11.8k points are thin (locode+coords only)",
+    "Pelindo current gate tonnage plaques (Priok 45t status unverified)",
+    "Carrier accessorials beyond Maersk ID WDF example",
+    "KR/MY/AE road fine tables unverified",
+    "No machine-readable stuffing bans found globally",
+    "Attention topics: free_time tables per carrier×port still missing",
+    "Restow / non-Maersk WDF tariffs thin",
+    "CRE bias pack intentionally thin",
+    "Customs hold clock-stop rules per port unverified"
+  ],
+  "topic_count": 12,
+  "layers": [
+    "foundation",
+    "attention"
+  ]
+}

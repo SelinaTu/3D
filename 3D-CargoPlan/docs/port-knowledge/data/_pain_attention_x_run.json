@@ -1,0 +1,677 @@
+{
+  "as_of": "2026-10-31",
+  "unique": 303,
+  "raw": 320,
+  "kinds": {
+    "organic": 272,
+    "noise": 2,
+    "media": 14,
+    "promo": 15
+  },
+  "api_result_counts": {
+    "demurrage_edu": 24,
+    "zh_detention": 21,
+    "vgm": 14,
+    "odol": 24,
+    "rolled": 25,
+    "blank_sailing": 25,
+    "spot_rate": 24,
+    "free_time": 22,
+    "ispm15": 25,
+    "customs": 25,
+    "restow": 9,
+    "misdecl": 23,
+    "zh_shuaihuo": 22,
+    "red_sea": 21,
+    "zh_yunjia": 16
+  },
+  "per_cluster": {
+    "demurrage_edu": {
+      "n": 24,
+      "kinds": {
+        "organic": 24,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "zh_detention": {
+      "n": 21,
+      "kinds": {
+        "organic": 20,
+        "media": 0,
+        "promo": 0,
+        "noise": 1
+      }
+    },
+    "vgm": {
+      "n": 13,
+      "kinds": {
+        "organic": 13,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "odol": {
+      "n": 24,
+      "kinds": {
+        "organic": 14,
+        "media": 10,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "rolled": {
+      "n": 24,
+      "kinds": {
+        "organic": 22,
+        "media": 0,
+        "promo": 2,
+        "noise": 0
+      }
+    },
+    "blank_sailing": {
+      "n": 25,
+      "kinds": {
+        "organic": 25,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "spot_rate": {
+      "n": 24,
+      "kinds": {
+        "organic": 23,
+        "media": 1,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "free_time": {
+      "n": 11,
+      "kinds": {
+        "organic": 11,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "ispm15": {
+      "n": 25,
+      "kinds": {
+        "organic": 13,
+        "media": 0,
+        "promo": 12,
+        "noise": 0
+      }
+    },
+    "customs": {
+      "n": 23,
+      "kinds": {
+        "organic": 22,
+        "media": 0,
+        "promo": 1,
+        "noise": 0
+      }
+    },
+    "restow": {
+      "n": 9,
+      "kinds": {
+        "organic": 9,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "misdecl": {
+      "n": 22,
+      "kinds": {
+        "organic": 20,
+        "media": 2,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "zh_shuaihuo": {
+      "n": 22,
+      "kinds": {
+        "organic": 20,
+        "media": 1,
+        "promo": 0,
+        "noise": 1
+      }
+    },
+    "red_sea": {
+      "n": 20,
+      "kinds": {
+        "organic": 20,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    },
+    "zh_yunjia": {
+      "n": 16,
+      "kinds": {
+        "organic": 16,
+        "media": 0,
+        "promo": 0,
+        "noise": 0
+      }
+    }
+  },
+  "examples": {
+    "demurrage_edu": [
+      {
+        "id": "2021434689261797533",
+        "url": "https://x.com/RadioSpook/status/2021434689261797533",
+        "kind": "organic",
+        "username": "RadioSpook",
+        "lang": "en",
+        "text": "Morning GMT+7. Freight forwarding says “book, sail, deliver” while BAF/LSS surcharges, THC, storage clocks and rolled‑cargo rules hide; shippers bankroll folklore  I moved a 40' FCL Shenzhen→LA and an LCL Singapore→Rotte"
+      },
+      {
+        "id": "2027702222616990109",
+        "url": "https://x.com/quietboy5/status/2027702222616990109",
+        "kind": "organic",
+        "username": "quietboy5",
+        "lang": "en",
+        "text": "Evening GMT+7. Trade says \"ship, pay\" while Incoterms scope, HS codes, free‑time clocks and surcharge fog hide; importers bankroll folklore  I ran CN→VN container DDP vs DAP with customs broker, reweigh, storage and insu"
+      },
+      {
+        "id": "2022515124561432753",
+        "url": "https://x.com/Chillwithmeii/status/2022515124561432753",
+        "kind": "organic",
+        "username": "Chillwithmeii",
+        "lang": "en",
+        "text": "Morning GMT+7. Freight looks like math but hides demurrage/detention ladders, chassis rentals, congestion uplifts, doc fees and free‑time clocks; shippers bankroll folklore  I pushed a two‑container import (carrier, NVOC"
+      },
+      {
+        "id": "2019639683538645359",
+        "url": "https://x.com/rodericuss/status/2019639683538645359",
+        "kind": "organic",
+        "username": "rodericuss",
+        "lang": "en",
+        "text": "container freight runs on hidden clocks. free‑time windows, gate cutoff calendars, and demurrage/detention ladders sit behind portals and phone calls. terminals monetize silence, forwarders mark up uncertainty, shippers "
+      }
+    ],
+    "zh_detention": [
+      {
+        "id": "2039720315937509537",
+        "url": "https://x.com/yuyy614893671/status/2039720315937509537",
+        "kind": "organic",
+        "username": "yuyy614893671",
+        "lang": "zh",
+        "text": "【中国加强对悬挂巴拿马国旗的船只检查，引发美国国务卿卢比奥不满】  2026年1月，巴拿马最高法院以违宪为由，撤销香港长江和记实业在巴拿马运河巴尔博亚港和克里斯托瓦尔港的长期特许经营权，政府随后正式接管。此举引发中巴港口之争升级。 https://t.co/LEUhVjBE7o"
+      },
+      {
+        "id": "2092291481759535157",
+        "url": "https://x.com/Richdegen67/status/2092291481759535157",
+        "kind": "organic",
+        "username": "Richdegen67",
+        "lang": "zh",
+        "text": "🚢 基于 WINKLINK 的 TRON 链上跨国集装箱租赁与智能押金结算  国际海运集装箱租赁涉及复杂的滞期费（Demurrage）与滞留费（Detention）计算。传统租赁模式下，租金清算与押金退还往往需要数月时间，且箱主与承运人常对集装箱还箱时间与损耗状态产生争议。  WINkLink 为 TRON https://t.co/lLAcpyhZFR"
+      },
+      {
+        "id": "2093373860150390819",
+        "url": "https://x.com/Richdegen67/status/2093373860150390819",
+        "kind": "organic",
+        "username": "Richdegen67",
+        "lang": "zh",
+        "text": "🚢 基于 WINKLINK 的 TRON 链上海运集装箱滞期费清算与智能押金退还系统  在国际海运物流中，集装箱的使用与流转效率是决定全球供应链顺畅与否的关键。集装箱船公司为了加速集装箱的回流，通常会向租箱人或货主设定免费使用期限（Free https://t.co/N7om8vG9yt"
+      },
+      {
+        "id": "2029847726800638065",
+        "url": "https://x.com/grok/status/2029847726800638065",
+        "kind": "organic",
+        "username": "grok",
+        "lang": "zh",
+        "text": "@chengchi1217 @oakvale5 是的，根据路透社、CNBC、卫报等多家媒体最新报道（截至3月6日），因美以对伊朗军事行动，伊朗革命卫队宣布并有效封锁霍尔木兹海峡，船舶通行近乎停止。迪拜杰贝阿里港等受阻，多艘货船滞留，无法出港，集装箱确实面临滞期费问题。油价也已大幅上涨。情况仍在发展。"
+      }
+    ],
+    "vgm": [
+      {
+        "id": "2024484735331029202",
+        "url": "https://x.com/V3gfh24xz/status/2024484735331029202",
+        "kind": "organic",
+        "username": "V3gfh24xz",
+        "lang": null,
+        "text": "Night GMT+7. Freight says “book, move” while Incoterms fog, demurrage clocks, accessorial ladders and HS math hide; shippers bankroll folklore. I ran a SZ→LGB FCL with one transshipment and a late gate-out onto receipts "
+      },
+      {
+        "id": "2019664959802941790",
+        "url": "https://x.com/maxominog/status/2019664959802941790",
+        "kind": "organic",
+        "username": "maxominog",
+        "lang": null,
+        "text": "Top 7 AllScale receipts pilots to watch in Q1  We compiled ops rails @allscaleio is shipping; demos are live  • Freight &amp; Ports → Feb Mar: container binds; demurrage clocks; VGM • Trade Compliance → Late Feb: AMS/ISF"
+      },
+      {
+        "id": "2023717609183867294",
+        "url": "https://x.com/quietboy5/status/2023717609183867294",
+        "kind": "organic",
+        "username": "quietboy5",
+        "lang": null,
+        "text": "Evening GMT+7. Trade says “PO, ship, paid” while Incoterms and customs fog hide; SMEs bankroll folklore. I ran PO→invoice→escrow→pickup→port→clear→deliver via @allscaleio; the ledger printed: • Rules: Incoterms scope, fr"
+      },
+      {
+        "id": "2019685642737971427",
+        "url": "https://x.com/OG_Iris_YP/status/2019685642737971427",
+        "kind": "organic",
+        "username": "OG_Iris_YP",
+        "lang": null,
+        "text": "Afternoon GMT+7. Freight loses trust when Incoterms, free‑time clocks, detention math and customs windows hide; shippers bankroll folklore  I ran book→load→gate→sail→transship→land→clear→deliver→return on @allscaleio and"
+      }
+    ],
+    "odol": [
+      {
+        "id": "2000811708101910685",
+        "url": "https://x.com/e100ss/status/2000811708101910685",
+        "kind": "organic",
+        "username": "e100ss",
+        "lang": null,
+        "text": "Menhub Targetkan Transportasi Zero ODOL Tahun 2027  https://t.co/V8W31hWAK0"
+      },
+      {
+        "id": "1945742205592723690",
+        "url": "https://x.com/soloposdotcom/status/1945742205592723690",
+        "kind": "organic",
+        "username": "soloposdotcom",
+        "lang": null,
+        "text": "Menko AHY Klaim Berpihak pada Sopir Truk dalam Rencana Zero ODOL, Begini Katanya Menhub desak percepatan kebijakan zero ODOL sebelum 2027 usai 6.000 nyawa melayang akibat truk overload sepanjang 2024. Simak datanya di si"
+      },
+      {
+        "id": "2031708333347049684",
+        "url": "https://x.com/ari30314494/status/2031708333347049684",
+        "kind": "organic",
+        "username": "ari30314494",
+        "lang": null,
+        "text": "@SmwGwOto dlu kerja ginian, klo di rata gampang jeglong karna TRUK ODOL ANJIN* klo di buat tinggi sdikit ksian motor srba salah yg kerja, brunei itu zero odol, indonesia kok susah banget zero odol"
+      },
+      {
+        "id": "1961100007832269115",
+        "url": "https://x.com/grok/status/1961100007832269115",
+        "kind": "organic",
+        "username": "grok",
+        "lang": null,
+        "text": "@libccallpacks Haha, regulasi ODOL di Indo lagi ketat nih, Mbah. Berdasarkan update 2025, truk ODOL bisa kena denda Rp500rb-24jt (UU 22/2009), bahkan sita kendaraan kalau berulang. Untuk jarak &lt;5km, gak langsung diamb"
+      }
+    ],
+    "rolled": [
+      {
+        "id": "1750134016835993995",
+        "url": "https://x.com/integralcargo/status/1750134016835993995",
+        "kind": "organic",
+        "username": "integralcargo",
+        "lang": "en",
+        "text": "👉 What is rolled cargo? It is cargo that is not loaded on the vessel which was initially scheduled for.  It can generally occur for operational reasons or due to other factors, such as:  - Overbooking - Mistakes in docum"
+      },
+      {
+        "id": "2111609070897836409",
+        "url": "https://x.com/Shipsnapxx/status/2111609070897836409",
+        "kind": "organic",
+        "username": "Shipsnapxx",
+        "lang": "en",
+        "text": "7. ASIAN PORT ON-TIME ARRIVALS CRASH TO 32% AS MANILA &amp; SINGAPORE FACE MULTI-DAY DELAYS  Global schedule reliability has dropped to 49.9%, with Asian port performance crashing to a critical 32.3% on-time arrival rate"
+      },
+      {
+        "id": "2114916498036732410",
+        "url": "https://x.com/GuoDavid/status/2114916498036732410",
+        "kind": "organic",
+        "username": "GuoDavid",
+        "lang": "en",
+        "text": "A dealer in Can Tho doesn't ask if the ship left Shanghai. He asks if the container is still on it. Rolled cargo doesn't show up as a delay notice. It shows up as an empty bay the week the bugs arrive."
+      },
+      {
+        "id": "2112147243927224818",
+        "url": "https://x.com/Shipsnapxx/status/2112147243927224818",
+        "kind": "organic",
+        "username": "Shipsnapxx",
+        "lang": "en",
+        "text": "7. OVER 4M TEU STRANDED IN ASIAN PORT CONGESTION AS SHANGHAI QUEUES SURGE  Global liner schedule reliability remains severely depressed as origin port congestion absorbs over 4 million TEU of active fleet capacity. Follo"
+      }
+    ],
+    "blank_sailing": [
+      {
+        "id": "1966417125674725631",
+        "url": "https://x.com/tatin17/status/1966417125674725631",
+        "kind": "organic",
+        "username": "tatin17",
+        "lang": null,
+        "text": "SCFI Wk37 down this week -3%   Asia–Europe rates saw their sharpest weekly drop since February, falling 12%  Transpacific rates to the US West Coast rose 8.3%  supported by blank sailings and high utilization.  The rate "
+      },
+      {
+        "id": "1913205504685515092",
+        "url": "https://x.com/grok/status/1913205504685515092",
+        "kind": "organic",
+        "username": "grok",
+        "lang": null,
+        "text": "@palatofino @tweepul @TajSean @Dominick_Tullo @FreightAlley \"Blank sailing\" means a scheduled ship voyage canceled by the carrier, either skipping ports or the entire route. It happens due to low demand, like after Chine"
+      },
+      {
+        "id": "2046756710128517618",
+        "url": "https://x.com/VMSGROUP1995/status/2046756710128517618",
+        "kind": "organic",
+        "username": "VMSGROUP1995",
+        "lang": null,
+        "text": "📊 Weekly Shipping Brief · April 22, 2026  The six-week rally is over — but this correction isn't a soft market. It's a pause. Drewry's WCI slipped 3% to $2,246/40ft. The rally that began with late-February Middle East te"
+      },
+      {
+        "id": "1913412024664748488",
+        "url": "https://x.com/EternalXPU/status/1913412024664748488",
+        "kind": "organic",
+        "username": "EternalXPU",
+        "lang": null,
+        "text": "Report: U.S. Tariffs to Slash Chinese Container Orders by Up to 60%  Market intelligence firm Linerlytica reports that high U.S. tariffs are preventing many Chinese exporters from selling their products to the U.S., lead"
+      }
+    ],
+    "spot_rate": [
+      {
+        "id": "2046987493195612287",
+        "url": "https://x.com/pati_marins64/status/2046987493195612287",
+        "kind": "organic",
+        "username": "pati_marins64",
+        "lang": null,
+        "text": "When people talk about persistent 1–2% inflation caused by the Iran war, this needs to be evaluated in the context of a conflict that is still ongoing and has already produced extremely high economic damage.  Since the s"
+      },
+      {
+        "id": "1922268509016334448",
+        "url": "https://x.com/mercoglianos/status/1922268509016334448",
+        "kind": "organic",
+        "username": "mercoglianos",
+        "lang": null,
+        "text": "Carriers hike transpacific rates to ride trade détente shipping surge  ▶️Carriers are hiking transpacific rates amid a perceived volume surge during the 90-day US-China tariff truce ▶️Maersk says it’s helping clients to "
+      },
+      {
+        "id": "2019826796775031176",
+        "url": "https://x.com/FreightAlley/status/2019826796775031176",
+        "kind": "organic",
+        "username": "FreightAlley",
+        "lang": null,
+        "text": "The entire country is blue - a sign that the spot market rally continues.   The spot market condition map tracks spot rate changes across the US. Anything blue means that spot rates have increased compared to 4 days ago."
+      },
+      {
+        "id": "2034619655696871728",
+        "url": "https://x.com/Ole_S_Hansen/status/2034619655696871728",
+        "kind": "organic",
+        "username": "Ole_S_Hansen",
+        "lang": null,
+        "text": "Container freight rates from Asia to Europe and the US continue to edge higher, albeit from previously depressed levels. The Drewry Composite Index rose 2.3% this week to USD 2,173 per 40-foot container, with the largest"
+      }
+    ],
+    "free_time": [
+      {
+        "id": "2029117683397230741",
+        "url": "https://x.com/stasyan1990/status/2029117683397230741",
+        "kind": "organic",
+        "username": "stasyan1990",
+        "lang": null,
+        "text": "Afternoon GMT+7. Freight invoices read like riddles: demurrage, detention, chassis “per diem,” bunker index, accessorials that multiply on contact. I pushed importer→forwarder→CFS→drayage→final mile onto receipts rails v"
+      },
+      {
+        "id": "1853536981902315838",
+        "url": "https://x.com/maphumanintent/status/1853536981902315838",
+        "kind": "organic",
+        "username": "maphumanintent",
+        "lang": null,
+        "text": "One of my most-hated logistics scams:  - Container terminal at the port (or inland container yard) uses an appointment system to manage pickup/return traffic - No guarantee that a container can be picked up or returned o"
+      },
+      {
+        "id": "2023928134857617754",
+        "url": "https://x.com/maxominog/status/2023928134857617754",
+        "kind": "organic",
+        "username": "maxominog",
+        "lang": null,
+        "text": "Morning GMT+7. Freight says “book, move” while demurrage clocks, detention math, bunker and chassis fees drift; shippers bankroll folklore. I ran booking→origin dray→vessel→dest dray→outgate via @allscaleio; it printed: "
+      },
+      {
+        "id": "2020872154091593938",
+        "url": "https://x.com/JaiberJG/status/2020872154091593938",
+        "kind": "organic",
+        "username": "JaiberJG",
+        "lang": null,
+        "text": "Night GMT+7. Freight leaks trust when demurrage/detention math, accessorials, free‑time clocks and duties hide; shippers bankroll folklore  I ran quote→book→pickup→sail→customs→dray→deliver→POD→invoice on receipts rails "
+      }
+    ],
+    "ispm15": [
+      {
+        "id": "2100431789852602467",
+        "url": "https://x.com/ImpactWoodPkrs/status/2100431789852602467",
+        "kind": "organic",
+        "username": "ImpactWoodPkrs",
+        "lang": "en",
+        "text": "From India to the World. 🇮🇳🌍  Export-ready wooden packaging built for strength, safety &amp; global shipping. 📦🌎  ✅ ISPM-15 Compliant | Heat Treatment | Fumigation  Impact Wood Packers — Your Load, Our Strength.  #Wooden"
+      },
+      {
+        "id": "2061305633379676231",
+        "url": "https://x.com/shivshakti_ti/status/2061305633379676231",
+        "kind": "organic",
+        "username": "shivshakti_ti",
+        "lang": "en",
+        "text": "𝐌𝐲𝐭𝐡: Any wooden pallet works for export. 𝐅𝐚𝐜𝐭: Most countries require ISPM-15 compliant Pallets, Boxes &amp; Crates.  Products: https://t.co/JrvkHcD7TB Company: https://t.co/CiA25GOJxp  #ExportLogistics #SupplyChain #Wo"
+      },
+      {
+        "id": "2011715688797528241",
+        "url": "https://x.com/shahworldtrade/status/2011715688797528241",
+        "kind": "organic",
+        "username": "shahworldtrade",
+        "lang": "en",
+        "text": "🚛 WITHOUT Fumigation = Disaster!  ❌ Pests•Delays•Fines•Rejection  ✅ WITH = Success! ✅ ISPM-15 Certified•Zero Risk•Fast Clearance  Wooden crates/pallets MUST be fumigated for exports. Pro tip from Shah World Trade! 💡  #Fu"
+      },
+      {
+        "id": "2023625236755677543",
+        "url": "https://x.com/global_pallets/status/2023625236755677543",
+        "kind": "organic",
+        "username": "global_pallets",
+        "lang": "en",
+        "text": "Export 🌍 Logistics Support (ISPM-15 Compliance) :  - Heat Treated Pallets - ISPM-15 Marking - Fumigation Support (if required)   Visit Us: https://t.co/z0S1tSLaBd  #ISPM15 #WoodenPallets #WoodenCrates #WoodenBoxes #Hyder"
+      }
+    ],
+    "customs": [
+      {
+        "id": "1848611479185920291",
+        "url": "https://x.com/Kvaati/status/1848611479185920291",
+        "kind": "organic",
+        "username": "Kvaati",
+        "lang": null,
+        "text": "Do not be surprised when her next shipment is held by customs 😅😅 https://t.co/J14n4niH0F"
+      },
+      {
+        "id": "2023326805852148148",
+        "url": "https://x.com/denyat1_/status/2023326805852148148",
+        "kind": "organic",
+        "username": "denyat1_",
+        "lang": null,
+        "text": "Afternoon GMT+7. Ports say \"on time\" while demurrage, detention, chassis fees and free time clocks hide. I ran a 40fy import with a customs exam and a missed appointment through receipts via @allscaleio; the ledger print"
+      },
+      {
+        "id": "1873794319272075743",
+        "url": "https://x.com/kac_lester/status/1873794319272075743",
+        "kind": "organic",
+        "username": "kac_lester",
+        "lang": null,
+        "text": "@TheAnswerKarabo I still side line BK proctor in the matter. Sometimes these shippers will have ur orders held by customs for months. To keep stocking other means such making a new shipment with em have to be made hence "
+      },
+      {
+        "id": "1836086693042028660",
+        "url": "https://x.com/wal34/status/1836086693042028660",
+        "kind": "organic",
+        "username": "wal34",
+        "lang": null,
+        "text": "@LeilaniDowding It was a shipment intercepted and held by customs and 1 to 3 grams of explosive hidden in each one then the shipment released Israel knew they were for hezbollah it's brilliant 👏 😀"
+      }
+    ],
+    "restow": [
+      {
+        "id": "2099407352294433027",
+        "url": "https://x.com/vocpa_tuticorin/status/2099407352294433027",
+        "kind": "organic",
+        "username": "vocpa_tuticorin",
+        "lang": "en",
+        "text": "🚢 A New Milestone at V.O. Chidambaranar Port Authority  Today, V.O. Chidambaranar Port Authority achieved a significant milestone by successfully berthing MV CMA CGM THORIUM, the longest vessel ever handled at VoCPA.  Wi"
+      },
+      {
+        "id": "2100072659560358226",
+        "url": "https://x.com/Srinivas_091294/status/2100072659560358226",
+        "kind": "organic",
+        "username": "Srinivas_091294",
+        "lang": "en",
+        "text": "🚢 VOC Port Sets Record with Largest-Ever Container Vessel  Shipping and its surrounding industries look solid in #TN. 🙃🙏   ​🚢 VO Chidambaranar (#VOC) Port in #Thoothukudi successfully berthed its longest-ever container s"
+      },
+      {
+        "id": "2103585437327753236",
+        "url": "https://x.com/jldcampa/status/2103585437327753236",
+        "kind": "organic",
+        "username": "jldcampa",
+        "lang": "en",
+        "text": "The general cargo vessel ACHIEVER (7712365) seen here @ #LasPalmas restowing her deck cargo of pipes in 1996.  Built by AG Weser in #Bremerhaven as HOLSTENCRUISER in 1980.  Lengthened by Alianza @ #BuenosAires in 1989.  "
+      },
+      {
+        "id": "1665697569861713920",
+        "url": "https://x.com/justthinkit/status/1665697569861713920",
+        "kind": "organic",
+        "username": "justthinkit",
+        "lang": "en",
+        "text": "@nypost Sentence is ridiculously light  $5000 fine only?  She probably cost the airline at least $100,000 for the delay and restowing of the emergency slide."
+      }
+    ],
+    "misdecl": [
+      {
+        "id": "1888936147965165846",
+        "url": "https://x.com/OatsCanTW/status/1888936147965165846",
+        "kind": "organic",
+        "username": "OatsCanTW",
+        "lang": "en",
+        "text": "@markehmus @TraceyKent @6ixbuzztv Ya sad to say I see these at my job. Most of them can’t back up to the dock properly.  They usually have flip-flops on and are too weak to push or pull the cargo to the back of the trail"
+      },
+      {
+        "id": "2021229772408488057",
+        "url": "https://x.com/Kenji_YP/status/2021229772408488057",
+        "kind": "organic",
+        "username": "Kenji_YP",
+        "lang": "en",
+        "text": "BREAKING: Freight &amp; Customs Receipts pilot landed tonight; I pushed a 20' container ex‑SGN→LAX through rails via @allscaleio and the fog finally printed: • Pricing/Fees: ocean base vs BAF/CAF/PCS itemized; demurrage/"
+      },
+      {
+        "id": "2100093293849620945",
+        "url": "https://x.com/rrlevy/status/2100093293849620945",
+        "kind": "organic",
+        "username": "rrlevy",
+        "lang": "en",
+        "text": "I was watching the new Mentour Pilot video on MK Airlines Flight 1602 (Halifax, 2004). A 747 cargo never got airborne. Seven people died.  One big contributing factor is easy to miss: a window that did not behave like ev"
+      },
+      {
+        "id": "2065055590142062942",
+        "url": "https://x.com/RahatTalreja/status/2065055590142062942",
+        "kind": "organic",
+        "username": "RahatTalreja",
+        "lang": "en",
+        "text": "@deepakshenoy verified gross mass ( vgm ) wrong weight declaration leads to more deaths of life at sea than any such freak attacks. exporters in the indian subcontinent countries are notorious for it. but its invisible a"
+      }
+    ],
+    "zh_shuaihuo": [
+      {
+        "id": "2093541174447632564",
+        "url": "https://x.com/kong20220304/status/2093541174447632564",
+        "kind": "organic",
+        "username": "kong20220304",
+        "lang": "zh",
+        "text": "@yaoguaibnb 孙宇晨骗投资人没爆仓连夜坐着集装箱跑路，甚结石戏老巴，对前女友也是谎话连篇一毛不拔，真以为他是什么好人阿，不过是精致利己主义者，那天没有流量了他给他父母告了都正常"
+      },
+      {
+        "id": "2087157453343375510",
+        "url": "https://x.com/AsksReceives/status/2087157453343375510",
+        "kind": "organic",
+        "username": "AsksReceives",
+        "lang": "zh",
+        "text": "说点实实在在的东西供大家参考。  美伊战争导致亚洲—欧洲海运路线 1. 运费几乎翻番。40呎集装箱为例，运费由2800升至5200美金左右；2. 运期延长两周左右。注意：运期也意味着钱。  后果可能是：消费端通胀；生产端积压，仓库爆仓；更深一层，可能是供应链和地缘政治经济的变化。"
+      },
+      {
+        "id": "1791688055843373130",
+        "url": "https://x.com/yuyy614893671/status/1791688055843373130",
+        "kind": "organic",
+        "username": "yuyy614893671",
+        "lang": "zh",
+        "text": "海运市场“一箱难求”的状态持续到了当下。部分航线运价暴涨50%以上。  业内人士说这轮集装箱运价上涨从南美航线开始，逐渐延伸到北美、西非、欧洲航线。 https://t.co/yFZyVCVaKq"
+      },
+      {
+        "id": "2036914354151461203",
+        "url": "https://x.com/blessingsymbest/status/2036914354151461203",
+        "kind": "organic",
+        "username": "blessingsymbest",
+        "lang": "zh",
+        "text": "@helen_maga99 我对他从提醒到批评，现在开骂了！我是个铁杆保守派，也坚定挺川，但对他一开始就有所保留。尤其是他搞个线下聚会发个赠品显摆半天，感觉很low。赠品应该是海外仓甩货的滞销品，朋友的仓储公司经常整集装箱丢弃"
+      }
+    ],
+    "red_sea": [
+      {
+        "id": "1933486757531504858",
+        "url": "https://x.com/lwsresearch/status/1933486757531504858",
+        "kind": "organic",
+        "username": "lwsresearch",
+        "lang": "en",
+        "text": "🚢 Shipping stocks are surging as analysts flag rising freight rates amid Red Sea turmoil, Iran tensions, and prolonged Suez Canal disruptions.  🔹 Analysts at ABG Sundal Collier say Israeli strikes on Iran delay Red Sea r"
+      },
+      {
+        "id": "1953342202106552666",
+        "url": "https://x.com/lwsresearch/status/1953342202106552666",
+        "kind": "organic",
+        "username": "lwsresearch",
+        "lang": "en",
+        "text": "🚢📈 #Maersk beats Q2 profit expectations and lifts FY2025 outlook  📊 Strong Q2 Performance •Danish shipping giant Maersk reported preliminary Q2 EBITDA of $2.3B, beating analyst expectations ($1.97B LSEG consensus) and up"
+      },
+      {
+        "id": "1937145163119497365",
+        "url": "https://x.com/grok/status/1937145163119497365",
+        "kind": "organic",
+        "username": "grok",
+        "lang": "en",
+        "text": "@gigametax @Megatron_ron The December 2023 post by @Megatron_ron was mostly accurate by June 2025. The U.S. Navy deployed significant assets but struggled to secure the Red Sea, with shipping transits down two-thirds. Fr"
+      },
+      {
+        "id": "2088483322477555793",
+        "url": "https://x.com/FactNexa/status/2088483322477555793",
+        "kind": "organic",
+        "username": "FactNexa",
+        "lang": "en",
+        "text": "🏜️ Why the Red Sea Matters to the World Economy  The Red Sea is a crucial global trade corridor connecting the Mediterranean Sea and Europe with the Indian Ocean and Asia, largely through the Suez Canal and Bab el-Mandeb"
+      }
+    ],
+    "zh_yunjia": [
+      {
+        "id": "2034399950876954775",
+        "url": "https://x.com/fingraph66/status/2034399950876954775",
+        "kind": "organic",
+        "username": "fingraph66",
+        "lang": null,
+        "text": "伊朗战争升级导致红海航线持续关闭，正扭转东方海外和长荣海运等亚洲集装箱班轮公司此前因运力过剩而利润下滑的局面。德鲁里世界集装箱运价指数显示，截至3月12日当周，40英尺集装箱的全球平均运价上涨8.4%至2123美元，已连续两周回升。尽管目前仅约3%的全球集装箱量通过霍尔木兹海峡，但因航线改道、 https://t.co/FuEb9EHPZ6"
+      },
+      {
+        "id": "2038071733668954365",
+        "url": "https://x.com/QingSong79/status/2038071733668954365",
+        "kind": "organic",
+        "username": "QingSong79",
+        "lang": null,
+        "text": "2023年11月19日，胡塞武装在红海劫持“银河领袖”号货船，正式开启针对红海商船的袭击模式，初期仅针对与以色列相关的船舶，  12月上旬，袭击频率持续提升，12月9日胡塞武装宣布将针对所有前往以色列的船舶无差别袭击，12月11日挪威油轮在曼德海峡被反舰导弹击中，风险全面升级。 https://t.co/A1Lr2XgnR1"
+      },
+      {
+        "id": "2077765447231926735",
+        "url": "https://x.com/fingraph66/status/2077765447231926735",
+        "kind": "organic",
+        "username": "fingraph66",
+        "lang": null,
+        "text": "为规避潜在的更高关税以及伊朗战事带来的不确定性，美国进口商正将需求提前，推动6月进入洛杉矶与长滩这两大港口的集装箱进口量同比分别增长13%和11%，进而将上海至洛杉矶航线的40英尺集装箱现货运价推升至6482美元，创下自2024年以来的新高。这种非季节性的货运高峰导致两港2026年上半年的合计进口量 https://t.co/6sUMg7rvQ5"
+      },
+      {
+        "id": "1950926914215887304",
+        "url": "https://x.com/USAstockMarkets/status/1950926914215887304",
+        "kind": "organic",
+        "username": "USAstockMarkets",
+        "lang": null,
+        "text": "@cskun1989 嘴里说的和实际不一样！  供给过剩+需求弱+船司主动降价  7月31日异动原因 供给过剩+需求弱+船司主动降价"
+      }
+    ]
+  }
+}

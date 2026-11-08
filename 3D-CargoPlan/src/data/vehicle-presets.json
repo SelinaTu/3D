@@ -1,0 +1,10 @@
+[
+ {"id":"box-42","name":"4.2 米厢式货车","body":"box","dimensions":{"length":4200,"width":2100,"height":2100},"maxWeight":2500,"doors":["x-max"],"mode":"worker-aisle","hint":"后门作业 · 早卸靠车尾"},
+ {"id":"box-68","name":"6.8 米厢式货车","body":"box","dimensions":{"length":6800,"width":2350,"height":2400},"maxWeight":8000,"doors":["x-max"],"mode":"worker-aisle","hint":"后门作业 · 逐段向车内深入"},
+ {"id":"box-96","name":"9.6 米厢式货车","body":"box","dimensions":{"length":9600,"width":2400,"height":2600},"maxWeight":14000,"doors":["x-max"],"mode":"worker-aisle","hint":"后门作业 · 检查人员通道"},
+ {"id":"curtain-13","name":"13 米侧帘车","body":"curtain","dimensions":{"length":13000,"width":2450,"height":2600},"maxWeight":30000,"doors":["y-min","y-max","x-max"],"mode":"mechanical","hint":"左右侧 / 后门 · 按可用方向选取"},
+ {"id":"dropside-68","name":"6.8 米栏板车","body":"dropside","dimensions":{"length":6800,"width":2350,"height":2400},"maxWeight":8000,"doors":["y-min","y-max","x-max"],"mode":"mechanical","hint":"栏板开启后侧卸 / 后卸 · 叉装示例"},
+ {"id":"flatbed-13","name":"13 米平板吊装车","body":"flatbed","dimensions":{"length":13000,"width":2450,"height":2500},"maxWeight":30000,"doors":["z-max"],"mode":"mechanical","hint":"顶部吊装 · 先移走上方货物"},
+ {"id":"container-20","name":"20 尺普通集装箱","body":"container","dimensions":{"length":5898,"width":2352,"height":2393},"maxWeight":28250,"doors":["x-max"],"mode":"worker-aisle","hint":"端门作业 · 按实际箱体净空复核"},
+ {"id":"container-40hc","name":"40 尺高柜集装箱","body":"container","dimensions":{"length":12032,"width":2352,"height":2698},"maxWeight":28560,"doors":["x-max"],"mode":"worker-aisle","hint":"端门作业 · 支持自定义净空与载重"}
+]

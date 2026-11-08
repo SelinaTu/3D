@@ -1,0 +1,29 @@
+{
+  "sourceZipSha256": "34035df109dc9420d23756848eaab12f937a471d4f64556b98b5122280f2c093",
+  "evidenceArchiveSha256": "fbcbdaedcc5586eb8b923cc488a8e687565c05f4e789c4c14fd133cbb084a431",
+  "archiveBytes": 1923301,
+  "frozenContractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+  "inventory": {
+    "items": 1371,
+    "massKg": 134777.37,
+    "physicalItemDifferences": 0
+  },
+  "geometry": {
+    "attachmentNetDimensionsMm": [
+      12000,
+      2340,
+      2680
+    ],
+    "approvedNetDimensionsMm": [
+      11600,
+      2250,
+      2500
+    ],
+    "outsideApprovedBoundsItems": 289,
+    "insufficientClearancePairs": 5339,
+    "zeroGapPairs": 5313,
+    "cavityRuleViolations": 391
+  },
+  "originalSolutionReplaced": false,
+  "attachmentCodeExecuted": false
+}

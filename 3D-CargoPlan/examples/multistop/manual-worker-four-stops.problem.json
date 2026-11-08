@@ -1,0 +1,116 @@
+{
+  "schema": "cargoplan.route-problem/v1",
+  "seed": 0,
+  "door": "x-max",
+  "handling": {
+    "mode": "worker-aisle",
+    "aisleWidthMm": 600,
+    "aisleHeightMm": 1800,
+    "reachMm": 800,
+    "maxReachHeightMm": 2100
+  },
+  "initial": {
+    "id": "manual-truck",
+    "dimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "maxWeight": 28000,
+    "items": [],
+    "totalWeight": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  "description": "四站手工业务示例：苏州取两件，无锡卸一件并取一件，常州和南京分别交付；无随机生成。",
+  "stops": [
+    {
+      "name": "苏州仓库",
+      "unloadIds": [],
+      "pickup": [
+        {
+          "id": "manual-a",
+          "name": "无锡设备箱",
+          "category": "包装箱",
+          "dimensions": {
+            "length": 1000,
+            "width": 800,
+            "height": 800
+          },
+          "weight": 80,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "canStackOnTop": false,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#729ddd",
+          "rawData": {}
+        },
+        {
+          "id": "manual-b",
+          "name": "南京设备箱",
+          "category": "包装箱",
+          "dimensions": {
+            "length": 1200,
+            "width": 800,
+            "height": 900
+          },
+          "weight": 120,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "canStackOnTop": false,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#729ddd",
+          "rawData": {}
+        }
+      ]
+    },
+    {
+      "name": "无锡集散点",
+      "unloadIds": [
+        "manual-a"
+      ],
+      "pickup": [
+        {
+          "id": "manual-c",
+          "name": "常州配件箱",
+          "category": "包装箱",
+          "dimensions": {
+            "length": 800,
+            "width": 600,
+            "height": 600
+          },
+          "weight": 40,
+          "quantity": 1,
+          "allowedOrientations": [
+            "standing"
+          ],
+          "canStackOnTop": false,
+          "canOffsetStack": false,
+          "hasGlass": false,
+          "colorTag": "#729ddd",
+          "rawData": {}
+        }
+      ]
+    },
+    {
+      "name": "常州交付点",
+      "unloadIds": [
+        "manual-c"
+      ],
+      "pickup": []
+    },
+    {
+      "name": "南京交付点",
+      "unloadIds": [
+        "manual-b"
+      ],
+      "pickup": []
+    }
+  ]
+}

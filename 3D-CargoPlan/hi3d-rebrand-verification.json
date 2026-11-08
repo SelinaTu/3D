@@ -1,0 +1,44 @@
+{
+  "product": {
+    "english": "CargoPlan",
+    "chinese": "舱策"
+  },
+  "verifiedAt": "2026-11-08T06:05:33.349183+00:00",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "tests": {
+      "passed": 271,
+      "files": 38
+    },
+    "builds": [
+      "web",
+      "standalone globe",
+      "backend",
+      "local deployed site"
+    ],
+    "browser": {
+      "passed": true,
+      "checks": [
+        "CargoPlan and 舱策 branding, four navigation sections and removed-route fallbacks",
+        "Workbench and cargo API",
+        "Cargo 3D and multi-stop simulation",
+        "Customer value and loading comparison",
+        "CargoPlan helper retains port context, offline answers and source fallback",
+        "Helper only appears in port knowledge and preserves its conversation",
+        "Renamed native/web helper events remain connected",
+        "All bundled resources load; removed schemas and dashboard bundles absent"
+      ],
+      "resources": 14,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRuntimeRequests": 0
+    }
+  },
+  "expectedLimitation": "The optional external evidence library is not bundled; its unavailable state is shown in the assistant.",
+  "desktop": "Desktop/native source names were updated. A renamed macOS application has not been compiled or validated on Windows.",
+  "reproduce": [
+    "npm ci",
+    "npm run check"
+  ]
+}

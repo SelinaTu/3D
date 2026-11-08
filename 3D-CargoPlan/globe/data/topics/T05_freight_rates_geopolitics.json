@@ -1,0 +1,151 @@
+{
+  "id": "T05_freight_rates_geopolitics",
+  "title_zh": "运价与地缘（市场黄灯）",
+  "title_en": "Freight rates & geopolitics (market yellow light)",
+  "product_use": "market_yellow",
+  "confidence": "high_attention_not_statutory",
+  "why_attention": {
+    "summary_zh": "市场黄灯。红海近 7 天 counts≈1200，90 天检索每页顶满——声量远超条款主题。SCFI/运价 EN+ZH 抽样均 ≥25 顶满。不写入港规字段。",
+    "heat_7d": {
+      "red_sea": 1200,
+      "scfi_rates": 65,
+      "blank_sailing": 24
+    },
+    "heat_90d": {
+      "red_sea": "≥25_capped_7d_was_1200",
+      "scfi_rates": "≥25_capped",
+      "zh_yunjia": "≥25_capped"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "SCFI",
+      "zh": "上海出口集装箱运价指数",
+      "def": "Shanghai Containerized Freight Index — spot market indicator, not a contract rate."
+    },
+    {
+      "term": "WCI",
+      "zh": "德路里世界集装箱指数",
+      "def": "Drewry World Container Index — composite spot assessment."
+    },
+    {
+      "term": "Spot vs contract",
+      "zh": "即期 vs 合约",
+      "def": "Spot fluctuates weekly; long-term contracts differ — neither is a 'fine'."
+    },
+    {
+      "term": "Cape rerouting",
+      "zh": "绕好望角",
+      "def": "Avoiding Red Sea/Suez lengthens transit, absorbs capacity, supports rates narratives."
+    }
+  ],
+  "who_pays": {
+    "typical": "Shipper pays freight + bunker/accessorials per booking; geopolitics is market risk not a statutory fine."
+  },
+  "who_responsible": [
+    "Carriers set blank sailings/rates",
+    "BCOs/forwarders watch indices"
+  ],
+  "common_pitfalls": [
+    "Putting SCFI numbers into fine_refs.",
+    "Treating a tweeted index print as contractual quote.",
+    "Ignoring that blank sailings are capacity tools tied to rate defense."
+  ],
+  "official_sources": [
+    {
+      "url": "https://unctad.org/topic/transport-and-trade-logistics",
+      "org": "UNCTAD",
+      "note": "Trade logistics / maritime transport research hub"
+    },
+    {
+      "url": "https://www.imo.org/",
+      "org": "IMO",
+      "note": "Safety/security context — not a freight index publisher"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "note": "SCFI origin"
+    },
+    {
+      "iso2": "US",
+      "note": "Transpacific demand narratives"
+    },
+    {
+      "iso2": "NL",
+      "note": "Asia-Europe gateway"
+    },
+    {
+      "iso2": "AE",
+      "note": "Hub on diversion routes"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "CNSHA"
+    },
+    {
+      "locode": "SGSIN"
+    },
+    {
+      "locode": "NLRTM"
+    },
+    {
+      "locode": "AEJEA"
+    },
+    {
+      "locode": "DEHAM"
+    }
+  ],
+  "faq": [
+    {
+      "q": "为什么 Globe 要放运价层？",
+      "a": "因为公众与货主近周真正刷屏的是地缘×运价；产品用「市场黄灯」分隔，避免与治超/VGM 法定层混淆。"
+    },
+    {
+      "q": "能用 X 上的运价数字下单吗？",
+      "a": "不能。以船司/货代正式报价与合约为准；指数仅供趋势。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "red_sea_7d": 1200,
+      "rates_7d": 65
+    },
+    "samples": [
+      {
+        "url": "https://x.com/tatin17/status/1966417125674725631",
+        "kind": "organic",
+        "note": "SCFI weekly + blank sailings"
+      },
+      {
+        "url": "https://x.com/EGoh3SAM/status/2086445062574231654",
+        "kind": "organic",
+        "note": "Drewry WCI outlook"
+      },
+      {
+        "url": "https://x.com/Shipsnapxx/status/2082973470032634203",
+        "kind": "media-ish",
+        "note": "Blank sailings to defend rates"
+      }
+    ],
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "red_sea": "≥25_capped_7d_was_1200",
+      "scfi_rates": "≥25_capped",
+      "zh_yunjia": "≥25_capped"
+    }
+  },
+  "gaps": [
+    "No live index API in offline globe",
+    "Geopolitical events change faster than packs"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

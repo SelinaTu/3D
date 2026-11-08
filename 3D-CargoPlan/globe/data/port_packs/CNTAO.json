@@ -1,0 +1,94 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "official_secondary",
+  "port_id": "CNTAO",
+  "port_name": "Qingdao",
+  "port_name_zh": "青岛",
+  "country": "CN",
+  "tier": "P0",
+  "fine_profile": "CN-road",
+  "vgm": {
+    "required_for_load": true,
+    "via": "depot"
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "topic": "vgm",
+      "severity": "block",
+      "title": "Verified Gross Mass before vessel load",
+      "detail": "SOLAS VI/2 — no VGM, no load",
+      "sources": [
+        "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx"
+      ],
+      "evidence_refs": [
+        {
+          "source_id": "a0ffd0c21d7aefcb6f9e",
+          "sha256": "1af655175cdbad6865916880f51e6d4b382a5c19bf0d2e79a84dc671cae95ce6",
+          "page": null,
+          "locator": "IMO VGM official webpage",
+          "status": "source_file_hash_verified_applicability_pending",
+          "automatic_decision_allowed": false
+        }
+      ]
+    },
+    {
+      "id": "cn_road_gross_mass",
+      "topic": "overweight_road",
+      "severity": "warn",
+      "title": "CN highway gross-mass limit by axle config",
+      "sources": [
+        "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+      ]
+    },
+    {
+      "id": "customs_packing_list_align",
+      "topic": "customs",
+      "severity": "info",
+      "title": "Packing list align with load plan (customs inspection evidence)",
+      "sources": [
+        "https://www.gov.cn/gongbao/2025/issue_12026/202505/content_7022577.html"
+      ]
+    },
+    {
+      "id": "ispm15_if_wood",
+      "topic": "ispm15",
+      "severity": "info",
+      "title": "ISPM15 mark if wood packing",
+      "sources": [
+        "https://www.ippc.int/"
+      ]
+    }
+  ],
+  "fine_refs": [
+    {
+      "id": "CN-OW-MASS",
+      "currency": "CNY",
+      "cap": 30000,
+      "formula_note": "warn if ≤1000kg over; else 500 per 1000kg; cap 30000",
+      "sources": [
+        "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+      ]
+    }
+  ],
+  "commercial_cost_hints": [],
+  "flags": {
+    "rail_cre": "high"
+  },
+  "notes": [
+    "堆场自动化 ≠ 柜内机器人法规"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm",
+      "layer": "L2",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/03_china_ports/qingdao.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

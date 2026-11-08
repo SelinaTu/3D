@@ -1,0 +1,221 @@
+{
+  "id": "T03_weight_limits_csc_road_odol",
+  "title_zh": "限重三层 · CSC / 船司·VGM / 公路·ODOL",
+  "title_en": "Three-layer weight limits · CSC / VGM-carrier / Road ODOL",
+  "product_use": "deep_field",
+  "confidence": "high_cn_id_skeleton_elsewhere",
+  "why_attention": {
+    "summary_zh": "规划引擎核心。近 90 天 ODOL 相关抽样 ≥49（2 页仍顶满）；近 7 天真实 counts=36。含 Zero ODOL 2027 / 港口卡口 / RUU 罚则讨论——罚金数字不以 X 为裁判。",
+    "heat_7d": {
+      "odol": 36,
+      "etle_odol": 0
+    },
+    "prior_report": "10_* §A1-P3; 02b_indonesia_national.md",
+    "heat_90d": {
+      "odol": "≥49_2pages_capped",
+      "etle_odol": "≥19_polluted"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "CSC max gross",
+      "zh": "柜铭牌最大总重",
+      "def": "Structural limit on CSC Safety Approval Plate — cargo+tare must not exceed."
+    },
+    {
+      "term": "VGM / stowage limit",
+      "zh": "船侧重量",
+      "def": "SOLAS VGM + carrier/stack rules — can be stricter commercially than CSC."
+    },
+    {
+      "term": "Road axle / GVW",
+      "zh": "公路轴载/车货总重",
+      "def": "National highway limits (e.g. CN MOT table; ID UU 22/2009 Kelas + MST; US Bridge Formula)."
+    },
+    {
+      "term": "ODOL",
+      "zh": "超限超载",
+      "def": "Indonesia Over Dimension Over Loading — road enforcement at ports/tolls/industrial zones."
+    },
+    {
+      "term": "JBI / JBKI",
+      "zh": "允许总重/列车总重",
+      "def": "Vehicle-specific permitted mass on KIR — NOT equal to ISO container payload."
+    }
+  ],
+  "who_pays": {
+    "typical": "Administrative fines hit vehicle operator/owner per national law; commercial refusal/WDF hit shipper; product must separate the two."
+  },
+  "who_responsible": [
+    "Shipper/packer for mass distribution",
+    "Haulier for road legality",
+    "Terminal gate for local tonnage plaques (verify)",
+    "Police/transport authority for ODOL/road"
+  ],
+  "common_pitfalls": [
+    "Using ISO payload as road legal weight.",
+    "Writing Rp 50 miliar ODOL fine into Pack — rumor_unverified vs UU caps.",
+    "Ignoring Kelas road length/height (HC + chassis > 4.2 m).",
+    "Mixing CN ¥30k road fine with carrier WDF USD."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.imo.org/en/about/conventions/pages/international-convention-for-safe-containers-%28csc%29.aspx",
+      "org": "IMO CSC",
+      "note": "Safe Containers Convention"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm",
+      "org": "China gov.cn",
+      "note": "MOT overlimit regulation — mass table + Art.43 fine formula"
+    },
+    {
+      "url": "https://pelayanan.jakarta.go.id/download/regulasi/undang-undang-nomor-22-tahun-2009-tentang-lalu-lintas-dan-angkutan-jalan.pdf",
+      "org": "UU 22/2009 mirror",
+      "note": "ID road class + MST; Pasal 277/307 fine caps"
+    },
+    {
+      "url": "https://peraturan.bpk.go.id/Download/311148/2021pmkemenhub018.pdf",
+      "org": "Permenhub 18/2021",
+      "note": "Freight loading supervision / JBI"
+    },
+    {
+      "url": "https://ops.fhwa.dot.gov/freight/SW/faqs/qa.cfm",
+      "org": "US FHWA",
+      "note": "Federal weight FAQ — no national fine schedule"
+    },
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/ctu-code.aspx",
+      "org": "IMO CTU Code",
+      "note": "Packing / load distribution practice (non-mandatory)"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "field": "road_limits + fine_refs CN-OW-MASS",
+      "note": "Thick — ¥500/t over 1t cap ¥30k"
+    },
+    {
+      "iso2": "ID",
+      "field": "road_limits MST + fine_refs Pasal 277/307",
+      "note": "Thick — Rp 24jt / Rp 500rb statutory caps"
+    },
+    {
+      "iso2": "US",
+      "note": "Federal limits; state fines — skeleton"
+    },
+    {
+      "iso2": "DE",
+      "note": "BKatV % bands — see 05_fines"
+    },
+    {
+      "iso2": "NL",
+      "note": "ILT overbelading"
+    },
+    {
+      "iso2": "KR",
+      "note": "Road fines unverified gap"
+    },
+    {
+      "iso2": "MY",
+      "note": "Road fines unverified gap"
+    },
+    {
+      "iso2": "AE",
+      "note": "Road fines unverified gap"
+    },
+    {
+      "iso2": "SG",
+      "note": "Island road limits TBD skeleton"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "IDTPP",
+      "note": "Priok toll access 45t media 2017 — current plaque unverified"
+    },
+    {
+      "locode": "IDSUB",
+      "note": "Perak ODOL trial 2026 (Kompas)"
+    },
+    {
+      "locode": "IDBLW",
+      "note": "Belawan ODOL gate narrative"
+    },
+    {
+      "locode": "CNSHA",
+      "note": "CN highway after gate"
+    },
+    {
+      "locode": "USLAX",
+      "note": "CA state/county schedules"
+    }
+  ],
+  "faq": [
+    {
+      "q": "柜能装的重量 = 能上路的重量吗？",
+      "a": "不一定。CSC/ISO payload、VGM/船司、公路轴载/ODOL 是三层；任一超限都可能「装得上船、出不了门」。"
+    },
+    {
+      "q": "印尼超载罚多少？",
+      "a": "可引用 UU 22/2009：Pasal 307 上限约 Rp 500.000（装载/daya angkut）；Pasal 277 上限约 Rp 24.000.000（技术/改型语境）。网上「Rp 500 亿」类 → rumor_unverified，不进罚金字段。"
+    },
+    {
+      "q": "中国治超封顶多少？",
+      "a": "治超规章第 43 条叙述：未超 1000 kg 警告；其后每超 1000 kg ¥500，封顶 ¥30,000（以 gov.cn 现行文为准）。"
+    },
+    {
+      "q": "Zero ODOL 2027 是新罚金表吗？",
+      "a": "政策节奏是更严执行既有法，不是自动替换罚金表；港口是卡口之一。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "odol_7d": 36,
+      "archive": 20
+    },
+    "samples": [
+      {
+        "url": "https://x.com/kompascom/status/2109900925871820827",
+        "kind": "media",
+        "note": "Perak ODOL trial → Zero ODOL 2027"
+      },
+      {
+        "url": "https://x.com/KompasOtomotif/status/2109127884266954994",
+        "kind": "media",
+        "note": "ODOL enforcement to ports"
+      },
+      {
+        "url": "https://x.com/hubdat151/status/1624778488795496449",
+        "kind": "gov",
+        "note": "Ditjen Hubdat Zero ODOL messaging"
+      },
+      {
+        "url": "https://x.com/soloposdotcom/status/1945742205592723690",
+        "kind": "media",
+        "note": "Policy discussion"
+      }
+    ],
+    "rumor_unverified": [
+      "Rp 50 miliar / Rp50 M ODOL headline amounts — not mapped to UU article in our verification"
+    ],
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "odol": "≥49_2pages_capped",
+      "etle_odol": "≥19_polluted"
+    }
+  },
+  "gaps": [
+    "Pelindo current gate tonnage plaques",
+    "KR/MY/AE road fine tables",
+    "Machine-readable stuffing bans none"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

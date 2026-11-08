@@ -1,0 +1,25 @@
+#created 11/08/2026
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+Helvetica                            Type 1            WinAnsi          no  no  no       7  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes      8  0
+Helvetica                            Type 1            WinAnsi          no  no  no      24  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes     25  0
+Helvetica                            Type 1            WinAnsi          no  no  no      40  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes     41  0
+Helvetica                            Type 1            WinAnsi          no  no  no      56  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes     57  0
+Helvetica                            Type 1            WinAnsi          no  no  no      72  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes     73  0
+Helvetica                            Type 1            WinAnsi          no  no  no      88  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes     89  0
+Helvetica                            Type 1            WinAnsi          no  no  no     104  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes    105  0
+Helvetica                            Type 1            WinAnsi          no  no  no     120  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes    121  0
+Helvetica                            Type 1            WinAnsi          no  no  no     136  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes    137  0
+Helvetica                            Type 1            WinAnsi          no  no  no     152  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes    153  0
+Helvetica                            Type 1            WinAnsi          no  no  no     168  0
+AAAAAA+ArialUnicodeMS                TrueType          WinAnsi          yes yes yes    169  0

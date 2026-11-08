@@ -1,0 +1,46 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "industry",
+  "port_id": "SGSIN",
+  "port_name": "Singapore",
+  "country": "SG",
+  "tier": "P0",
+  "fine_profile": "link_next_leg",
+  "vgm": {
+    "required_for_load": true
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    },
+    {
+      "id": "defer_to_pod",
+      "severity": "info",
+      "title": "Hub — defer road/customs to POD"
+    }
+  ],
+  "fine_refs": [],
+  "commercial_cost_hints": [],
+  "flags": {
+    "hub_transship": true,
+    "rules_defer_to_pod": true
+  },
+  "notes": [
+    "No in-box stuffing ban schema found."
+  ],
+  "sources": [
+    {
+      "url": "https://www.mpa.gov.sg/",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/singapore.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

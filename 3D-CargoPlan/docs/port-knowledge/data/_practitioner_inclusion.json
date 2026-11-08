@@ -1,0 +1,3647 @@
+{
+  "as_of": "2026-10-31",
+  "source": "CargoPlan_KnowledgeBase/data/rules.json",
+  "source_rule_count": 989,
+  "included_rule_count": 331,
+  "left_in_evidence_wiki": 658,
+  "selection_rule": "Include a card when it changes a booking, stuffing, cutoff, gate, return, or charge-dispute judgment; states a distinction, clock, responsible party, or exception; and can be reused across shipments. Dated terminal prices, vessel-equipment procedures, and professional scoring tables stay in the evidence wiki.",
+  "automatic_decision_allowed": false,
+  "legal_acceptance": "not_passed",
+  "groups": [
+    {
+      "id": "ctu",
+      "title": "装箱与加固",
+      "product_use": "check_field",
+      "why": "装箱计划会用到的物理判断：载荷路径、加固、开门卸货、途中稳定。不替代当地强制规则。",
+      "count": 28,
+      "cards": [
+        {
+          "id": "CF-R0001",
+          "title_zh": "CTU准则不能替代当地强制规则",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 1.1.3",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0002",
+          "title_zh": "重件布局同时核对重心与底板受力",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 3.3",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0003",
+          "title_zh": "危货标记、包装与外部标牌要一并检查",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 3.4",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0004",
+          "title_zh": "支撑与绑扎不能使设备或货物过载",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 3.5；详见Annex7及附录",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0005",
+          "title_zh": "封箱资料应与箱号、毛重及封志一致",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 3.6",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "vgm",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0006",
+          "title_zh": "箱体提供者应提供适用、安全和清洁的运输单元",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 4.2.1",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0007",
+          "title_zh": "需要批准牌照的箱体应核对有效批准和检验状态",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 7.1.1–7.1.3；8.2",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0008",
+          "title_zh": "交接时核对封志，异常应联系CTU经营人",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 12.1.2",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0009",
+          "title_zh": "开箱前考虑货物坠落和箱内危险气氛",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Code 12.1.4及相邻条款；Annex5、Annex9",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0221",
+          "title_zh": "异构普通货也需核对气味、粉尘和物理化学相容性",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.3 The compatibility",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0222",
+          "title_zh": "防潮方案需考虑货物、垫木和密闭箱的共同含水量",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.4 In order",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0223",
+          "title_zh": "堆叠上层重量必须由实际包装能力支持",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.6 Where packing",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0224",
+          "title_zh": "装箱规划应提前考虑目的地开门和卸货安全",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.7 Consideration",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0225",
+          "title_zh": "箱体总重合格仍需核对沿途吊运和路面能力",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.9 Notwithstanding",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0226",
+          "title_zh": "小底面积重件需把集中载荷传到箱体结构梁",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.10 When a heavy package",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0227",
+          "title_zh": "重心要求包含方向、吊运工况和无法满足时的措施",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.11 In longitudinal",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0228",
+          "title_zh": "开顶开侧箱外伸需对接公铁及船上积载安排",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.12 If the planned cargo",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0229",
+          "title_zh": "复杂装箱计划应输出可理解的图示并检查实际实施",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 1.16 The result",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0230",
+          "title_zh": "多收货人货物可用分隔材料维持可识别性",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 2.1.5 Dunnaging material",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0231",
+          "title_zh": "直接加固与摩擦加固采用的摩擦条件不同",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 2.2.2.2 For cargoes",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0232",
+          "title_zh": "防滑垫的认证摩擦值依赖实际使用条件",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 2.2.3 Friction increasing",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0233",
+          "title_zh": "挡固受力应分散到足够强的接触位置",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 2.3.2 Forces being",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0234",
+          "title_zh": "换装后车辆轴荷需按实际重心重新核对",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 3.1.7 Road trucks",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0235",
+          "title_zh": "装卸中途也要稳定，不能只检查封箱后的状态",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 4.1.1 Arrangements",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0236",
+          "title_zh": "重货也会位移，跨海陆运输应核对各向加速度",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 4.1.2 During transport",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0237",
+          "title_zh": "不同伸长特性的加固方式不能简单叠加能力",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 4.1.6 Arrangements",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0238",
+          "title_zh": "多式联运交接时应适时复查并调整加固",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 4.1.8 During transport",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0239",
+          "title_zh": "外伸重件不宜只靠顶部压绑防滑",
+          "layer_zh": "国际实践准则",
+          "locator": "CTU Annex7 4.3.5 Individual securing",
+          "source_id": "6921fc11d713d5d6bfa8",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vgm",
+      "title": "VGM 责任链",
+      "product_use": "check_field",
+      "why": "托运人身份、两种方法、签署送达、交接传递、无 VGM 不装、有 VGM 也不等于码头接受。",
+      "count": 8,
+      "cards": [
+        {
+          "id": "CF-R0010",
+          "title_zh": "VGM中的托运人按运输文件及合同身份识别",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 2.1.12–2.1.16",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0011",
+          "title_zh": "托运人负责取得并记录VGM",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 4.1–4.2",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0012",
+          "title_zh": "VGM方法与逐件求和的认证条件应区分",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 5",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0013",
+          "title_zh": "VGM文件需要授权签署并提前送达",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 6.2–6.3",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0014",
+          "title_zh": "VGM应随集装箱保管交接传递",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 8.1–8.1.1",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0015",
+          "title_zh": "箱体最大允许总质量独立于VGM校验",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 10.1",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0016",
+          "title_zh": "无VGM时的补救称重与费用应另行约定",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 13.1",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0017",
+          "title_zh": "具备VGM不构成装船接受保证",
+          "layer_zh": "IMO实施指南",
+          "locator": "MSC.1/Circ.1475 Annex 14.1",
+          "source_id": "af6b1eb18c65f3dd160f",
+          "topics": [
+            "vgm",
+            "ordinary_cargo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "csc",
+      "title": "箱体批准",
+      "product_use": "check_field",
+      "why": "用箱前核对铭牌、改造是否使批准失效、堆码额定值、首检复检与 ACEP 间隔。",
+      "count": 5,
+      "cards": [
+        {
+          "id": "CF-R0270",
+          "title_zh": "集装箱CSC牌需固定可见且最大总重标记一致",
+          "layer_zh": "CSC集装箱安全要求",
+          "locator": "CSC AnnexI Reg1(1)–(2)／IMDG1.1.2.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0271",
+          "title_zh": "箱体改造可能使原CSC批准失效",
+          "layer_zh": "CSC集装箱安全要求",
+          "locator": "CSC AnnexI Reg1(1)(c)／IMDG1.1.2.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0272",
+          "title_zh": "箱体壁强度和受限堆码参数需使用实际批准值",
+          "layer_zh": "CSC集装箱安全要求",
+          "locator": "CSC AnnexI Reg1(3)–(5)／IMDG1.1.2.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0273",
+          "title_zh": "CSC定期检查采用首检与复检不同上限",
+          "layer_zh": "CSC集装箱安全要求",
+          "locator": "CSC AnnexI Reg2(1)–(2)／IMDG1.1.2.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0274",
+          "title_zh": "ACEP连续检查仍有检查事件和最长间隔",
+          "layer_zh": "CSC集装箱安全要求",
+          "locator": "CSC AnnexI Reg2(3)–(7)／IMDG1.1.2.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "ordinary_cargo",
+            "project_cargo",
+            "dangerous_goods"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imdg",
+      "title": "危货作业骨架",
+      "product_use": "check_field",
+      "why": "IMDG 强制与建议分开、分类责任、DGL 连读、单证五项、装箱证明九项、隔离、限量与免除量、锂电池路径。不含 2,860 行危货一览表。",
+      "count": 45,
+      "cards": [
+        {
+          "id": "CF-R0140",
+          "title_zh": "IMDG的强制正文与建议性内容应逐项区分",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 1.1.1.5",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0141",
+          "title_zh": "岸上危货人员需按职责培训并保留监督边界",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 1.3.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0142",
+          "title_zh": "危货分类责任由托运人或规定的主管机关承担",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 2.0.0.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0143",
+          "title_zh": "DGL的一条UN记录需连读特殊规定、包装与隔离栏",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 3.2.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0144",
+          "title_zh": "危货包装需覆盖转运、拆托和机械搬运工况",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 4.1.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0145",
+          "title_zh": "同一外包装内的相容性包含普通货和包装材料",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 4.1.1.6",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0146",
+          "title_zh": "空包装和空箱的消危状态决定是否继续按危货处理",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.1.3.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0147",
+          "title_zh": "包件标签需覆盖主危险与适用副危险",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.2.2.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0148",
+          "title_zh": "普通危货集装箱的标牌需核对四个侧端面",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.3.1.1.4.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0149",
+          "title_zh": "箱外UN号和正式运输名称不是所有箱统一贴法",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.3.2.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0150",
+          "title_zh": "危货电子单证须取得承运人同意并能及时转成纸面",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.1.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0151",
+          "title_zh": "危货运输描述的五项信息及顺序应按勘误核对",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.1.4.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0152",
+          "title_zh": "危货数量、件数和包装描述需按不同货物项分别记录",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.1.5.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0153",
+          "title_zh": "危货托运声明与装箱证明是不同责任确认",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.1.6.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0154",
+          "title_zh": "危货装箱证明应覆盖九组装箱检查条件",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.2.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0155",
+          "title_zh": "危货应急资料应与包件分离并可随时取得",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.3.4.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0156",
+          "title_zh": "多式联运危货表的信息要求与表格版式应区分",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.5.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0157",
+          "title_zh": "托运人与承运人需保存危货运输资料至少三个月",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.4.6.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0158",
+          "title_zh": "海运隔离需同时核对一般表格与DGL第16b栏",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.2.3.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0159",
+          "title_zh": "未列入清单隔离组的N.O.S.货物仍需检查化学属性",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.2.5.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0160",
+          "title_zh": "危货运输箱体应具有足够强度并适当维护",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.2.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0161",
+          "title_zh": "损坏渗漏包件不得入箱，装载姿态与干燥条件需保留",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.3.3",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0162",
+          "title_zh": "危货与工程重件同箱时全部货物均需可靠约束",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.3.6",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0163",
+          "title_zh": "超尺寸机械的箱外伸出有特定危险物流出边界",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.3.8",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0164",
+          "title_zh": "危货部分混装时应考虑靠门可达与紧急开门",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.3.10",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0165",
+          "title_zh": "海运箱内隔离不能简单套船上三米距离",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.4.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0166",
+          "title_zh": "危货与食品同箱存在分类和包装类别的具体例外",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.4.2.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0167",
+          "title_zh": "箱内追踪设备也需核对对本票危货的安全适用性",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.5",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0168",
+          "title_zh": "拆箱前需考虑泄漏气氛，消危后才移除危货标识",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 7.3.6.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0169",
+          "title_zh": "熏蒸警告牌的保留与去除需同时核对通风和卸货",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.5.2.3.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0170",
+          "title_zh": "熏蒸运输文件的豁免有完全通风及日期标记条件",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 5.5.2.4.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0171",
+          "title_zh": "限量危货资格按内包装限值和完整条件确定",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 3.4.1.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0172",
+          "title_zh": "仅载LQ与混载其他危货的箱外标识不同",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 3.4.5.5.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0173",
+          "title_zh": "可免除量按E代码及内外包装双重限值判断",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 3.5.1.2",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0174",
+          "title_zh": "EQ整箱包件上限、单证与混装例外需共同核对",
+          "layer_zh": "国际海运危险货物规则",
+          "locator": "IMDG42-24 3.5.5.1",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0260",
+          "title_zh": "锂电池要按电化学体系和是否随设备运输选项",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG2.9.4.1–.4",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0261",
+          "title_zh": "锂电池质量程序要求可追溯，不等于强制第三方证书",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG2.9.4.5及注释",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0262",
+          "title_zh": "锂电池试验概要须可获取，但存在特定纽扣电池例外",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG2.9.4.7及注释",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0263",
+          "title_zh": "钠电池UN3551／3552依赖电极和有机电解液定义",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG2.9.5",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0264",
+          "title_zh": "水性碱电解液钠离子电池与有机电解液的UN项不同",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP401",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0265",
+          "title_zh": "SP188小电池条件必须全部满足才适用",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP188.1–.8",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0266",
+          "title_zh": "SP188标记例外依赖设备内电池数和本票包装数",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP188.6",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0267",
+          "title_zh": "SP188跌落要求和30kg上限的设备例外不同",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP188.7–.8及2025-12勘误",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0268",
+          "title_zh": "损坏或缺陷电池需技术评估并选择相应包装路径",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP376",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0269",
+          "title_zh": "回收处置电池与已识别损坏电池不能使用同一路径",
+          "layer_zh": "IMDG国际海运危险货物规则",
+          "locator": "IMDG3.3 SP377",
+          "source_id": "5c96813dd142537f2d5b",
+          "topics": [
+            "dangerous_goods"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "title": "木包装与进口商检",
+      "product_use": "check_field",
+      "why": "ISPM 15 的范围、豁免、再用与修理再制造、标记；中国进境标识仍可能因活虫被处理；成套设备不合格不能到仓即装。",
+      "count": 24,
+      "cards": [
+        {
+          "id": "CF-R0104",
+          "title_zh": "木包装检疫范围包括加固垫木和电缆盘",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "第2节及脚注1",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0105",
+          "title_zh": "ISPM15豁免按材料和制造条件判断",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "第2.1节完整列表及脚注2",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0106",
+          "title_zh": "合规木包装重复使用与修理再制造应分开",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "第4.3.1节；第4.3.2至4.3.3节",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0107",
+          "title_zh": "修理木包装的替换构件和标记需可追溯",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "第4.3.2节，跨第11至12页",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0108",
+          "title_zh": "再制造木包装需清除旧标记并重新处理标记",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "第4.3.3节",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0109",
+          "title_zh": "ISPM15标记需包含符号、国家、处理者及处理代码",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "Annex2第20至21页",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0110",
+          "title_zh": "裁切加固垫木后仍需保留完整清晰标记",
+          "layer_zh": "国际植物检疫标准",
+          "locator": "Annex2第21页Dunnage段",
+          "source_id": "026d36844cabd1fe8a96",
+          "topics": [
+            "biosecurity",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0290",
+          "title_zh": "法定检验进口货物放行后仍有申请检验任务",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第十六条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0291",
+          "title_zh": "检验地点依商品状态区分目的地和卸货港",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第十八条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0292",
+          "title_zh": "不合格进口成套设备不能因到仓即安装",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第十九条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0293",
+          "title_zh": "重要进口设备的装运前检验和到货索赔可以并存",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第二十一条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "project_cargo",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0294",
+          "title_zh": "旧机电进口需区分高风险装运前与到货检验",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第二十二条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0295",
+          "title_zh": "出口危货包装性能与使用鉴定是两个检查",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第二十九条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0296",
+          "title_zh": "易腐冷冻品的运载工具还有适载检验要求",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第三十条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0297",
+          "title_zh": "对商品检验结果异议有独立复验时钟",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第三十五条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0298",
+          "title_zh": "出口危险品包装未鉴定与鉴定不合格处罚分支不同",
+          "layer_zh": "中国商品检验行政法规",
+          "locator": "所述文书第五十条",
+          "source_id": "860faabf43383318510f",
+          "topics": [
+            "customs",
+            "dangerous_goods",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0299",
+          "title_zh": "木包装范围包含加固垫木，薄材和深加工材有例外",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件4 第二条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0300",
+          "title_zh": "进口木包装需输出方监督处理和IPPC标识",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件4 第四条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0301",
+          "title_zh": "木包装有IPPC标识仍可能因活虫被要求处理",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件4 第五条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0302",
+          "title_zh": "涉木包装检疫的开箱移运拆木需主管许可",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件4 第九条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0303",
+          "title_zh": "木包装标识资格五年有效自新修订起核对",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件5 第六条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0304",
+          "title_zh": "修理再加工木包装仍需重验，单纯再用文字已删除",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件5 第九条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0305",
+          "title_zh": "无标识资格的装箱企业可以向合格企业采购",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件5 第十一条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0306",
+          "title_zh": "目的国特殊木包装要求需叠加核对",
+          "layer_zh": "中国木包装检疫规章",
+          "locator": "283号令附件5 第十六条",
+          "source_id": "5fdddd1f8908815cdcd6",
+          "topics": [
+            "biosecurity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu_road",
+      "title": "欧洲海陆道路限值",
+      "product_use": "check_field",
+      "why": "联运优惠、42/44 吨、45 英尺加 15 厘米、轴荷和箱重声明都有条件分支。零排放增重不能直接变成货重。",
+      "count": 18,
+      "cards": [
+        {
+          "id": "CF-R0371",
+          "title_zh": "欧盟道路限值先确认车辆类别及国际国内范围",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article1",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0372",
+          "title_zh": "海陆联运道路优惠要满足intermodal定义",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article2",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0373",
+          "title_zh": "欧洲超尺寸不可分货通常需主管机关特批",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article4",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0374",
+          "title_zh": "欧洲车辆合规证明需随车辆实际变更",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article6",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0375",
+          "title_zh": "欧洲统一限值合格仍需核对当地道路桥梁限制",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article7",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0376",
+          "title_zh": "零排放增重不能直接变成额外货物载荷",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article10b",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0377",
+          "title_zh": "45英尺联运箱的15厘米安排有明确适用范围",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article10c",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0378",
+          "title_zh": "欧洲箱重声明要传给公路承运人并可供查阅",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article10f",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0379",
+          "title_zh": "欧洲车货尺寸包括箱体且长度需区分组合类型",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexI1.1–1.4；Articles2、4、7及10c",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0380",
+          "title_zh": "欧洲海陆联运42／44吨是车货总重的条件分支",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexI2.2.2；Articles2、10b",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0381",
+          "title_zh": "欧洲轴荷上限依轴距、驱动与悬架分支",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexI3.1–3.5及AnnexII",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0382",
+          "title_zh": "欧洲国际交通还需维持驱动轴最低载荷占比",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexI4.1–4.4",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0383",
+          "title_zh": "欧洲车辆尾部气动装置的超长安排不能增加装货长度",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article8b",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0384",
+          "title_zh": "欧洲改良驾驶室增加车长不增加货物承载能力",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article9a",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0385",
+          "title_zh": "欧洲自动称重需区分超载筛查与处罚证据",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article10d",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0386",
+          "title_zh": "欧洲道路超限罚则需要落到成员国现行规则",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 Article10e",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0387",
+          "title_zh": "欧洲轴荷分支中的空气悬架及等效性需要技术证明",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexII1–4",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0388",
+          "title_zh": "欧洲车辆尺寸证明应绑定VIN与实际牵引连接点",
+          "layer_zh": "欧盟道路尺寸重量指令",
+          "locator": "96/53 AnnexIII I–II及Article6",
+          "source_id": "e1cdda6a1f9e2c5b2ca1",
+          "topics": [
+            "project_cargo",
+            "ordinary_cargo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carrier",
+      "title": "船司责任与接受",
+      "product_use": "distinction",
+      "why": "书面同意才交危货、自装箱责任、VGM 截止、还箱清洁、错报费与处理费不是同一种费、留置不能只按本票未付运费理解。金额留在合同原文。",
+      "count": 31,
+      "cards": [
+        {
+          "id": "CF-R0037",
+          "title_zh": "Hapag-Lloyd保留框架箱装船前检查和拒收权",
+          "layer_zh": "船司技术指南",
+          "locator": "Loading & Lashing Cargo，PDF第2页",
+          "source_id": "44c26e31f39aa805b37e",
+          "topics": [
+            "project_cargo",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0038",
+          "title_zh": "OOG申报尺寸应包含绑扎设备和突出部分",
+          "layer_zh": "船司技术指南",
+          "locator": "Loading & Lashing Cargo，PDF第2页 OOG measurements",
+          "source_id": "44c26e31f39aa805b37e",
+          "topics": [
+            "project_cargo",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0039",
+          "title_zh": "框架箱结构不能擅自焊接、钻孔或改造",
+          "layer_zh": "船司技术指南",
+          "locator": "Loading & Lashing Cargo，PDF第2页 Welding",
+          "source_id": "44c26e31f39aa805b37e",
+          "topics": [
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0040",
+          "title_zh": "Maersk危货需事先书面告知并取得书面同意",
+          "layer_zh": "船司运输合同",
+          "locator": "Terms for Carriage 21.1",
+          "source_id": "4f33b6e2cb19567249b0",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0041",
+          "title_zh": "Maersk托运人承担货物资料准确性承诺",
+          "layer_zh": "船司运输合同",
+          "locator": "Terms for Carriage 14.2–14.4",
+          "source_id": "4f33b6e2cb19567249b0",
+          "topics": [
+            "ordinary_cargo",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0042",
+          "title_zh": "Maersk留置与处置条款需关联适用法律审查",
+          "layer_zh": "船司运输合同",
+          "locator": "Terms for Carriage 17",
+          "source_id": "4f33b6e2cb19567249b0",
+          "topics": [
+            "contract",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0044",
+          "title_zh": "In-Gauge特种货条款仍要求完整资料和适当系固",
+          "layer_zh": "船司特种货合同",
+          "locator": "SPC Terms 2定义、6.1及6.3",
+          "source_id": "0c602a7cee4b3d8302f1",
+          "topics": [
+            "project_cargo",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0045",
+          "title_zh": "危货错报费属于船司商业收费，存在区域差异",
+          "layer_zh": "船司收费通知",
+          "locator": "Customer advisory Dangerous Goods Misdeclaration Fee，2025-10-24",
+          "source_id": "fec0044029ea235c478e",
+          "topics": [
+            "dangerous_goods",
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0076",
+          "title_zh": "Hapag提单将适用费率条款纳入，冲突时需核对优先关系",
+          "layer_zh": "船司运输合同",
+          "locator": "第2条；第1条Freight定义与第23条",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "contract",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0077",
+          "title_zh": "Hapag自装箱的装填、箱体与冷货条件有责任分配",
+          "layer_zh": "船司运输合同",
+          "locator": "第7(1)至(3)条；第1条Merchant定义",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "contract",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0078",
+          "title_zh": "Hapag自装箱交付需完整高保安封志并提供封号",
+          "layer_zh": "船司运输合同",
+          "locator": "第7(4)条；第8条查验开箱另核",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "contract",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0079",
+          "title_zh": "Hapag的VGM截止及缺报处置按实际承运通知确认",
+          "layer_zh": "船司运输合同",
+          "locator": "第11(2)条及第1条VGM定义",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "vgm",
+            "contract",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0080",
+          "title_zh": "Hapag还空箱需核对清洁、标牌、地点与规定时间",
+          "layer_zh": "船司运输合同",
+          "locator": "第11(4)条；第2条适用费率",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "contract",
+            "fees",
+            "biosecurity"
+          ]
+        },
+        {
+          "id": "CF-R0081",
+          "title_zh": "Hapag危货交运需书面同意及箱货外部标识",
+          "layer_zh": "船司运输合同",
+          "locator": "第18条完整条文；第1及23条",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0082",
+          "title_zh": "Hapag一箱多提单交付存在整箱交付条件",
+          "layer_zh": "船司运输合同",
+          "locator": "第20条完整条文",
+          "source_id": "c3dec9bac6080d714dad",
+          "topics": [
+            "contract",
+            "gate_release",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0131",
+          "title_zh": "CMA CGM危货交运需明确书面同意及完整危险信息",
+          "layer_zh": "船司运输合同",
+          "locator": "第20条完整条文，第6至7页",
+          "source_id": "1a150317ac5a1f22849b",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0132",
+          "title_zh": "CMA CGM一箱多提单整箱交付需满足全部相关提单条件",
+          "layer_zh": "船司运输合同",
+          "locator": "第16条完整条文",
+          "source_id": "1a150317ac5a1f22849b",
+          "topics": [
+            "contract",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0133",
+          "title_zh": "CMA CGM错报处理费与错报费有不同计费单位",
+          "layer_zh": "船司运输合同",
+          "locator": "第25(4)至(5)条；第26条",
+          "source_id": "1a150317ac5a1f22849b",
+          "topics": [
+            "contract",
+            "fees",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0134",
+          "title_zh": "CMA CGM商户装箱需保留箱况、装填与封志证据",
+          "layer_zh": "船司运输合同",
+          "locator": "第23条，第7至8页",
+          "source_id": "1a150317ac5a1f22849b",
+          "topics": [
+            "contract",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0135",
+          "title_zh": "CMA CGM在线订舱确认可能仍有最终接受条件",
+          "layer_zh": "船司电子商务条款",
+          "locator": "eCommerce15.D(3)至(5)；15.E另有SpotOn规则",
+          "source_id": "619a4ab873cf705fba92",
+          "topics": [
+            "contract",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0136",
+          "title_zh": "ONE危货书面申请需说明确切性质及应对方式",
+          "layer_zh": "船司运输合同",
+          "locator": "第19.1至19.4条",
+          "source_id": "67eac7ed3478984f9342",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0137",
+          "title_zh": "COSCO自装箱前检查和装填责任需与箱体提供者区分",
+          "layer_zh": "船司运输合同",
+          "locator": "第11条，第8至9页",
+          "source_id": "8bf9e0e8adb048f6231f",
+          "topics": [
+            "contract",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0138",
+          "title_zh": "COSCO货物资料保证与承运人未核实箱内内容并存",
+          "layer_zh": "船司运输合同",
+          "locator": "第12至13条，第9至10页",
+          "source_id": "8bf9e0e8adb048f6231f",
+          "topics": [
+            "contract",
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0139",
+          "title_zh": "COSCO危货需书面告知性质及防护措施",
+          "layer_zh": "船司运输合同",
+          "locator": "第21条，第15至16页",
+          "source_id": "8bf9e0e8adb048f6231f",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0187",
+          "title_zh": "MSC多式联运责任需按损害发生运输段区分",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC BL5.1至5.3及6美国运输",
+          "source_id": "50f178794ac83842fdaf",
+          "topics": [
+            "contract",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0188",
+          "title_zh": "MSC自装箱需检查适箱性并保留装填封志证据",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC BL11.1至11.4",
+          "source_id": "50f178794ac83842fdaf",
+          "topics": [
+            "contract",
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0189",
+          "title_zh": "MSC免费用箱时间须关联具体起算事件与当地费率",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC BL3及14.8至14.9",
+          "source_id": "50f178794ac83842fdaf",
+          "topics": [
+            "contract",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0190",
+          "title_zh": "MSC返箱应满足指定地点、箱况及清洁条件",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC BL14.9；适用危货消危规则另核",
+          "source_id": "50f178794ac83842fdaf",
+          "topics": [
+            "contract",
+            "biosecurity",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0191",
+          "title_zh": "MSC危货需完整书面披露及承运人书面批准",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC BL15.1至15.3",
+          "source_id": "50f178794ac83842fdaf",
+          "topics": [
+            "contract",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0192",
+          "title_zh": "MSC海运单提货依身份和授权，不以交回正本副本为统一条件",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC SeaWaybill FRONT；5.4及20.2",
+          "source_id": "0637d6ddfcfe3ec0bb33",
+          "topics": [
+            "contract",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0193",
+          "title_zh": "MSC海运单危货也需书面批准与特殊搬运资料",
+          "layer_zh": "船司运输合同",
+          "locator": "MSC SeaWaybill15.1至15.3",
+          "source_id": "0637d6ddfcfe3ec0bb33",
+          "topics": [
+            "contract",
+            "dangerous_goods"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clocks",
+      "title": "海关、舱单与费用时钟",
+      "product_use": "distinction",
+      "why": "这些卡片改的是「谁申报、从何时起算、哪两件事不能混」。临时储存天数不是码头免费期，缴税不是放行，舱单罚款不是保证金赔偿。",
+      "count": 121,
+      "cards": [
+        {
+          "id": "CF-R0275",
+          "title_zh": "海关监管起止应跟随实际进出口方向",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十三条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0276",
+          "title_zh": "中国申报时限与如实申报责任应分开核对",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十四条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0277",
+          "title_zh": "海关接受后单证更改需保留合法变更路径",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十六条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0278",
+          "title_zh": "申报前取样需许可，检疫货物还有检疫先决条件",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十七条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0279",
+          "title_zh": "海关查验后的包装复原属于作业任务",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十八条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0280",
+          "title_zh": "缴税或担保与海关签印放行仍是不同事件",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第二十九条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0281",
+          "title_zh": "受海关监管货物的拆改和封志操作需许可",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第三十七条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0282",
+          "title_zh": "监管货物区外存放与普通仓库收货条件不同",
+          "layer_zh": "中国海关法律",
+          "locator": "海关法第三十八条",
+          "source_id": "e979ed96abae8c0c5d8c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0283",
+          "title_zh": "行政罚款不替代补税许可证和海关手续",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第五条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0284",
+          "title_zh": "中国申报不实处罚取决于实际影响类别",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第十五条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0285",
+          "title_zh": "报关委托人须提供真实情况",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第十六条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0286",
+          "title_zh": "报关企业须合理审查委托资料",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第十七条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0287",
+          "title_zh": "监管货物擅自重装转移可能触发独立处罚",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第十八条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0288",
+          "title_zh": "相关联的海关违法不应简单累计罚款",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第五十一条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0289",
+          "title_zh": "海关处罚计算中的货值与税款定义须明确",
+          "layer_zh": "中国海关行政法规",
+          "locator": "所述文书第六十四条",
+          "source_id": "9e3391068e18a9629486",
+          "topics": [
+            "customs",
+            "penalties",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0022",
+          "title_zh": "危货装箱证明需现场检查支持",
+          "layer_zh": "法规",
+          "locator": "第十九条；关联GB40163",
+          "source_id": "5a21ef7ba39b8fc747c3",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0053",
+          "title_zh": "不合规装箱证明的处罚主体需准确识别",
+          "layer_zh": "法规",
+          "locator": "第四十五条；关联第十九条及GB40163",
+          "source_id": "5a21ef7ba39b8fc747c3",
+          "topics": [
+            "dangerous_goods",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0208",
+          "title_zh": "欧盟申报人与代理都需对信息及支持单证负责",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article15",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0209",
+          "title_zh": "欧盟海关处罚需要连接具体成员国国内制度",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article42",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0210",
+          "title_zh": "欧盟海关资料至少保存三年且起算分程序",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article51",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0211",
+          "title_zh": "欧盟ENS与进口申报不同且按首次入境安排",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article127",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0212",
+          "title_zh": "欧盟ENS改单受到查验、发现错误及呈验时点限制",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article129",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0213",
+          "title_zh": "欧盟海关监管状态不因码头可提而结束",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article134",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0214",
+          "title_zh": "欧盟入境后的陆上续运方也承担指定路线责任",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article135",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0215",
+          "title_zh": "欧盟呈验、卸货和转船分别对应海关条件",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article139",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0216",
+          "title_zh": "欧盟卸货转船需在指定地点取得许可",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article140",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0217",
+          "title_zh": "欧盟临时储存从非欧盟货呈验时开始",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article144",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0218",
+          "title_zh": "欧盟临时储存九十天不是码头免费期",
+          "layer_zh": "欧盟海关法规",
+          "locator": "UCC952/2013 Article149",
+          "source_id": "14bd2a22c3af15f2acec",
+          "topics": [
+            "customs",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0219",
+          "title_zh": "欧盟2026新海关法典的生效与一般适用日期不同",
+          "layer_zh": "欧盟法规过渡规则",
+          "locator": "2026/2108 Article287完整条款；Article284废止关系",
+          "source_id": "a1b1f5eae8a65bc26baa",
+          "topics": [
+            "customs",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0240",
+          "title_zh": "欧盟海运ENS时限需区分装前与到港前",
+          "layer_zh": "欧盟海关授权规则",
+          "locator": "2015/2446 Article105",
+          "source_id": "2e4e936179087528787c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0241",
+          "title_zh": "欧盟公路入境ENS采用到达前一小时基准",
+          "layer_zh": "欧盟海关授权规则",
+          "locator": "2015/2446 Article108",
+          "source_id": "2e4e936179087528787c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0242",
+          "title_zh": "车随船等组合运输按主动运输工具选ENS时限",
+          "layer_zh": "欧盟海关授权规则",
+          "locator": "2015/2446 Article110",
+          "source_id": "2e4e936179087528787c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0243",
+          "title_zh": "ENS不可抗力分支需有事实依据",
+          "layer_zh": "欧盟海关授权规则",
+          "locator": "2015/2446 Article111",
+          "source_id": "2e4e936179087528787c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0244",
+          "title_zh": "海运多层提单下ENS资料可能由不同主体分别提供",
+          "layer_zh": "欧盟海关授权规则",
+          "locator": "2015/2446 Article112",
+          "source_id": "2e4e936179087528787c",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0245",
+          "title_zh": "欧盟ENS分层提交还需告知未提供资料的缔约主体",
+          "layer_zh": "欧盟海关实施规则",
+          "locator": "2015/2447 Article184(1)–(2)；2015/2446 Article112",
+          "source_id": "b9e29d4970faf86cf8da",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0800",
+          "title_zh": "美国来船舱单与卸货港及实际申报人范围须先核",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(a)、(f)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0801",
+          "title_zh": "美国一般舱单二十四小时从境外装船前计算",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(b)(2)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0802",
+          "title_zh": "美国合格散装与获准件杂改为到美前二十四小时",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(b)(4)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0803",
+          "title_zh": "美国件杂装前时间豁免须先批且事实变化重申请",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(b)(4)(ii)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0804",
+          "title_zh": "美国NVOCC自报需FMC资格及国际承运人保证金",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(b)(3)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0805",
+          "title_zh": "美国同船续到其他美国港剩余外货须随船清单安排",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(b)(1)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0806",
+          "title_zh": "美国舱单违法的行政罚与每项保证金赔偿分开",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7(e)",
+          "source_id": "c974923a14b7b4725ab9",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0807",
+          "title_zh": "美国舱单含所有在船外货且FROB单列",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(1)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0808",
+          "title_zh": "美国提单箱号封号多对多关联不能丢失",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(2)(i)–(ii)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0809",
+          "title_zh": "美国提单标识最多十六位且三年不重复",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(2)(iii)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0810",
+          "title_zh": "美国SLAC限定说明不能免船长准确申报责任",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(3)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0811",
+          "title_zh": "美国舱单件数按最低外包装层级而非箱或托盘数",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(4)(v)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0812",
+          "title_zh": "美国舱单须具体品名或所述HTS六位资料且重量独立",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(4)(vii)及(c)(1)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0813",
+          "title_zh": "美国主分提单发货收货身份要求不同",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(4)(viii)–(ix)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0814",
+          "title_zh": "美国舱单船航次装港及所有现封志须对应同一版本",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(4)(i)–(xiv)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0815",
+          "title_zh": "美国实际境外离港日期时间有后续报送分支",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(4)(xv)–(xvi)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0816",
+          "title_zh": "美国非随身行李仍有货物声明要求",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7a(c)(5)",
+          "source_id": "3eafcba0fb6eb06bb15b",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0817",
+          "title_zh": "美国来船配载图另报且纯散杂船有限定例外",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7c总则",
+          "source_id": "a94d68cef35e55042029",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0818",
+          "title_zh": "美国配载图末境外港离开后四十八小时短航程到港前",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7c(a)",
+          "source_id": "a94d68cef35e55042029",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0819",
+          "title_zh": "美国配载图须逐箱船位尺寸类型运营方和危货代码",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7c(b)–(c)",
+          "source_id": "a94d68cef35e55042029",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0820",
+          "title_zh": "美国箱状态消息仅报承运人已创建收集的所列事件",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7d(a)–(b)",
+          "source_id": "f9e60b315e89cc4d4320",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0821",
+          "title_zh": "美国CSM覆盖预订确认闸口运输装卸装拆箱及大修事件",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7d(b)、(d)",
+          "source_id": "f9e60b315e89cc4d4320",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0822",
+          "title_zh": "美国CSM二十四小时从进入承运人追踪系统计",
+          "layer_zh": "美国进口海运舱单法规",
+          "locator": "19CFR4.7d(c)",
+          "source_id": "f9e60b315e89cc4d4320",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0246",
+          "title_zh": "美国1592条区分重要虚假遗漏与文书事实错误",
+          "layer_zh": "美国海关法律",
+          "locator": "19USC1592(a)(1)–(2)",
+          "source_id": "b7748aa6001a3bd44559",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0247",
+          "title_zh": "美国1592预处罚通知和最终罚款请求不能混为一项账单",
+          "layer_zh": "美国海关法律",
+          "locator": "19USC1592(b)(1)–(2)",
+          "source_id": "b7748aa6001a3bd44559",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0248",
+          "title_zh": "美国1592处罚上限取决于责任程度和计税影响",
+          "layer_zh": "美国海关法律",
+          "locator": "19USC1592(c)(1)–(3)",
+          "source_id": "b7748aa6001a3bd44559",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0249",
+          "title_zh": "美国主动披露减责需核对调查知情及补税条件",
+          "layer_zh": "美国海关法律",
+          "locator": "19USC1592(c)(4)及相关原产地分支",
+          "source_id": "b7748aa6001a3bd44559",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0250",
+          "title_zh": "美国1592补税与是否罚款分别处理",
+          "layer_zh": "美国海关法律",
+          "locator": "19USC1592(d)",
+          "source_id": "b7748aa6001a3bd44559",
+          "topics": [
+            "customs",
+            "penalties",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0251",
+          "title_zh": "菲律宾申报人资格需要与提单和授权链对应",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section106",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0252",
+          "title_zh": "菲律宾申报人与经纪的准确性和缴税责任需分别记录",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section107",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0253",
+          "title_zh": "菲律宾非故意差错也需核对是否存在重大过失和重复",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section108",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0254",
+          "title_zh": "菲律宾申报时钟必须连接主管机关调整和实际操作",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section407",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0255",
+          "title_zh": "菲律宾修改申报存在最终计税或查验前的边界",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section408",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0256",
+          "title_zh": "菲律宾货物描述和临时申报需保留承诺补齐链",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section411",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0257",
+          "title_zh": "菲律宾电子申报应保留原始发票提单和真实性声明",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section412",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0258",
+          "title_zh": "菲律宾250%附加费需与计税差异及免除分支一起读取",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section1400",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0259",
+          "title_zh": "菲律宾拒绝合法书面提交资料要求可能另生附加费",
+          "layer_zh": "菲律宾海关法律",
+          "locator": "RA10863 Section1402",
+          "source_id": "515d8706447ca63fbf2f",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0057",
+          "title_zh": "美国D&D开票与争议期限需区分NVOCC等情形",
+          "layer_zh": "法规",
+          "locator": "46CFR541.7；关联541.8",
+          "source_id": "00b459745343d1e52bdf",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0389",
+          "title_zh": "美国法院撤销541.4不等于废除整套滞箱滞期费开票规则",
+          "layer_zh": "美国官方法院裁判影响说明",
+          "locator": "FMC2025-11-20正文第2至3段",
+          "source_id": "3cbf5d65f776376aae0d",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0390",
+          "title_zh": "美国滞箱滞期发票内容和30日签发要求仍需核对",
+          "layer_zh": "美国官方法院裁判影响说明",
+          "locator": "FMC2025-11-20正文第3段",
+          "source_id": "3cbf5d65f776376aae0d",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0754",
+          "title_zh": "美国按IMDG运输不是全部本国规则豁免",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.11",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0759",
+          "title_zh": "美国船运托运人证明与装箱人签署装箱证明分开",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.27",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0773",
+          "title_zh": "美国熏蒸CTU按Part176有二十四小时文件检测及位置条件",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.76",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0779",
+          "title_zh": "美国车作为货物须核泄漏电气故障与电池损伤",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.905",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0780",
+          "title_zh": "美国车辆豁免须按船舱批准燃料及电化学分别核",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.905",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0781",
+          "title_zh": "美国内燃机械与车辆不同且空燃料豁免有完整条件",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.906",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0782",
+          "title_zh": "美国机械部分例外仍需方向固定标签及运输单声明",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.906",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0783",
+          "title_zh": "美国可膨胀聚合珠粒成型料CTU通风及警示有条件",
+          "layer_zh": "美国海运危险货物法规",
+          "locator": "49CFR176.907",
+          "source_id": "c6e4b3317458c85664d1",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0338",
+          "title_zh": "洛杉矶进口箱免费期起点精确到卸船后凌晨三时",
+          "layer_zh": "港口堆存计费规则",
+          "locator": "Tariff4 Items700、710",
+          "source_id": "d41afb05357a5c73524c",
+          "topics": [
+            "fees",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0339",
+          "title_zh": "洛杉矶免费天数需按航贸货型及开闸日历选择",
+          "layer_zh": "港口堆存计费规则",
+          "locator": "Tariff4 Items720、730及100(n)",
+          "source_id": "d41afb05357a5c73524c",
+          "topics": [
+            "fees",
+            "ordinary_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0341",
+          "title_zh": "洛杉矶逾期堆存计费日历不同于免费期日历",
+          "layer_zh": "港口堆存计费规则",
+          "locator": "Tariff4 Items780、790",
+          "source_id": "d41afb05357a5c73524c",
+          "topics": [
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0092",
+          "title_zh": "日本AFR以船公司和NVOCC为申报责任对象",
+          "layer_zh": "海关官方实施说明",
+          "locator": "AFR介绍首段及Guidance／Appendices",
+          "source_id": "4abea8ed814e7bc9af87",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0093",
+          "title_zh": "日本AFR主分单差异需船公司与NVOCC协同处理",
+          "layer_zh": "海关官方实施说明",
+          "locator": "Operational attention (3)、(4)、(5)",
+          "source_id": "4abea8ed814e7bc9af87",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0094",
+          "title_zh": "日本卸货许可申请应向卸货港管辖海关办理",
+          "layer_zh": "海关官方实施说明",
+          "locator": "Operational attention (6)",
+          "source_id": "4abea8ed814e7bc9af87",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0354",
+          "title_zh": "加拿大一般单证错误按单证而非错误字段计数",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C005",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0355",
+          "title_zh": "加拿大受监管货物换站仍须授权",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C033",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0356",
+          "title_zh": "加拿大未交有效提前资料与迟交是不同处罚项",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C378",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0357",
+          "title_zh": "加拿大提前资料迟交与提交方式可分别构成问题",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C379",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0358",
+          "title_zh": "加拿大禁止装船或补资料通知须独立响应",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C380",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0359",
+          "title_zh": "加拿大原先正确但途中变化的资料需及时更正",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C381",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0360",
+          "title_zh": "加拿大初始申报不准与后续变化未更新需区分",
+          "layer_zh": "加拿大海关处罚实施指引",
+          "locator": "CBSA MasterPenaltyDocument C382",
+          "source_id": "a8c83a453edb8aca1fd6",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0361",
+          "title_zh": "澳大利亚监管货物移动拆改需有法定授权",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section33；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0362",
+          "title_zh": "澳大利亚提前申报与被视为进入内销的事件不同",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section71A；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0363",
+          "title_zh": "澳大利亚申报处理费需看撤回、豁免与退款条件",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section71B；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0364",
+          "title_zh": "澳大利亚申报信息不足可申请在官员在场时看货",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section71D；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0365",
+          "title_zh": "澳大利亚转运许可包含申请人、渠道和指定地点",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section71E；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0366",
+          "title_zh": "澳大利亚进口改报可能被视为撤回原申报",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section71F；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0367",
+          "title_zh": "澳大利亚出口装船前需核对有效处理许可及例外",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section113；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0368",
+          "title_zh": "澳大利亚出口authoritytodeal可能附条件被暂停撤销",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section114C；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0369",
+          "title_zh": "澳大利亚出口货即使已有许可仍需核对移动拆改授权",
+          "layer_zh": "澳大利亚海关法律",
+          "locator": "CustomsAct1901 Section119AA；C194并读A101",
+          "source_id": "79ac81907066b14fcf3f",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0370",
+          "title_zh": "澳大利亚2026最新修改法不是全部同一天施行",
+          "layer_zh": "澳大利亚海关修订及过渡规则",
+          "locator": "A101 Section2施行表及官方版本链",
+          "source_id": "e2c278e131c46082fee7",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0607",
+          "title_zh": "新加坡海关地域不含自由区但自由区货仍可受监管",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s3",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0608",
+          "title_zh": "新加坡自由区进出与真正过境不得只按港口到离分类",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s3",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0611",
+          "title_zh": "新加坡应税货首次移出须许可并保留直接入自由区例外",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s34",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0612",
+          "title_zh": "新加坡已申报出口转运不得擅自退卸或不实际运出",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s36",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0613",
+          "title_zh": "新加坡应税进出口转运移动前须作完整申报",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s37",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0614",
+          "title_zh": "新加坡到港二十四小时舱单与卸下过境货表分列",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s39",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0615",
+          "title_zh": "新加坡舱单更正一月内且调查后可不被接纳",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s40",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0617",
+          "title_zh": "新加坡离港四十八小时舱单不同于进口二十四小时",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s41",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0623",
+          "title_zh": "新加坡应税货贸易记录五年起点按出仓或放行区分",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s90",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs"
+          ]
+        },
+        {
+          "id": "CF-R0627",
+          "title_zh": "新加坡不实遗漏申报不能以误操作当然免责",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s128",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0629",
+          "title_zh": "新加坡应税货不申报与申报错误是不同违法路径",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s128B",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0630",
+          "title_zh": "新加坡文件申报类处罚与走私倍税类不得混算",
+          "layer_zh": "新加坡海关法",
+          "locator": "CustomsAct1960 s128L",
+          "source_id": "d537d4baa0365ae81b43",
+          "topics": [
+            "customs",
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0128",
+          "title_zh": "休斯敦非箱装货免费期按该货类条款单独核对",
+          "layer_zh": "码头收费及作业规则",
+          "locator": "Tariff14 Subrule101，第62至后续页",
+          "source_id": "d9c25f807cfa53b5d5b4",
+          "topics": [
+            "fees",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0687",
+          "title_zh": "TPT政府扣查不当然停止免费期结束后的存储收费",
+          "layer_zh": "TPT2026码头费则",
+          "locator": "TPT2026 Section1item11",
+          "source_id": "09a8462381bde6883e03",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0318",
+          "title_zh": "SGP海关资料责任不等于码头替客户完成申报",
+          "layer_zh": "码头服务合同",
+          "locator": "SGPGeneralConditions4.2.1–.2",
+          "source_id": "9115641e2f80989b387f",
+          "topics": [
+            "customs",
+            "contract",
+            "fees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "title": "闸口与存放分支",
+      "product_use": "instance",
+      "why": "申报不等于接受。上海危货分直装、72 小时和 7 日。HHLA 预约、No-Show 和 Class 1/7 无免费期是作业分支。单价不进费率字段。",
+      "count": 51,
+      "cards": [
+        {
+          "id": "CF-R0033",
+          "title_zh": "PTP申报不代表接收，需保留批准结果",
+          "layer_zh": "经营人危货指南",
+          "locator": "October2024 Guide，PDF第4页条目3",
+          "source_id": "6c4e3e81ded2fe9a066e",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0034",
+          "title_zh": "PTP危货资料清单包含条件性项目",
+          "layer_zh": "经营人危货指南",
+          "locator": "October2024 Guide，PDF第4页条目4",
+          "source_id": "6c4e3e81ded2fe9a066e",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0083",
+          "title_zh": "上海危货堆场需按作业附证的品名、数量和时限作业",
+          "layer_zh": "港口／经营人规则",
+          "locator": "第三条；第九条第二款",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0084",
+          "title_zh": "上海危货箱进出堆场需检查箱体和标识并保存记录",
+          "layer_zh": "港口／经营人规则",
+          "locator": "第四至五条",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0085",
+          "title_zh": "上海危货堆码层数和特殊罐箱布置有地方要求",
+          "layer_zh": "港口／经营人规则",
+          "locator": "第六至七条",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "dangerous_goods",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0086",
+          "title_zh": "上海危货直装直取与72小时、7日存放分支需分别判断",
+          "layer_zh": "港口／经营人规则",
+          "locator": "第九条完整条文；第十条水水中转",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0087",
+          "title_zh": "上海危货超期或超量转栈须匹配接收资质和费用约定",
+          "layer_zh": "港口／经营人规则",
+          "locator": "第十二至十三条",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "dangerous_goods",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0901",
+          "title_zh": "上海危货附证特殊时限须读取具体核定文书",
+          "layer_zh": "上海港危货堆存地方规定",
+          "locator": "堆存规定第9条末款",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0903",
+          "title_zh": "上海危货堆存时限应在经营场所公布",
+          "layer_zh": "上海港危货堆存地方规定",
+          "locator": "堆存规定第11条",
+          "source_id": "dacb6d2adbbe0b9a8d64",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0925",
+          "title_zh": "上海未现场监装即签证与检查员账号出借列二十分",
+          "layer_zh": "上海危货申报及装箱检查人员规范",
+          "locator": "附件二三（一）",
+          "source_id": "c85fb97c0fb506f4aae5",
+          "topics": [
+            "penalties",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0926",
+          "title_zh": "上海装箱证明与实装严重不符及质量缺陷分支不同",
+          "layer_zh": "上海危货申报及装箱检查人员规范",
+          "locator": "附件二三（二）–（三）",
+          "source_id": "c85fb97c0fb506f4aae5",
+          "topics": [
+            "penalties",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0927",
+          "title_zh": "上海检查员须核CSC箱况照片及纸电装箱证明一致",
+          "layer_zh": "上海危货申报及装箱检查人员规范",
+          "locator": "附件二三（四）–（五）",
+          "source_id": "c85fb97c0fb506f4aae5",
+          "topics": [
+            "penalties",
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0479",
+          "title_zh": "香港危货装箱证明由装填责任人签署且有明确例外",
+          "layer_zh": "香港海运危货及海洋污染物法例",
+          "locator": "Cap413H s9",
+          "source_id": "c96fe2b3a256a58a3629",
+          "topics": [
+            "dangerous_goods"
+          ]
+        },
+        {
+          "id": "CF-R0503",
+          "title_zh": "香港法定第1至6级罚款当前分别为2000至100000元",
+          "layer_zh": "香港法定罚款级别",
+          "locator": "Cap221 Schedule8 ands113B",
+          "source_id": "4641f102b890cc9709d6",
+          "topics": [
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0504",
+          "title_zh": "香港法定级别罚款须按附表8而非按罚额区间倒推",
+          "layer_zh": "香港法定罚款级别",
+          "locator": "Cap221 s113B",
+          "source_id": "4641f102b890cc9709d6",
+          "topics": [
+            "penalties"
+          ]
+        },
+        {
+          "id": "CF-R0505",
+          "title_zh": "香港每日按量或固定罚款不能机械套一般金额转级别",
+          "layer_zh": "香港法定罚款级别",
+          "locator": "Cap221 s113C",
+          "source_id": "4641f102b890cc9709d6",
+          "topics": [
+            "penalties",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0548",
+          "title_zh": "HHLA危货资料交付在前但经营人仍可拒收或附条件",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§9",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0549",
+          "title_zh": "HHLA熏蒸或化学暴露箱需德英文醒目实体警示",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§10",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "biosecurity",
+            "dangerous_goods",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0557",
+          "title_zh": "HHLA合同风险转移与吊物落地事件有关",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§22",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "contract",
+            "ordinary_cargo",
+            "project_cargo"
+          ]
+        },
+        {
+          "id": "CF-R0561",
+          "title_zh": "HHLA九十六小时转仓储与四十八小时提离通知不是免费期",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§28",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "fees",
+            "contract",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0563",
+          "title_zh": "HHLA客户仍负责海关暂存期限并可能移入海关仓",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§29",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "customs",
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0566",
+          "title_zh": "HHLA卡车必须参加预约流程但约时不等于无等待",
+          "layer_zh": "码头货物处理合同",
+          "locator": "HHLAGTCCH§32",
+          "source_id": "054e993cb0c14d6d3ec5",
+          "topics": [
+            "gate_release",
+            "contract",
+            "fees"
+          ]
+        },
+        {
+          "id": "CF-R0568",
+          "title_zh": "HHLA2026普通进出口中转免费期有不同起点",
+          "layer_zh": "码头2026费则",
+          "locator": "HHLA2026 3.1",
+          "source_id": "b9d8c77d12b3f6372da6",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0569",
+          "title_zh": "HHLA2026一般危货免费期从首次接触码头后一天核对",
+          "layer_zh": "码头2026费则",
+          "locator": "HHLA2026 3.1危货分支",
+          "source_id": "b9d8c77d12b3f6372da6",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0570",
+          "title_zh": "HHLA2026 Class1及7箱无免费期且按计数24小时",
+          "layer_zh": "码头2026费则",
+          "locator": "HHLA2026 3.4",
+          "source_id": "b9d8c77d12b3f6372da6",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0572",
+          "title_zh": "HHLA2026空箱无免费期且泄漏箱有额外结构收费",
+          "layer_zh": "码头2026费则",
+          "locator": "HHLA2026 3.3、3.5",
+          "source_id": "b9d8c77d12b3f6372da6",
+          "topics": [
+            "fees",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0583",
+          "title_zh": "HHLA有预申报义务的集卡运输须预约有效时段",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking正文及FAQ2、4、8、12–16",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0584",
+          "title_zh": "HHLA每箱一时段但同次集卡全部箱合并一个预申报",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ1–3",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0585",
+          "title_zh": "HHLA预约可提前三工作日且四小时为建议",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking正文提前建议及FAQ6",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0586",
+          "title_zh": "HHLA优先级1是一小时时段前后各三十分钟",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ7、24",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0587",
+          "title_zh": "HHLA优先级2仅十九时至次日六时且取决于能力",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ7、22、25、27",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0588",
+          "title_zh": "HHLA超时或无预约的优先级3须离开并重新安排",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ26及正文",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0589",
+          "title_zh": "HHLA取消和未使用均记NoShow且可能限制次周高峰配额",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ9–10及正文及时取消建议",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0590",
+          "title_zh": "HHLA预申报十二小时清理不等于时段有效十二小时",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ11",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0591",
+          "title_zh": "HHLA不能在码头现场补约或占停车区等时段",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking正文及FAQ29",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0592",
+          "title_zh": "HHLA不能预申报的特殊业务按人工预检分支处理",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ15–16",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0593",
+          "title_zh": "HHLA危货特殊时段只限认可的1.1和1.2及7类交箱",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ17 IMOANM",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0594",
+          "title_zh": "HHLA迟到与移船特殊类须船方通知及码头开放",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ17 LATE／SHIP",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0595",
+          "title_zh": "HHLA出口箱号晚到可预占但须变可执行并取得PAN",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ18",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0596",
+          "title_zh": "HHLA进口尚未卸船可预占但等待提货就绪才可执行",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ19",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0597",
+          "title_zh": "HHLA无箱号空箱交付可订但反复空占会封停该功能",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ20",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0598",
+          "title_zh": "HHLA大件重载仍须预约但批准运输超时按人工预检",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ21",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0599",
+          "title_zh": "HHLA所有OOG箱走人工预检并保留时段验证",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ22–23",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0600",
+          "title_zh": "HHLA按时通过OCR后排队不使时段追溯失效",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ22",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0601",
+          "title_zh": "HHLA长时无法进场须以码头正式暂停预约制度为准",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA SlotBooking FAQ28",
+          "source_id": "65b80f566daa50dd6a21",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0602",
+          "title_zh": "HHLA汉堡数字身份passify已强制替代旧司机卡",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA passify mandatory与旧卡FAQ",
+          "source_id": "c7e675a883027e1607b7",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0603",
+          "title_zh": "HHLA数字身份须个人注册验证并按站点扫码报到",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA passify工作流程FAQ",
+          "source_id": "c7e675a883027e1607b7",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0604",
+          "title_zh": "HHLA数字进场要求手机应用验证账号及位置相机可用",
+          "layer_zh": "HHLA设施现行操作说明",
+          "locator": "HHLA passify使用前提FAQ",
+          "source_id": "c7e675a883027e1607b7",
+          "topics": [
+            "gate_release",
+            "contract"
+          ]
+        },
+        {
+          "id": "CF-R0089",
+          "title_zh": "盐田公开VGM流程区分进闸重量与装船VGM",
+          "layer_zh": "港口／经营人规则",
+          "locator": "2016-06-22通知第1至7项及温馨提示",
+          "source_id": "71b89d2ac7b508fde691",
+          "topics": [
+            "vgm",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0974",
+          "title_zh": "博塔尼出口危货按陆侧进港前通知而非装船前",
+          "layer_zh": "港口／经营人规则",
+          "locator": "NSWDGGuidelines2026 2.5.2出船、2.5.3",
+          "source_id": "1db9d24c245dfa756537",
+          "topics": [
+            "dangerous_goods",
+            "gate_release"
+          ]
+        },
+        {
+          "id": "CF-R0989",
+          "title_zh": "温哥华GCT无核实毛重不装船且进场不等于获接受",
+          "layer_zh": "港口／经营人规则",
+          "locator": "GCT2026Tariff7355–7360",
+          "source_id": "a700a1d92653061eeba5",
+          "topics": [
+            "vgm",
+            "fees",
+            "gate_release"
+          ]
+        }
+      ]
+    }
+  ]
+}

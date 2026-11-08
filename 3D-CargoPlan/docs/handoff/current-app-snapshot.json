@@ -1,0 +1,2783 @@
+{
+  "snapshot_at": "2026-10-31T17:14:54.740088+08:00",
+  "workspace": "/Users/lege/Documents/ChatGPT/集装箱运筹",
+  "purpose": "Current 1.7.2 handover with shared full HTML Iraq baseline restored; worktree remains uncommitted.",
+  "git": {
+    "branch": "codex/delivery",
+    "head": "0ca69f859b02be67cba37a0750cb36d79393f995",
+    "change_count": 587,
+    "changes": [
+      {
+        "status": " M",
+        "path": "PROJECT_HANDOVER.md"
+      },
+      {
+        "status": " M",
+        "path": "README.md"
+      },
+      {
+        "status": " M",
+        "path": "package-lock.json"
+      },
+      {
+        "status": " M",
+        "path": "package.json"
+      },
+      {
+        "status": " M",
+        "path": "src/App.tsx"
+      },
+      {
+        "status": " M",
+        "path": "src/app.css"
+      },
+      {
+        "status": " M",
+        "path": "src/components/ContainerViewer.tsx"
+      },
+      {
+        "status": " M",
+        "path": "src/core/evaluator.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/greedy-algorithm.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/loading-profile.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/optimizer.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/packing-utils.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/research-placement.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/solid-geometry.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/solution-builder.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/target-search.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/core/validation.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/scripts/research-consolidate-child.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/scripts/research-v3-r2-cavity-balance.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/server/index.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/server/input-validation.ts"
+      },
+      {
+        "status": " M",
+        "path": "src/types/packing.ts"
+      },
+      {
+        "status": "??",
+        "path": "CURSOR_HANDOVER.md"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.icns"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_128x128.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_128x128@2x.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_16x16.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_16x16@2x.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_256x256.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_256x256@2x.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_32x32.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_32x32@2x.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_512x512.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.iconset/icon_512x512@2x.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/icon.png"
+      },
+      {
+        "status": "??",
+        "path": "desktop/main.mjs"
+      },
+      {
+        "status": "??",
+        "path": "desktop/preload.cjs"
+      },
+      {
+        "status": "??",
+        "path": "desktop/server.mjs"
+      },
+      {
+        "status": "??",
+        "path": "desktop/smoke.mjs"
+      },
+      {
+        "status": "??",
+        "path": "docs/CARGOPLAN_BUILD_DECISIONS.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CARGOPLAN_P0_POLICY_AND_SECURING_RESEARCH.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CARGOPLAN_PRODUCT_PLAN.bak.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CARGOPLAN_PRODUCT_PLAN.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CARGOPLAN_ROBOT_READY_LOADING.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_CAPABILITY_PAIN_CHECKLIST.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_COMPETITOR_CN_INTL.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_DRIVER_PLATFORM_PAIN_AND_PLAN.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_FINES_AND_ROBOTS_FRONTIER.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_HACKATHON_PLAN.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_PORTS_P0_P1.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_PRODUCT_CONCEPT.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_PRODUCT_PLAN_FULL.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_PROPOSAL.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_ROBOT_PROTOCOL_DUALARM.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_X_COMPETITOR_PAIN.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/CLAWHUNT_X_SAMPLE_QUANT.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/COMMERCIAL_OPPORTUNITY_REVIEW.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/COMPETITOR_CAPABILITY_AUDIT_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/EASYCARGO_BENCHMARK_AND_PRODUCT_PLAN.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/ENGINE_LAND_SEA_IMPLEMENTATION.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/FREIGHT_FOUNDATIONS_AND_TOOL_RESEARCH.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/KNOWLEDGE_GLOBE_DELIVERY.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/MAC_DESKTOP.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/MAC_UNIFIED_DELIVERY.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/MULTISTOP_ENGINE.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/MULTISTOP_SELFTEST_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/NATIVE_3D_OPEN_SOURCE_REVIEW.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/NATIVE_APP_170_FIXES.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/NATIVE_APP_171_DEMO_FIX.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/NATIVE_APP_172_IRAQ_DEMO.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/NATIVE_ASSISTANT_AND_REGIONAL_KNOWLEDGE.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/VEHICLES_AND_MANUAL_RESIZE.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/W02_ROW16_REVIEW.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V2_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V4_USER_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V5_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V6_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V7_BEFORE_FEEDBACK_06_10_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_PRODUCT_PLAN_V7_BEFORE_FEEDBACK_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/CARGOPLAN_ROAD_SEA_RESEARCH_DRAFT_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/inputs/CARGOPLAN_V7_INPUTS.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/inputs/DRIVER_PROTOCOL_PASTED_INPUT_20261030.txt"
+      },
+      {
+        "status": "??",
+        "path": "docs/archive/inputs/ROBOT_READY_LOADING_V1_INPUT_20261030.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/handoff/current-app-snapshot.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/00_taxonomy.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/01_international_conventions.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/02_china_national.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/02b_indonesia_national.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/dalian.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/guangzhou.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/ningbo.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/qingdao.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/shanghai.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/shenzhen.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/tianjin.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/03_china_ports/xiamen.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/busan.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/hamburg.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/belawan.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/makassar.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/tanjung_emas.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/tanjung_perak.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/indonesia/tanjung_priok.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/jebel_ali.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/la_lb.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/nynj.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/port_klang.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/rotterdam.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/04_global_ports/singapore.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/05_fines_enforcement.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/06_specs_iso_gb.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/07_opensource_and_datasets.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/08_port_pack_schema.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/09_maritime_shipping_qa_experience.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/10_maritime_knowledge_pain_attention.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/11_x_heat_90d.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/12_x_attention_trend_90d.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/13_practitioner_inclusion.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_attention_topics_x_run.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_attention_trend_90d.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_pain_attention_x_run.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_practitioner_inclusion.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/_STATUS.txt"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_blank_sailing.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_customs_dd.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_dd_freetime.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_ispm15.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_odol.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_red_sea.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_scfi_rates.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m1_vgm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_blank_sailing.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_customs_dd.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_dd_freetime.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_ispm15.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_odol.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_red_sea.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_scfi_rates.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m2_vgm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_blank_sailing.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_customs_dd.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_dd_freetime.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_ispm15.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_odol.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_red_sea.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_scfi_rates.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/m3_vgm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/news_blank_sailing.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/news_odol.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/_trend_90d_raw/news_red_sea.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/ports_index.yaml"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/sources_catalog.yaml"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/data/x_maritime_qa_sample.yaml"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T01_demurrage_detention_storage_freetime.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T02_vgm_solas.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T03_weight_limits_csc_road_odol.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T04_rolled_blank_sailing.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T05_freight_rates_geopolitics.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T06_customs_hold_fee_clock.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T07_ispm15_wood_packing.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T08_carrier_accessorials_wdf_restow.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T09_misdeclaration_si_vgm.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T10_abandon_cargo_destination_charges.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T11_indonesia_odol_port_enforcement.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/port-knowledge/topics/T12_china_railway_express_load_bias.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/CHANGELOG.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/REPAIR_REPORT.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/RESEARCH_AND_DECISIONS.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/SPEC_0.4.0-draft.2_full.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_discovery.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_manual.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_maritime.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_message.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_robot_profile.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/cargoplan_task_draft.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/amr_single_task.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/conveyor_handover.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/coverage_cases.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/device_task_exchange.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/discovery_and_preflight.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/forklift_single_task.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/manual_receipt.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/maritime_seal_events.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/quickstart_single_task.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/reconciliation_human_takeover.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_interface_scenarios.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/amr_carrier.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/conveyor_cell.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/fixed_arm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/fixed_dual_arm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/forklift.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/gantry.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/mobile_arm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/mobile_dual_arm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/rail_arm.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/unknown_embodiment.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/examples/sea_container_multistop_unload.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/evidence_registry.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/fixtures/offline_assertions.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/fixtures/synthetic_cargo_v2.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/historical_sources.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/internal/interface_draft2.docx"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/internal/product_final.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/internal/robot_ready.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/internal/teammate_original.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/internal_sources.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/predicate_contracts.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/review_inputs/REVIEW_0.4.0-draft.1.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/review_inputs/SPEC_0.4.0-draft.1_full.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/review_inputs/test_review_regressions.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/references/sources.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/requirements.txt"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tests/test_protocol.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tests/test_review_fixes.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tests/test_robot_interface.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/build_spec.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/business_modules.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/contracts.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/report.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/robot_interface.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/tools/validate.py"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/0.4.0-draft.2/validation_report.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/README.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/cargoplan_task_draft.schema.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/examples/dual_arm_heavy_pick.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/examples/land_trailer_load.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/robot-protocol/examples/sea_container_multistop_unload.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/superpowers/specs/2026-10-30-knowledge-globe-design.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/superpowers/specs/2026-10-30-sea-land-demo-design.md"
+      },
+      {
+        "status": "??",
+        "path": "docs/superpowers/specs/2026-10-31-native-assembly-edit-design.md"
+      },
+      {
+        "status": "??",
+        "path": "electron-builder.config.cjs"
+      },
+      {
+        "status": "??",
+        "path": "examples/multistop/collect-and-deliver.problem.json"
+      },
+      {
+        "status": "??",
+        "path": "examples/multistop/manual-worker-four-stops.problem.json"
+      },
+      {
+        "status": "??",
+        "path": "examples/multistop/vehicle-rear-fixed-load.problem.json"
+      },
+      {
+        "status": "??",
+        "path": "examples/multistop/vehicle-side-fixed-load.problem.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/README.md"
+      },
+      {
+        "status": "??",
+        "path": "globe/css/globe.css"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/conventions.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/countries.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/land.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/meta.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/AEJEA.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNCAN.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNDLC.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNNGB.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNSHA.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNSZX.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNTAO.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNTXG.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/CNXMN.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/DEHAM.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/IDBLW.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/IDMAK.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/IDSRG.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/IDSUB.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/IDTPP.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/KRPUS.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/MYPKG.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/NLRTM.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/SGSIN.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/USLAX.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/USLGB.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/port_packs/USNYC.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/ports.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/regional-policies.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/reviews.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T01_demurrage_detention_storage_freetime.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T02_vgm_solas.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T03_weight_limits_csc_road_odol.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T04_rolled_blank_sailing.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T05_freight_rates_geopolitics.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T06_customs_hold_fee_clock.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T07_ispm15_wood_packing.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T08_carrier_accessorials_wdf_restow.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T09_misdeclaration_si_vgm.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T10_abandon_cargo_destination_charges.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T11_indonesia_odol_port_enforcement.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/T12_china_railway_express_load_bias.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/data/topics/index.json"
+      },
+      {
+        "status": "??",
+        "path": "globe/index.html"
+      },
+      {
+        "status": "??",
+        "path": "globe/js/globe-app.js"
+      },
+      {
+        "status": "??",
+        "path": "globe/legacy-index.html"
+      },
+      {
+        "status": "??",
+        "path": "globe/scripts/build_countries.py"
+      },
+      {
+        "status": "??",
+        "path": "globe/scripts/build_ports.py"
+      },
+      {
+        "status": "??",
+        "path": "globe/scripts/build_topics.py"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Info.plist"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/README.md"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Sources/FloatingSupport.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Sources/NativeFiles.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Sources/NativeGlobe.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Sources/WorkspaceWeb.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/Sources/main.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/build.sh"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/bundle.mjs"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/extract-scene.mjs"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/native-io.mjs"
+      },
+      {
+        "status": "??",
+        "path": "mac/assembly/repack.mjs"
+      },
+      {
+        "status": "??",
+        "path": "mac/knowledge-globe/Info.plist"
+      },
+      {
+        "status": "??",
+        "path": "mac/knowledge-globe/Sources/main.swift"
+      },
+      {
+        "status": "??",
+        "path": "mac/knowledge-globe/build.sh"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/build_index.py"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/issue_5747_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/issue_5749_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/issue_5849_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/issue_6214_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/merged_recovery_nonmaintainer.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_5943.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_5943_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_5995.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_5995_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_6247.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pr_6247_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/HKUDS__nanobot/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/MoonshotAI__kimi-code/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/NousResearch__hermes-agent/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5626_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5822_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5938_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5959_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5963_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_5974_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/issue_6024_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/pr_4838.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/pr_4838_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/pr_5747.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/pr_5747_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/OpenHands__software-agent-sdk/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/RightNow-AI__openfang/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/issue_1860_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/issue_1979_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/pr_1237.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/pr_1237_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/pr_2412.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/pr_2412_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentclientprotocol__agent-client-protocol/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/agentscope-ai__agentscope/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/alibaba__loongflow/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/anomalyco__opencode/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_5846_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6288_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6290_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6925_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6955_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6970_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/issue_6986_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/pr_6846.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/pr_6846_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/pr_6918.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/pr_6918_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/bytedance__deer-flow/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/issue_10390_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/issue_9986_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/earendil-works__pi/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__.github/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__.github/contributing.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_5720_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6399_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6470_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6521_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6556_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6736_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6863_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/issue_6983_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/pr_6853.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/pr_6853_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/pr_6879.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/pr_6879_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/langchain-ai__deepagents/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/ai_policy.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/ai_policy.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/issue_4267_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/issue_4732_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/pr_5087.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/pr_5087_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/pr_5100.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/pr_5100_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta-code/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/letta-ai__letta/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/issue_1457_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/issue_1570_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/issue_1843_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/issue_2264_timeline.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/pr_2154.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/pr_2154_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/pr_2229.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/pr_2229_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/opensandbox-group__OpenSandbox/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/pydantic__pydantic-ai/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/temporalio__pi/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/CONTRIBUTING.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/closed_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/commits.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/contributing.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/meta.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/open_prs.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/pr_11298.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/pr_11298_files.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/evidence/zeroclaw-labs__zeroclaw/pure_open_issues.json.gz"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/fetch_public.py"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/sample-summary.json"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/样本与证据索引.md"
+      },
+      {
+        "status": "??",
+        "path": "research/ai-agent-contribution-2026-10-17/调研报告.md"
+      },
+      {
+        "status": "??",
+        "path": "scripts/audit-workbench.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build-product-review.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/package-mac.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/product-review.css"
+      },
+      {
+        "status": "??",
+        "path": "scripts/run-desktop.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/solve-route.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/start-knowledge-server.py"
+      },
+      {
+        "status": "??",
+        "path": "src/core/cargo-readiness.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/editable-constraints.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/freight-constraints.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/input-validation.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/access.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/access.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/doors.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/engine.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/index.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/model.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/multistop.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/planning.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/playback.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/problem.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/replay.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/scenarios.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/vehicle-access.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/multistop/vehicles.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/packing-progress.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/packing-pruning.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/preview-packing.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/preview-packing.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/repair-packing.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/repair-packing.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/unload-analysis.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/core/unload-analysis.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/data/vehicle-presets.json"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/CargoConstraints.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/FrameEditor.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/MultiStopEngineDemo.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/MultiStopTest.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/NativeCargoEditor.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/NativeRouteWorkspace.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/PackingStudio.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/RouteComposer.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/RoutePlayer.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/RouteVehicleEditor.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/SeaLandDemo.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/ThreeStopDemo.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/excel-shipment.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/excel-shipment.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/format-dimensions.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/iraq-baseline.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/iraq-route.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/iraq-sample.json"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/multistop-simulation.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/multistop-simulation.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/native-app.css"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/packing-studio.css"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/planning-runner.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/planning-runner.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/planning-worker.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/preview-worker.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/priority-pack.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/priority-pack.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/route-demo.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/route-demo.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/route-workspace.css"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/scenarios.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/sea-land-demo.css"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/simulation-audit.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/simulation-worker.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/studio-cargo.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/demo/studio-cargo.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/desktop.d.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/json-url.d.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/Knowledge.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/Attention.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/AttentionDashboard.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/AttentionTrends.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/GlobeScene.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/KnowledgeGlobe.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/NativePortDossier.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/PortDetails.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/RegionalSummary.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/camera.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/camera.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/data.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/globe.css"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/model.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/model.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/regional.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/regional.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/standalone/index.html"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/globe/standalone/main.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/knowledge/knowledge.css"
+      },
+      {
+        "status": "??",
+        "path": "src/support/SupportAssistant.tsx"
+      },
+      {
+        "status": "??",
+        "path": "src/support/evidence.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/support/knowledge.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/support/knowledge.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/support/shipping-cards.json"
+      },
+      {
+        "status": "??",
+        "path": "src/support/shipping.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/support/support.css"
+      },
+      {
+        "status": "??",
+        "path": "src/vite-env.d.ts"
+      },
+      {
+        "status": "??",
+        "path": "src/xlsx-url.d.ts"
+      },
+      {
+        "status": "??",
+        "path": "vite.config.d.ts"
+      },
+      {
+        "status": "??",
+        "path": "vite.config.js"
+      },
+      {
+        "status": "??",
+        "path": "vite.globe.config.mjs"
+      }
+    ]
+  },
+  "installed_app": {
+    "path": "/Applications/CargoPlan.app",
+    "version": "1.7.2",
+    "build": "9",
+    "bundle_id": "com.cargoplan.assembly",
+    "binary_sha256": "2460d6a40731c1cf75d5ed10a18ae000d99b7e751256516ad3413fb931ce73e2",
+    "matches_last_acceptance": true,
+    "web_assets_match_last_acceptance": {
+      "index-ClDgHwjF.js": true
+    },
+    "knowledge_files_match_current_source": true,
+    "knowledge_file_count": 42,
+    "plist_minimum_os": "13.0",
+    "mach_o_build_information": "/Applications/CargoPlan.app/Contents/MacOS/CargoPlanAssembly:\nLoad command 11\n      cmd LC_BUILD_VERSION\n  cmdsize 32\n platform MACOS\n    minos 26.0\n      sdk 26.4\n   ntools 1\n     tool LD\n  version 1266.8"
+  },
+  "last_acceptance": {
+    "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/output/native-172-validation/acceptance.json",
+    "sha256": "127d8efa2c81e3a2c656f90aed7ea16aca1e80e5ae1cb49c225b49e9509255ce",
+    "verified_at": "2026-10-31T17:14:54.740088+08:00",
+    "unit_tests": {
+      "files": 37,
+      "tests": 269,
+      "result": "passed"
+    },
+    "native_checks": [
+      "cancel-smoke",
+      "drag-smoke",
+      "edit-preview-smoke",
+      "full-editor-smoke",
+      "manual-route-smoke",
+      "progress-smoke",
+      "resize-smoke",
+      "route-demo-smoke",
+      "self-check",
+      "shell-smoke",
+      "support-smoke",
+      "ui-smoke",
+      "vehicle-route-smoke"
+    ]
+  },
+  "external_dependencies": {
+    "optional_evidence_root": "/Users/lege/Downloads/CargoPlan_KnowledgeBase",
+    "user_assembly_autosave": "/Users/lege/Library/Application Support/CargoPlan/workspace-v1.json",
+    "app_backups": "/Users/lege/Library/Application Support/CargoPlan/Backups"
+  },
+  "source_fingerprints": {
+    "data/optimization/v3-r2-delivery/current-best.json": "fa4fa9261fdcc0c7e1a852eb3455299f2e268695d9690a379e950058c68014d5",
+    "data/reconstruction/model-v3-contract.json": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+    "data/reference/manual-11-container-baseline.pdf": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+    "data/sample-cargo.xlsx": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+    "desktop/main.mjs": "36ec186f744b697bc0ead5f2d57ebe46d7a18a97886ca58167bf932081b87fb3",
+    "desktop/preload.cjs": "196930fd166b8b4d028c62f08c078b9a4f0d3dec871d39fce5107f18e21a0b3c",
+    "desktop/server.mjs": "0547bfcc0dc8d5234e2af893b414996246d4c5b8849e917a8a2d5b11603f576b",
+    "desktop/smoke.mjs": "971241b7d75a50d65cf7ac8c6129b54e5e8a25bff94b485cfbde9ab1bd1fffe9",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_discovery.schema.json": "bc8585b2853394fcf1cb18a999cd98175fb43b693a04867a0f3b96fd9adf8994",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_manual.schema.json": "d3f626f62e30cd38ddbfb873e116b702f486a1dcea26b9d5fda52dc9dd828d94",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_maritime.schema.json": "227de06c5037975163e7c055444599394fb985d19150c389c239fa7a239cada2",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_message.schema.json": "509a5b7cd44ff162a7427a591b0520cc613325fcb4e823d41d97545182ee9ae2",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_robot_profile.schema.json": "92cee3396ff2e3273716d1b70893778616e78c4f6effa95f124273c92c40f09b",
+    "docs/robot-protocol/0.4.0-draft.2/cargoplan_task_draft.schema.json": "1dc2b9de045e628efc9c489aea53bec0fb2c66e8b57a772baa47e205ee6d0e33",
+    "docs/robot-protocol/0.4.0-draft.2/examples/amr_single_task.json": "67f9462d89c4788b207a0ed8a6461c2165910210ec20009d012bed2422bf5ada",
+    "docs/robot-protocol/0.4.0-draft.2/examples/conveyor_handover.json": "ac55373af6daa448b16581582df880a31fff65f28a4728bacefc21569428b386",
+    "docs/robot-protocol/0.4.0-draft.2/examples/coverage_cases.json": "caf98a212809ff5ed82e3e04a4610ee33a524de3eba414cdcc4c4f45f3ec3ba6",
+    "docs/robot-protocol/0.4.0-draft.2/examples/device_task_exchange.json": "4079c5d686f0fb380318ff95e7ecd6b62cc88e107611d7c5ba619ab97f0375f5",
+    "docs/robot-protocol/0.4.0-draft.2/examples/discovery_and_preflight.json": "8f20e10697286f6c576bdcabba42982a228fd922ea22e47124e1f8f18fef9175",
+    "docs/robot-protocol/0.4.0-draft.2/examples/forklift_single_task.json": "c8dd4eb6b5c67d0593e91108ac8c25a52466ff6741feb9e78d52b8bf4d76a228",
+    "docs/robot-protocol/0.4.0-draft.2/examples/manual_receipt.json": "1f46a2ddd397ee9c113ed17302de7e6c05d797b307b3bc8e30baa72a14e0bac2",
+    "docs/robot-protocol/0.4.0-draft.2/examples/maritime_seal_events.json": "f14f87330a941b93091b1f5a0a3c1a246303ee7a27174ba911bbf2ee27b86ba3",
+    "docs/robot-protocol/0.4.0-draft.2/examples/quickstart_single_task.json": "41b02a3ad6ba0426d46cb7e79a8ef865646900b8b77bd3f282bb06a3bb74b854",
+    "docs/robot-protocol/0.4.0-draft.2/examples/reconciliation_human_takeover.json": "64e305556565eb53ce0244714139b95e5eab8d623930125aab10982b1988075a",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_interface_scenarios.json": "a1dc0c152687c26f2fa325c9acd5ff22f7573911c23b99e107947ed9db7192f1",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/amr_carrier.json": "0fe388876b7d6a4764906a5ec24c340f63d35656d86bf42a4d3bc79fa52e0e69",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/conveyor_cell.json": "4cee4ef9aef5625272fe21511fca2d5b16f3bc329350e8055a3883bedd172426",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/fixed_arm.json": "394a4616ee5d7f25ac9e62729aae746881fccb4599f08e409060e49555647f22",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/fixed_dual_arm.json": "69bcd12b18349c44ab06f68eb1799d7e66b46f2c5cde8f3b9b1117bb299e8b8b",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/forklift.json": "80632121d5a3fcb4773230cd71d71f2f3a58edb2d1abef5f4593143ee2d634e8",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/gantry.json": "19eda4667f079f85e48dafccaf0f3acf194d382cdd4ba77a9f70bdbc2ac49d39",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/mobile_arm.json": "bd9046665d737c1e39441141dd6e086e8a8e733a31fb93b67e2fe284889ce806",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/mobile_dual_arm.json": "3f87a88174ca70db2b5170d18278a88a53bacc17944327efbec63c54ad96c42a",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/rail_arm.json": "2a199057527369f39c0e0cf42cf3e54d6d3e0cf599acb6ca29bd43fe4510eda1",
+    "docs/robot-protocol/0.4.0-draft.2/examples/robot_profiles/unknown_embodiment.json": "b0dae75af561bb9cb745bacf7c37445979b7e2a18a67927b947a39c1d950991d",
+    "docs/robot-protocol/0.4.0-draft.2/examples/sea_container_multistop_unload.json": "cf6e8a8551e21b3a93b86a146f23501a82c793415838d07a951a9586f2655d85",
+    "docs/robot-protocol/0.4.0-draft.2/references/evidence_registry.json": "ebf9bf833c4e508a2cd569ea6908a3cb4e132522a669627118efdd879abbb2dc",
+    "docs/robot-protocol/0.4.0-draft.2/references/fixtures/offline_assertions.json": "72540b26800b24db788bcb94ec60be7363d31c17cc3460ad9b81bcf0d6452ea7",
+    "docs/robot-protocol/0.4.0-draft.2/references/fixtures/synthetic_cargo_v2.json": "7e06eb2f27cc5c43bdbec983517dac827ffa5cbca6e7be6f997cc27f9ef183ec",
+    "docs/robot-protocol/0.4.0-draft.2/references/historical_sources.json": "d96eead9dd65abb656a934dc8767f527389ed3d8adf5d78aa32cc28983835ee6",
+    "docs/robot-protocol/0.4.0-draft.2/references/internal/teammate_original.json": "e9c69bfae877ff9715c4b1135d5d39ed177892ceb41bb61579a5d1f49cb99340",
+    "docs/robot-protocol/0.4.0-draft.2/references/internal_sources.json": "ba89caf5e2556f2e34040d8adf032751a9aadf7199f19dfed644a9c8b97a690d",
+    "docs/robot-protocol/0.4.0-draft.2/references/predicate_contracts.json": "d3fddf9010434489d39236900b9cbd4f3c9b78c7d89b806c250dd982e7b4c372",
+    "docs/robot-protocol/0.4.0-draft.2/references/sources.json": "e7f2a7e1469d1ef318b8f2ce4514b34c2536fad5ae9e6390494555d3d938eb04",
+    "docs/robot-protocol/0.4.0-draft.2/validation_report.json": "332720613286ef59c0105cf7eb2370bc3ef69e4caa7d1e2d5019799ba7d4a721",
+    "docs/robot-protocol/cargoplan_task_draft.schema.json": "ff799bf346d7f0488cc3e8f9859b21bf5bb4542ec75aef4d52dfaef07b2e136c",
+    "docs/robot-protocol/examples/dual_arm_heavy_pick.json": "4bea23daa581d8146fa489ba479eba98242eba6af3d51b85b5bd2eac889045c9",
+    "docs/robot-protocol/examples/land_trailer_load.json": "46dea0c67ad7f62fe72a0bb51a383ab455433e3911a02a8e6ac1adfd6c3bf27a",
+    "docs/robot-protocol/examples/sea_container_multistop_unload.json": "e9c69bfae877ff9715c4b1135d5d39ed177892ceb41bb61579a5d1f49cb99340",
+    "electron-builder.config.cjs": "ee5dff178eba6529832ee5541f7ada7146dbef4328e01bae0c8f789a5de8b80b",
+    "globe/data/conventions.json": "46f40c3631d8d28539e7320f33703fd70c69eb5dac30ac8173dec10e0f539030",
+    "globe/data/countries.json": "b17237b6c3d1dcd2e436a69700872ea3e602e7e87198222eb78607208dce297f",
+    "globe/data/land.json": "b676965bf2eec14cd7067344fb0bf6687783851d66ab9c3273bcac91a26c0234",
+    "globe/data/meta.json": "706abec263f4acbfe1b3f9d44c23bd4a833daad7a7469f786af8be7cee703e60",
+    "globe/data/port_packs/AEJEA.json": "25369a0a0d8e30b5982816f8c3ed9baac8dff6cee93df1738c4747428938733c",
+    "globe/data/port_packs/CNCAN.json": "9436dfc13da8ae17de90b864aa248b83906f4db8722a5d76167fe7abe77a207c",
+    "globe/data/port_packs/CNDLC.json": "37cc830ce8340a65ea5c65f1113e538747c82fce5bfd1cbd47d4daa039efd73a",
+    "globe/data/port_packs/CNNGB.json": "d304545fcb5e364eb2bf843776eae3499cf86b44502a4f359028f0738a69b943",
+    "globe/data/port_packs/CNSHA.json": "d21405e8e693729917235c28da42b21299c98942661e1d842d7352101ac3e704",
+    "globe/data/port_packs/CNSZX.json": "9dc2692fe34572131c2157bf7dff324fcddd4a3e234cca184d64cfa0b81b2af5",
+    "globe/data/port_packs/CNTAO.json": "9e6c745d3fa82ffb3db28552c20ea8d70031b553ed7937f55df6d00496c23f67",
+    "globe/data/port_packs/CNTXG.json": "93ec34d49ba13b0532648a0430e47461eb0653338cdb5301ab0e0aa1fe1dcf72",
+    "globe/data/port_packs/CNXMN.json": "50d37d120bd300f1c13a677a78c625ddf90017f9aa5d5380ffbc94fff319dfb8",
+    "globe/data/port_packs/DEHAM.json": "0d17817ecb93ce2279d994306ec57da7f8e1cd3f158cd4f190762d9c083fd5c1",
+    "globe/data/port_packs/IDBLW.json": "a4b8bf4e6543262f6c4420f0bcd5ea489a6ec78cf2623f2fa0e3103c311d3a7f",
+    "globe/data/port_packs/IDMAK.json": "77f440502e9c7a524f0922e0ff24e355dd11a64064ec2723e5ee2665a5b93774",
+    "globe/data/port_packs/IDSRG.json": "a8b2c020102d1c5a6552f0864d5653075abe34ba1667931c2df85db904f7eb6c",
+    "globe/data/port_packs/IDSUB.json": "319106ece29c3918c98de932163862aa19cd014f3916a10819bab52b854f1a64",
+    "globe/data/port_packs/IDTPP.json": "0ab49e335fb6eb246172a07322832e0cf04f93df854ae526c3684cf8921281fa",
+    "globe/data/port_packs/KRPUS.json": "604df6fa805b591c2775901930dd0c80b4858f6a56336d2a1bd8f800fbe8b7f6",
+    "globe/data/port_packs/MYPKG.json": "4ef238dfab317bbc7701b53366305004397f8f75fcb20f167197f5260b5d4ffb",
+    "globe/data/port_packs/NLRTM.json": "b5b8beccef3b9a8a3712ce15cc83b060529b3bfed4259551f7997e6269ba9165",
+    "globe/data/port_packs/SGSIN.json": "c86d7d2ea721d546bd0c2fc6812c9904791c338320095125719b8f40f6e41132",
+    "globe/data/port_packs/USLAX.json": "3c2d9b2f0fe26309d105b5fddf086dca7c98a112068f605c16e55841012bdbf8",
+    "globe/data/port_packs/USLGB.json": "6e097e8ba364589de9806b0abde3d4de470c07fb430b20972b214e640c6005f8",
+    "globe/data/port_packs/USNYC.json": "c60f06ad32c6cbbc86b645b7a331eca22a2c27c25ba5f2f54cde66c81ccd39da",
+    "globe/data/ports.json": "c4c126eb90ab510185700552d1bc8eee09c688a45a84e855eb7e7ac5868f24f4",
+    "globe/data/regional-policies.json": "57ab5c0671153ebe3ceb3013c8c71b043d2dc73157ca480bffd697fb06563bee",
+    "globe/data/reviews.json": "fc3214bd5d0e7e2806ae42186793f306f48886ac72c30dbfed4925d3b2b26b4a",
+    "globe/data/topics/T01_demurrage_detention_storage_freetime.json": "da1ed8953d6182d3dca84e32341b578cff554a81c5ab2fb03959a58b4e7e2b7d",
+    "globe/data/topics/T02_vgm_solas.json": "00bf464682317259011d71b3f3401eeb9525ed8c8441b126779c5307b2158bd7",
+    "globe/data/topics/T03_weight_limits_csc_road_odol.json": "15475e9fd2984e7465533b00e4094efae56155b2de77dcf6ce186fcb9ac2d727",
+    "globe/data/topics/T04_rolled_blank_sailing.json": "1f478ae8e256af3039e9bce8f28d34384a305ac76f7e74d7f0d353aee913e025",
+    "globe/data/topics/T05_freight_rates_geopolitics.json": "cc376ecbba6453d49be3b94601d9a87f352fb8fea9737a817b79390d37230721",
+    "globe/data/topics/T06_customs_hold_fee_clock.json": "aa9a56a83232f73d89cc7a349b0ceccfe037f2ce5cd4bb9baf27d4feb171def2",
+    "globe/data/topics/T07_ispm15_wood_packing.json": "142b7181af2fdba98dda6f3671ea068ec6a3590bf91bd980d24c5f1c4165b5e4",
+    "globe/data/topics/T08_carrier_accessorials_wdf_restow.json": "d6297e9500b45e5906dce0534f4046899461f0a7d66052482b41a5b74f79449d",
+    "globe/data/topics/T09_misdeclaration_si_vgm.json": "791c70a28b8a553355c35134845ce83705378a362a799345ccca41fdfddb6af9",
+    "globe/data/topics/T10_abandon_cargo_destination_charges.json": "54127baac065539de4dab4ba889262cdc4789abb8cf17c4a7682214cb989645e",
+    "globe/data/topics/T11_indonesia_odol_port_enforcement.json": "8ef8a1878a8b9c6b2a6746def35bec889208a0b4ad87ad5e0a35470e03e568ca",
+    "globe/data/topics/T12_china_railway_express_load_bias.json": "4ed5fdc4e1066a047551bdfe7eb8f47ca6a9a6c38d18f900ecf5907488f16448",
+    "globe/data/topics/index.json": "e943f47cca88e69848dc6dad91fb296c66617e20ad3f86d8241a88af2e57db62",
+    "mac/assembly/Info.plist": "59c59973a83e730917913ae255207016814eb9e894d865974940e592f69fd7c2",
+    "mac/assembly/Sources/FloatingSupport.swift": "370090d10b8d88f2ede7b491a1ca47949f78694f8e0d3384b80ba882fbd8c051",
+    "mac/assembly/Sources/NativeFiles.swift": "ec9bf9983aaa458fe78eace7e2dc8ffeefe4893e18619882e2b2e68c462a5e86",
+    "mac/assembly/Sources/NativeGlobe.swift": "b22ed71425c3727ce37abd981056a83179b87074c0d6bfa0c1ee3a5b448ea165",
+    "mac/assembly/Sources/WorkspaceWeb.swift": "36fd2bcca1a0d5b827ba74dc58a845a22b2c48112b9f23d88c959b6a7f9c6cbd",
+    "mac/assembly/Sources/main.swift": "f69365ed214bbda4057da1b81fd4ec319ed67b54c8c903188715a286857aee4a",
+    "mac/assembly/build.sh": "fafd20a6fd5195652c996870e7e52c999a64f3cab7c0e8793b4fc1c8c2f0059d",
+    "mac/assembly/bundle.mjs": "f8a57ad4903f7ff54c101e9d9ff1f60fa8cf73df4723329e60e761a4cf04ba30",
+    "mac/assembly/extract-scene.mjs": "728bda131657c794e72cbfa694b79973892c106cb317839a281f89c20292adfc",
+    "mac/assembly/native-io.mjs": "771648e92035ae550e64a22ecae652c2b8b9878a2327e7899cc445377b25e682",
+    "mac/assembly/repack.mjs": "6eecc185fbf1ff3bb1855b8a07a85c152239ad16785d3426a2bfc9716fda352a",
+    "output/reports/iraq-villa-current-best.plan.json": "f9c84f05484efcb01f4a50270d402e5d741d6320c0df4028c4714650d6d61e32",
+    "package-lock.json": "1110eba656e4ac3e9adfcbdf1d2baef6b775d325a069719ecfb5e4d48e9deda3",
+    "package.json": "4dc5c5cebbaeb87d6baffb471a37a527e3dbdb7447219110c007b923de3bbdd8",
+    "scripts/audit-source-baseline.mjs": "179d20703cf50b0f7532bc7588054dea04bf29bdfe129e15093186c1f41a9b0e",
+    "scripts/audit-support-feasibility.mjs": "3849c45d62e6f3094198dfbbc4a432af897d36ad980472c0d933bf086eb96c3a",
+    "scripts/audit-workbench.mjs": "dfcb3b404953230c2e43e4c8a7b78a9db0d0473b12739626daafdbcc91cf366f",
+    "scripts/build-product-review.py": "9e79949b33ddb53b9a039f6ced43e542a511adf1189ed24e224a30c492d5d50f",
+    "scripts/build-server.mjs": "0e08db047f67da5cd3c2513fd4d95aadcc2842b43c6dd9e1f4a4f0ec48eccf70",
+    "scripts/build-static-report.mjs": "975c1fad93528f7e861df13b881f2df77bb3ca7de9581c3cd82877fb9d9fb27a",
+    "scripts/create-pdf-report.py": "d6b4cc64e68a1348e87b685b2382d714427c9431db527cda4b7f12ecd9d9d291",
+    "scripts/export-static-report.mjs": "29f1d5a8078cf8b6ef29554b7bd7456a7600b04bb7a47ec57f9f4b303cb8ce39",
+    "scripts/package-mac.mjs": "25ea5d354cef435a5eb7889490a9aac1ee0ab5a8d36ef7ceabfb8a9006e7894c",
+    "scripts/product-review.css": "8f25a438d86d13712cb6d2fa591631f5910509aa53c3bb15328e2e744cee38f0",
+    "scripts/reconstruct-pdf-evidence.py": "872dfecc249da81e255e3efb6fc2d833ecab4e1803226bd1d9719b9d6a47baa2",
+    "scripts/run-desktop.mjs": "63c669c8500d8e9048203b6a7881bad90970ad8943d08aaf85c500515070b46b",
+    "scripts/solve-route.mjs": "29325aabd9659334a970f54001d558702cf042f79e0e8abc2fce8512cd747660",
+    "scripts/solve-v3-floor-cpsat.py": "5e47a6836be22f7a14cfa2af4d59ec70175b517a6b07c161141aa18e53a95546",
+    "scripts/solve-v3-long-first-cpsat.py": "f47b5be841b866d0f82b799edd4784d32260e9283da226bf66b928878c1f7f0d",
+    "scripts/solve-v3-window-cpsat.py": "b35d45bce9c8c46d82cd75d0678b6d07f3b96bf2fe90b1634c256799d16b4209",
+    "scripts/start-knowledge-server.py": "4d3716b6b974409d9e446c0ea923feff9e63ffd1a1eb43a9051bd15ce0d48f5e",
+    "src/App.tsx": "48ad63d79a4eaa9af3b7c9ccccd77ee0afdc9346328747531b534b327cf8affd",
+    "src/app.css": "ebd6832f098da9eca4f9c19d861f5a3e4398f315888c0963ca22d3e43db05a6d",
+    "src/components/ContainerViewer.tsx": "1e451858ee3e07e9a705adfcebb094d7b8b27ac5e79a1951f98d1986bad6263d",
+    "src/core/ant-colony.ts": "55008d5128fd21eaf4f98557c1c08bd6f9715af2a26ae07f6d5fabaf502614cc",
+    "src/core/branch-bound.ts": "cbe73c1c52cb16649a24aaceb093380266e05c0346ebe998fbfe0f7eda766855",
+    "src/core/cargo-readiness.ts": "85ce2a9a75c181fa85bf9680b3f8280f6ce44504cc7999197851d4881e52723b",
+    "src/core/constraint-system.ts": "b1a3e9737eea58ec9bf6abe35fed267f668ff2f1b68af1560428fdf11fd01680",
+    "src/core/data-parser.test.ts": "073bd091bb782fa04580668b473c867e0507408ef827341a1088ba6beacd0ae4",
+    "src/core/data-parser.ts": "cdeb3af3b2131cd164794cf37bcf1877a0ecb512c66bc0a9c0af02ef1a9ee63b",
+    "src/core/demo-solution.ts": "942e6804a6c3b0277ef1321903e4bda1a50c37753a27868b8be6b3b01a8bb5eb",
+    "src/core/editable-constraints.test.ts": "404f0eeb747165850d54bd3846d772056d002f9bb33bdf9be0d2213b0bca1a90",
+    "src/core/evaluator.ts": "50ee494b96d222eb623325a1c6fd26d7c262e94e54f2f67410639a6e8b9e245c",
+    "src/core/export-utils.test.ts": "97b32b92cb5cf83ba9791577dd4e84c7afbc2886db902123007dc606511b5ce0",
+    "src/core/export-utils.ts": "8614715c036c643936110ff74dd2cd6ab4741a60e019b5e0686b7a31c5a1344d",
+    "src/core/freight-constraints.test.ts": "22c5c5ee681fa7b1daed4afe9e2f50edd3ed67b44df3b4569b5cee14d9565132",
+    "src/core/genetic-algorithm.ts": "d8176ac69df75205fd64720002880770ebbd046519507c310cc85e48355ba958",
+    "src/core/greedy-algorithm.ts": "ea8c110da04959049a15efb53d7fa85830308083368a7e6e320e7a13f5798ac7",
+    "src/core/input-validation.ts": "2be7f54dc66486f438fe22d503defd7b5a26f44a607778b8fbc531d28fa4d7aa",
+    "src/core/loading-profile.ts": "4abbb2ed8c75c442558c116efc195c27ef8bd174d3eb5734f780fac6acf65262",
+    "src/core/model-reconciliation.test.ts": "bd4d169c337bb2b3faaa7dccc439f32471a7630011c56778da77fcf4a97bfc5a",
+    "src/core/multistop/access.test.ts": "b183370d2908de682b41b70fb4af232387755672b4032654125d8fd623f5df78",
+    "src/core/multistop/access.ts": "9632e0af20c716cb58c2e03dfc185d5ee253faa7dc62606805bab16fd4ac759e",
+    "src/core/multistop/doors.ts": "7d9028e2456228f0197441f5159a18a0263e66889fef1284377bcbd77819a295",
+    "src/core/multistop/engine.ts": "eec212fc379ff64de17215a84977a3ffe3e8d9e39232667f0b9a1e5033563e61",
+    "src/core/multistop/index.ts": "3e34a0ba5fa8ad36d4612e6d19fcf8dbb78ea9c0b5c3c735e0fe600b51c4df58",
+    "src/core/multistop/model.ts": "3686152170e33e14747bc870d6fd9c59a28270c7f69c226eb89eef01d5d4de6e",
+    "src/core/multistop/multistop.test.ts": "099d6b1c2c15bc1765d2aa118c3bdb3929ae70144c802ac0ba7344e4f3a8cb57",
+    "src/core/multistop/planning.ts": "b5272336278acd84f4e9091a1fb096999d30c7ef1a448c11863d582776c3e461",
+    "src/core/multistop/playback.ts": "71f94e626cb03138d6aa9ecb592049e0ccd334b0b2f903865b0f4213bf66784c",
+    "src/core/multistop/problem.ts": "23cafe21442d6b3b6b877df78e5ce29999ab37f25f086be1d5aa2526b15b362c",
+    "src/core/multistop/replay.ts": "8dfb1e811822533d146224a46f6cbf51bd7a9e0b8b4530919f8a17cc08145cff",
+    "src/core/multistop/scenarios.ts": "34d0e8ec6b72d855ea71c12d90df330a3c9e667d8728874c65d054349c272629",
+    "src/core/multistop/vehicle-access.test.ts": "f23733c959c753c4df76dceafdf33d0c4e19db6fc7fa74f68af63c2bc146a697",
+    "src/core/multistop/vehicles.ts": "320b288713ccb90e7eb10ea3e058d5e61fdbfedcc0fd768ca30345534c033916",
+    "src/core/optimizer.ts": "9bb81b4d900662735f98d82f85ce40d36bd1f4196811147c2d9c5d6de2e9b751",
+    "src/core/packer.ts": "370ff3cb4838b80117babdd840e28e3d92a3a61dbd74d9516637fa6ee828dcc0",
+    "src/core/packing-progress.ts": "3b4d33bc2285ab97bf0c3c4bab64bcb213ed08fdcbb1888d5c4a24a8c5b4562b",
+    "src/core/packing-pruning.test.ts": "d7fadf0a36d7fc6a44e41cf186bff80e7c6dd9c309738ceddddb9408c79359d1",
+    "src/core/packing-utils.ts": "f9976fc5f7b36f298f30fb5bc4f51023056d6e9c1dde14a634c37dab72b7da44",
+    "src/core/packing.test.ts": "526bdb77f0ad42cfab9f24977377aada1db67ea6a57094fe630501000c69446c",
+    "src/core/preview-packing.test.ts": "eee77c0f2109b78a34e9104d0d6b9194098f83296b002c26281ea5587aa20d7f",
+    "src/core/preview-packing.ts": "2d21ef4665e08fa57eb2bd8a3063e368c2372f41bd6ceec0ce1fae795a91c82e",
+    "src/core/reconstruction-decoder.test.ts": "8a1f750a7e1af570bdf197170b073e651ec746915956985fdcf1f03b0b1f0ef1",
+    "src/core/reconstruction-decoder.ts": "4d5964b21362fb0d0a76572b8342983e8dee82915e066469adcbfec6e8a37d8e",
+    "src/core/reconstruction-pdf-seeds.ts": "2d0d69ce7c0c3576837cf3534161d98ad400497400d936c51d8f904a182293d1",
+    "src/core/repair-packing.test.ts": "6c4833a0b4c9b84c0f073e8462539cdeafef78ad31e7fcff4d8564072adaecb6",
+    "src/core/repair-packing.ts": "c826d11f282cd365e77677eeafe637fed1ed429b7e9f223bfdb66d80e731f286",
+    "src/core/report-generator.ts": "c9871043a7f87a182149242c5472149e449613472141e494bc42105e4de70c98",
+    "src/core/research-23-long-frame-macro.test.ts": "112e399fd0024320a03974896fa16267076c3d165f27d309af013cd2d6ffc74a",
+    "src/core/research-23-long-frame-macro.ts": "c6d233362f7b96941a3b2f1a615c8da47d116a6ed3539cdaabf52c98df56766f",
+    "src/core/research-calibration.test.ts": "0fab3062c11176fa963d1037cb708fbc0d005b98d1eba79e4d0b368a92d8c31b",
+    "src/core/research-calibration.ts": "f58b63e71279448efa9c77cb955ae70ea1c41d48f35b90d69d7d6fec452484f1",
+    "src/core/research-long-frame-macro.test.ts": "3a2bae27a175589897f65a74ec908fe88f2d5d2c909335366890c402cb349f75",
+    "src/core/research-long-frame-macro.ts": "48abfca1fc5f9f203d0d2f1e8bbe675002968eb585e6d3581a3ca61ecacb2b46",
+    "src/core/research-metrics.test.ts": "b3bc613b1222b0bd8903b808ad6e80452c8b995e118e1d4b0a842ab15861af9c",
+    "src/core/research-metrics.ts": "412299bd5d7615b4699e86611485494ed30ee55fd02f0ad0243f229cf81f45f1",
+    "src/core/research-placement.ts": "fd610e8fc35435dd6b7a57808a1779683fb6f4cf5bed72bed243c90677e77fd7",
+    "src/core/research-r2-24-long-frame-macro.test.ts": "a650e14ca16741b6b6ece6f582fa18a1baad22e36e68aa7fec3507ded6235b84",
+    "src/core/research-r2-24-long-frame-macro.ts": "0e4bdcbbe5b93f52ca51028237445bdb2400d9e659b7b92c180cb58a52af095f",
+    "src/core/research-short-frame-macro.test.ts": "1b0044642db7169496d834b9118c18c896f5a7206db0a4c1fe3a384e954d345d",
+    "src/core/research-short-frame-macro.ts": "0939c482154704fc7f5f076a941bf7bf4efacb4ba19716172d82aebb0a9a2160",
+    "src/core/sandbox-learning.ts": "ef2c9c7857dab0fe33901f657917de50400db3577668226775e40dcbf30d891c",
+    "src/core/search-utils.ts": "a0e8540196985d009d98d8baab73e46780cf696401414411390062d9eb9c816d",
+    "src/core/solid-geometry.test.ts": "9ca19102079943aa0988a1844618953c719e4cd8607907660be33d3911c0d6ed",
+    "src/core/solid-geometry.ts": "ccce5180c58cbcfffde966bd198a7545033e81245fa82f76d4de763924be1d1e",
+    "src/core/solution-builder.ts": "3b41ed5595414ceeb6216b270bb4aa5540e4c40818d73e07256ae4ea01ebfdbe",
+    "src/core/support-contract-validation.test.ts": "5e8630556a157e2d90e09b569d8b9a292386036f54f168d5b91f9f2b01903cf7",
+    "src/core/tabu-search.ts": "f084a2ab6317ecc664e4d76aa309a09759c4360cad1c7e37a52ed5b82fedc5b6",
+    "src/core/target-search.ts": "eba34d8216e3925814036079388670209520d277a0702e514e1ca88896d2e92b",
+    "src/core/unload-analysis.test.ts": "fae306eb5944ded6415bcea1de14e9cbf0f90905796d1a1e9999d5d155de67d8",
+    "src/core/unload-analysis.ts": "74a381bef45a37452d891ef6fc1cd1417e1829b42cf206e05f081595b8591d76",
+    "src/core/validation.ts": "4b0307cfe5911419a949d4008e350437596727d143c73448321453bc9b0e02a3",
+    "src/core/xlsx-adapter.ts": "6eb5b9900c36efcbde1a72bf0109f57c393ad6aeb79b07b38b3c80081032c229",
+    "src/data/vehicle-presets.json": "e4d563b611db59abecfdfeef90721e8ba510bb899a9bd43c9459545f7ea4aa73",
+    "src/demo/CargoConstraints.tsx": "e5fd30909c455752b5def1f31b5e122c9f26d51d295c5cdad05f54ba96a24cae",
+    "src/demo/FrameEditor.tsx": "4d843a403c1eb431984caef65555cb324231f011fb83a4832db02ab2514144c0",
+    "src/demo/MultiStopEngineDemo.tsx": "fb9ec5e6e6c1b2e1ea42c805a3496eb6ee40c03fdfe171e84d65560856791cc0",
+    "src/demo/MultiStopTest.tsx": "f405cd9f8d0fd924e933488e741088ff877c15fb04cddd5eef689eba1ae20cc8",
+    "src/demo/NativeCargoEditor.tsx": "6971a04c7eb25e77ca08fbf340da9b564e540fd3cdefbe83ab528ad391a3f621",
+    "src/demo/NativeRouteWorkspace.tsx": "b73d5b2bdd9b1862fd43b84e4576324a1754daa88c4eeee1bdbdcf185251f26f",
+    "src/demo/PackingStudio.tsx": "178f4a7226d5ae8bae20316f49853b647ad10ea9dff29ee9a26b65c2f56ea253",
+    "src/demo/RouteComposer.tsx": "e234fc1b8411a99605cd5e23b6b0442b3aee23d0022e5af3042c21afaecec026",
+    "src/demo/RoutePlayer.tsx": "aa942189f2043f5338a667ae95482de2568358b2ae3cfa151e0bed4b0a57e122",
+    "src/demo/RouteVehicleEditor.tsx": "b21a2022f6378718d4792eab108b26b081143483a0900d27d89099eddba4735b",
+    "src/demo/SeaLandDemo.tsx": "458bb7d6b1e44d8268cfe4aab219e52151af9b8620f60fd8904745075161f5d7",
+    "src/demo/ThreeStopDemo.tsx": "31968cfbe23776abc8818faec322c0979dd43773638f82e250a02bc40bf550d1",
+    "src/demo/excel-shipment.test.ts": "279525243ea7355fec1ab89540e916b2076f8bc4b7bac236d12e2eaffb7da6c7",
+    "src/demo/excel-shipment.ts": "51c4b4dad609980a5622257e8d87d8eccf6ffa66f7735534b66238c8385b2614",
+    "src/demo/format-dimensions.ts": "46764c5c765eeb817b9925113b16e65207126b4f019abe4311930394e2eb0b3a",
+    "src/demo/iraq-baseline.ts": "9209ce88c0e61b0480ea8b81a1f251745cc8f28cb5d8de7b692a00d5c5fdc299",
+    "src/demo/iraq-route.test.ts": "5f2c92d8cbfe77705d0d5b5a1bc0215c6e9b928c6c9345b678777fc65505fa48",
+    "src/demo/iraq-sample.json": "4c0ad93350b2274df2768402c45a9084796c04137aef7ba781171aacaec52cc7",
+    "src/demo/multistop-simulation.test.ts": "f21410378c61f2f080d4333d9148bd8eee5c5af2d7bd2979e16fd470e9601a36",
+    "src/demo/multistop-simulation.ts": "2743bc899c04c98f8db8feb44c47280f6ada77a3058c3fdd921c803d6a367622",
+    "src/demo/native-app.css": "4c15c654c2e2381b46a239da69cf93e6975b7500ff7ac3844e60c8d5f9503c9a",
+    "src/demo/packing-studio.css": "9100f703849eb725975044ce62b5a8a667206b5c2e5e54ead2241aca16fc5f14",
+    "src/demo/planning-runner.test.ts": "c19c5f621d91a37e71d6b5f159c9cf42bed1b5b4973746184c235f7a56c5d2db",
+    "src/demo/planning-runner.ts": "647fce1dc21d455f78c0fc78627e986a8a5e13ff8bd1177991505b264b7d2dd3",
+    "src/demo/planning-worker.ts": "06dbb3b8c941f19524ef9a789f41c4fd8f89b700f73dba482ae6c1339b19f0d1",
+    "src/demo/preview-worker.ts": "214ac88209ae369e52dad56094e4a9e641498896f85162a2c55229280e4f242c",
+    "src/demo/priority-pack.test.ts": "e6b2d0d875f9a36c43f24014d445c315f38f67ea48a5dbc121de9ba2e243eb81",
+    "src/demo/priority-pack.ts": "2a8d2f204dd99792c9d1c7d4943c19250372a294a0a8bef44a7335d12df58f2d",
+    "src/demo/route-demo.test.ts": "97e0f2f5d3306b635e94680dcb116ef3d277ea8f86fd50ddb1c4714392a8f8b0",
+    "src/demo/route-demo.ts": "e34e8be4caa089d6418ff55057b04be8c3a92ad7dc41721b37e74cbcb713db8c",
+    "src/demo/route-workspace.css": "7265edc8e470e270c42d03fa63ce47c6fdf8945f0501d79f564c95da54417364",
+    "src/demo/scenarios.ts": "7820ec64f181d49b443d7fd4cf130b57d53d412557f62297130bc6f02e3b8907",
+    "src/demo/sea-land-demo.css": "b7f1a4964233337603a703a7e176108bdd4c4a45fac6d1cec7d6cb623a4e7c7c",
+    "src/demo/simulation-audit.ts": "d1e6d9af1cf26a1681ddbf64954ec5b37f54b27894c46fe7f170304cbcaa631c",
+    "src/demo/simulation-worker.ts": "b92435429bb51e342f117f27841e05ed3e6fda7ab6abc8b7bade0169c4c3af6f",
+    "src/demo/studio-cargo.test.ts": "408f6903b7ad1a4158b9968a8229c9f868a81085eeaec7134a01043bd53f0413",
+    "src/demo/studio-cargo.ts": "24b4bf0bb7079023da1e34daa2ba61f86d8388e0d9a4df636632ffb9b644d8aa",
+    "src/desktop.d.ts": "8a3ed1e93fae0234d290bb56216b7a2bc4a63ad77e9c3fc570bb0a5399b2c529",
+    "src/json-url.d.ts": "f52fc61e6fbd54eea4354c2b727bdd43da055426eb4880b09b3172bddefe2d43",
+    "src/knowledge/Knowledge.tsx": "ea7dfea8909efcdb985a023bcc96c019170281943bf581cd62967f8ec303519f",
+    "src/knowledge/globe/Attention.tsx": "11b2f1f3b8ad144bb2ae31bb69b4a5cfddc3fd7b2e695509f20dee7303af99a7",
+    "src/knowledge/globe/AttentionDashboard.tsx": "f50c27596db39a822d9fa193989ab4937981dcaa7016402dbeac40d15a63a815",
+    "src/knowledge/globe/AttentionTrends.tsx": "5c5091fa0d90621f07e40a3d9ad579542c3bac27943dab52f54ecd7faec9f894",
+    "src/knowledge/globe/GlobeScene.tsx": "596ec3f3612a66262ae9b6965c0b414f5d886a22c9ce8550d50809c766892bc5",
+    "src/knowledge/globe/KnowledgeGlobe.tsx": "ccb181ab2968ea7a783b5c8025a28f31d6083c4750be650a2eccb8bfab579191",
+    "src/knowledge/globe/NativePortDossier.tsx": "763ddfa198f6a21f63b71ad83c3d32503852468dc7828088cc7ae4172ad8b5c0",
+    "src/knowledge/globe/PortDetails.tsx": "962cda412024ca860e5de010851c2b954b21379d4e28e5e91525d5a4bf2e4b80",
+    "src/knowledge/globe/RegionalSummary.tsx": "c1109351267fb2dbd1af628074130eff743d4d17dafbe66175349398a40be588",
+    "src/knowledge/globe/camera.test.ts": "0693ae620f974e89cf4e2d89bdc3e2345d03328dd8f530d25bc5563b693fd7f0",
+    "src/knowledge/globe/camera.ts": "084aa0a75f64c1673ef420db0aeba77f0bae975e92489e6404099593df06f9d4",
+    "src/knowledge/globe/data.ts": "01c6debf6807296549a001a016296bb018050c6371f53d4d13e82fd130386ee0",
+    "src/knowledge/globe/globe.css": "ad0d93fa5fe6945438d0ceb281f63a8c301e54190715821b4fdb3731fbb688b8",
+    "src/knowledge/globe/model.test.ts": "c8288b8f7e50c97d8425d704e7e7a7a1d03042b3d0edc8fca499363a1aeb841a",
+    "src/knowledge/globe/model.ts": "4595bab817c95a3463a0e4fe263c65261c8a93f22ebcd50e78ca28951e33c64f",
+    "src/knowledge/globe/regional.test.ts": "b4394ea27db881aa3857c904b253c895081f3b9e3b5dac2825ad306755cdc939",
+    "src/knowledge/globe/regional.ts": "cb69bbf1f6a849365dd292d67d624ca628249fad0d8e40128fe914f907ad97ba",
+    "src/knowledge/globe/standalone/main.tsx": "a2914ecd79cb10f74af46dbec6fcfa065bf7ad7fd2b97962b6fe5a51a148e6cb",
+    "src/knowledge/knowledge.css": "50887545a37b7552332a2c7020977a39260f9f08077b69f4354793eb2334c4fd",
+    "src/main.tsx": "e398d554f48ba980af0c911ee9838a16dbfbd5f352b3480cf4ade01825eb10a5",
+    "src/reports/report.css": "108560d10ce118c53b095628a88bec5eae764f8fac9b3dae0c3bdf73b9769c6c",
+    "src/reports/static-report.ts": "287eb639baea7774e5bb6817bac0e8618933533a0e320ebd099e134e2addd4cc",
+    "src/scripts/accept-v3-r2-independent.ts": "a6aef8ebaa4b8035c1dcdc687a674366b2358088308e2ba4580601f158a3c743",
+    "src/scripts/acceptance.ts": "8e056f72f4d2133b4c3319ea193e15cd2d6156d790a16b463604f49d1ea37181",
+    "src/scripts/apply-v3-tail-transfer.ts": "ee7a4f97fbc380e47859914f531eccded24fb9363e07405f0762a9a6297e78f9",
+    "src/scripts/audit-pdf-replay.ts": "d155bae7301e93e7a6b9ef6b289040593a9600777bfc7d427ba00143bfa47d54",
+    "src/scripts/audit-v3-floor-bottleneck.ts": "d5930bbb8b97a37432f1d87ac31ebe7637a843d48d684da77945c8974301a564",
+    "src/scripts/audit-v3-tail-independent.ts": "9ea568e709ed27d2fe14f50477628b852b91056f782afd8fc18c92fa3f43279e",
+    "src/scripts/merge-research-candidates.ts": "5fadeed96323a0c0214975a741f58eac31b9ae14bdcc65cfedf540ec5a4cf287",
+    "src/scripts/migrate-pdf-replay.ts": "e82772bd1d36589c0ebcbb4191571df025aaa506a34531e5f19570ea0e1375e1",
+    "src/scripts/optimize.ts": "4da764f51a11579c67fb4ae8e950369fc760ef075a7e7303cf4894d6342524db",
+    "src/scripts/parse-data.ts": "d3a3f20d5028ec37cdba7d7a68c6d844538ab899f923751c2340ae1a031bdb87",
+    "src/scripts/prepare-v3-roof-stripes.ts": "32b7f815548cbce6f9b88b7c5f4302e648f3e5c96bff41dd03beb8e35eb13f5c",
+    "src/scripts/probe-r2-long-frame-density.ts": "ce8fd3018a7690cdb8c346a79537559e383e86f029574e446fae45145d3dab1a",
+    "src/scripts/probe-v3-23-long-macro.ts": "1dc4362d503ce4ece67ec26b93252161f45a6098a0a1db8c6ff010f292169f6c",
+    "src/scripts/probe-v3-aux-frame-bridge.ts": "e1f73450267377f6c8930f6fcf7b2163c04c4f1e94fc7a897e5b1a40778e6ba0",
+    "src/scripts/probe-v3-crate-bridge.ts": "f780f44abfba30deed815976cb27a43ab1ff79938c83317390ef4ad79252bcb4",
+    "src/scripts/probe-v3-eight-canopy-swap.ts": "690b8925d92ec75d072b3da46c81414d961e9bca7a65099ad6ebd8826fccdcf0",
+    "src/scripts/probe-v3-rack-rotation.ts": "6b31f960e72fd1360801cf102282e25a92ad40cc5a4c096069b1a6a9fc42d5ba",
+    "src/scripts/probe-v3-short-frame.ts": "6d7cad9ba35da32b0bbfbcc8c0da00b64ba5b3d18901bc591aa5cd8f7bf4d0a0",
+    "src/scripts/probe-v3-tail-flat-roof.ts": "f2e82a330f0c6bb5b6da628ee376552c0182f89e74a474a50c34b83af84356c8",
+    "src/scripts/probe-v3-tall-aux-shelf.ts": "b2fea70939d4c01cf5d8c1ba82f3a38a3729795bae570a6b7ef0d8db53221065",
+    "src/scripts/probe-v3-tall-longframe.ts": "584244f3185378073c73c8adc3b8631ef2ac20eeff74f4efa49bdf3df7242e52",
+    "src/scripts/prove-container-eight-v2.ts": "44e7a9bbecd944526f4a049c468a133873ec413d243dd8c3a52eaebe2def4554",
+    "src/scripts/quick-test.ts": "b884ccf65441ca197509b261ed8a3b65916dd5502463a605e3e50d2de21c3955",
+    "src/scripts/reconstruct-manual-job.ts": "f20833b94522101b4c335711eb91765344b71dfa3e883e0dec503dc481192f8b",
+    "src/scripts/reconstruct-manual-worker.ts": "7d6aa2b88beab23acb0fba499d56e98d0485614bab7bb6a5d7f98d973e008af4",
+    "src/scripts/reconstruct-manual.ts": "0c90f7faed2e186617fb6707cf995bee406f61c8d7693ecb4e367d3e57f31d3f",
+    "src/scripts/reconstruct-pdf-eight-repair.ts": "38e1afd27746672e05b28f1d60c274f95a863d374c189293062974a53a55f42a",
+    "src/scripts/reconstruct-pdf-eight.ts": "36be26505a3978e8f66ed1a85b3eec5c440bd42f41704e676a5ad1771396f8eb",
+    "src/scripts/reconstruct-pdf-eleven-seed.ts": "c4a084521fc1e7ecc0be6806dc373390b876e12f18025a53ad98b4e8a7e3a479",
+    "src/scripts/reconstruct-pdf-four-five-seed.ts": "32baef550e961d2353c66abf4f2de6c5318bf382ccde1857e844342ea1e525b1",
+    "src/scripts/reconstruct-pdf-four-five-v3.ts": "e4217cc87dd4905637083346abf1d5a2b3d6efeb0713d0f656758324b6579191",
+    "src/scripts/reconstruct-pdf-nine-seed.ts": "fa62659abdb0774aca61426e3f9b416594e7a67a50c2781a254a122511143a1c",
+    "src/scripts/reconstruct-pdf-one-seed.ts": "e63660092de6fb3cde8fd84b131e47b4f9c790baca6183ee21905f25af250099",
+    "src/scripts/reconstruct-pdf-seven-seed.ts": "6867cc6ad448967bb8491b3998f61be7276d188a8d00729bc33718a2adc0357c",
+    "src/scripts/reconstruct-pdf-seven-v3.ts": "862f0fceaf03e42e52db526ab30691444fe32dd8c78ce76d17e481ee750dd909",
+    "src/scripts/reconstruct-pdf-six-seed.ts": "83f8610e1b7dbd1de7c92b810af4b412d82b57c38c82cf0833bac362d3b6af52",
+    "src/scripts/reconstruct-pdf-six-v3.ts": "c5a67b96b0a94bc5e7744641e84f5d3e44efe74a99fde2ffa8dca484b9178e54",
+    "src/scripts/reconstruct-pdf-ten-seed.ts": "4f2c2d5145f9c93527786490559802e0d6995a8f99353f8aa13ba64a40348558",
+    "src/scripts/reconstruct-pdf-two-three-seed.ts": "9276adff4406fed24e99dcd457a96a781ba5bcbf10c11d80d5fa5875e8dec426",
+    "src/scripts/reconstruct-v3-eight-band.ts": "279b213d685ecb81275787f02178a13ca81dc3ae51b0c09ecbec3d5f30b24ed4",
+    "src/scripts/repair-v3-eleven.ts": "745f9372b196955450c5e9e634f22ac58059d90639f3a0d3fb0841223895ee98",
+    "src/scripts/repair-v3-structural-seed.ts": "7244a8a7857266d4314ff246a9419695643d0d6b267d2e8921431558dd52aacb",
+    "src/scripts/replay-run-record.ts": "023022bf62ac753568e77d8c7dc7dfcc39909321a9263028d22438de709167cf",
+    "src/scripts/replay-v3-r2-transfers.ts": "331d8cb5fed9d45bc60a6bae173724414327d4a34c4a8836fa020c96f34f598e",
+    "src/scripts/research-calibrated.ts": "44cc810e682551fdbf9d5ab05a1d1fc10f887d8e7984b9a9efdd3a7b203df015",
+    "src/scripts/research-columns.ts": "537b8c3ddb9b584f3709efcf4b32789ed5363c53e04f11693f196009dcc16e3c",
+    "src/scripts/research-consolidate-child.ts": "7248f6cc94c374982add9f1fdc50cb09fccd060f3e1f86ef6648b92b000bee57",
+    "src/scripts/research-consolidate.ts": "c0ffe0b469ff88dde18bf70af60da7ae0562314532f97ae73bce0b05c99fa3db",
+    "src/scripts/research-hybrid.ts": "06a44d39c4d3c5e7ab5af086171463b782465562b910644731ebb35af52666af",
+    "src/scripts/research-r2-24-22-macro-exchange.ts": "a882fd1c694b30a1bcb23fe2cee6f911395e7953d7b6b182aa1bd8d685dc125a",
+    "src/scripts/research-r2-24-long-transfer.ts": "0fea2badd520d7f15be0f99c0171c0d7ffd24f4345ff20b04a83ee6aa609ae48",
+    "src/scripts/research-rack90.ts": "812b38b0ac972a8b7868357651eda8cf1cd9ba1a384f4c18443733253aaee0a1",
+    "src/scripts/research-repair.ts": "a714e1ed02899cf987e337c3b3224baa72f44239702343bbb94607808da5f048",
+    "src/scripts/research-supervisor.test.ts": "ea3ff9ee05a2ef7e698fdb149f8f7d58426aa4c48ce6233aae86b9cad719f9c2",
+    "src/scripts/research-supervisor.ts": "8b916e50086ef96a7482cc130f5254a536549169ba151213a5f66eef7e9dcbf4",
+    "src/scripts/research-v3-consolidate.ts": "32ec3373e509b2cefe194ae402c055f18cacef6118ec0b79119950b4ec70d318",
+    "src/scripts/research-v3-cp-floor-local-repair.ts": "0f9510109606eeaac80e31d91e37943942279dc7c049f30d0afac1f5ca4e3b5e",
+    "src/scripts/research-v3-cpsat-floor.ts": "036c183a28cd268236cf8f3653870d75336d50633b932ccde72a36f2cf83cfbf",
+    "src/scripts/research-v3-cpsat-frame-transfer.ts": "25dd33f7278c977461263a729836ca72f349cc78ac2aafed39f6698989cc7bc4",
+    "src/scripts/research-v3-crossfill-6-7.ts": "d6740fd8b1c3167767adf671d9769ac1c473f99139992daf423a8b7ca9cb2cee",
+    "src/scripts/research-v3-final-floor-repair.ts": "858220f8406c357b7914f9410788a79807cb88b935631d1dfc28c7454609e464",
+    "src/scripts/research-v3-floor-orientation-repair-high.ts": "3b1fe21d2c21658a00a7a9766e12d83847ebe45613a8164e6ba14a6dd6d7ae8d",
+    "src/scripts/research-v3-floor-orientation-repair.ts": "755fdf25c1291997fdfe77cb00b0ca0e4c47b1fdbac8555b123e12c998252d0b",
+    "src/scripts/research-v3-four-long-zones-column-fill.ts": "549b5d341e356d04def4dea52c72baae0c91184142b3ff73d151c4e9b23d87fd",
+    "src/scripts/research-v3-four-long-zones-final-fill.ts": "2ea2db2d7267d646eb3ffcebe70f566a1fe46f635fcb9ede9dfe715f13d3df59",
+    "src/scripts/research-v3-four-long-zones-w12-repair.ts": "a30d8946efd9776db405a0ec0850e56e94274a1e704821acf2c138257c7b7c74",
+    "src/scripts/research-v3-four-long-zones.ts": "7b842066a0b18c69c8fade6ab0257844273315d04f84f8588130e602ba12d55c",
+    "src/scripts/research-v3-last-w12-repair.ts": "61aac34b2481369e146ef6c4523697494e28dd1e65930e82b520e592f8517dba",
+    "src/scripts/research-v3-long-first-cpsat.ts": "fbfacde535cd8848c49a1d1d8a3a6fb6a18f36d3841c575c3001a9beb5b432c7",
+    "src/scripts/research-v3-macro-repack.ts": "f525b4336a11259c1c35712f4437b0508bde9e8de16473cf7fb95faa5e55e714",
+    "src/scripts/research-v3-r2-cavity-balance.ts": "26f0126441db63f9a1e9f6750b53cef8257d164a374053edf733c5b9a398f61f",
+    "src/scripts/research-v3-r2-cavity-finish.ts": "da48b4b9d13c90e887f5bf60ad8fd0bc90e253bdfc325a2f6cf98e0192c868e3",
+    "src/scripts/research-v3-r2-front-balance.ts": "7fcae7eb3ab7dcdc7a7926df27ca5add49f9bb5d4b766c9a72c16a61511b1f2d",
+    "src/scripts/research-v3-r2-integrate.ts": "91fce54a1e5f330ba15ea3edf8484414ac2d3484a2f6719316bb705703ae7903",
+    "src/scripts/research-v3-r2-roof-repack.ts": "9314bfc4c41281727067caa879b7c8fc36f11d92c0bfcdd3d1fe1109707d8c12",
+    "src/scripts/research-v3-r2-tail-exchange.ts": "df44bae1da007334b27db3a331ad5b4ddac9fde0ebf776f202c044e9ea9764f5",
+    "src/scripts/research-v3-r2-tail-transfer.ts": "545649799d0851983ec66304782b50e2cb000efa88d3002050ee15d91af72c94",
+    "src/scripts/research-v3-restore-profiles.ts": "3aa11b0d84539cac6db152bd3d1d58cf87cf72006bc33968e10345b90337758f",
+    "src/scripts/research-v3-roof-balance.ts": "eab5c15677c9de546aff86055ec5c128038e41a1d2f22231b31878f37f07ba7a",
+    "src/scripts/research-v3-roof-exchange.ts": "d45f3f7310edae2ae1972445f467a8fc50cacb0b459f900b091b3cc2d90a0e78",
+    "src/scripts/research-v3-short-roof-exchange.ts": "b01abd5a6f1c9d6f9f748ba93cabfcac03f1dd6293d6a35daba321d2ca555135",
+    "src/scripts/research-v3-sku-repack.ts": "3751b4b6ff3336594377f48088f681777ba8eb5ef1c4bbd3e2dbc80771209992",
+    "src/scripts/research-v3-tail-aux-roof.ts": "e96c4bdb2fc79859d6978aec5a23a72f7c384fe423a5db715f3a3e8f3632e471",
+    "src/scripts/research-v3-tail-consolidation-w09-local.ts": "d8bb781a26f4acb28cc4fcfcc573181c487b663ecc708bef2051331644b2436d",
+    "src/scripts/research-v3-tail-consolidation-w09.ts": "48e544c2b8e02371701f6402617d1db19e5ec7ea3ff6fb02f7dc75fceb802f60",
+    "src/scripts/research-v3-tail-independent.ts": "bf50896b2379e46a2f7914ed0fa8cb55d44562486860f8948431e65b3fcc6220",
+    "src/scripts/research-v3-tail-small-items.ts": "36e7fda6e632db6b56e5d2d796975f8d100925e4006b4086e44a38a39a456c19",
+    "src/scripts/research-v3-tail-standing-roof.ts": "1d320dfe79f6b7a4f3d7b8a3d6059ec2776f872bab5775564d75fccf8b648fb6",
+    "src/scripts/research-v3-w07-local-repair-r16.ts": "a9c7437ce8b26d953ef0b183e111571253f440f8201495146f793d96bf92dd62",
+    "src/scripts/research-v3-w07-local-repair.ts": "1374940c3d3f8f8c93c25db8d2acdfbcf458cf077dcee341e1e568370eed3a7d",
+    "src/scripts/research-v3-window-cpsat.ts": "54f91f60d339025b3e1936c5fd3dd3cca6908e0e2cc113c6d208a8252cdba7bf",
+    "src/scripts/research-v3.ts": "5e4b2531dd524d3a91d5dd51eaac8add79e1ed99787dc67e763752be605903fc",
+    "src/scripts/revalidate-v3-eight-nine.ts": "8e1f6786e2a83e65b2a9d74335860615fc9a7124783be9725d76b8637d1fdc28",
+    "src/scripts/seed-v3-long-first-hybrid.ts": "5f5f9453de7385e719c51d6c07a3bbc6b7e5c7bd127ff34085abc10947e68bf5",
+    "src/scripts/summarize-v3-optimization.ts": "537c47661b50a5676e336f746fe44a5d664e94ec32af5d91e0b0ab099c2a32db",
+    "src/scripts/verify-v3-eleven-complete.ts": "e699fbf30881d36095a055c95d26b3212ee677ba00be1faca65d58983c861a9c",
+    "src/server/api.test.ts": "ccf02a405340f50cc3d443079868b20d1d2a9ee4dafeeb5fc768d9319acadd5f",
+    "src/server/api.ts": "02c71b6752d0b50eb0f6612556ef7d9abb7976960e9d1d7949ee180c5a060dd7",
+    "src/server/index.ts": "e6914463c25f84e7bf462467dc017a748014d337e7d5cbbf742095beabe098ef",
+    "src/server/input-validation.test.ts": "3629805f58b8c85ae9753db6c03a43baaa5fc33c41510f9e8ba74bfe8afa7949",
+    "src/server/input-validation.ts": "1a97e7752c01952c06ca5b2d7d88411f587736e23c882054304c5da30b30ecda",
+    "src/server/jobs.ts": "76daa57cc41d1513f73dbbbd3354811826d52ea18733557aeda69494e9735541",
+    "src/server/optimization-worker.ts": "6d80d4d08548f1ce0b7f1a2d1f6eb104d0086dc99f2db7d61dbf9a75815eb183",
+    "src/server/worker-bootstrap.mjs": "37f46f15e732d1a70efcdc45ad43c54fd2291816f817f29093e571c230291fbb",
+    "src/store/app-store.test.ts": "2ecd52ef14b2a1f10902a7ee145c890c93b1af64de84399a7c1e589a0e0d0ca5",
+    "src/store/app-store.ts": "2a41b86230022c4b46e0a03c6812e5811eacfe93ee0e9d6d567bbc372a2d34fa",
+    "src/support/SupportAssistant.tsx": "d4c0d10f0336afb2887bdf592795996df44e83213364199a8efbf8d2da6dab8b",
+    "src/support/evidence.ts": "eb33699181163d30cae466f3564e78a250d0e44cf24e7f3f252629e797ab7b03",
+    "src/support/knowledge.test.ts": "91ba4ed38cc9f227d234c6c5096bebff7e859d1b1ce0aab432d22b6c6f272a77",
+    "src/support/knowledge.ts": "e9351dbe31714bea0ff644f9e723f7aed83a6e8d43ad2c9827892bf146c0b1f3",
+    "src/support/shipping-cards.json": "d9301853b2af330adc664dd0b5943e4a847ba9ff8766fb52fa5bbfc26b93b3ae",
+    "src/support/shipping.ts": "bf8c7f69de6412e3848ae3cd664ba6dbfd2e2fd8ea8398a612a9c9b460100a0f",
+    "src/support/support.css": "28459757635c27c20db8310115f2bfd74608df7762ac9752ea3873495863e0a0",
+    "src/types/packing.ts": "804860ce1ae85c8a10de50f5459fce6bb6a58b99ab173935dbd31d124cb87c63",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "src/xlsx-url.d.ts": "f90dc1d13ba2c0e65d216d6208fb9f12997039d50c02b374cf4cec05ce1b4ed3",
+    "vite.config.ts": "b7722e1d556190afc46fdd17b0054e3a297872fd3266e795d550284442a4bcb3",
+    "vite.globe.config.mjs": "b69ce5fe9ac6f7b335634adc861c7c22714f5ebe72d86e9a49a6c62358bad0ea"
+  }
+}

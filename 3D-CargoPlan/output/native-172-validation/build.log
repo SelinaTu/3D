@@ -1,0 +1,14 @@
+#created 11/08/2026
+导出 11 柜、1371 件已装、0 件待装
+/Users/lege/Documents/ChatGPT/集装箱运筹/mac/assembly/Sources/NativeGlobe.swift:48:163: warning: 'generate(from:withName:options:)' was deprecated in macOS 15.0: replaced by 'init(image:withName:options:)' [#DeprecatedDeclaration]
+ 46 |             for lon in stride(from:0,through:2048,by:85) { let p=NSBezierPath();p.move(to:NSPoint(x:lon,y:0));p.line(to:NSPoint(x:lon,y:1024));p.stroke() }
+ 47 |             image.unlockFocus()
+ 48 |             if let cg=image.cgImage(forProposedRect:nil,context:nil,hints:nil) { material.color.tint = .white; material.color.texture = .init(try TextureResource.generate(from:cg,options:.init(semantic:.color))) }
+    |                                                                                                                                                                   |- warning: 'generate(from:withName:options:)' was deprecated in macOS 15.0: replaced by 'init(image:withName:options:)' [#DeprecatedDeclaration]
+    |                                                                                                                                                                   `- note: use 'init(image:withName:options:)' instead
+ 49 |         }
+ 50 |         // Explicit UV coordinates keep the local Natural Earth texture aligned to port coordinates.
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/lege/Documents/ChatGPT/集装箱运筹/output/mac-build-assembly/CargoPlanAssembly.app: replacing existing signature
+已生成 /Users/lege/Documents/ChatGPT/集装箱运筹/output/CargoPlanAssembly.app

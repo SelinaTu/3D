@@ -1,0 +1,13 @@
+#created 11/08/2026
+node_modules/
+dist/
+dist-server/
+*.log
+*.tsbuildinfo
+.DS_Store
+coverage/
+delivery-output/
+delivery/
+output/
+tmp/
+.env

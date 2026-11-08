@@ -1,0 +1,7 @@
+#created 11/08/2026
+node_modules
+dist
+dist-server
+.git
+delivery-output
+*.log

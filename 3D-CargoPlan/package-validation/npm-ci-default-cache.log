@@ -1,0 +1,16 @@
+#created 11/08/2026
+npm warn cli npm v12.2.0 does not support Node.js v24.14.0. This version of npm supports the following node versions: `^22.22.2 || ^24.15.0 || >=26.0.0`. You can find the latest version at https://nodejs.org/.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm error code EEXIST
+npm error syscall rename
+npm error path /Users/lege/.npm/_cacache/tmp/***
+npm error dest /Users/lege/.npm/_cacache/content-v2/sha512/c1/74/7f758a5ca8a99f5a911d66388a24ec023459dd0f40cc9eb5bf7188d51adb449017d581c2c51e836b963e3b9a339589cf72c8dbbae5a96c805e0d4324dada
+npm error errno -13
+npm error EACCES: permission denied, rename '/Users/lege/.npm/_cacache/tmp/***' -> '/Users/lege/.npm/_cacache/content-v2/sha512/c1/74/7f758a5ca8a99f5a911d66388a24ec023459dd0f40cc9eb5bf7188d51adb449017d581c2c51e836b963e3b9a339589cf72c8dbbae5a96c805e0d4324dada'
+npm error File exists: /Users/lege/.npm/_cacache/content-v2/sha512/c1/74/7f758a5ca8a99f5a911d66388a24ec023459dd0f40cc9eb5bf7188d51adb449017d581c2c51e836b963e3b9a339589cf72c8dbbae5a96c805e0d4324dada
+npm error Remove the existing file and try again, or run npm
+npm error with --force to overwrite files recklessly.
+npm error A complete log of this run can be found in: /Users/lege/.npm/_logs/2026-10-31T10_09_16_569Z-debug-0.log

@@ -1,0 +1,298 @@
+#created 11/08/2026
+# CargoPlan Port Index — P0 + China majors
+# as_of: 2026-10-30 (Asia/Shanghai)
+# TEU ranks: Lloyd's List One Hundred Container Ports 2025 (2024 TEU)
+# unlocode: common codes; verify against UN/LOCODE dataset before production
+
+as_of: "2026-10-30"
+port_pack_schema: "0.1.0"
+knowledge_version: "1.1.0"
+
+ports:
+  - port_id: CNSHA
+    name: Shanghai
+    name_zh: 上海
+    country: CN
+    tier: P0
+    teu_m_2024: 51.5
+    rank_2024: 1
+    fine_profile: CN-road
+    dossier: 03_china_ports/shanghai.md
+    flags: {customs_photo: true, vgm_policy: no_vgm_no_load}
+
+  - port_id: SGSIN
+    name: Singapore
+    country: SG
+    tier: P0
+    teu_m_2024: 41.1
+    rank_2024: 2
+    fine_profile: link_next_leg
+    dossier: 04_global_ports/singapore.md
+    flags: {hub_transship: true, rules_defer_to_pod: true}
+
+  - port_id: CNNGB
+    name: Ningbo-Zhoushan
+    name_zh: 宁波舟山
+    country: CN
+    tier: P0
+    teu_m_2024: 39.3
+    rank_2024: 3
+    fine_profile: CN-road
+    dossier: 03_china_ports/ningbo.md
+    flags: {vgm_via_state_agent: true, rail_sea_intermodal: high}
+
+  - port_id: CNSZX
+    name: Shenzhen
+    name_zh: 深圳
+    country: CN
+    tier: P0
+    teu_m_2024: 33.4
+    rank_2024: 4
+    fine_profile: CN-road
+    dossier: 03_china_ports/shenzhen.md
+    flags: {customs_photo: true, terminal_cluster: true}
+
+  - port_id: CNTAO
+    name: Qingdao
+    name_zh: 青岛
+    country: CN
+    tier: P0
+    teu_m_2024: 30.9
+    rank_2024: 5
+    fine_profile: CN-road
+    dossier: 03_china_ports/qingdao.md
+    flags: {rail_cre: high, vgm_via_depot: true}
+
+  - port_id: CNCAN
+    name: Guangzhou
+    name_zh: 广州
+    country: CN
+    tier: P0
+    teu_m_2024: 26.1
+    rank_2024: 6
+    fine_profile: CN-road
+    dossier: 03_china_ports/guangzhou.md
+
+  - port_id: KRPUS
+    name: Busan
+    name_zh: 釜山
+    country: KR
+    tier: P0
+    teu_m_2024: 24.4
+    rank_2024: 7
+    fine_profile: link_next_leg
+    dossier: 04_global_ports/busan.md
+    flags: {hub_transship: true}
+
+  - port_id: CNTXG
+    name: Tianjin
+    name_zh: 天津
+    country: CN
+    tier: P0
+    teu_m_2024: 23.3
+    rank_2024: 8
+    fine_profile: CN-road
+    dossier: 03_china_ports/tianjin.md
+
+  - port_id: AEJEA
+    name: Jebel Ali
+    country: AE
+    tier: P0
+    teu_m_2024: 15.5
+    rank_2024: 9
+    fine_profile: link_next_leg
+    dossier: 04_global_ports/jebel_ali.md
+    flags: {hub_reexport: true, climate_note: hot}
+
+  - port_id: MYPKG
+    name: Port Klang
+    country: MY
+    tier: P0
+    teu_m_2024: 14.6
+    rank_2024: 10
+    fine_profile: MY-待核实
+    dossier: 04_global_ports/port_klang.md
+
+  - port_id: NLRTM
+    name: Rotterdam
+    country: NL
+    tier: P0
+    teu_m_2024: 13.8
+    rank_2024: 11
+    fine_profile: EU-NL
+    dossier: 04_global_ports/rotterdam.md
+    flags: {axle_after_partial_unload: true}
+
+  - port_id: CNHKG
+    name: Hong Kong
+    name_zh: 香港
+    country: HK
+    tier: P0
+    teu_m_2024: 13.7
+    rank_2024: 12
+    fine_profile: HK-待核实
+    region_profile: HK
+    dossier: null
+    note: "Use CLAWHUNT_PORTS_P0_P1 stub; dossier TBD"
+
+  - port_id: BEANR
+    name: Antwerp-Bruges
+    country: BE
+    tier: P0
+    teu_m_2024: 13.5
+    rank_2024: 13
+    fine_profile: EU
+    dossier: null
+
+  - port_id: CNXMN
+    name: Xiamen
+    name_zh: 厦门
+    country: CN
+    tier: P0
+    teu_m_2024: 12.3
+    rank_2024: 14
+    fine_profile: CN-road
+    dossier: 03_china_ports/xiamen.md
+
+  - port_id: MYTPP
+    name: Tanjung Pelepas
+    country: MY
+    tier: P0
+    teu_m_2024: 12.3
+    rank_2024: 15
+    fine_profile: link_next_leg
+    flags: {hub_transship: true}
+
+  - port_id: USLAX
+    name: Los Angeles
+    country: US
+    tier: P0
+    teu_m_2024: 10.3
+    rank_2024: 16
+    fine_profile: US-CA
+    dossier: 04_global_ports/la_lb.md
+
+  - port_id: MATNG
+    name: Tanger Med
+    country: MA
+    tier: P0
+    teu_m_2024: 10.2
+    rank_2024: 17
+    fine_profile: link_next_leg
+    flags: {hub_africa_med: true}
+
+  - port_id: USLGB
+    name: Long Beach
+    country: US
+    tier: P0
+    teu_m_2024: 9.6
+    rank_2024: 19
+    fine_profile: US-CA
+    dossier: 04_global_ports/la_lb.md
+
+  - port_id: TWKHH
+    name: Kaohsiung
+    name_zh: 高雄
+    country: TW
+    tier: P0
+    teu_m_2024: 9.2
+    rank_2024: 21
+    fine_profile: TW-待核实
+    region_profile: TW
+
+  - port_id: VNSGN
+    name: Ho Chi Minh City
+    country: VN
+    tier: P0
+    teu_m_2024: 9.2
+    rank_2024: 22
+    fine_profile: VN-待核实
+
+  - port_id: USNYC
+    name: New York / New Jersey
+    country: US
+    tier: P0
+    teu_m_2024: 8.7
+    rank_2024: 24
+    fine_profile: US-NY/NJ
+    dossier: 04_global_ports/nynj.md
+    flags: {bridge_formula: true}
+
+  - port_id: DEHAM
+    name: Hamburg
+    country: DE
+    tier: P0
+    teu_m_2024: 7.8
+    rank_2024: 27
+    fine_profile: EU-DE
+    dossier: 04_global_ports/hamburg.md
+    flags: {rail_cre_eu_hub: true}
+
+  - port_id: CNDLC
+    name: Dalian
+    name_zh: 大连
+    country: CN
+    tier: P1
+    teu_m_2024: 5.4
+    rank_2024: 40
+    fine_profile: CN-road
+    dossier: 03_china_ports/dalian.md
+
+# China P1 bridgehead highlighted for Rail-CRE
+  - port_id: CNLYG
+    name: Lianyungang
+    name_zh: 连云港
+    country: CN
+    tier: P1
+    teu_m_2024: 6.7
+    rank_2024: 33
+    fine_profile: CN-road
+    flags: {rail_cre: high}
+    note: "New Eurasian Land Bridge; dossier TBD"
+
+# --- Indonesia majors (v1.1) ---
+  - port_id: IDTPP
+    name: Tanjung Priok
+    name_zh: 丹戎不碌（雅加达）
+    country: ID
+    tier: P1
+    fine_profile: ID-ODOL-road
+    dossier: 04_global_ports/indonesia/tanjung_priok.md
+    national: 02b_indonesia_national.md
+    flags: {vgm_policy: no_vgm_no_load, odol_enforcement: high, hub_national: true}
+
+  - port_id: IDSUB
+    name: Tanjung Perak
+    name_zh: 丹戎佩拉克（泗水）
+    country: ID
+    tier: P1
+    fine_profile: ID-ODOL-road
+    dossier: 04_global_ports/indonesia/tanjung_perak.md
+    national: 02b_indonesia_national.md
+
+  - port_id: IDBLW
+    name: Belawan
+    name_zh: 勿拉湾
+    country: ID
+    tier: P1
+    fine_profile: ID-ODOL-road
+    dossier: 04_global_ports/indonesia/belawan.md
+    national: 02b_indonesia_national.md
+
+  - port_id: IDMAK
+    name: Makassar
+    name_zh: 望加锡
+    country: ID
+    tier: P2
+    fine_profile: ID-ODOL-road
+    dossier: 04_global_ports/indonesia/makassar.md
+    national: 02b_indonesia_national.md
+
+  - port_id: IDSRG
+    name: Tanjung Emas
+    name_zh: 丹戎埃马斯（三宝垄）
+    country: ID
+    tier: P2
+    fine_profile: ID-ODOL-road
+    dossier: 04_global_ports/indonesia/tanjung_emas.md
+    national: 02b_indonesia_national.md

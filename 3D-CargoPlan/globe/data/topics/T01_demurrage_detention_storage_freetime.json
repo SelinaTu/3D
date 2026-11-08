@@ -1,0 +1,218 @@
+{
+  "id": "T01_demurrage_detention_storage_freetime",
+  "title_zh": "滞期 / 滞箱 / 堆存 · Free time 三钟",
+  "title_en": "Demurrage / Detention / Storage · Free time clocks",
+  "product_use": "deep_field",
+  "confidence": "high_definition_commercial_rates_variable",
+  "why_attention": {
+    "summary_zh": "从业科普最稳主题。近 90 天 search_posts_all 抽样：D&D 宽口径 ≥25（分页顶满）、free time 严格 ≥24（顶满）、中文滞箱约 10（含广告/链上噪声）。近 7 天真实 counts 仍为宽 70 / free time 53 / 中文 5——90 天无全库 counts API，只能报检索抽样。",
+    "heat_7d": {
+      "demurrage_detention_broad": 70,
+      "free_time_strict": 53,
+      "zh_detention": 5
+    },
+    "prior_report": "docs/port-knowledge/10_maritime_knowledge_pain_attention.md §A1-P1 / A2-E1",
+    "note": "Amounts and free-day counts are carrier×terminal commercial — never invent a global number.",
+    "heat_90d": {
+      "dd_freetime_broad": "≥25_capped",
+      "free_time_strict": "≥24_capped",
+      "zh_detention": 10
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "Free time / Free days",
+      "zh": "免费用箱/免堆期",
+      "def": "Contracted period before demurrage, detention, or storage charges begin. Often different for import pickup vs empty return vs export gate-in."
+    },
+    {
+      "term": "Last Free Day (LFD)",
+      "zh": "最后免费日",
+      "def": "Calendar day when free time ends; next day (or next tariff step) starts charging. Confirm timezone and whether LFD is inclusive."
+    },
+    {
+      "term": "Demurrage",
+      "zh": "滞期（码头内）",
+      "def": "Charge while the loaded container remains inside the terminal/rail ramp past free time (before pickup). Industry convention: 'inside the fence'."
+    },
+    {
+      "term": "Detention",
+      "zh": "滞箱（码头外）",
+      "def": "Charge while the carrier's container (and sometimes chassis) remains outside the terminal past free time after pickup, until empty return."
+    },
+    {
+      "term": "Storage / Terminal storage",
+      "zh": "堆存",
+      "def": "Terminal/port authority charge for occupying yard space; may run in parallel with carrier demurrage depending on local tariff — verify per port."
+    },
+    {
+      "term": "Combined D&D",
+      "zh": "合并计费",
+      "def": "Some carriers bill a single 'demurrage & detention' ladder; still track physical location of the box for dispute evidence."
+    }
+  ],
+  "who_pays": {
+    "typical": "Merchant (shipper/consignee/forwarder per contract/Incoterms) pays carrier D&D; terminal storage may be billed separately by terminal/NVOCC.",
+    "note": "Who 'stops the clock' during customs exam or terminal inability is contractual/negotiated — FIATA argues free time should extend for periods merchant cannot act."
+  },
+  "who_responsible": [
+    "Carrier publishes free time & tariff (commercial).",
+    "Merchant monitors LFD, appointments, empty return.",
+    "Terminal controls gate appointments / yard release — may affect ability to pick up."
+  ],
+  "common_pitfalls": [
+    "Treating demurrage and detention as one fee and disputing the wrong party.",
+    "Assuming '3–7 free days' is a law — it is not; it is tariff/contract.",
+    "Clock continues during customs hold / failed trucker appointment unless tariff or negotiation says otherwise.",
+    "Export demurrage while vessel delayed — FIATA argues carrier should own vessel delay; practice varies.",
+    "Chassis per-diem layered on top of detention in some US trades."
+  ],
+  "official_sources": [
+    {
+      "url": "https://fiata.org/n/fiata-calls-for-reasonable-free-time-for-container/",
+      "org": "FIATA",
+      "note": "2023-02 press: carriers should provide reasonable free time; points to Toolkit / Best Practice Guide"
+    },
+    {
+      "url": "https://www.elea.ee/wp-content/uploads/2023/05/FIATA_Best-Practice-Guide-on-Demurrage-and-Detention_1810.pdf",
+      "org": "FIATA (mirror PDF)",
+      "note": "Best Practice Guide on Demurrage and Detention — definitions & negotiation recommendations"
+    },
+    {
+      "url": "https://unctad.org/news/demurrage-and-detention-charges-container-shipping",
+      "org": "UNCTAD",
+      "note": "Summarizes FIATA WG recommendations (extend free time when terminal cannot release, etc.)"
+    },
+    {
+      "url": "https://www.clecat.org/media/CLECAT%20Briefing%20&%20Industry%20Recommendations%20Paper%20on%20D&D%20Practices%20in%20Shipping_1.pdf",
+      "org": "CLECAT",
+      "note": "Industry briefing: demurrage inside / detention outside framing"
+    },
+    {
+      "url": "https://www.maersk.com/logistics-explained/transportation-and-freight/2023/08/28/what-is-demurrage-detention-in-shipping-for-buyers",
+      "org": "Maersk Logistics Explained",
+      "note": "Carrier educational page (fetch occasionally 500 — URL retained as industry glossary)"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "US",
+      "note": "FMC has engaged on D&D reasonableness historically; still commercial — check carrier tariff + FMC complaint path"
+    },
+    {
+      "iso2": "CN",
+      "note": "Local terminal storage schedules vary by port; country pack has no unified free-time table"
+    },
+    {
+      "iso2": "ID",
+      "note": "Port gate ODOL enforcement can delay pickup → watch demurrage clock"
+    },
+    {
+      "iso2": "NL",
+      "note": "Rotterdam merchant haulage / detention free time often contested in industry papers"
+    },
+    {
+      "iso2": "SG",
+      "note": "Highly scheduled terminals — appointment failure still commercial risk"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "USLAX",
+      "note": "USWC — chassis + demurrage narratives common"
+    },
+    {
+      "locode": "USLGB",
+      "note": "Same cluster as LAX"
+    },
+    {
+      "locode": "USNYC",
+      "note": "USEC — rail ramp LFD language common"
+    },
+    {
+      "locode": "CNSHA",
+      "note": "Export demurrage / yard congestion narratives"
+    },
+    {
+      "locode": "SGSIN",
+      "note": "Transshipment dwell + storage"
+    },
+    {
+      "locode": "NLRTM",
+      "note": "EU gateway — D&D education posts frequent"
+    },
+    {
+      "locode": "IDTPP",
+      "note": "Priok — ODOL gate × pickup delay"
+    },
+    {
+      "locode": "IDSUB",
+      "note": "Perak ODOL trial 2026 media"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Demurrage 和 Detention 差在哪？",
+      "a": "惯例：Demurrage = 重柜还在码头/堆场内超过 free time；Detention = 提柜后在码头外占有船司箱体超过 free time 未还空。有的船司合并账单，但争议证据仍应按位置分开。出处：FIATA/CLECAT/行业 glossary。"
+    },
+    {
+      "q": "Free time 法定几天？",
+      "a": "没有全球统一法定天数。由船司 tariff、合约或 NVOCC 条款约定。FIATA 主张应给合理免费用箱期，拥堵/码头无法放行时应等比延长——属谈判立场，非自动生效法条。"
+    },
+    {
+      "q": "查验期间费用钟停不停？",
+      "a": "多数情况下并不自动停钟；是否减免看船司/码头条款与协商。产品侧应标「待核实/合约」，禁止写死「查验免 demurrage」。"
+    },
+    {
+      "q": "Storage 和 Demurrage 会不会重复收？",
+      "a": "可能并行：码头收堆存、船司收 demurrage。逐港核对 tariff，勿假设互斥。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "counts_queries": 3,
+      "archive_result_count": 23
+    },
+    "samples": [
+      {
+        "url": "https://x.com/CandCWarehouse/status/2114532022844850568",
+        "kind": "organic/edu",
+        "note": "Inside vs outside clocks"
+      },
+      {
+        "url": "https://x.com/RLGlobal/status/1701928927462076782",
+        "kind": "organic/edu",
+        "note": "Last Free Day dual meaning"
+      },
+      {
+        "url": "https://x.com/LogTechEric/status/1568240243035308037",
+        "kind": "organic",
+        "note": "Practitioner: D vs D are different processes"
+      },
+      {
+        "url": "https://x.com/niryatsetu1/status/2105581948458745922",
+        "kind": "promo/edu",
+        "note": "Inside=Demurrage Outside=Detention meme"
+      }
+    ],
+    "honesty": "Many GMT+7 'receipts folklore' template posts — down-rank as promo/noise.",
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "dd_freetime_broad": "≥25_capped",
+      "free_time_strict": "≥24_capped",
+      "zh_detention": 10
+    }
+  },
+  "gaps": [
+    "No machine-readable free_time table per carrier×port in this pack",
+    "Maersk glossary URL sometimes HTTP 500 from fetch env",
+    "Terminal storage schedules not ingested"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

@@ -1,0 +1,396 @@
+{
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "knowledge_version": "1.2.2",
+  "topic_count": 12,
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only.",
+  "x_research_this_run": {
+    "window": "90d",
+    "window_start": "2026-08-02T11:09:00+08:00",
+    "window_end": "2026-10-31T11:09:00+08:00",
+    "tool": "search_posts_all",
+    "query_count": 20,
+    "raw_retrieved": 471,
+    "note": "90d = page-capped retrieved samples. 7d counts retained from prior get_posts_counts_recent for comparison. See data/_attention_topics_x_90d.json",
+    "heat_90d_summary": {
+      "T01": {
+        "dd_freetime_broad": "≥25 (capped)",
+        "free_time_strict": "≥24 (capped)",
+        "zh_detention": 10
+      },
+      "T02": {
+        "vgm_solas": "≥23 (capped)"
+      },
+      "T03": {
+        "odol": "≥49 (2 pages, still capped)"
+      },
+      "T04": {
+        "blank_sailing": "≥45 (2 pages)",
+        "rolled_tight": "≥25 polluted",
+        "zh_shuai": "≥25 nearly all off-topic"
+      },
+      "T05": {
+        "red_sea": "≥25 (capped; 7d=1200 ⇒ 90d >>)",
+        "scfi_rates": "≥25",
+        "zh_yunjia": "≥25"
+      },
+      "T06": {
+        "customs_hold_dd": "≥24",
+        "customs_storage": 7
+      },
+      "T07": {
+        "ispm15": "≥19"
+      },
+      "T08": {
+        "wdf_restow_accessorial": "≥21 mostly courier noise"
+      },
+      "T09": {
+        "misdeclaration": "≥23 mostly non-cargo"
+      },
+      "T10": {
+        "abandon": 10
+      },
+      "T11": {
+        "odol": "≥49",
+        "etle_odol": "≥19 ETLE spam + sparse Zero ODOL"
+      },
+      "T12": {
+        "cre_rail": "≥22 mostly CRE real-estate; 中欧班列 thin"
+      }
+    },
+    "prior_7d_counts": {
+      "dd_freetime_broad": 70,
+      "vgm_solas": 2,
+      "odol": 36,
+      "blank_sailing": 24,
+      "red_sea": 1200,
+      "ispm15": 8,
+      "customs_hold_dd": 6,
+      "wdf_restow_accessorial": 3,
+      "zh_detention": 5,
+      "rolled_shutout": 19,
+      "zh_shuai": 2,
+      "misdeclaration": 1,
+      "abandon": 56,
+      "etle_odol": 0,
+      "scfi_rates": 65,
+      "free_time_strict": 53,
+      "cre_rail": 2,
+      "customs_storage": 10
+    }
+  },
+  "topics": [
+    {
+      "id": "T01_demurrage_detention_storage_freetime",
+      "file": "T01_demurrage_detention_storage_freetime.json",
+      "title_zh": "滞期 / 滞箱 / 堆存 · Free time 三钟",
+      "title_en": "Demurrage / Detention / Storage · Free time clocks",
+      "product_use": "deep_field",
+      "confidence": "high_definition_commercial_rates_variable",
+      "port_hooks": [
+        "USLAX",
+        "USLGB",
+        "USNYC",
+        "CNSHA",
+        "SGSIN",
+        "NLRTM",
+        "IDTPP",
+        "IDSUB"
+      ],
+      "country_hooks": [
+        "US",
+        "CN",
+        "ID",
+        "NL",
+        "SG"
+      ],
+      "heat_rank_hint": {
+        "demurrage_detention_broad_90d": "≥25_capped",
+        "free_time_strict_90d": "≥24_capped",
+        "zh_detention_90d": 10,
+        "demurrage_detention_broad_7d": 70,
+        "free_time_strict_7d": 53
+      }
+    },
+    {
+      "id": "T02_vgm_solas",
+      "file": "T02_vgm_solas.json",
+      "title_zh": "VGM · SOLAS 验证总质量",
+      "title_en": "VGM · SOLAS Verified Gross Mass",
+      "product_use": "deep_field",
+      "confidence": "high_statutory",
+      "port_hooks": [
+        "CNSHA",
+        "CNSZX",
+        "CNNGB",
+        "IDTPP",
+        "IDSUB",
+        "SGSIN",
+        "NLRTM",
+        "DEHAM",
+        "USLAX",
+        "USNYC"
+      ],
+      "country_hooks": [
+        "CN",
+        "ID",
+        "SG",
+        "US",
+        "NL",
+        "DE",
+        "KR",
+        "MY",
+        "AE"
+      ],
+      "heat_rank_hint": {
+        "vgm_solas_90d": "≥23_capped",
+        "vgm_solas_7d": 2
+      }
+    },
+    {
+      "id": "T03_weight_limits_csc_road_odol",
+      "file": "T03_weight_limits_csc_road_odol.json",
+      "title_zh": "限重三层 · CSC / 船司·VGM / 公路·ODOL",
+      "title_en": "Three-layer weight limits · CSC / VGM-carrier / Road ODOL",
+      "product_use": "deep_field",
+      "confidence": "high_cn_id_skeleton_elsewhere",
+      "port_hooks": [
+        "IDTPP",
+        "IDSUB",
+        "IDBLW",
+        "CNSHA",
+        "USLAX"
+      ],
+      "country_hooks": [
+        "CN",
+        "ID",
+        "US",
+        "DE",
+        "NL",
+        "KR",
+        "MY",
+        "AE",
+        "SG"
+      ],
+      "heat_rank_hint": {
+        "odol_90d": "≥49_2pages",
+        "odol_7d": 36
+      }
+    },
+    {
+      "id": "T04_rolled_blank_sailing",
+      "file": "T04_rolled_blank_sailing.json",
+      "title_zh": "甩柜 / Rolled · 空班 Blank sailing",
+      "title_en": "Rolled cargo / shut-out · Blank sailing",
+      "product_use": "faq_yellow",
+      "confidence": "medium_definition_low_ticket_evidence",
+      "port_hooks": [
+        "CNSHA",
+        "CNNGB",
+        "CNSZX",
+        "SGSIN",
+        "NLRTM",
+        "USLAX"
+      ],
+      "country_hooks": [
+        "CN",
+        "US",
+        "ID"
+      ],
+      "heat_rank_hint": {
+        "blank_sailing_90d": "≥45_2pages",
+        "blank_sailing_7d": 24,
+        "rolled_7d": 19
+      }
+    },
+    {
+      "id": "T05_freight_rates_geopolitics",
+      "file": "T05_freight_rates_geopolitics.json",
+      "title_zh": "运价与地缘（市场黄灯）",
+      "title_en": "Freight rates & geopolitics (market yellow light)",
+      "product_use": "market_yellow",
+      "confidence": "high_attention_not_statutory",
+      "port_hooks": [
+        "CNSHA",
+        "SGSIN",
+        "NLRTM",
+        "AEJEA",
+        "DEHAM"
+      ],
+      "country_hooks": [
+        "CN",
+        "US",
+        "NL",
+        "AE"
+      ],
+      "heat_rank_hint": {
+        "red_sea_90d": "≥25_capped",
+        "red_sea_7d": 1200,
+        "scfi_90d": "≥25_capped",
+        "scfi_7d": 65
+      }
+    },
+    {
+      "id": "T06_customs_hold_fee_clock",
+      "file": "T06_customs_hold_fee_clock.json",
+      "title_zh": "海关查验 / Hold 与费用钟",
+      "title_en": "Customs hold / exam vs fee clocks",
+      "product_use": "faq_yellow",
+      "confidence": "medium",
+      "port_hooks": [
+        "USLAX",
+        "USNYC",
+        "CNSHA",
+        "NLRTM",
+        "IDTPP"
+      ],
+      "country_hooks": [
+        "US",
+        "CN",
+        "ID",
+        "NL"
+      ],
+      "heat_rank_hint": {
+        "customs_hold_90d": "≥24",
+        "customs_storage_90d": 7,
+        "customs_hold_7d": 6
+      }
+    },
+    {
+      "id": "T07_ispm15_wood_packing",
+      "file": "T07_ispm15_wood_packing.json",
+      "title_zh": "ISPM15 木质包装",
+      "title_en": "ISPM 15 wood packaging",
+      "product_use": "faq_yellow",
+      "confidence": "high_definition_promo_heavy_on_x",
+      "port_hooks": [
+        "USLAX",
+        "NLRTM",
+        "DEHAM",
+        "CNSHA"
+      ],
+      "country_hooks": [
+        "CN",
+        "US",
+        "NL",
+        "DE",
+        "ID"
+      ],
+      "heat_rank_hint": {
+        "ispm15_90d": "≥19",
+        "ispm15_7d": 8
+      }
+    },
+    {
+      "id": "T08_carrier_accessorials_wdf_restow",
+      "file": "T08_carrier_accessorials_wdf_restow.json",
+      "title_zh": "承运人杂费 · WDF / Restow / Per diem",
+      "title_en": "Carrier accessorials · WDF / Restow / Per diem",
+      "product_use": "deep_field",
+      "confidence": "medium_one_carrier_example",
+      "port_hooks": [
+        "IDTPP",
+        "IDSUB",
+        "SGSIN",
+        "CNSHA"
+      ],
+      "country_hooks": [
+        "ID",
+        "SG",
+        "CN"
+      ],
+      "heat_rank_hint": {
+        "wdf_90d": "≥21_noisy",
+        "wdf_7d": 3
+      }
+    },
+    {
+      "id": "T09_misdeclaration_si_vgm",
+      "file": "T09_misdeclaration_si_vgm.json",
+      "title_zh": "错报 / SI≠VGM / 品名重量不一致",
+      "title_en": "Misdeclaration · SI vs VGM · description mismatch",
+      "product_use": "deep_field",
+      "confidence": "medium",
+      "port_hooks": [
+        "CNSHA",
+        "IDTPP",
+        "USLAX",
+        "NLRTM"
+      ],
+      "country_hooks": [
+        "CN",
+        "ID",
+        "US",
+        "NL"
+      ],
+      "heat_rank_hint": {
+        "misdeclaration_90d": "≥23_noisy",
+        "misdeclaration_7d": 1
+      }
+    },
+    {
+      "id": "T10_abandon_cargo_destination_charges",
+      "file": "T10_abandon_cargo_destination_charges.json",
+      "title_zh": "弃货 / 目的港费用回追",
+      "title_en": "Abandoned cargo · destination charges chase-back",
+      "product_use": "faq_yellow",
+      "confidence": "medium_experience_not_statute",
+      "port_hooks": [
+        "USLAX",
+        "USNYC",
+        "CNSHA",
+        "IDTPP"
+      ],
+      "country_hooks": [
+        "CN",
+        "US",
+        "ID"
+      ],
+      "heat_rank_hint": {
+        "abandon_90d": 10,
+        "abandon_7d_wider_query": 56
+      }
+    },
+    {
+      "id": "T11_indonesia_odol_port_enforcement",
+      "file": "T11_indonesia_odol_port_enforcement.json",
+      "title_zh": "印尼 Zero ODOL · 港口卡口执法",
+      "title_en": "Indonesia Zero ODOL · port-gate enforcement",
+      "product_use": "deep_field",
+      "confidence": "high_policy_direction",
+      "port_hooks": [
+        "IDSUB",
+        "IDTPP",
+        "IDBLW",
+        "IDSRG",
+        "IDMAK"
+      ],
+      "country_hooks": [
+        "ID"
+      ],
+      "heat_rank_hint": {
+        "odol_90d": "≥49_2pages",
+        "odol_7d": 36
+      }
+    },
+    {
+      "id": "T12_china_railway_express_load_bias",
+      "file": "T12_china_railway_express_load_bias.json",
+      "title_zh": "中欧班列偏载（薄）",
+      "title_en": "China Railway Express load bias (thin)",
+      "product_use": "faq_yellow",
+      "confidence": "low_thin",
+      "port_hooks": [],
+      "country_hooks": [
+        "CN",
+        "DE",
+        "NL"
+      ],
+      "heat_rank_hint": {
+        "cre_90d": "≥22_noisy",
+        "cre_7d": 2
+      }
+    }
+  ]
+}

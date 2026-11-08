@@ -1,0 +1,8 @@
+{
+  "executionStatus": "finished",
+  "elapsedMs": 4439,
+  "exitCode": 0,
+  "signal": null,
+  "lastCandidate": null,
+  "scope": "Entire job including decode, independent validation and aggregation; nested workers share the outer killable process group."
+}

@@ -1,0 +1,59 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "official_secondary",
+  "port_id": "NLRTM",
+  "port_name": "Rotterdam",
+  "country": "NL",
+  "tier": "P0",
+  "fine_profile": "EU-NL",
+  "vgm": {
+    "required_for_load": true
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    },
+    {
+      "id": "nl_axle_after_partial_unload",
+      "severity": "warn",
+      "title": "Recalc axle risk after partial unload",
+      "sources": [
+        "https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading"
+      ]
+    }
+  ],
+  "fine_refs": [
+    {
+      "id": "EU-NL-ILT",
+      "formula_note": "ILT % ladder; axle after partial unload",
+      "sources": [
+        "https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading"
+      ]
+    }
+  ],
+  "commercial_cost_hints": [],
+  "flags": {
+    "axle_after_partial_unload": true
+  },
+  "notes": [],
+  "sources": [
+    {
+      "url": "https://www.portofrotterdam.com/",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "url": "https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading",
+      "layer": "L2",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/rotterdam.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

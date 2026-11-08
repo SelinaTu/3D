@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "attempt-completed-target-not-achieved",
+  "recordedAt": "2026-10-16T19:28:59.658Z",
+  "calibrationHash": "8441c3dd116a4b1de660dd3b0a8ec49c28d9155de403f20ac07ae168a13533c0",
+  "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+  "best": {
+    "path": "data/calibration/current-best-research.json",
+    "sha256": "88f40d4fe62e51010f2efbf39f81f73b1325d46a61de46cfd16d09274993b826",
+    "containers": 12,
+    "placed": 1371,
+    "unpacked": 0,
+    "independentlyValid": true,
+    "validationScope": "geometry-and-load-assumptions",
+    "tailSolidVolumeM3": 28.97850192,
+    "firstTenMinimumSolidUtilization": 0.5972045030498084
+  },
+  "originalPdfContainers": 11,
+  "improvementOverOriginalPdf": false,
+  "nearestElevenCandidate": {
+    "placed": 1347,
+    "unpacked": 24,
+    "accepted": false
+  },
+  "research": {
+    "order": {
+      "candidates": 11,
+      "completeValid": 8,
+      "bestContainers": 13
+    },
+    "columns": {
+      "candidates": 130,
+      "completeValid": 130,
+      "bestContainers": 13
+    },
+    "rack90": {
+      "candidates": 10,
+      "completeValid": 10,
+      "bestContainers": 13
+    },
+    "consolidation": {
+      "records": 25,
+      "bestContainers": 12
+    }
+  },
+  "limitations": [
+    "Original PDF lacks exact replayable coordinates, so only manifest and aggregated benchmark are source-audited.",
+    "PDF clearance projection and load checks do not prove actual physical contact or air-gap load transfer.",
+    "Older synchronous search calls exceeded nominal loop budgets; no claim that all historical candidate wall limits held. External process supervision has been added.",
+    "No complete 11-container tail-consolidated or 10-container plan was found."
+  ],
+  "artifacts": {
+    "html": "output/reports/iraq-villa-calibrated-research.html",
+    "bundle": "output/reports/iraq-villa-calibrated-research.zip",
+    "audit": "docs/SOURCE_BASELINE_CALIBRATION.md"
+  }
+}

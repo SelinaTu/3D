@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<!-- #created 11/08/2026 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D装箱可视化</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --surface-0: #05070c;
+      --surface-1: #0a0d12;
+      --surface-2: #0f131c;
+      --surface-3: #161d2b;
+      --accent: #38bdf8;
+      --text: #e2e8f0;
+      --text-dim: #94a3b8;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--surface-0);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    #controls {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: rgba(15, 19, 28, 0.95);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      max-width: 320px;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    #controls h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    .control-group {
+      margin-bottom: 1rem;
+    }
+
+    .control-group label {
+      display: block;
+      font-size: 0.875rem;
+      color: var(--text-dim);
+      margin-bottom: 0.5rem;
+    }
+
+    select, button, input {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--surface-3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 0.5rem;
+      color: var(--text);
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    button {
+      background: var(--accent);
+      color: var(--surface-0);
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    #stats {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(15, 19, 28, 0.95);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      min-width: 280px;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    #stats h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .stat-row:last-child {
+      border-bottom: none;
+    }
+
+    .stat-label {
+      color: var(--text-dim);
+      font-size: 0.875rem;
+    }
+
+    .stat-value {
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #legend {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      background: rgba(15, 19, 28, 0.95);
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .legend-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .legend-text {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+
+    #help {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      background: rgba(15, 19, 28, 0.95);
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+
+    #help div {
+      margin-bottom: 0.25rem;
+    }
+
+    #canvas-container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1000;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: auto;
+    }
+
+    .checkbox-group label {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div id="controls">
+    <h2>🎮 控制面板</h2>
+
+    <div class="control-group">
+      <label>算法方案</label>
+      <select id="algorithmSelect">
+        <option value="">请先运行优化...</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>集装箱编号</label>
+      <select id="containerSelect">
+        <option value="0">集装箱 #1</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>视图模式</label>
+      <select id="viewMode">
+        <option value="perspective">透视视图</option>
+        <option value="front">前视图</option>
+        <option value="top">俯视图</option>
+        <option value="side">侧视图</option>
+        <option value="exploded">爆炸视图</option>
+      </select>
+    </div>
+
+    <div class="control-group checkbox-group">
+      <input type="checkbox" id="showLabels" checked>
+      <label for="showLabels">显示标签</label>
+    </div>
+
+    <div class="control-group checkbox-group">
+      <input type="checkbox" id="showGrid" checked>
+      <label for="showGrid">显示网格</label>
+    </div>
+
+    <div class="control-group checkbox-group">
+      <input type="checkbox" id="wireframe">
+      <label for="wireframe">线框模式</label>
+    </div>
+
+    <button id="loadDemo">📦 加载示例数据</button>
+    <button id="runOptimization">🎯 运行优化</button>
+    <button id="exportImage">📸 导出图片</button>
+  </div>
+
+  <div id="stats">
+    <h3>📊 统计信息</h3>
+    <div class="stat-row">
+      <span class="stat-label">算法</span>
+      <span class="stat-value" id="statAlgorithm">-</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">集装箱数量</span>
+      <span class="stat-value" id="statContainers">-</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">当前容器物品</span>
+      <span class="stat-value" id="statItems">-</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">体积利用率</span>
+      <span class="stat-value" id="statVolume">-</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">重量利用率</span>
+      <span class="stat-value" id="statWeight">-</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">执行时间</span>
+      <span class="stat-value" id="statTime">-</span>
+    </div>
+  </div>
+
+  <div id="legend">
+    <div class="legend-item">
+      <div class="legend-color" style="background: #ef4444;"></div>
+      <span class="legend-text">重货 (>500kg)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #f59e0b;"></div>
+      <span class="legend-text">中等 (100-500kg)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #10b981;"></div>
+      <span class="legend-text">轻货 (<100kg)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #6366f1;"></div>
+      <span class="legend-text">特殊货物</span>
+    </div>
+  </div>
+
+  <div id="help">
+    <div><strong>🖱️ 鼠标操作</strong></div>
+    <div>左键拖拽: 旋转视图</div>
+    <div>右键拖拽: 平移视图</div>
+    <div>滚轮: 缩放</div>
+    <div>双击物品: 高亮显示</div>
+  </div>
+
+  <div class="loading" id="loading" style="display: none;">
+    <div class="loading-spinner"></div>
+    <div>正在加载...</div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <script type="module">
+    import * as THREE from 'three'
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
+    import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js'
+
+    // 全局状态
+    let scene, camera, renderer, labelRenderer, controls
+    let currentSolutions = []
+    let currentSolution = null
+    let currentContainerIndex = 0
+    let containerGroup = null
+    let cargoItems = []
+
+    // 初始化3D场景
+    function initScene() {
+      scene = new THREE.Scene()
+      scene.background = new THREE.Color(0x05070c)
+      scene.fog = new THREE.Fog(0x05070c, 50000, 100000)
+
+      // 相机
+      camera = new THREE.PerspectiveCamera(
+        60,
+        window.innerWidth / window.innerHeight,
+        100,
+        200000
+      )
+      camera.position.set(20000, 15000, 20000)
+
+      // 渲染器
+      const container = document.getElementById('canvas-container')
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
+      renderer.setSize(window.innerWidth, window.innerHeight)
+      renderer.setPixelRatio(window.devicePixelRatio)
+      renderer.shadowMap.enabled = true
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap
+      container.appendChild(renderer.domElement)
+
+      // 标签渲染器
+      labelRenderer = new CSS2DRenderer()
+      labelRenderer.setSize(window.innerWidth, window.innerHeight)
+      labelRenderer.domElement.style.position = 'absolute'
+      labelRenderer.domElement.style.top = '0'
+      labelRenderer.domElement.style.pointerEvents = 'none'
+      container.appendChild(labelRenderer.domElement)
+
+      // 控制器
+      controls = new OrbitControls(camera, renderer.domElement)
+      controls.enableDamping = true
+      controls.dampingFactor = 0.05
+      controls.minDistance = 5000
+      controls.maxDistance = 50000
+
+      // 灯光
+      const ambientLight = new THREE.AmbientLight(0xffffff, 0.6)
+      scene.add(ambientLight)
+
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8)
+      directionalLight.position.set(10000, 10000, 5000)
+      directionalLight.castShadow = true
+      directionalLight.shadow.camera.left = -15000
+      directionalLight.shadow.camera.right = 15000
+      directionalLight.shadow.camera.top = 15000
+      directionalLight.shadow.camera.bottom = -15000
+      scene.add(directionalLight)
+
+      const hemisphereLight = new THREE.HemisphereLight(0x87ceeb, 0x0f131c, 0.5)
+      scene.add(hemisphereLight)
+
+      // 网格
+      const gridHelper = new THREE.GridHelper(40000, 40, 0x38bdf8, 0x1e2636)
+      gridHelper.name = 'grid'
+      scene.add(gridHelper)
+
+      // 窗口resize
+      window.addEventListener('resize', onWindowResize)
+
+      // 动画循环
+      animate()
+    }
+
+    function animate() {
+      requestAnimationFrame(animate)
+      controls.update()
+      renderer.render(scene, camera)
+      labelRenderer.render(scene, camera)
+    }
+
+    function onWindowResize() {
+      camera.aspect = window.innerWidth / window.innerHeight
+      camera.updateProjectionMatrix()
+      renderer.setSize(window.innerWidth, window.innerHeight)
+      labelRenderer.setSize(window.innerWidth, window.innerHeight)
+    }
+
+    // 根据重量获取颜色
+    function getColorByWeight(weight) {
+      if (weight > 500) return 0xef4444 // 红色：重货
+      if (weight > 100) return 0xf59e0b // 橙色：中等
+      return 0x10b981 // 绿色：轻货
+    }
+
+    // 绘制集装箱
+    function drawContainer(container, containerDimensions) {
+      const geometry = new THREE.BoxGeometry(
+        containerDimensions.length,
+        containerDimensions.height,
+        containerDimensions.width
+      )
+
+      // 半透明外壳
+      const material = new THREE.MeshPhysicalMaterial({
+        color: 0x38bdf8,
+        transparent: true,
+        opacity: 0.1,
+        side: THREE.DoubleSide,
+        metalness: 0.3,
+        roughness: 0.7
+      })
+
+      const mesh = new THREE.Mesh(geometry, material)
+      mesh.position.set(
+        containerDimensions.length / 2,
+        containerDimensions.height / 2,
+        containerDimensions.width / 2
+      )
+
+      // 边框
+      const edges = new THREE.EdgesGeometry(geometry)
+      const lineMaterial = new THREE.LineBasicMaterial({
+        color: 0x38bdf8,
+        linewidth: 2
+      })
+      const wireframe = new THREE.LineSegments(edges, lineMaterial)
+      wireframe.position.copy(mesh.position)
+
+      const group = new THREE.Group()
+      group.add(mesh)
+      group.add(wireframe)
+
+      return group
+    }
+
+    // 绘制货物
+    function drawCargo(item, showLabels, exploded = false) {
+      if (!item.position) return null
+
+      const geometry = new THREE.BoxGeometry(
+        item.length,
+        item.height,
+        item.width
+      )
+
+      const color = getColorByWeight(item.weight)
+      const material = new THREE.MeshStandardMaterial({
+        color: color,
+        metalness: 0.3,
+        roughness: 0.6,
+        transparent: true,
+        opacity: 0.9
+      })
+
+      const mesh = new THREE.Mesh(geometry, material)
+
+      // 爆炸视图偏移
+      let offsetX = 0, offsetY = 0, offsetZ = 0
+      if (exploded) {
+        const centerX = 6016 // containerLength / 2
+        const centerY = 1196 // containerHeight / 2
+        const centerZ = 1176 // containerWidth / 2
+
+        offsetX = (item.position.x - centerX) * 0.3
+        offsetY = (item.position.y - centerY) * 0.3
+        offsetZ = (item.position.z - centerZ) * 0.3
+      }
+
+      mesh.position.set(
+        item.position.x + item.length / 2 + offsetX,
+        item.position.y + item.height / 2 + offsetY,
+        item.position.z + item.width / 2 + offsetZ
+      )
+      mesh.castShadow = true
+      mesh.receiveShadow = true
+      mesh.userData = { item }
+
+      // 边框
+      const edges = new THREE.EdgesGeometry(geometry)
+      const lineMaterial = new THREE.LineBasicMaterial({
+        color: 0xffffff,
+        transparent: true,
+        opacity: 0.3
+      })
+      const wireframe = new THREE.LineSegments(edges, lineMaterial)
+      wireframe.position.copy(mesh.position)
+
+      const group = new THREE.Group()
+      group.add(mesh)
+      group.add(wireframe)
+
+      // 标签
+      if (showLabels) {
+        const labelDiv = document.createElement('div')
+        labelDiv.style.color = '#e2e8f0'
+        labelDiv.style.fontSize = '10px'
+        labelDiv.style.backgroundColor = 'rgba(15, 19, 28, 0.8)'
+        labelDiv.style.padding = '2px 6px'
+        labelDiv.style.borderRadius = '4px'
+        labelDiv.style.border = '1px solid rgba(255, 255, 255, 0.2)'
+        labelDiv.style.pointerEvents = 'auto'
+        labelDiv.textContent = `${item.code} (${item.weight}kg)`
+
+        const label = new CSS2DObject(labelDiv)
+        label.position.set(0, item.height / 2 + 50, 0)
+        mesh.add(label)
+      }
+
+      return group
+    }
+
+    // 渲染容器
+    function renderContainer(index) {
+      // 清除旧的
+      if (containerGroup) {
+        scene.remove(containerGroup)
+      }
+
+      if (!currentSolution || !currentSolution.containers[index]) return
+
+      containerGroup = new THREE.Group()
+      const container = currentSolution.containers[index]
+      const config = currentSolution.config
+
+      // 绘制容器外壳
+      const containerMesh = drawContainer(container, config.containerDimensions)
+      containerGroup.add(containerMesh)
+
+      // 绘制货物
+      const showLabels = document.getElementById('showLabels').checked
+      const viewMode = document.getElementById('viewMode').value
+      const exploded = viewMode === 'exploded'
+
+      container.items.forEach(item => {
+        const cargoMesh = drawCargo(item, showLabels, exploded)
+        if (cargoMesh) {
+          containerGroup.add(cargoMesh)
+        }
+      })
+
+      scene.add(containerGroup)
+
+      // 更新统计信息
+      updateStats()
+    }
+
+    // 更新统计信息
+    function updateStats() {
+      if (!currentSolution) return
+
+      const container = currentSolution.containers[currentContainerIndex]
+
+      document.getElementById('statAlgorithm').textContent = currentSolution.algorithm
+      document.getElementById('statContainers').textContent = currentSolution.stats.containerCount
+      document.getElementById('statItems').textContent = container ? container.items.length : 0
+      document.getElementById('statVolume').textContent = currentSolution.stats.volumeUtilization.toFixed(1) + '%'
+      document.getElementById('statWeight').textContent = currentSolution.stats.weightUtilization.toFixed(1) + '%'
+      document.getElementById('statTime').textContent = (currentSolution.stats.executionTime / 1000).toFixed(2) + 's'
+    }
+
+    // 切换视图
+    function setViewMode(mode) {
+      const length = 12032
+      const height = 2393
+      const width = 2352
+
+      switch (mode) {
+        case 'front':
+          camera.position.set(length / 2, height / 2, width * 3)
+          controls.target.set(length / 2, height / 2, width / 2)
+          break
+        case 'top':
+          camera.position.set(length / 2, height * 3, width / 2)
+          controls.target.set(length / 2, 0, width / 2)
+          break
+        case 'side':
+          camera.position.set(length * 3, height / 2, width / 2)
+          controls.target.set(0, height / 2, width / 2)
+          break
+        case 'exploded':
+        case 'perspective':
+        default:
+          camera.position.set(20000, 15000, 20000)
+          controls.target.set(length / 2, height / 2, width / 2)
+          break
+      }
+
+      renderContainer(currentContainerIndex)
+      controls.update()
+    }
+
+    // 加载示例数据
+    async function loadDemo() {
+      showLoading(true)
+      try {
+        const response = await fetch('/api/load-demo')
+        const data = await response.json()
+
+        if (data.success) {
+          cargoItems = data.data
+          alert(`✅ 已加载 ${cargoItems.length} 个货物单元`)
+        } else {
+          alert('❌ 加载失败: ' + data.error)
+        }
+      } catch (error) {
+        alert('❌ 加载失败: ' + error.message)
+      }
+      showLoading(false)
+    }
+
+    // 运行优化
+    async function runOptimization() {
+      if (cargoItems.length === 0) {
+        alert('请先加载示例数据')
+        return
+      }
+
+      showLoading(true)
+      try {
+        const response = await fetch('/api/optimize', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: cargoItems })
+        })
+
+        const data = await response.json()
+
+        if (data.success) {
+          currentSolutions = data.solutions
+
+          // 更新算法选择器
+          const select = document.getElementById('algorithmSelect')
+          select.innerHTML = ''
+          currentSolutions.forEach((sol, i) => {
+            const option = document.createElement('option')
+            option.value = i
+            option.textContent = `${sol.algorithm} (${sol.stats.containerCount}个箱 | ${sol.stats.volumeUtilization.toFixed(1)}%)`
+            select.appendChild(option)
+          })
+
+          // 显示第一个方案
+          currentSolution = currentSolutions[0]
+          currentContainerIndex = 0
+
+          // 更新容器选择器
+          const containerSelect = document.getElementById('containerSelect')
+          containerSelect.innerHTML = ''
+          currentSolution.containers.forEach((_, i) => {
+            const option = document.createElement('option')
+            option.value = i
+            option.textContent = `集装箱 #${i + 1}`
+            containerSelect.appendChild(option)
+          })
+
+          renderContainer(0)
+          alert('✅ 优化完成！')
+        } else {
+          alert('❌ 优化失败: ' + data.error)
+        }
+      } catch (error) {
+        alert('❌ 优化失败: ' + error.message)
+      }
+      showLoading(false)
+    }
+
+    // 显示/隐藏加载动画
+    function showLoading(show) {
+      document.getElementById('loading').style.display = show ? 'block' : 'none'
+    }
+
+    // 导出图片
+    function exportImage() {
+      renderer.render(scene, camera)
+      const dataURL = renderer.domElement.toDataURL('image/png')
+      const link = document.createElement('a')
+      link.download = `packing-${Date.now()}.png`
+      link.href = dataURL
+      link.click()
+    }
+
+    // 事件监听
+    document.getElementById('loadDemo').addEventListener('click', loadDemo)
+    document.getElementById('runOptimization').addEventListener('click', runOptimization)
+    document.getElementById('exportImage').addEventListener('click', exportImage)
+
+    document.getElementById('algorithmSelect').addEventListener('change', (e) => {
+      const index = parseInt(e.target.value)
+      if (currentSolutions[index]) {
+        currentSolution = currentSolutions[index]
+        currentContainerIndex = 0
+
+        // 更新容器选择器
+        const containerSelect = document.getElementById('containerSelect')
+        containerSelect.innerHTML = ''
+        currentSolution.containers.forEach((_, i) => {
+          const option = document.createElement('option')
+          option.value = i
+          option.textContent = `集装箱 #${i + 1}`
+          containerSelect.appendChild(option)
+        })
+
+        renderContainer(0)
+      }
+    })
+
+    document.getElementById('containerSelect').addEventListener('change', (e) => {
+      currentContainerIndex = parseInt(e.target.value)
+      renderContainer(currentContainerIndex)
+    })
+
+    document.getElementById('viewMode').addEventListener('change', (e) => {
+      setViewMode(e.target.value)
+    })
+
+    document.getElementById('showLabels').addEventListener('change', () => {
+      renderContainer(currentContainerIndex)
+    })
+
+    document.getElementById('showGrid').addEventListener('change', (e) => {
+      const grid = scene.getObjectByName('grid')
+      if (grid) grid.visible = e.target.checked
+    })
+
+    document.getElementById('wireframe').addEventListener('change', (e) => {
+      scene.traverse((obj) => {
+        if (obj.isMesh && obj.material) {
+          obj.material.wireframe = e.target.checked
+        }
+      })
+    })
+
+    // 初始化
+    initScene()
+  </script>
+</body>
+</html>

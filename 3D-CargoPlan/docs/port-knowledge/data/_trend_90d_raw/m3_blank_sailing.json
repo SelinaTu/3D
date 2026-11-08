@@ -1,0 +1,592 @@
+{
+  "data": [
+    {
+      "author_id": "1569511493200408577",
+      "created_at": "2026-10-30T01:16:16.000Z",
+      "edit_history_tweet_ids": [
+        "2115976045119852955"
+      ],
+      "id": "2115976045119852955",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Agent commerce sells a 7–10 day ship window.\nFactories still live on AQL + blank sailings.\n\nBefore you let Shop Pay / agent checkout promise stock this BFCM:\n\n1. Freeze the golden sample revision that matches the live SKU\n2. Run FAI on the production lot — not the sales sample\n3. https://t.co/QKwrZfAhSe",
+      "url": "https://x.com/lancefang7/status/2115976045119852955"
+    },
+    {
+      "author_id": "1569511493200408577",
+      "created_at": "2026-10-31T01:09:55.000Z",
+      "edit_history_tweet_ids": [
+        "2116336834531766428"
+      ],
+      "id": "2116336834531766428",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "30 days to BFCM.\n\nShopify Fall ’26 already told merchants: show up clean in agentic channels — no missing catalog fields.\n\nOps translation for China DTC / independent sites shipping CE or smart home:\n\nAgents don’t forgive “approx stock” the way a human CS team does.\nShop Pay can https://t.co/dxgdvh4mTx",
+      "url": "https://x.com/lancefang7/status/2116336834531766428"
+    },
+    {
+      "author_id": "1569511493200408577",
+      "created_at": "2026-10-29T10:24:02.000Z",
+      "edit_history_tweet_ids": [
+        "2115751505731158055"
+      ],
+      "id": "2115751505731158055",
+      "in_reply_to_user_id": "1569511493200408577",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2115751021649731849",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Same week, the Pacific is not forgiving:\n\n• Post–Golden Week space still tight\n• Blank sailings defending spot rates into Nov\n• Custom carton / insert tooling often 15–25 days — longer than the line itself\n\nBFCM ads are live while a lot of CE / beauty POs still lack:\nsigned",
+      "url": "https://x.com/lancefang7/status/2115751505731158055"
+    },
+    {
+      "author_id": "2362855998",
+      "created_at": "2026-10-05T09:41:35.000Z",
+      "edit_history_tweet_ids": [
+        "2107043513275683076"
+      ],
+      "id": "2107043513275683076",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Golden Week means blank sailings and rollover risk. Our new blog shows how forwarders can protect shippers' cargo. \n\nhttps://t.co/2NDePfBbAR",
+      "url": "https://x.com/TheCoopLN/status/2107043513275683076"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-17T09:13:18.000Z",
+      "edit_history_tweet_ids": [
+        "2111385050981781538"
+      ],
+      "id": "2111385050981781538",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111385050155557127",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Kenapa naik daun: Peak season extended, blank sailings, port congestion absorbs 12% capacity. Dampak langsung ke transit time &amp; cost.",
+      "url": "https://x.com/jasacustoms/status/2111385050981781538"
+    },
+    {
+      "author_id": "1878438709647060992",
+      "created_at": "2026-10-05T18:00:17.000Z",
+      "edit_history_tweet_ids": [
+        "2107169018062995716"
+      ],
+      "id": "2107169018062995716",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 44,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "A box rate tells you who is scared. When spot container prices spike on one lane and carriers blank sailings elsewhere, demand is pulling forward ahead of a tariff. Panic shows in the booking surge. Darkfield reads the manifests. https://t.co/D2m4jInoYB",
+      "url": "https://x.com/DarkField_AI/status/2107169018062995716"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-29T09:15:44.000Z",
+      "edit_history_tweet_ids": [
+        "2115734317439517084"
+      ],
+      "id": "2115734317439517084",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2115734316336480747",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Penyebab utama: ketegangan geopolitik berkelanjutan. Rute Asia-Europe &amp; Gulf terdisrupsi, rates tetap elevated meski peak season mereda. Blank sailings masih digunakan untuk manage kapasitas.",
+      "url": "https://x.com/jasacustoms/status/2115734317439517084"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-30T09:16:10.000Z",
+      "edit_history_tweet_ids": [
+        "2116096815648923704"
+      ],
+      "id": "2116096815648923704",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2116096814910738565",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Sea-Intelligence: trade growth melambat, new vessels masuk. Blank sailings ~5%. Congestion Asia easing, Hormuz still impact.",
+      "url": "https://x.com/jasacustoms/status/2116096815648923704"
+    },
+    {
+      "author_id": "1880267945315913728",
+      "created_at": "2026-10-01T13:00:00.000Z",
+      "edit_history_tweet_ids": [
+        "2105643898349720026"
+      ],
+      "id": "2105643898349720026",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Drewry's WCI: $4,500/FEU (+1%). Shanghai-New York $10,394 (+7%), Shanghai-LA $7,712 (+5%), Shanghai-Rotterdam $3,626 (-9%). Transpacific is firming on blank sailings ahead of Golden Week while Asia-Europe softens. One \"freight market\" no longer exists; budget by lane.",
+      "url": "https://x.com/FARPOINTGLOBAL/status/2105643898349720026"
+    },
+    {
+      "author_id": "874275945200406528",
+      "created_at": "2026-10-01T18:58:16.000Z",
+      "edit_history_tweet_ids": [
+        "2105734059041120530"
+      ],
+      "id": "2105734059041120530",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Americas freight markets remain driven by: ① US import demand ② Panama Canal restrictions ③ Asian port congestion ④ Blank sailings. Current benchmark rates: Shanghai-LA ~$7.8k/FEU, Shanghai-NY ~$10.4k/FEU. Near-term outlook: firm but volatile. #FreightMarket  #OceanFreight",
+      "url": "https://x.com/iLogExchange/status/2105734059041120530"
+    },
+    {
+      "author_id": "900151243208880131",
+      "created_at": "2026-10-02T05:12:27.000Z",
+      "edit_history_tweet_ids": [
+        "2105888621165453439"
+      ],
+      "id": "2105888621165453439",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "El transporte marítimo internacional enfrenta cambios en tarifas, espacios y tiempos de tránsito por blank sailings, congestión portuaria, clima y tensiones geopolíticas.\n\nhttps://t.co/nw8YFbDFe1",
+      "url": "https://x.com/eaduanacom/status/2105888621165453439"
+    },
+    {
+      "author_id": "1507419557169872910",
+      "created_at": "2026-10-20T07:10:08.000Z",
+      "edit_history_tweet_ids": [
+        "2112441219364336010"
+      ],
+      "id": "2112441219364336010",
+      "in_reply_to_user_id": "1507419557169872910",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 44,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2112441195058299297",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Containers are holding, but only by force. Despite a record orderbook, the SCFI is defended at 3,664. Carriers have \"weaponized\" blank sailings, canceling 18% of loops post-Golden Week. They are burning cash to keep the $10,000/FEU Transpacific wall from crumbling. 📦🚢",
+      "url": "https://x.com/Evergreener1977/status/2112441219364336010"
+    },
+    {
+      "author_id": "874275945200406528",
+      "created_at": "2026-10-02T11:56:00.000Z",
+      "edit_history_tweet_ids": [
+        "2105990176866750968"
+      ],
+      "id": "2105990176866750968",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Asia-USWC remains the strongest global lane. Spot rates: ~$7,800-$8,400/FEU. Demand, blank sailings, and Asian port congestion continue supporting pricing. Golden Week disruptions, vessel delays, and potential rate easing in late Oct. #TransPacific #USWC #OceanFreight",
+      "url": "https://x.com/iLogExchange/status/2105990176866750968"
+    },
+    {
+      "author_id": "1878438709647060992",
+      "created_at": "2026-10-21T10:30:17.000Z",
+      "edit_history_tweet_ids": [
+        "2112853975360028706"
+      ],
+      "id": "2112853975360028706",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 78,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Export demand confesses in the box rate. When Shanghai container indices jump and carriers blank sailings to hold price, trade is running hot or running scared. The direction hides in which lanes move first.",
+      "url": "https://x.com/DarkField_AI/status/2112853975360028706"
+    },
+    {
+      "author_id": "1867490495133626371",
+      "created_at": "2026-10-23T07:55:09.000Z",
+      "edit_history_tweet_ids": [
+        "2113539712296354059"
+      ],
+      "id": "2113539712296354059",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 18,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Drewry's container index rose 2% to $4,585 per 40ft box, its highest in 15 weeks. Asia-Europe blank sailings are tightening effective freight capacity. https://t.co/odTVf72Tzp",
+      "url": "https://x.com/InstituteSOSCI/status/2113539712296354059"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-26T09:13:02.000Z",
+      "edit_history_tweet_ids": [
+        "2114646476722749929"
+      ],
+      "id": "2114646476722749929",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2114646475900670451",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Section 122 berakhir Juli, ancaman tarif baru membuat importir AS percepat booking. Carrier pakai blank sailings untuk menahan rate.",
+      "url": "https://x.com/jasacustoms/status/2114646476722749929"
+    },
+    {
+      "author_id": "1880267945315913728",
+      "created_at": "2026-10-30T17:00:00.000Z",
+      "edit_history_tweet_ids": [
+        "2116213541090812268"
+      ],
+      "id": "2116213541090812268",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Asia–Europe rates have fallen 12 straight weeks while transpacific rates sit near their highest since mid-2022. Blank sailings are concentrated on the transpacific. The same carriers, opposite pricing signals. Shippers on US lanes should not read European softness as relief.",
+      "url": "https://x.com/FARPOINTGLOBAL/status/2116213541090812268"
+    },
+    {
+      "author_id": "538253067",
+      "created_at": "2026-10-03T13:40:14.000Z",
+      "edit_history_tweet_ids": [
+        "2106378796613914652"
+      ],
+      "id": "2106378796613914652",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "1.5m TEU is scheduled between Asia and North Europe across the Golden Week period.\n\nBut delayed vessels, double sailings, congestion and likely blank sailings mean the real question for UK importers is whether booked capacity will operate when expected.\nhttps://t.co/JFb9cEydBh",
+      "url": "https://x.com/MetroShipping/status/2106378796613914652"
+    },
+    {
+      "author_id": "874275945200406528",
+      "created_at": "2026-10-13T19:03:00.000Z",
+      "edit_history_tweet_ids": [
+        "2110083901611995411"
+      ],
+      "id": "2110083901611995411",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 18,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Shanghai-LA spot ~$7,624/FEU (Drewry Oct 8, -3%). SCFI ~$7,584. Near yearly highs on peak demand + capacity control. Blank sailings easing, congestion improving post-typhoons. Rates stable near-term, gradual softening ahead #USWC #AsiaUS #OceanFreight",
+      "url": "https://x.com/iLogExchange/status/2110083901611995411"
+    },
+    {
+      "author_id": "1507419557169872910",
+      "created_at": "2026-10-15T07:10:45.000Z",
+      "edit_history_tweet_ids": [
+        "2110629435431162290"
+      ],
+      "id": "2110629435431162290",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Carriers have weaponized \"Blank Sailings.\" 🛠️\n\nPost-Golden Week, we are seeing the most aggressive capacity management since the pandemic. By canceling voyages at the first sign of softening, carriers are artificially tightening a market that \"should\" be in freefall.",
+      "url": "https://x.com/Evergreener1977/status/2110629435431162290"
+    },
+    {
+      "author_id": "1493980313080537093",
+      "created_at": "2026-10-07T16:28:58.000Z",
+      "edit_history_tweet_ids": [
+        "2107870809821675894"
+      ],
+      "id": "2107870809821675894",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "More capacity does not necessarily mean more certainty.\n\nAsia–Europe schedules enter October with around 27% more capacity than last year, but delayed vessels, blank sailings and continuing port disruption could make that capacity difficult to rely on.\nhttps://t.co/aP1XSYh87B https://t.co/qikBFroCw4",
+      "url": "https://x.com/globalforwardi3/status/2107870809821675894"
+    },
+    {
+      "author_id": "1493980313080537093",
+      "created_at": "2026-10-12T14:55:13.000Z",
+      "edit_history_tweet_ids": [
+        "2109659157787820539"
+      ],
+      "id": "2109659157787820539",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Getting the booking is one thing. Achieving the planned transit is another.\n\nBlank sailings, congestion and late-running vessels continue to affect the transpacific.\n\nThat makes reliability part of the cost equation.\nhttps://t.co/rb38JkoF2A",
+      "url": "https://x.com/globalforwardi3/status/2109659157787820539"
+    },
+    {
+      "author_id": "348791679",
+      "created_at": "2026-10-02T16:20:40.000Z",
+      "edit_history_tweet_ids": [
+        "2106056781877428626"
+      ],
+      "id": "2106056781877428626",
+      "in_reply_to_user_id": "348791679",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2106056779365040642",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Maersk (aviso de 20/08) anunciou 3 blank sailings na rede Far East Asia → Europe:\n\nAE15 Qingdao, ETD 28/09\nAE12 Ningbo, ETD 08/10\nAE1 Shanghai, ETD 10/10\n\nSão blanks Ásia–Europa. Sem tabela publicada, não dá para misturar com Ásia–Brasil.",
+      "url": "https://x.com/xViniDP/status/2106056781877428626"
+    },
+    {
+      "author_id": "2039273792795467776",
+      "created_at": "2026-10-08T15:20:15.000Z",
+      "edit_history_tweet_ids": [
+        "2108215905654308954"
+      ],
+      "id": "2108215905654308954",
+      "in_reply_to_user_id": "1180149436992741376",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 30,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2108201888965607477",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@christankerfund Asia-Europe is the weak leg: Drewry has it down 13 weeks running, and the Premier Alliance is moving FE1 back to Suez, first transit Nov 9 with One Continuity (Alphaliner). Transpacific blank sailings drop from 11 to 4 next week, so US lanes get more capacity too.",
+      "url": "https://x.com/TerminusRisk/status/2108215905654308954"
+    },
+    {
+      "author_id": "2091527743142068224",
+      "created_at": "2026-10-18T09:15:18.000Z",
+      "edit_history_tweet_ids": [
+        "2111747942432346516"
+      ],
+      "id": "2111747942432346516",
+      "in_reply_to_user_id": "2091527743142068224",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111747941639610849",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Kapasitas Bab el-Mandeb naik cepat (doubled dalam ~6 minggu menurut data industri). Transit lebih pendek 10-14 hari. Namun congestion Asia (typhoon backlog, Golden Week) + blank sailings menahan penurunan penuh.",
+      "url": "https://x.com/jasacustoms/status/2111747942432346516"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "1569511493200408577",
+        "name": "lance fang",
+        "username": "lancefang7"
+      },
+      {
+        "id": "2362855998",
+        "name": "Cooperative LN",
+        "username": "TheCoopLN"
+      },
+      {
+        "id": "2091527743142068224",
+        "name": "jasacustomslogistik",
+        "username": "jasacustoms"
+      },
+      {
+        "id": "1878438709647060992",
+        "name": "DarkField",
+        "username": "DarkField_AI"
+      },
+      {
+        "id": "1880267945315913728",
+        "name": "Far Point Global",
+        "username": "FARPOINTGLOBAL"
+      },
+      {
+        "id": "874275945200406528",
+        "name": "iLogistics Exchange",
+        "username": "iLogExchange"
+      },
+      {
+        "id": "900151243208880131",
+        "name": "E-Aduana",
+        "username": "eaduanacom"
+      },
+      {
+        "id": "1507419557169872910",
+        "name": "Lion",
+        "username": "Evergreener1977"
+      },
+      {
+        "id": "1867490495133626371",
+        "name": "ISOSCI",
+        "username": "InstituteSOSCI"
+      },
+      {
+        "id": "538253067",
+        "name": "Metro",
+        "username": "MetroShipping"
+      },
+      {
+        "id": "1493980313080537093",
+        "name": "Global Forwarding",
+        "username": "globalforwardi3"
+      },
+      {
+        "id": "348791679",
+        "name": "Vinicius Dal Pont",
+        "username": "xViniDP"
+      },
+      {
+        "id": "2039273792795467776",
+        "name": "Terminus",
+        "username": "TerminusRisk"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2116336834531766428",
+    "next_token": "b26v89c19zqg8o3juzixwam8so4h0lz0s1gtdqwd2l8ql",
+    "oldest_id": "2105643898349720026",
+    "result_count": 25
+  }
+}

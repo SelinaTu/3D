@@ -1,0 +1,420 @@
+{
+  "CN": {
+    "iso2": "CN",
+    "name": "China",
+    "name_zh": "中国",
+    "confidence": "primary",
+    "as_of": "2026-10-30",
+    "depth": "thick",
+    "fine_profile": "CN-road",
+    "vgm": {
+      "required_for_load": true,
+      "no_vgm_no_load": true,
+      "tolerance_note": "Enforcement narrative often ±5% and ≤1 t (take stricter); verify current MSA / ship safety supervision rules",
+      "sources": [
+        "https://xxgk.mot.gov.cn/2020/jigou/haishi/202006/t20200630_3319189.html",
+        "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx"
+      ]
+    },
+    "road_limits": {
+      "statute": "MOT overlimit regulation 2016 as amended 2021 Art.3",
+      "note": "Gross vehicle+cargo mass limits by axle config (kg)",
+      "table_kg": {
+        "2-axle truck": 18000,
+        "3-axle truck": 25000,
+        "3-axle combination": 27000,
+        "4-axle truck": 31000,
+        "4-axle combination": 36000,
+        "5-axle combination": 43000,
+        "6+-axle combination": 49000,
+        "6+-axle combo (drive axle single)": 46000
+      },
+      "sources": [
+        "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+      ]
+    },
+    "fine_refs": [
+      {
+        "id": "CN-OW-MASS",
+        "currency": "CNY",
+        "cap": 30000,
+        "formula_note": "≤1000 kg over → warning; else ¥500 per 1000 kg; cap ¥30,000; cumulative also capped",
+        "sources": [
+          "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+        ]
+      },
+      {
+        "id": "CN-OW-DIM",
+        "currency": "CNY",
+        "formula_note": "Outer dimension bands: ≤¥200 / ¥200–1000 / ¥1000–3000",
+        "sources": [
+          "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm"
+        ]
+      },
+      {
+        "id": "CN-FOUR-PENALTY",
+        "formula_note": "Highway Safety Protection Reg. Art.66 — repeated overweight → license / business consequences (not a fine schedule)",
+        "sources": [
+          "https://www.gov.cn/gongbao/content/2011/content_1831543.htm"
+        ]
+      }
+    ],
+    "checklists": [
+      {
+        "id": "vgm_before_load",
+        "severity": "block",
+        "title": "VGM before vessel load"
+      },
+      {
+        "id": "road_gross_mass_vs_axles",
+        "severity": "warn",
+        "title": "CN highway gross-mass vs axle table"
+      },
+      {
+        "id": "customs_packing_list_align",
+        "severity": "info",
+        "title": "Packing list ↔ load plan align"
+      },
+      {
+        "id": "ispm15_if_wood",
+        "severity": "info",
+        "title": "ISPM15 if wood packing"
+      }
+    ],
+    "notes": [
+      "No national machine-readable in-box stuffing ban found — do not invent.",
+      "CRE rail bias limits: public notices vary; treat as risk, not invented fine table."
+    ],
+    "sources": [
+      {
+        "url": "https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm",
+        "layer": "L2",
+        "title": "MOT overlimit regulation"
+      },
+      {
+        "url": "docs/port-knowledge/02_china_national.md",
+        "layer": "L2",
+        "title": "3D CargoPlan China national chapter"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "ID": {
+    "iso2": "ID",
+    "name": "Indonesia",
+    "name_zh": "印度尼西亚",
+    "confidence": "official_secondary",
+    "as_of": "2026-10-30",
+    "depth": "thick",
+    "fine_profile": "ID-ODOL-road",
+    "vgm": {
+      "required_for_load": true,
+      "no_vgm_no_load": true,
+      "tolerance_note": "PM 25/2022: terminal reweigh ≥5% → no load until new VGM; over CSC max gross → no load",
+      "statute": "PM 25 Tahun 2022 (repeals PM 53/2018)",
+      "sources": [
+        "https://jdih.kemenhub.go.id/",
+        "https://pasal.id/peraturan/permen/permenhub-pm-25-2022"
+      ]
+    },
+    "road_limits": {
+      "statute": "UU 22/2009 Art.19 road class + MST",
+      "mst_t": {
+        "Kelas I": 10,
+        "Kelas II": 8,
+        "Kelas III": 8
+      },
+      "jbi_note": "JBI/JBKI on vehicle KIR plate — NOT ISO container payload. Industry hearsay 36–45 t → verify per chassis.",
+      "sources": [
+        "https://pelayanan.jakarta.go.id/download/regulasi/undang-undang-nomor-22-tahun-2009-tentang-lalu-lintas-dan-angkutan-jalan.pdf",
+        "https://peraturan.bpk.go.id/Download/311148/2021pmkemenhub018.pdf"
+      ]
+    },
+    "fine_refs": [
+      {
+        "id": "ID-PASAL-277",
+        "currency": "IDR",
+        "cap": 24000000,
+        "formula_note": "UU 22/2009 Pasal 277 — often cited for over-dimension / illegal modification; max Rp 24,000,000 or up to 1 year",
+        "sources": [
+          "https://hubdat.dephub.go.id/id/bptd/sulteng/publikasi/stop-odol/",
+          "https://kemenhub.go.id/post/read/menhub-dudy-tegaskan-penanganan-angkutan-odol-harus-segera-dilaksanakan"
+        ]
+      },
+      {
+        "id": "ID-PASAL-307",
+        "currency": "IDR",
+        "cap": 500000,
+        "formula_note": "UU 22/2009 Pasal 307 — overload / loading method; max Rp 500,000 or up to 2 months detention (widely called too light)",
+        "sources": [
+          "https://otomotif.kompas.com/read/2025/06/09/151200015/dasar-hukum-dan-sanksi-buat-pelaku-odol"
+        ]
+      }
+    ],
+    "carrier_fees_examples": [
+      {
+        "carrier": "Maersk Indonesia",
+        "id": "ID-WDF-MAERSK",
+        "amount_usd": 300,
+        "per": "container",
+        "note": "Weight Discrepancy Fee — commercial accessorial ≠ administrative fine",
+        "type": "carrier_accessorial",
+        "sources": [
+          "https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia"
+        ]
+      }
+    ],
+    "notes": [
+      "Zero ODOL: stricter enforcement of existing UU; target year often reported 2027 — not a new fine table.",
+      "Viral 'Rp 50 miliar' claims NOT verified against UU text — do not put in fine_refs.",
+      "Priok toll ~45 t (2017 media) — 待核实 if still posted."
+    ],
+    "checklists": [
+      {
+        "id": "id_vgm_required",
+        "severity": "block",
+        "title": "PM25/2022 VGM required"
+      },
+      {
+        "id": "id_csc_max_gross",
+        "severity": "block",
+        "title": "CSC max gross ban"
+      },
+      {
+        "id": "id_vgm_deviation_5pct",
+        "severity": "block",
+        "title": "Reweigh ≥5% → new VGM"
+      },
+      {
+        "id": "id_road_mst_class",
+        "severity": "warn",
+        "title": "Road class MST (Kelas I = 10 t)"
+      },
+      {
+        "id": "id_jbi_vehicle_plate",
+        "severity": "warn",
+        "title": "Ask fleet for KIR JBI/JBKI"
+      },
+      {
+        "id": "id_ispm15_wood",
+        "severity": "info",
+        "title": "ISPM15 wood packing"
+      }
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/02b_indonesia_national.md",
+        "layer": "L2",
+        "title": "3D CargoPlan Indonesia national chapter"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "SG": {
+    "iso2": "SG",
+    "name": "Singapore",
+    "name_zh": "新加坡",
+    "confidence": "industry",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "link_next_leg",
+    "vgm": {
+      "required_for_load": true,
+      "note": "SOLAS applies; declare via carrier/PSA notices"
+    },
+    "notes": [
+      "Hub / transshipment — rules often defer to POD road/customs.",
+      "No in-box stuffing ban schema found."
+    ],
+    "sources": [
+      {
+        "url": "https://www.mpa.gov.sg/",
+        "layer": "L3"
+      },
+      {
+        "url": "docs/port-knowledge/04_global_ports/singapore.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "NL": {
+    "iso2": "NL",
+    "name": "Netherlands",
+    "name_zh": "荷兰",
+    "confidence": "official_secondary",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "EU-NL",
+    "vgm": {
+      "required_for_load": true
+    },
+    "road_limits": {
+      "note": "ILT overweight education: axle <10% warning; >10% report; >20% report+reload. GVW <5% warning; >5% report; >10% report+reload. Recalc axle after partial unload.",
+      "sources": [
+        "https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading"
+      ]
+    },
+    "fine_refs": [
+      {
+        "id": "EU-NL-ILT",
+        "formula_note": "Percentage ladder; emphasize axle after partial unload — not a ticket calculator",
+        "sources": [
+          "https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading"
+        ]
+      }
+    ],
+    "notes": [
+      "Cross-border often under EU 96/53 framework."
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/04_global_ports/rotterdam.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "US": {
+    "iso2": "US",
+    "name": "United States",
+    "name_zh": "美国",
+    "confidence": "official_secondary",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "US-state",
+    "vgm": {
+      "required_for_load": true
+    },
+    "road_limits": {
+      "note": "Federal: single axle 20,000 lb; tandem 34,000 lb; GVW 80,000 lb; Bridge Formula. No national uniform fine schedule — state/county.",
+      "sources": [
+        "https://ops.fhwa.dot.gov/freight/SW/faqs/qa.cfm"
+      ]
+    },
+    "fine_refs": [
+      {
+        "id": "US-NO-NATIONAL-FINE",
+        "formula_note": "No nationwide fine table; use state profile (CA/TX/NY…)",
+        "sources": [
+          "https://ops.fhwa.dot.gov/freight/SW/faqs/qa.cfm"
+        ]
+      },
+      {
+        "id": "US-TX-EX",
+        "currency": "USD",
+        "formula_note": "Texas county schedule examples (2025 narrative): axle bands ~$330/$780/$2030; GVW higher ~$8530 — secondary, verify current PDF",
+        "sources": [
+          "docs/port-knowledge/05_fines_enforcement.md"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/05_fines_enforcement.md",
+        "layer": "L2"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "KR": {
+    "iso2": "KR",
+    "name": "Korea, Republic of",
+    "name_zh": "韩国",
+    "confidence": "unverified",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "link_next_leg",
+    "vgm": {
+      "required_for_load": true
+    },
+    "notes": [
+      "Busan is a major transshipment hub — POD rules often dominate.",
+      "KR road overweight schedule 待核实."
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/04_global_ports/busan.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "AE": {
+    "iso2": "AE",
+    "name": "United Arab Emirates",
+    "name_zh": "阿联酋",
+    "confidence": "industry",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "link_next_leg",
+    "vgm": {
+      "required_for_load": true,
+      "note": "SOLAS; UAE local implementing detail 待核实"
+    },
+    "notes": [
+      "Jebel Ali re-export hub; climate/lash notes are engineering, not fines.",
+      "Rules often follow next POD."
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/04_global_ports/jebel_ali.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "MY": {
+    "iso2": "MY",
+    "name": "Malaysia",
+    "name_zh": "马来西亚",
+    "confidence": "unverified",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "MY-待核实",
+    "vgm": {
+      "required_for_load": true,
+      "note": "Terminal weigh optional in some carrier regional tables — verify"
+    },
+    "notes": [
+      "Road limits / wood packing customs 待核实."
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/04_global_ports/port_klang.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  },
+  "DE": {
+    "iso2": "DE",
+    "name": "Germany",
+    "name_zh": "德国",
+    "confidence": "official_secondary",
+    "as_of": "2026-10-30",
+    "depth": "skeleton",
+    "fine_profile": "EU-DE",
+    "vgm": {
+      "required_for_load": true
+    },
+    "fine_refs": [
+      {
+        "id": "EU-DE-BKAT",
+        "currency": "EUR",
+        "formula_note": "BKatV by overweight %; driver & owner separate. Example >7.5t: driver ~€30…€380; owner ~€35…€425 — re-check current Anhang",
+        "sources": [
+          "https://www.gesetze-im-internet.de/bkatv_2013/anhang_2.html",
+          "https://www.kba.de/DE/Themen/ZentraleRegister/FAER/Punktekatalog/achslast_gesamtgewicht_anhaengelast_fahrlaessig.html"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "docs/port-knowledge/04_global_ports/hamburg.md",
+        "layer": "L3"
+      }
+    ],
+    "disclaimer": "Not legal advice. Fines and local practices change. Show sources + as_of to user."
+  }
+}

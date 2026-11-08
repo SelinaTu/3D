@@ -1,0 +1,152 @@
+{
+  "id": "T11_indonesia_odol_port_enforcement",
+  "title_zh": "印尼 Zero ODOL · 港口卡口执法",
+  "title_en": "Indonesia Zero ODOL · port-gate enforcement",
+  "product_use": "deep_field",
+  "confidence": "high_policy_direction",
+  "why_attention": {
+    "summary_zh": "印尼 Zero ODOL / 港口卡口。90 天 ODOL 抽样 ≥49；ETLE+ODOL 查询被 Operasi Patuh 刷屏。Pelindo Priok / Perak / 2027 目标可见。罚金不以 X 为裁判。",
+    "heat_7d": {
+      "odol": 36,
+      "etle_odol": 0
+    },
+    "prior_report": "02b_indonesia_national.md §2.5–2.6",
+    "heat_90d": {
+      "odol": "≥49_2pages_capped",
+      "etle_odol": "≥19_etle_spam"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "Zero ODOL",
+      "zh": "零超限超载目标",
+      "def": "Policy push to eliminate ODOL practice; 2025 messaging emphasized enforcing existing UU rather than new fine statute; target year often reported 2027."
+    },
+    {
+      "term": "Port as checkpoint",
+      "zh": "港口卡口",
+      "def": "Enforcement narrative includes pelabuhan, toll, industrial zones — containers leaving gate enter road regime."
+    },
+    {
+      "term": "WIM",
+      "zh": "动态称重",
+      "def": "Weigh-in-motion systems mentioned in enforcement modernization — verify deployment status per corridor."
+    }
+  ],
+  "who_pays": {
+    "typical": "Vehicle operator under UU 22/2009; cargo interest may face delay/refusal commercially."
+  },
+  "who_responsible": [
+    "Kemenhub / Hubdat",
+    "Korlantas",
+    "Pelindo/terminal gate processes",
+    "Hauliers"
+  ],
+  "common_pitfalls": [
+    "Treating 2027 as a new Rp fine table",
+    "Ignoring JBI on KIR",
+    "Using 2017 Priok 45t article as current without re-verify"
+  ],
+  "official_sources": [
+    {
+      "url": "https://kemenhub.go.id/post/read/menhub-dudy-tegaskan-penanganan-angkutan-odol-harus-segera-dilaksanakan",
+      "org": "Kemenhub",
+      "note": "Minister statement on ODOL handling"
+    },
+    {
+      "url": "https://korlantas.polri.go.id/pemerintah-komitmen-sosialisasikan-strategi-penegakan-hukum-terhadap-kendaraan-truk-over-dimension-dan-overload/",
+      "org": "Korlantas",
+      "note": "Enforcement socialization"
+    },
+    {
+      "url": "https://hubdat.dephub.go.id/id/bptd/sulteng/publikasi/stop-odol/",
+      "org": "Hubdat Stop ODOL",
+      "note": "Campaign page (availability intermittent)"
+    },
+    {
+      "url": "https://pelayanan.jakarta.go.id/download/regulasi/undang-undang-nomor-22-tahun-2009-tentang-lalu-lintas-dan-angkutan-jalan.pdf",
+      "org": "UU 22/2009",
+      "note": "Statutory fine caps Pasal 277/307"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "ID",
+      "field": "countries.ID",
+      "note": "Thick country pack"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "IDSUB",
+      "note": "2026 Kompas: Perak trial site"
+    },
+    {
+      "locode": "IDTPP",
+      "note": "National hub — gate ODOL pressure"
+    },
+    {
+      "locode": "IDBLW",
+      "note": "Belawan"
+    },
+    {
+      "locode": "IDSRG",
+      "note": "Emas"
+    },
+    {
+      "locode": "IDMAK",
+      "note": "Makassar"
+    }
+  ],
+  "faq": [
+    {
+      "q": "港口治超和公路治超一样吗？",
+      "a": "港口是卡口叙事的一部分：出门即进入公路/ODOL 体制。具体吨位牌以码头现行公告为准（Priok 45t 为历史报道，待核实）。"
+    },
+    {
+      "q": "ETLE 自动罚 ODOL？",
+      "a": "本轮近 7 天 ETLE+ODOL 精确计数为 0；不要把电子警察传说写成现行自动罚则。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "odol_archive": 20
+    },
+    "samples": [
+      {
+        "url": "https://x.com/kompascom/status/2109900925871820827",
+        "kind": "media",
+        "note": "Perak ODOL trial"
+      },
+      {
+        "url": "https://x.com/jasacustoms/status/2105223867862040585",
+        "kind": "organic",
+        "note": "Zero ODOL 2027 landside pressure"
+      },
+      {
+        "url": "https://x.com/hubdat151/status/1624778488795496449",
+        "kind": "gov",
+        "note": "Hubdat campaign"
+      }
+    ],
+    "rumor_unverified": [
+      "Rp50 miliar headlines"
+    ],
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "odol": "≥49_2pages_capped",
+      "etle_odol": "≥19_etle_spam"
+    }
+  },
+  "gaps": [
+    "Pelindo plaque photos/as_of",
+    "WIM corridor list"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

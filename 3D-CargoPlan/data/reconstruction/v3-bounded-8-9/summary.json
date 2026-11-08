@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "stage": "fixed-allocation-reconstruction",
+  "startedAt": "2026-10-18T01:33:43.214Z",
+  "elapsedMs": 4179,
+  "allElevenComplete": false,
+  "allocationUnchanged": false,
+  "loaded": 217,
+  "unpacked": 1154,
+  "independentValidation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "1154 件货物未装载；必须处理未装载清单后才能按本方案完整发运。",
+      "原表“尽量靠柜门”为软偏好，当前未优化近门位置。",
+      "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+      "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+      "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+    ],
+    "scope": "geometry-and-load-assumptions"
+  },
+  "provenance": {
+    "status": "ready",
+    "projectRoot": "/Users/lege/Documents/ChatGPT/集装箱运筹",
+    "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v3-contract.json",
+    "contractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+    "calibrationHash": "2ef3676320217eb6a89f97f5e887eb4409a5d6b957ac9ea41098de3e51a0e224",
+    "auditPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/calibration/source-baseline.json",
+    "auditSha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547",
+    "manifestPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+    "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+    "inputSha256": "a156204f41e25cd4ce55b81da0c4d7aa50330a6f23ae1a80205270968f78c831",
+    "configSha256": "a02119f641f5b4ebdc3f0a18117323aa7b319d747894d8a6ed7b739e104581dc",
+    "sourceFiles": [
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reference/manual-11-container-baseline.pdf",
+        "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+        "role": "pdf"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/sample-cargo.xlsx",
+        "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+        "role": "excel"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+        "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+        "role": "normalized-manifest"
+      }
+    ],
+    "support": {
+      "gapMm": 5,
+      "mechanism": "pdf-clearance-projection",
+      "confirmed": true
+    },
+    "pdfBaseline": {
+      "containerCount": 11,
+      "originalTailContainerNumber": 11,
+      "originalTailSolidVolumeMm3": 41549138446.5,
+      "permutationInvariantMinSolidVolumeMm3": 39312162536,
+      "sortedFirstTenMinimumSolidUtilization": 0.6352022895019157,
+      "allocationSha256": "cb2cd1b008a1e2d9cd6f83b866d63de67abe1cf5a5585d56fb653b3b11695c45"
+    },
+    "engineSha256": "f418a4a8715a1ff674782efd2eebd87b35f8c239438d6afd37301367961801b8",
+    "engineFiles": [
+      {
+        "path": "src/core/reconstruction-decoder.ts",
+        "sha256": "4d5964b21362fb0d0a76572b8342983e8dee82915e066469adcbfec6e8a37d8e"
+      },
+      {
+        "path": "src/core/reconstruction-pdf-seeds.ts",
+        "sha256": "2d0d69ce7c0c3576837cf3534161d98ad400497400d936c51d8f904a182293d1"
+      },
+      {
+        "path": "src/scripts/reconstruct-manual-worker.ts",
+        "sha256": "7d6aa2b88beab23acb0fba499d56e98d0485614bab7bb6a5d7f98d973e008af4"
+      },
+      {
+        "path": "src/scripts/reconstruct-manual.ts",
+        "sha256": "0c90f7faed2e186617fb6707cf995bee406f61c8d7693ecb4e367d3e57f31d3f"
+      },
+      {
+        "path": "src/scripts/reconstruct-manual-job.ts",
+        "sha256": "f20833b94522101b4c335711eb91765344b71dfa3e883e0dec503dc481192f8b"
+      },
+      {
+        "path": "src/core/packing-utils.ts",
+        "sha256": "19d21dd1a90f7411283970008ba85682fd19c231093533c21901d657dd6423be"
+      },
+      {
+        "path": "src/core/solid-geometry.ts",
+        "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+      },
+      {
+        "path": "src/core/validation.ts",
+        "sha256": "d4b08a5608bece885f50e2d0b015d636f95efcf65abe262a565372b2e197f1b3"
+      },
+      {
+        "path": "src/core/loading-profile.ts",
+        "sha256": "fdd4da416cd0951f472f99d3b16c8ab54f6b3a081ef5062fbe47db9ea8a55d49"
+      },
+      {
+        "path": "src/core/greedy-algorithm.ts",
+        "sha256": "68dec14019035ba7110313c45dd4fe5a9328710bc620d9f35a6c6839ef17f230"
+      },
+      {
+        "path": "src/core/solution-builder.ts",
+        "sha256": "5146c86a6a4e96638610f6812d1648b6fdac8633d7a3bee3cd4d5deda5993cbd"
+      },
+      {
+        "path": "src/scripts/research-supervisor.ts",
+        "sha256": "8b916e50086ef96a7482cc130f5254a536549169ba151213a5f66eef7e9dcbf4"
+      }
+    ],
+    "seed": 20261017,
+    "startedAt": "2026-10-18T01:33:43.214Z",
+    "externalWallBudgetMs": 20000,
+    "externalPerContainerWallLimitMs": 18000,
+    "assignment": "fixed original PDF 191-row allocation; no cross-container movement",
+    "rules": {
+      "clearanceMm": 5,
+      "supportGapMm": 5,
+      "supportMechanism": "pdf-clearance-projection",
+      "heightExceptions": {
+        "门窗:W02:r16:u1": 2560,
+        "门窗:W02:r16:u2": 2560,
+        "门窗:W02:r16:u3": 2560,
+        "门窗:W02:r16:u4": 2560,
+        "门窗:W02:r16:u5": 2560,
+        "门窗:W02:r16:u6": 2560,
+        "门窗:W02:r16:u7": 2560,
+        "门窗:W02:r16:u8": 2560,
+        "门窗:W02:r16:u9": 2560,
+        "门窗:W02:r16:u10": 2560,
+        "门窗:W02:r16:u11": 2560,
+        "门窗:W02:r16:u12": 2560,
+        "门窗:W02:r16:u13": 2560,
+        "门窗:W02:r16:u14": 2560,
+        "门窗:W02:r16:u15": 2560,
+        "门窗:W02:r16:u16": 2560,
+        "门窗:W02:r16:u17": 2560,
+        "门窗:W02:r16:u18": 2560,
+        "门窗:W02:r16:u19": 2560,
+        "门窗:W02:r16:u20": 2560,
+        "门窗:W02:r16:u21": 2560,
+        "门窗:W02:r16:u22": 2560,
+        "门窗:W02:r16:u23": 2560,
+        "门窗:W02:r16:u24": 2560,
+        "门窗:W02:r16:u25": 2560,
+        "门窗:W02:r16:u26": 2560,
+        "门窗:W02:r16:u27": 2560,
+        "门窗:W02:r16:u28": 2560,
+        "门窗:W02:r16:u29": 2560,
+        "门窗:W02:r16:u30": 2560,
+        "门窗:W02:r16:u31": 2560,
+        "门窗:W02:r16:u32": 2560,
+        "门窗:W02:r16:u33": 2560,
+        "门窗:W02:r16:u34": 2560,
+        "门窗:W02:r16:u35": 2560,
+        "门窗:W02:r16:u36": 2560,
+        "门窗:W02:r16:u37": 2560,
+        "门窗:W02:r16:u38": 2560,
+        "门窗:W02:r16:u39": 2560,
+        "门窗:W02:r16:u40": 2560,
+        "门窗:W02:r16:u41": 2560,
+        "门窗:W02:r16:u42": 2560,
+        "门窗:W02:r16:u43": 2560,
+        "门窗:W02:r16:u44": 2560,
+        "门窗:W02:r16:u45": 2560,
+        "门窗:W02:r16:u46": 2560,
+        "门窗:W02:r16:u47": 2560,
+        "门窗:W02:r16:u48": 2560,
+        "门窗:W02:r16:u49": 2560,
+        "门窗:W02:r16:u50": 2560,
+        "门窗:W02:r16:u51": 2560,
+        "门窗:W02:r16:u52": 2560,
+        "门窗:W02:r16:u53": 2560,
+        "门窗:W02:r16:u54": 2560,
+        "门窗:W02:r16:u55": 2560,
+        "门窗:W02:r16:u56": 2560,
+        "门窗:W02:r16:u57": 2560,
+        "门窗:W02:r16:u58": 2560,
+        "门窗:W02:r16:u59": 2560,
+        "门窗:W02:r16:u60": 2560,
+        "门窗:W02:r16:u61": 2560,
+        "门窗:W02:r16:u62": 2560,
+        "门窗:W02:r16:u63": 2560,
+        "门窗:W02:r16:u64": 2560,
+        "门窗:W02:r16:u65": 2560,
+        "门窗:W02:r16:u66": 2560,
+        "门窗:W02:r16:u67": 2560,
+        "门窗:W02:r16:u68": 2560,
+        "门窗:W02:r16:u69": 2560,
+        "门窗:W02:r16:u70": 2560,
+        "门窗:W02:r16:u71": 2560,
+        "门窗:W02:r16:u72": 2560,
+        "门窗:W02:r16:u73": 2560,
+        "门窗:W02:r16:u74": 2560,
+        "门窗:W02:r16:u75": 2560,
+        "门窗:W02:r16:u76": 2560,
+        "门窗:W02:r16:u77": 2560,
+        "门窗:W02:r16:u78": 2560,
+        "门窗:W02:r16:u79": 2560,
+        "门窗:W02:r16:u80": 2560,
+        "门窗:W02:r16:u81": 2560,
+        "门窗:W02:r16:u82": 2560,
+        "门窗:W02:r16:u83": 2560,
+        "门窗:W02:r16:u84": 2560,
+        "门窗:W02:r16:u85": 2560,
+        "门窗:W02:r16:u86": 2560,
+        "门窗:W02:r16:u87": 2560,
+        "门窗:W02:r16:u88": 2560,
+        "门窗:W02:r16:u89": 2560,
+        "门窗:W02:r16:u90": 2560,
+        "门窗:W02:r16:u91": 2560,
+        "门窗:W02:r16:u92": 2560
+      },
+      "offsetStackScope": "item-only",
+      "supportCriterion": "centroid-hull"
+    }
+  },
+  "containers": [
+    {
+      "sourceContainerNumber": 8,
+      "status": "partial-or-no-layout",
+      "loaded": 97,
+      "unpacked": 8,
+      "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/v3-bounded-8-9/container-8.json",
+      "independentValidation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "8 件货物未装载；必须处理未装载清单后才能按本方案完整发运。",
+          "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+          "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+          "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+        ],
+        "scope": "geometry-and-load-assumptions"
+      },
+      "supervision": {
+        "executionStatus": "finished",
+        "elapsedMs": 4121,
+        "exitCode": 0,
+        "signal": null,
+        "lastCandidate": 8,
+        "childReportedStatus": "trial-limit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "T02_vgm_solas",
+  "title_zh": "VGM · SOLAS 验证总质量",
+  "title_en": "VGM · SOLAS Verified Gross Mass",
+  "product_use": "deep_field",
+  "confidence": "high_statutory",
+  "why_attention": {
+    "summary_zh": "装船硬条件。近 90 天检索抽样 ≥23（仍有 next_token）；近 7 天精确 counts 仅 2——热度低≠优先级低。",
+    "heat_7d": {
+      "vgm_solas": 2
+    },
+    "prior_report": "10_* §A1-P2 / A2-E2 — 近周热度≠重要性",
+    "heat_90d": {
+      "vgm_solas": "≥23_capped"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "VGM",
+      "zh": "验证总质量",
+      "def": "Verified gross mass of a packed container (cargo + packing + dunnage + tare). Required under SOLAS VI/2 as amended."
+    },
+    {
+      "term": "Method 1",
+      "zh": "方法一",
+      "def": "Weigh the packed sealed container using calibrated equipment."
+    },
+    {
+      "term": "Method 2",
+      "zh": "方法二",
+      "def": "Weigh all packages/items/securing material + add container tare using a method certified by the competent authority of the packing State."
+    },
+    {
+      "term": "Shipper (SOLAS)",
+      "zh": "托运人",
+      "def": "Party named on BL/sea waybill (or who concluded the contract of carriage) — responsible for providing VGM (MSC.1/Circ.1475)."
+    },
+    {
+      "term": "No VGM no load",
+      "zh": "无 VGM 不得装船",
+      "def": "Availability of VGM to master and terminal sufficiently in advance for stowage plan is a condition for loading (not an entitlement to load)."
+    }
+  ],
+  "who_pays": {
+    "typical": "Shipper obtains/pays for weighing; if terminal weighs on behalf of shipper, commercial parties apportion cost (Circ.1475 §13 contingencies)."
+  },
+  "who_responsible": [
+    "Shipper: obtain & document VGM, submit in time.",
+    "Master & terminal: must have VGM before loading under SOLAS.",
+    "National competent authority: Method 2 certification framework."
+  ],
+  "common_pitfalls": [
+    "Confusing SI cargo weight with VGM — they can differ; large gaps trigger carrier WDF (commercial).",
+    "Late VGM → rolled cargo / missed cutoff.",
+    "Inventing national tolerances (e.g. folklore ±1000 kg) without statute URL.",
+    "Assuming terminal reweigh always replaces shipper duty — contingencies are commercial."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "org": "IMO",
+      "note": "Official VGM page — SOLAS VI/2, Methods 1/2, shipper duty (fetched 2026-10-31)"
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1%20Circ.1475.pdf",
+      "org": "IMO",
+      "note": "MSC.1/Circ.1475 Guidelines"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/mgn-534-mf-guidance-on-the-implementation-of-the-solas-vi-regulation-2-amendment-requiring-the-verification-of-the-gross-mass-of-packed-containers",
+      "org": "UK MCA",
+      "note": "MGN 534 national implementation guidance"
+    },
+    {
+      "url": "https://jdih.kemenhub.go.id/",
+      "org": "Kemenhub JDIH",
+      "note": "ID PM 25/2022 replaces PM 53/2018 — no VGM no load"
+    },
+    {
+      "url": "https://xxgk.mot.gov.cn/2020/jigou/haishi/202006/t20200630_3319189.html",
+      "org": "China MOT MSA",
+      "note": "CN SOLAS VGM implementation narrative (country pack)"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "field": "countries.CN.vgm",
+      "note": "required_for_load; tolerance narrative ±5%/≤1t — verify current MSA text"
+    },
+    {
+      "iso2": "ID",
+      "field": "countries.ID.vgm",
+      "note": "PM 25/2022; terminal reweigh ≥5% often refuse load (national dossier)"
+    },
+    {
+      "iso2": "SG",
+      "note": "Skeleton — SOLAS applies; local filing channels TBD"
+    },
+    {
+      "iso2": "US",
+      "note": "Skeleton — SOLAS applies via Coast Guard / industry practice"
+    },
+    {
+      "iso2": "NL",
+      "note": "Skeleton"
+    },
+    {
+      "iso2": "DE",
+      "note": "Skeleton"
+    },
+    {
+      "iso2": "KR",
+      "note": "Skeleton"
+    },
+    {
+      "iso2": "MY",
+      "note": "Skeleton"
+    },
+    {
+      "iso2": "AE",
+      "note": "Skeleton"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "CNSHA",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "CNSZX",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "CNNGB",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "IDTPP",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "IDSUB",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "SGSIN",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "NLRTM",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "DEHAM",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "USLAX",
+      "note": "Deep pack inherits country VGM"
+    },
+    {
+      "locode": "USNYC",
+      "note": "Deep pack inherits country VGM"
+    }
+  ],
+  "faq": [
+    {
+      "q": "谁必须交 VGM？",
+      "a": "SOLAS 下责任在 shipper（提单/运输合同托运人）。货代可代办，但法律责任框架仍指向 shipper 定义（Circ.1475）。"
+    },
+    {
+      "q": "没有 VGM 能装船吗？",
+      "a": "原则上不能。指南允许船长与码头代表代为取得 VGM（如码头称重），费用分摊由商业约定——不是免费豁免。"
+    },
+    {
+      "q": "Method 1 / 2 怎么选？",
+      "a": "Method 1 整柜称重；Method 2 分项累加+皮重，且方法须经装箱完成国主管机关认可。选法看设施与国别规则。"
+    },
+    {
+      "q": "近 7 天 X 几乎没人聊 VGM，还重要吗？",
+      "a": "重要。热度低说明是「默会规则」而非热点八卦；装船阻断不依赖社媒刷屏。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "counts": 2,
+      "archive_result_count": 25
+    },
+    "samples": [
+      {
+        "url": "https://x.com/cargolinked_com/status/2111381707144245751",
+        "kind": "edu",
+        "note": "No VGM → box rolls"
+      },
+      {
+        "url": "https://x.com/FirstExplog/status/2106043136019431808",
+        "kind": "promo/edu",
+        "note": "No VGM. No loading."
+      },
+      {
+        "url": "https://x.com/JohnSJamesCo/status/1720044368428450261",
+        "kind": "media",
+        "note": "Mis-declaration rampant narrative via Loadstar"
+      },
+      {
+        "url": "https://x.com/BartGonnissen/status/1895056979250323950",
+        "kind": "organic",
+        "note": "Wrong VGM used in stow plan anecdote"
+      }
+    ],
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "vgm_solas": "≥23_capped"
+    }
+  },
+  "gaps": [
+    "National Method-2 authority lists incomplete",
+    "Dock reweigh priority rules per terminal thin"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

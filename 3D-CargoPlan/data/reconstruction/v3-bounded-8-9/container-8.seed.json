@@ -1,0 +1,39 @@
+{
+  "container": {
+    "id": "container-1",
+    "dimensions": {
+      "length": 11600,
+      "width": 2250,
+      "height": 2500
+    },
+    "maxWeight": 28000,
+    "loadingRules": {
+      "clearanceMm": 5,
+      "supportGapMm": 5,
+      "supportMechanism": "pdf-clearance-projection",
+      "heightExceptions": {
+        "门窗:W02:r16:u60": 2560,
+        "门窗:W02:r16:u61": 2560,
+        "门窗:W02:r16:u62": 2560,
+        "门窗:W02:r16:u63": 2560,
+        "门窗:W02:r16:u64": 2560,
+        "门窗:W02:r16:u65": 2560,
+        "门窗:W02:r16:u66": 2560,
+        "门窗:W02:r16:u67": 2560,
+        "门窗:W02:r16:u68": 2560,
+        "门窗:W02:r16:u69": 2560,
+        "门窗:W02:r16:u70": 2560,
+        "门窗:W02:r16:u71": 2560
+      },
+      "offsetStackScope": "item-only",
+      "supportCriterion": "centroid-hull"
+    },
+    "items": [],
+    "totalWeight": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  "attempts": [],
+  "accepted": 0,
+  "rejected": 0
+}

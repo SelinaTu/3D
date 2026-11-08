@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "purpose": "attention_topics_exhaustive_v1.2",
+  "count_queries": 18,
+  "archive_queries": 8,
+  "counts": {
+    "dd_freetime_broad": 70,
+    "vgm_solas": 2,
+    "odol": 36,
+    "blank_sailing": 24,
+    "red_sea": 1200,
+    "ispm15": 8,
+    "customs_hold_dd": 6,
+    "wdf_restow_accessorial": 3,
+    "zh_detention": 5,
+    "rolled_shutout": 19,
+    "zh_shuai": 2,
+    "misdeclaration": 1,
+    "abandon": 56,
+    "etle_odol": 0,
+    "scfi_rates": 65,
+    "free_time_strict": 53,
+    "cre_rail": 2,
+    "customs_storage": 10
+  },
+  "archive_result_counts": {
+    "demurrage_edu": 23,
+    "odol": 20,
+    "blank_sailing": 16,
+    "vgm": 25,
+    "rolled": 20,
+    "ispm15": 18,
+    "abandon_zh": 16,
+    "wdf_accessorial": 19
+  },
+  "archive_raw_sum": 157,
+  "notes": [
+    "WDF archive mostly courier noise — prefer Maersk URLs",
+    "ISPM15 archive promo-heavy",
+    "abandon ZH noisy; keep prior organic URL from 09/10",
+    "Red Sea 1200 = market attention not statute",
+    "ETLE+ODOL exact 7d = 0"
+  ]
+}

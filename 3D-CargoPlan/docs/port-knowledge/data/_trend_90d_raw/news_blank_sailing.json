@@ -1,0 +1,156 @@
+{
+  "data": [
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "A container ship leans dramatically over the waves, stacks of cargo hanging precariously off the side. Photos of the tense scene prompted questions about what happens to the goods inside.",
+      "id": "2115782981239636011",
+      "name": "Container Ship Tilts in Storm, Sparking Cargo Insurance Talk",
+      "summary": "Images from the UNI Florida, which arrived at Jebel Ali in the UAE with toppled containers after rough weather, showed red and blue stacks shifting dangerously amid crashing waves. Users noted that cargo owners rarely get refunds from carriers due to rules like the Hague-Visby Rules, which treat severe weather as a 'peril of the sea' if the ship was prepared. Instead, shippers rely on marine cargo insurance for coverage, with claims requiring detailed documentation; without it, losses are often permanent. The discussion highlighted general average principles and why businesses build insurance into shipping costs.",
+      "updated_at": "2026-10-29T19:01:18.000Z",
+      "url": "https://x.com/i/trending/2115782981239636011"
+    },
+    {
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Crime"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "She spent over ₦2 million on shipping dried fish from Nigeria, only to unpack bags filled mostly with wooden sticks. Her shock was clear as she sifted through the disappointing contents.",
+      "id": "2107466721997312475",
+      "name": "Nigerian Woman Finds More Wood Than Fish in ₦2.4 Million Shipment",
+      "summary": "A woman abroad ordered dried fish from Nigeria costing around ₦2.4 million total, but discovered large wooden pieces dominated the packages, apparently added to inflate the weight sold by the kilogram. Videos and images showed her inspecting bowls of shriveled fish mixed with thick wood chunks, prompting widespread outrage online. Many called it deliberate fraud that damages trust in exports to diaspora buyers, with some noting sellers cut wood specifically for this purpose, while a few suggested it might aid packaging but not to this extreme.",
+      "updated_at": "2026-10-07T14:52:06.000Z",
+      "url": "https://x.com/i/trending/2107466721997312475"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "US Energy Secretary Chris Wright shared a practical plan to turn idled 'shadow fleet' tankers into legal carriers for non-sanctioned oil.",
+      "id": "2112293570472292456",
+      "name": "Trump Administration Opens Review for Repurposing Sanctioned Tankers",
+      "summary": "The administration is setting up a case-by-case process for private investors to buy, refurbish, and operate sanctioned vessels strictly for legitimate crude, aiming to boost the available tanker pool. Wright estimated dozens or even hundreds of ships could shift from the 'bad-guy fleet' to the 'good-guy fleet' amid record-high oil volumes at sea and surging freight rates, like $1.37 million per day for Middle East to China routes. Analysts note limited short-term impact, with only about 24 supertankers realistically able to return due to age, ownership issues, and certification hurdles, while insurance challenges persist.",
+      "updated_at": "2026-10-20T01:24:22.000Z",
+      "url": "https://x.com/i/trending/2112293570472292456"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "A red 20-foot shipping container slides perfectly into a wide tunnel on a sleek white chassis powered by Tesla batteries. The Boring Company is taking its underground tech from concrete segments to full cargo hauling.",
+      "id": "2112367158009454677",
+      "name": "Boring Company Adapts Prufrock Trucks for Shipping Container Freight",
+      "summary": "The company modified its Prufrock Liner Truck to carry standard 20-foot containers, fitting them snugly into circular tunnels at speeds up to 12 mph with remote piloting. Current payload stands at 45,000 pounds, aiming for 75,000 by January 2027, building on a platform previously used for tunnel supports. Online reactions mix enthusiasm for direct port-to-factory routes free of road delays with questions on rails for better efficiency, echoing Chicago's old freight tunnels that ran cargo for decades.",
+      "updated_at": "2026-10-20T05:35:08.000Z",
+      "url": "https://x.com/i/trending/2112367158009454677"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Travel"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "As Mein Schiff 3 pulled away from the pier with over 2,400 passengers aboard, a fierce gust from Storm Manja shoved the massive liner sideways into docked container vessels.",
+      "id": "2114640163599159329",
+      "name": "Storm Gust Pushes Mein Schiff 3 into Container Ships in Bremerhaven",
+      "summary": "The 293-meter TUI Cruises ship collided with moored ships like the MSC Victorine around 5:30 p.m. on October 25 in Bremerhaven, Germany, while departing for a Canary Islands voyage. The impact tore a 10-meter breach in one container ship's hull above the waterline, damaged deck structures, and wrecked several lifeboats on the cruise liner, though no one was hurt and no flooding occurred. TUI Cruises canceled the trip, disembarked passengers for onward travel, and all vessels face departure bans during inspections and an official probe into procedures amid the high winds.",
+      "updated_at": "2026-10-26T21:15:18.000Z",
+      "url": "https://x.com/i/trending/2114640163599159329"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "All 18 crew members felt the impacts as three fast-moving drones struck their vessel, but Bulgarian rescuers pulled them safely from the water unharmed.",
+      "id": "2115419415756128743",
+      "name": "Israeli-Chartered Ship Sinks in Black Sea After Drone Strikes Off Bulgaria",
+      "summary": "The Liberian-flagged Contship Jet, chartered by Israel's ZIM shipping company, sank Wednesday night about 20 nautical miles off Bulgaria's Cape Kaliakra while heading from Haifa to Romania's Constanța port. It carried 421 containers with hazardous materials like lithium-ion batteries and chemicals; some fell overboard during the attack, which analysts link to Russian drone designs. This is the fifth such strike on commercial ships in Bulgaria's economic zone this month amid the Russia-Ukraine conflict, prompting NATO neighbors to call for better patrols and a global maritime truce while urging caution on blame.",
+      "updated_at": "2026-10-30T11:03:33.000Z",
+      "url": "https://x.com/i/trending/2115419415756128743"
+    },
+    {
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Cryptocurrency"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Bored Ape holders tore into free Mudwater packs dropped at ApeFest 2026, uncovering rare foils and 1/1 grails that turned into quick value.",
+      "id": "2113838501989122098",
+      "name": "Bored Ape Holders Chase Rare Mudwater Cards from ApeFest Airdrop",
+      "summary": "Yuga Labs airdropped Totems to every Bored Ape and Mutant Ape holder during ApeFest in mid-October, letting them claim up to 10 free packs each from the Swamp Origins set—a mix of Solana NFTs and physical cards. Packs with 10 cards from a 120-card base have seen floor prices jump from 0.4 SOL to near 0.7 SOL, with collectors sharing epic pulls like 'The Prophet' and completing the first Master Set. Adam Weitsman offered a $100,000 bounty for the first unique 1/1, while some ripped packs until 4 a.m. with friends, and trades feed ApeCoin back to holders via a 2.5% fee.",
+      "updated_at": "2026-10-25T02:27:03.000Z",
+      "url": "https://x.com/i/trending/2113838501989122098"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "id": "2108600787995652232",
+      "name": "Cost of hiring oil tanker from US to China reaches $80 million, exceeding SpaceX Falcon 9 launch cost of $74 million",
+      "summary": "A Bloomberg report indicates that the cost to hire an oil tanker for the journey from the US to China has hit $80 million, surpassing the $74 million price for a standard SpaceX Falcon 9 rocket launch. This surge is attributed to stressed global energy logistics and limited tanker availability, as referenced by sources like Gibson Shipbrokers.",
+      "updated_at": "2026-10-10T01:43:04.000Z",
+      "url": "https://x.com/i/trending/2108600787995652232"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "The massive MV Hamouna eased into Lamu Port after a 14-nautical-mile channel journey, unloading a record 5,200 containers in one go.",
+      "id": "2106706881221914818",
+      "name": "Lamu Port Sets East Africa Record with 5,200 TEU Discharge from Giant Iranian Ship",
+      "summary": "Kenya's Lamu Port welcomed the 366-metre Iranian-flagged MV Hamouna on Saturday, discharging about 5,200 TEUs—the largest single-vessel container offload in East Africa history. Kenya Ports Authority Managing Director Captain William Ruto called it proof of Lamu's rising dominance, surpassing even Mombasa's records with its 17.5-metre deep berths for ultra-large ships. The event highlights Lamu's role as a transshipment hub, with future boosts expected from the nearby $16 billion Dangote East Africa Refinery.",
+      "updated_at": "2026-10-04T11:28:00.000Z",
+      "url": "https://x.com/i/trending/2106706881221914818"
+    },
+    {
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Crime"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Out in the vast Arabian Sea, the Pakistan Navy ship YARMOOK spotted two suspicious dhows far from shore and uncovered hidden drug stashes worth nearly $100 million.",
+      "id": "2107843596682686501",
+      "name": "Pakistan Navy Seizes $96 Million Narcotics in Arabian Sea Operations",
+      "summary": "On or around October 7, 2026, YARMOOK intercepted the vessels and recovered 850 kilograms of methamphetamine, plus 2,000 kilograms of hashish and cannabis from concealed compartments. The haul, valued at $96 million on the street, was taken into custody for legal proceedings. These operations showcase the navy's steady patrols to secure maritime routes and disrupt smuggling networks linked to regional trafficking.",
+      "updated_at": "2026-10-07T18:47:31.000Z",
+      "url": "https://x.com/i/trending/2107843596682686501"
+    }
+  ],
+  "meta": {
+    "result_count": 10
+  }
+}

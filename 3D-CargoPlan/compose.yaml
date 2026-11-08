@@ -1,0 +1,7 @@
+#created 11/08/2026
+services:
+  packing:
+    build: .
+    ports:
+      - "127.0.0.1:3001:3001"
+    restart: unless-stopped

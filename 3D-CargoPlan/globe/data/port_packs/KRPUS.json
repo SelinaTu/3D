@@ -1,0 +1,36 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "industry",
+  "port_id": "KRPUS",
+  "port_name": "Busan",
+  "port_name_zh": "釜山",
+  "country": "KR",
+  "tier": "P0",
+  "fine_profile": "link_next_leg",
+  "vgm": {
+    "required_for_load": true
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    }
+  ],
+  "fine_refs": [],
+  "commercial_cost_hints": [],
+  "flags": {
+    "hub_transship": true
+  },
+  "notes": [
+    "KR road overweight schedule 待核实",
+    "No stuffing ban schema"
+  ],
+  "sources": [],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/busan.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

@@ -1,0 +1,8443 @@
+{
+  "inputSeeds": [
+    {
+      "source": 1,
+      "path": "data/reconstruction/v3/container-1/result.json",
+      "sha256": "dfb65d8bbf1e0cad2f6e6f7ac61e726d051382a5508e153a4cc494ced7eff7f2"
+    },
+    {
+      "source": 2,
+      "path": "data/reconstruction/v3/container-2/result.json",
+      "sha256": "f9a5a3248037f925a8ac326da72e3d2019a4b3601bb4280fee07e3f3546b4914"
+    },
+    {
+      "source": 3,
+      "path": "data/reconstruction/v3/container-3/result.json",
+      "sha256": "ee252c585ba3acde673e27d5d97104b26e16c942a0f0fbfcbf1fe769e661af33"
+    },
+    {
+      "source": 4,
+      "path": "data/reconstruction/v3/container-4/result.json",
+      "sha256": "d4d0cfdbc44517b1c35f9ea4206576b2766ccbdc5840d5f3dfe773cc09ebe485"
+    },
+    {
+      "source": 5,
+      "path": "data/reconstruction/v3/container-5/result.json",
+      "sha256": "a18eccc1145c8518cf178784da4308dcab9dec7d45c7d81f8d43846c981dd9b9"
+    },
+    {
+      "source": 6,
+      "path": "data/reconstruction/v3/container-6/result.json",
+      "sha256": "3ad79f73807b1c79c70eb24899e8bed31078a027fbcdc6d09a9fdb48367a911d"
+    },
+    {
+      "source": 7,
+      "path": "data/reconstruction/v3/container-7/result.json",
+      "sha256": "660613d95a25824f8bf9fe06844ef72973b872d405cdc7fb7b6f7226e440e247"
+    },
+    {
+      "source": 8,
+      "path": "data/reconstruction/v3/container-8/result.json",
+      "sha256": "70c32dd067c2dbc14fbee7b7b39f58f2af03bc6472a2ccb66883a8bb9f0b535d"
+    },
+    {
+      "source": 9,
+      "path": "data/reconstruction/v3/container-9/result.json",
+      "sha256": "8ef1416ce6715a5006172986e45f9c4c10e1526b4425a598111bb3d54a894112"
+    },
+    {
+      "source": 10,
+      "path": "data/reconstruction/v3/container-10/result.json",
+      "sha256": "64bb293cc2a05f3719b49c61611e82d600ee2d388182bd1292139070ba20cc35"
+    },
+    {
+      "source": 11,
+      "path": "data/reconstruction/v3/container-11/result.json",
+      "sha256": "fa6b66e4e28de3a16c7d20131bd8817abd5e9ce69782ee112c394448df55c3ca"
+    }
+  ],
+  "provenance": {
+    "status": "ready",
+    "projectRoot": "/Users/lege/Documents/ChatGPT/集装箱运筹",
+    "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v3-contract.json",
+    "contractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+    "calibrationHash": "2ef3676320217eb6a89f97f5e887eb4409a5d6b957ac9ea41098de3e51a0e224",
+    "auditPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/calibration/source-baseline.json",
+    "auditSha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547",
+    "manifestPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+    "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+    "inputSha256": "a156204f41e25cd4ce55b81da0c4d7aa50330a6f23ae1a80205270968f78c831",
+    "configSha256": "a02119f641f5b4ebdc3f0a18117323aa7b319d747894d8a6ed7b739e104581dc",
+    "sourceFiles": [
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reference/manual-11-container-baseline.pdf",
+        "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+        "role": "pdf"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/sample-cargo.xlsx",
+        "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+        "role": "excel"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+        "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+        "role": "normalized-manifest"
+      }
+    ],
+    "support": {
+      "gapMm": 5,
+      "mechanism": "pdf-clearance-projection",
+      "confirmed": true
+    },
+    "pdfBaseline": {
+      "containerCount": 11,
+      "originalTailContainerNumber": 11,
+      "originalTailSolidVolumeMm3": 41549138446.5,
+      "permutationInvariantMinSolidVolumeMm3": 39312162536,
+      "sortedFirstTenMinimumSolidUtilization": 0.6352022895019157,
+      "allocationSha256": "cb2cd1b008a1e2d9cd6f83b866d63de67abe1cf5a5585d56fb653b3b11695c45"
+    }
+  },
+  "accepted": [
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "sourceContainer": 6,
+      "targetSourceContainer": 8,
+      "position": {
+        "x": 10440,
+        "y": 1795,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "sourceContainer": 6,
+      "targetSourceContainer": 8,
+      "position": {
+        "x": 10440,
+        "y": 1950,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 2070,
+        "y": 1187,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 90
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 2225,
+        "y": 1187,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 90
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 6798,
+        "y": 1524,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 7833,
+        "y": 1524,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 8323.5,
+        "y": 2099,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 9358.5,
+        "y": 2099,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "sourceContainer": 6,
+      "targetSourceContainer": 10,
+      "position": {
+        "x": 10393.5,
+        "y": 2099,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "sourceContainer": 6,
+      "targetSourceContainer": 6,
+      "position": {
+        "x": 2678,
+        "y": 1338,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "sourceContainer": 6,
+      "targetSourceContainer": 6,
+      "position": {
+        "x": 3713,
+        "y": 1338,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "sourceContainer": 6,
+      "targetSourceContainer": 6,
+      "position": {
+        "x": 4748,
+        "y": 1338,
+        "z": 0
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W04(1F):r6:u27",
+      "sourceContainer": 7,
+      "targetSourceContainer": 1,
+      "position": {
+        "x": 0,
+        "y": 1310,
+        "z": 1076
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W04(1F):r6:u28",
+      "sourceContainer": 7,
+      "targetSourceContainer": 1,
+      "position": {
+        "x": 0,
+        "y": 1435,
+        "z": 1076
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W04(2F):r7:u31",
+      "sourceContainer": 7,
+      "targetSourceContainer": 1,
+      "position": {
+        "x": 0,
+        "y": 1560,
+        "z": 1076
+      },
+      "orientation": "standing",
+      "rotation": 0
+    },
+    {
+      "itemId": "门窗:W04(2F):r7:u32",
+      "sourceContainer": 7,
+      "targetSourceContainer": 1,
+      "position": {
+        "x": 1488,
+        "y": 1664,
+        "z": 1076
+      },
+      "orientation": "standing",
+      "rotation": 0
+    }
+  ],
+  "attempts": [
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 44
+    },
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 35
+    },
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 38
+    },
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 37
+    },
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W11:r14:u13",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 26
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u14",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u15",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u16",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u17",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u18",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u19",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u11",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 26
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u12",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u13",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u14",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u15",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 44
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 36
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 48
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 45
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 41
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 43
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 30
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 30
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 2,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 3,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 4,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 5,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 8,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 9,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 10,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 11,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 6,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 7,
+      "mode": 0,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W04(1F):r6:u27",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 47
+    },
+    {
+      "itemId": "门窗:W04(1F):r6:u28",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 33
+    },
+    {
+      "itemId": "门窗:W04(2F):r7:u31",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 110
+    },
+    {
+      "itemId": "门窗:W04(2F):r7:u32",
+      "targetSourceContainer": 1,
+      "mode": 0,
+      "accepted": true,
+      "elapsedMs": 39
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 50
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 28
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 48
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 38
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 27
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 29
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 71
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 39
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 45
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 37
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 27
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 34
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 50
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 39
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 1,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 2,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 3,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 4,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 5,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 8,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 9,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 10,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 11,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 6,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 7,
+      "mode": 3,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 83
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 36
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 45
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 34
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 41
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 29
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 39
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 34
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 41
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 36
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 27
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 1,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 2,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 3,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 4,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 5,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 8,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 9,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 10,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 11,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 6,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 7,
+      "mode": 1,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 32
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u16",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u17",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 19
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u18",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u19",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u20",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u21",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u22",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 32
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W12:r15:u23",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 20
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W12:r15:u24",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 25
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 32
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 43
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 45
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W01:r21:u24",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 30
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 45
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 47
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 22
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 23
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 21
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 12
+    },
+    {
+      "itemId": "门窗:W01:r21:u25",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 24
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u12",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u13",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u14",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u15",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 11
+    },
+    {
+      "itemId": "门窗:W07:r9:u16",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 8
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u17",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 0
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u18",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 2
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 1
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W07:r9:u19",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 39
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u10",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 18
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W06:r20:u11",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 17
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 7
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u34",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 10
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 16
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 13
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u35",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 1,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 2,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 9
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 3,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 15
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 4,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 14
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 5,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 8,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 5
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 9,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 10,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 6
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 11,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 6,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 3
+    },
+    {
+      "itemId": "门窗:W11:r14:u36",
+      "targetSourceContainer": 7,
+      "mode": 4,
+      "accepted": false,
+      "elapsedMs": 4
+    }
+  ],
+  "elapsedMs": 11074,
+  "remainingIds": [
+    "门窗:W12:r15:u16",
+    "门窗:W12:r15:u17",
+    "门窗:W12:r15:u18",
+    "门窗:W12:r15:u19",
+    "门窗:W12:r15:u20",
+    "门窗:W12:r15:u21",
+    "门窗:W12:r15:u22",
+    "门窗:W12:r15:u23",
+    "门窗:W12:r15:u24",
+    "门窗:W01:r21:u24",
+    "门窗:W01:r21:u25",
+    "门窗:W07:r9:u12",
+    "门窗:W07:r9:u13",
+    "门窗:W07:r9:u14",
+    "门窗:W07:r9:u15",
+    "门窗:W07:r9:u16",
+    "门窗:W07:r9:u17",
+    "门窗:W07:r9:u18",
+    "门窗:W07:r9:u19",
+    "门窗:W06:r20:u10",
+    "门窗:W06:r20:u11",
+    "门窗:W11:r14:u34",
+    "门窗:W11:r14:u35",
+    "门窗:W11:r14:u36"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "47 件货物未装载；必须处理未装载清单后才能按本方案完整发运。",
+      "原表“尽量靠柜门”为软偏好，当前未优化近门位置。",
+      "已按原始授权空腔扣除实体占用体积；嵌套仅允许完整落在空腔内且类别、方向和间隙均符合的货物。",
+      "本方案采用 PDF 几何预留与上下实体投影关系核算假定承托和载荷；保持 5 mm 间隔，未新增实物隔垫，未证明空气间隔可传力，现场实际承托尚未证实。",
+      "支撑投影按真实实体面计算，不将孔内空白计作支撑；均匀密度与面积比例载荷分配属于建模假设，现场承托、绑扎、运输动力载荷及实际包装强度需另行验证。"
+    ],
+    "scope": "geometry-and-load-assumptions"
+  }
+}

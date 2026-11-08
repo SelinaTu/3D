@@ -1,0 +1,5 @@
+{
+  "electron_version": "45.2.1",
+  "fresh_npm_ci": "passed; lifecycle scripts gated by local npm policy",
+  "native_validation_runtime": "Reused existing project Electron dist of the exact lockfile version; no npm security settings changed."
+}

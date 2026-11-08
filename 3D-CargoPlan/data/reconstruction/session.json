@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "manual-eleven-replay-2026-10-17",
+  "startedAt": "2026-10-17T00:08:20.077Z",
+  "phase": "verified-improved-eleven-container-round-two-delivery",
+  "optimizationUnlocked": true,
+  "previousCommit": "30c9ae4",
+  "userObjective": "完整有效优先；减少柜数，或同11柜实质缩小尾柜并提高前10瓶颈利用率；排除仅重新编号，保留完整计算过程",
+  "inputs": {
+    "pdf": {
+      "path": "data/reference/manual-11-container-baseline.pdf",
+      "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740"
+    },
+    "manifest": {
+      "path": "data/demo-items.json",
+      "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf"
+    },
+    "audit": {
+      "path": "data/calibration/source-baseline.json",
+      "sha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547"
+    },
+    "previousContract": {
+      "path": "data/calibration/packing-contract.json",
+      "sha256": "366e9bd20bc535544c4ef21ffba5702c4bfd22d9f79ea2a309b49acfdad776f5"
+    }
+  },
+  "replayLevels": {
+    "exact": "原始逐件XYZ/朝向可回放；目前PDF只有栅格图，没有坐标文件",
+    "functional": "固定原PDF每柜货物ID集合，在同一规则版本下生成完整且独立校验通过的11柜坐标"
+  },
+  "unlockCondition": {
+    "globalResearch": "Recorded agent workflow decision within current user objective",
+    "delivery": "All 1371 unique units, same-model independent validation, and genuine improvement over original 11-bin reference"
+  },
+  "optimizationOrder": [
+    "完整有效",
+    "柜数最少",
+    "同11柜时尾柜体积最小",
+    "前10柜最低及平均占用率提高"
+  ],
+  "optimalityClaim": {
+    "current": "best-found-feasible-plan-not-global-optimum",
+    "requirement": "可行上界与相同模型下可证明下界相等；否则只报告当前最好可行解及差距"
+  },
+  "retention": {
+    "rawAttemptLogs": true,
+    "configurationAndSourceDigests": true,
+    "randomSeed": true,
+    "elapsedAndCpuTime": true,
+    "rejectedCandidatesAndReasons": true,
+    "checkpointAndBestSolution": true
+  },
+  "currentCheckpoint": {
+    "at": "2026-10-18T07:58:10.700Z",
+    "path": "data/optimization/v3-r2-delivery/current-best.json",
+    "sha256": "fa4fa9261fdcc0c7e1a852eb3455299f2e268695d9690a379e950058c68014d5",
+    "physicalLayoutSha256": "edfee104844d2e8230c1417bd1eda12673b8268596691527342b09663375ac82",
+    "containers": 11,
+    "placedItems": 1371,
+    "unpackedItems": 0,
+    "independentlyValid": true,
+    "tailSolidVolumeM3": 35.58199734,
+    "front10MinimumSolidUtilization": 0.6621846212413793,
+    "globalOptimalityProven": false
+  },
+  "modelConflict": {
+    "status": "independently-reviewed-conditional-incompatibility",
+    "sourceContainerNumber": 8,
+    "model": "pdf-replay-v2-item-offset",
+    "conditions": [
+      "three-axis-5mm",
+      "80-percent-material-bottom-support",
+      "whole-item-authorized-cavity-only"
+    ],
+    "widthNecessaryDemandMm": 5230,
+    "widthNecessaryCapacityMm": 5175.5,
+    "noW06FlatFloorLowerBoundM2": 26.13304,
+    "containerFloorM2": 26.1,
+    "scope": "The fixed original container 8 manifest under v2; neither original field loading nor every possible 11-container allocation is proved infeasible.",
+    "pendingDecision": null,
+    "resolvedBy": "Explicitly authorized v3 support criterion, not a v2 feasibility claim"
+  },
+  "activeContract": "data/reconstruction/model-v3-contract.json",
+  "latestUserAuthorization": {
+    "onlyChangedConfigKey": "supportCriterion",
+    "userReply": "好的取消这个规则，继续推进，我不是一定要10柜子，而是要比眼下的11柜更优",
+    "removedRule": "minimum 80 percent material-bottom support area",
+    "retained": "all other dimensions, identity, clearances, orientations, cavity authorization, stack compatibility, counts and load limits",
+    "priorContractSha256": "b9d6731c3ce5ff617e9d011933854ed611b7bcf080d48916c76386ed009cab7f"
+  },
+  "originalReplayGateSatisfied": false,
+  "workflowRecord": {
+    "path": "data/reconstruction/workflow.json",
+    "at": "2026-10-18T02:01:53.318Z",
+    "calibrationHash": "2ef3676320217eb6a89f97f5e887eb4409a5d6b957ac9ea41098de3e51a0e224"
+  },
+  "originalUnlockCondition": {
+    "allElevenContainersComplete": true,
+    "noCrossContainerCargoMoves": true,
+    "all1371UnitsUnique": true,
+    "independentValidationPassed": true,
+    "sameVersionedModel": true
+  },
+  "currentObjectiveAchieved": true,
+  "historicalFixedReplayCheckpoint": {
+    "at": "2026-10-17T15:15:45.451Z",
+    "completeContainers": [
+      1,
+      2,
+      3,
+      10,
+      11
+    ],
+    "selectedLoaded": 1358,
+    "expectedUnits": 1371,
+    "remainingUnits": 13
+  },
+  "previousGlobalCheckpoint": {
+    "at": "2026-10-18T03:02:46.403Z",
+    "path": "data/optimization/v3-tail-independent/best-complete.json",
+    "sha256": "0a274506802290cf613caac102454d81a90ca458beb6e6088986e118d148f897",
+    "physicalLayoutSha256": "b6728a6fad670bb1bf0eb3bc51ab2fb652007212d9bdcebce277116a60edfaef",
+    "containers": 11,
+    "placedItems": 1371,
+    "unpackedItems": 0,
+    "independentlyValid": true,
+    "tailSolidVolumeM3": 36.71675418,
+    "front10MinimumSolidUtilization": 0.6514719775632184,
+    "originalSortedTailSolidVolumeM3": 39.312162536,
+    "originalFront10MinimumSolidUtilization": 0.6352022895019157,
+    "globalOptimalityProven": false
+  }
+}

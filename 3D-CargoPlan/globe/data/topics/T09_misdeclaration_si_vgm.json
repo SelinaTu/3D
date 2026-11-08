@@ -1,0 +1,136 @@
+{
+  "id": "T09_misdeclaration_si_vgm",
+  "title_zh": "错报 / SI≠VGM / 品名重量不一致",
+  "title_en": "Misdeclaration · SI vs VGM · description mismatch",
+  "product_use": "deep_field",
+  "confidence": "medium",
+  "why_attention": {
+    "summary_zh": "错报/SI≠VGM。近 90 天抽样 ≥23，但大量菲律宾政坛 SALN misdeclaration 噪声；货描错报有机帖稀少。近 7 天 counts=1。",
+    "heat_7d": {
+      "misdeclaration": 1
+    },
+    "heat_90d": {
+      "misdeclaration": "≥23_mostly_non_cargo"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "Misdeclaration",
+      "zh": "错报/瞒报",
+      "def": "Wrong weight, commodity, hazard class, or quantity vs actual — safety & customs exposure."
+    },
+    {
+      "term": "SI",
+      "zh": "装船指示",
+      "def": "Shipping Instruction — docs weight may differ from VGM; carriers may fee large gaps (WDF)."
+    },
+    {
+      "term": "Packing list alignment",
+      "zh": "箱单一致",
+      "def": "Packing list ↔ load plan ↔ BL ↔ VGM consistency reduces exam/misdeclare risk."
+    }
+  ],
+  "who_pays": {
+    "typical": "Shipper faces carrier fees, possible authority penalties, cargo claims; amounts jurisdiction-specific — do not invent."
+  },
+  "who_responsible": [
+    "Shipper declarations",
+    "Forwarder QC",
+    "Carrier acceptance checks"
+  ],
+  "common_pitfalls": [
+    "Updating VGM without SI",
+    "Hazardous misclass",
+    "Using estimated weights as VGM Method 2 without certified process"
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "org": "IMO",
+      "note": "Misdeclared mass safety rationale"
+    },
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/dangerousgoods.aspx",
+      "org": "IMO IMDG",
+      "note": "Dangerous goods declaration regime (high-level)"
+    },
+    {
+      "url": "https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia",
+      "org": "Maersk",
+      "note": "Commercial consequence of SI/VGM gap"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "note": "Customs packing list align checklist"
+    },
+    {
+      "iso2": "ID",
+      "note": "VGM + WDF"
+    },
+    {
+      "iso2": "US",
+      "note": "CBP + carrier"
+    },
+    {
+      "iso2": "NL",
+      "note": "EU customs"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "CNSHA"
+    },
+    {
+      "locode": "IDTPP"
+    },
+    {
+      "locode": "USLAX"
+    },
+    {
+      "locode": "NLRTM"
+    }
+  ],
+  "faq": [
+    {
+      "q": "SI 和 VGM 必须完全一样吗？",
+      "a": "应尽量一致。船司可对超过阈值的差异收 WDF（商业）；SOLAS 关心的是装船用的验证总质量真实性。"
+    },
+    {
+      "q": "错报一定有固定罚金吗？",
+      "a": "不一定。可能是船司费、海关处罚、民事索赔等不同机制——禁止用传闻金额填 Port Pack。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "counts": 1
+    },
+    "samples": [
+      {
+        "url": "https://x.com/JohnSJamesCo/status/1720044368428450261",
+        "kind": "media",
+        "note": "Weight mis-declaration industry article share"
+      },
+      {
+        "url": "https://x.com/ONeillLogistics/status/1545408023010615297",
+        "kind": "corp",
+        "note": "Carriers crack down on wrong weights / late VGM"
+      }
+    ],
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "misdeclaration": "≥23_mostly_non_cargo"
+    }
+  },
+  "gaps": [
+    "National criminal/admin misdeclare schedules not compiled"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

@@ -1,0 +1,74 @@
+{
+  "SOLAS-VGM": {
+    "checked_at": "2026-10-31",
+    "source": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+    "status": "source_checked",
+    "summary_zh": "托运人负责提供装箱集装箱核实总质量，并提前提交船方和码头用于配载；VGM 是装船条件。",
+    "conditions_zh": [
+      "方法一：对装箱后的集装箱称重；方法二：按获批方法累加货物、包装、加固材料及箱体皮重。",
+      "取得 VGM 不等于保证装船，仍需满足其他作业条件。"
+    ],
+    "effective": "2016-07-01"
+  },
+  "ID-WDF-MAERSK": {
+    "checked_at": "2026-10-31",
+    "source": "https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia",
+    "status": "source_checked",
+    "summary_zh": "Maersk 印尼重量差异费公告列示 USD 300 / 柜。这是承运人商业费用，不是政府行政罚款。",
+    "conditions_zh": [
+      "初次或更改后的运输指示中申报的货重加皮重，与 VGM 的正负差异超过 3,000 kg。",
+      "VGM 超过 CSC 铭牌的最大总质量。",
+      "VGM 低于集装箱皮重。"
+    ],
+    "effective": "公告 2025-07-31；所述修订政策自 2024-10-15 生效"
+  },
+  "SG-DG": {
+    "title": "新加坡危险货物申报",
+    "checked_at": "2026-10-31",
+    "status": "source_checked",
+    "source": "https://www.mpa.gov.sg/port-marine-ops/operations/gas-free-hazardous-cargo-info/declaring-dangerous-goods",
+    "summary_zh": "相关危险货物作业按官方规定至少提前 12 小时申报，起算点取决于到港、卸货、过境或装船情形。",
+    "conditions_zh": [
+      "PSA 码头、Jurong Port 及其他作业地点采用不同申报渠道。",
+      "部分特殊危险货物还需额外材料或许可，不能只凭申报完成认定可作业。"
+    ],
+    "ports": [
+      "SGSIN"
+    ],
+    "layer": "port",
+    "kind": "危货申报要求"
+  },
+  "EU-ICS2": {
+    "title": "ICS2 入境安全申报 ENS",
+    "checked_at": "2026-10-31",
+    "status": "source_checked",
+    "source": "https://taxation-customs.ec.europa.eu/customs/customs-security/import-control-system-2_en",
+    "summary_zh": "进入或途经欧盟的适用货物须向 ICS2 申报安全与安保数据；ENS 是相关风险分析的依据。",
+    "conditions_zh": [
+      "申报责任、时限和资料完整性需按具体运输与业务角色核对。",
+      "本条不提供成员国统一罚款金额。"
+    ],
+    "countries": [
+      "NL",
+      "DE"
+    ],
+    "layer": "country",
+    "kind": "入境安全申报"
+  },
+  "USLAX-CTF": {
+    "title": "洛杉矶港 Clean Truck Fund 费",
+    "checked_at": "2026-10-31",
+    "status": "source_checked",
+    "source": "https://portoflosangeles.org/environment/air-quality/clean-truck-program",
+    "summary_zh": "港方公布的非豁免集卡相关重箱费率为 USD 10 / TEU。这是港口收费，不是船司附加费，也不是行政罚款。",
+    "conditions_zh": [
+      "费用由货主或其代理承担，港方规定不得转由卡车司机支付。",
+      "零排放车辆豁免；其他豁免存在注册和时间等条件，按港方最新规则核实。"
+    ],
+    "ports": [
+      "USLAX"
+    ],
+    "layer": "fees",
+    "kind": "港口收费 · 非行政罚"
+  }
+}

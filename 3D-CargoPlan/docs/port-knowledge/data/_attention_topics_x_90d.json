@@ -1,0 +1,612 @@
+{
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "window_start": "2026-08-02T11:09:00+08:00",
+  "window_end": "2026-10-31T11:09:00+08:00",
+  "start_time_utc": "2026-08-02T03:09:00Z",
+  "end_time_utc": "2026-10-31T03:09:00Z",
+  "method": {
+    "tool": "x.search_posts_all",
+    "max_results_per_page": 25,
+    "pages_per_query": "1–2",
+    "filter": "-is:retweet",
+    "sort_order": "recency",
+    "note": "get_posts_counts_recent is 7d-only — 90d figures are RETRIEVED SAMPLES with page caps, NOT true volume. When hit_page_cap=true, true 90d volume is unknown and ≥ retrieved."
+  },
+  "prior_7d_source": "docs/port-knowledge/data/_attention_topics_x_run.json (get_posts_counts_recent)",
+  "query_count": 20,
+  "raw_total": 471,
+  "unique_total": null,
+  "unique_total_note": "Cross-query ID dedupe not stored this run; unique_total ≈ raw_total minus overlaps (blank↔rates, odol↔etle). Treat unique_total as ≤ raw_total.",
+  "queries": [
+    {
+      "key": "dd_freetime_broad",
+      "theme": "T01 D&D / free time",
+      "lang": "EN",
+      "query": "(demurrage OR detention OR \"free time\") (container OR shipping OR freight) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "truck detention / immigration / fan 'free time'; ~half on-topic container D&D",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 70
+    },
+    {
+      "key": "free_time_strict",
+      "theme": "T01 free time strict",
+      "lang": "EN",
+      "query": "\"free time\" (container OR demurrage OR detention) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 24,
+          "has_next": true
+        }
+      ],
+      "pollution": "trucker dock detention + ocean D&D mix",
+      "retrieved": 24,
+      "hit_page_cap": true,
+      "prior_7d_count": 53
+    },
+    {
+      "key": "vgm_solas",
+      "theme": "T02 VGM",
+      "lang": "EN",
+      "query": "(VGM OR \"verified gross mass\") (SOLAS OR container OR shipping) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 23,
+          "has_next": true
+        }
+      ],
+      "pollution": "Video Games Monthly #vgm; rest mostly logistics edu/promo",
+      "retrieved": 23,
+      "hit_page_cap": true,
+      "prior_7d_count": 2
+    },
+    {
+      "key": "odol",
+      "theme": "T03/T11 ODOL",
+      "lang": "EN+ID",
+      "query": "(ODOL OR \"zero ODOL\" OR overdimension OR overloading) (Indonesia OR pelabuhan OR truk OR container) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        },
+        {
+          "page": 2,
+          "result_count": 24,
+          "has_next": true
+        }
+      ],
+      "pollution": "toothpaste slang 'odol' + real truk ODOL; Pelindo Priok / Zero ODOL 2027 / RUU denda proposals on-topic",
+      "retrieved": 49,
+      "hit_page_cap": true,
+      "prior_7d_count": 36
+    },
+    {
+      "key": "blank_sailing",
+      "theme": "T04 blank sailing",
+      "lang": "EN",
+      "query": "(\"blank sailing\" OR blanksailing OR \"blank sailings\") -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        },
+        {
+          "page": 2,
+          "result_count": 20,
+          "has_next": true
+        }
+      ],
+      "pollution": "highly on-topic freight/ops; some spam thread farms",
+      "retrieved": 45,
+      "hit_page_cap": true,
+      "prior_7d_count": 24
+    },
+    {
+      "key": "red_sea",
+      "theme": "T05 Red Sea geopolitics",
+      "lang": "EN",
+      "query": "(\"Red Sea\" OR \"Bab el-Mandeb\" OR Houthi) (shipping OR freight OR container OR vessel) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "news/geopolitics dominant; market yellow not statute — volume >> page cap",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 1200
+    },
+    {
+      "key": "scfi_rates",
+      "theme": "T05 SCFI/freight rates",
+      "lang": "EN+ZH",
+      "query": "(SCFI OR \"freight rate\" OR \"ocean freight\" OR 运价) (container OR shipping OR 集装箱) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "freight marketing + index commentary; B2C noise",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 65
+    },
+    {
+      "key": "zh_yunjia",
+      "theme": "T05 ZH 运价",
+      "lang": "ZH",
+      "query": "(运价 OR 海运费 OR SCFI OR 即期运价) (集装箱 OR 货柜 OR 航线) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "A-share shipping stocks + tanker; container SCFI on-topic subset",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 65,
+      "prior_7d_note": "compare to scfi_rates 7d=65 (related EN+ZH query, not identical)"
+    },
+    {
+      "key": "rolled_shutout",
+      "theme": "T04 rolled (wide)",
+      "lang": "EN",
+      "query": "(rolled OR \"shut out\" OR shutout OR \"cargo rolled\") (container OR booking OR vessel OR sailing) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "HEAVY: FPL/oats/politics; few true rolled-cargo hits",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 19
+    },
+    {
+      "key": "rolled_tight",
+      "theme": "T04 rolled (tight)",
+      "lang": "EN",
+      "query": "(\"cargo rolled\" OR \"rolled cargo\" OR \"booking rolled\" OR shut-out OR \"shut out\") (container OR vessel OR sailing OR carrier) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "still polluted; rare genuine 'buffer for rolled cargo' hits",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 19,
+      "prior_7d_note": "compare to rolled_shutout 7d=19 (wider query)"
+    },
+    {
+      "key": "zh_shuai",
+      "theme": "T04 ZH 甩货",
+      "lang": "ZH",
+      "query": "(甩货 OR 甩柜 OR 落货) (船 OR 集装箱 OR 海运 OR 舱位) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 25,
+          "has_next": true
+        }
+      ],
+      "pollution": "NEARLY ALL off-topic ZH chatter (AI/history/stocks); maritime 甩柜 rare",
+      "retrieved": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 2
+    },
+    {
+      "key": "ispm15",
+      "theme": "T07 ISPM15",
+      "lang": "EN",
+      "query": "(ISPM15 OR \"ISPM 15\" OR \"wood packing\" OR \"wooden packing\") (container OR shipping OR phytosanitary) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 19,
+          "has_next": true
+        }
+      ],
+      "pollution": "pallet vendor promo-heavy; some gov quarantine edu",
+      "retrieved": 19,
+      "hit_page_cap": true,
+      "prior_7d_count": 8
+    },
+    {
+      "key": "customs_hold_dd",
+      "theme": "T06 customs hold",
+      "lang": "EN+ZH",
+      "query": "(customs OR CBP OR 查验) (hold OR exam OR examination OR detention) (demurrage OR container OR storage) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 24,
+          "has_next": true
+        }
+      ],
+      "pollution": "mixed politics/customs admin; some D&D+exam education",
+      "retrieved": 24,
+      "hit_page_cap": true,
+      "prior_7d_count": 6
+    },
+    {
+      "key": "customs_storage",
+      "theme": "T06 customs storage",
+      "lang": "EN",
+      "query": "(\"customs storage\" OR \"exam fee\" OR \"customs exam\") (demurrage OR container OR detention) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 7,
+          "has_next": true
+        }
+      ],
+      "pollution": "low volume; destination charge education useful",
+      "retrieved": 7,
+      "hit_page_cap": false,
+      "prior_7d_count": 10
+    },
+    {
+      "key": "wdf_restow_accessorial",
+      "theme": "T08 WDF/restow",
+      "lang": "EN",
+      "query": "(WDF OR \"weight discrepancy\" OR restow OR restowage OR accessorial) (container OR Maersk OR shipping OR carrier) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 21,
+          "has_next": true
+        }
+      ],
+      "pollution": "MOSTLY courier/LTL/parcel accessorial + ecom weight discrepancy — NOT ocean WDF",
+      "retrieved": 21,
+      "hit_page_cap": true,
+      "prior_7d_count": 3
+    },
+    {
+      "key": "zh_detention",
+      "theme": "T01 ZH 滞箱",
+      "lang": "ZH",
+      "query": "(滞箱 OR 滞期 OR 超期堆存 OR demurrage OR detention) (集装箱 OR 货柜 OR 海运) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 10,
+          "has_next": true
+        }
+      ],
+      "pollution": "crypto/WINKLINK spam + DDP ads; sparse genuine ops",
+      "retrieved": 10,
+      "hit_page_cap": false,
+      "prior_7d_count": 5
+    },
+    {
+      "key": "misdeclaration",
+      "theme": "T09 misdeclaration",
+      "lang": "EN",
+      "query": "(misdeclaration OR misdeclare OR \"wrong description\" OR \"cargo misdeclaration\") (container OR shipping OR VGM OR SI) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 23,
+          "has_next": true
+        }
+      ],
+      "pollution": "PH politics SALN 'misdeclaration'; few cargo/customs hits",
+      "retrieved": 23,
+      "hit_page_cap": true,
+      "prior_7d_count": 1
+    },
+    {
+      "key": "abandon",
+      "theme": "T10 abandon cargo",
+      "lang": "EN+ZH",
+      "query": "(\"abandoned cargo\" OR \"abandon cargo\" OR \"cargo abandonment\" OR 弃货 OR 弃柜) (container OR demurrage OR shipping OR 海运) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 10,
+          "has_next": true
+        }
+      ],
+      "pollution": "abandoned ships / slang; destination-charge organic thin",
+      "retrieved": 10,
+      "hit_page_cap": false,
+      "prior_7d_count": 56
+    },
+    {
+      "key": "etle_odol",
+      "theme": "T11 Zero ODOL / ETLE",
+      "lang": "ID",
+      "query": "(\"Zero ODOL\" OR \"zero ODOL\" OR \"ODOL 2027\" OR ETLE) (truk OR pelabuhan OR Kemenhub OR Indonesia) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 19,
+          "has_next": true
+        }
+      ],
+      "pollution": "ETLE Operasi Patuh spam dominates; Zero ODOL 2027 / Jatim subsidy sparse but real",
+      "retrieved": 19,
+      "hit_page_cap": true,
+      "prior_7d_count": 0
+    },
+    {
+      "key": "cre_rail",
+      "theme": "T12 CRE / 中欧班列",
+      "lang": "EN+ZH",
+      "query": "(\"China Railway Express\" OR \"中欧班列\" OR \"China-Europe rail\" OR CRE) (container OR 集装箱 OR overload OR 偏载 OR weight) -is:retweet",
+      "pages": [
+        {
+          "page": 1,
+          "result_count": 22,
+          "has_next": true
+        }
+      ],
+      "pollution": "CRE=Commercial Real Estate dominates; 中欧班列 hits few (拼箱/郑州)",
+      "retrieved": 22,
+      "hit_page_cap": true,
+      "prior_7d_count": 2
+    }
+  ],
+  "themes_ranked": [
+    {
+      "rank": 1,
+      "key": "odol",
+      "theme": "T03/T11 ODOL",
+      "retrieved_90d": 49,
+      "hit_page_cap": true,
+      "prior_7d_count": 36,
+      "pollution": "toothpaste slang 'odol' + real truk ODOL; Pelindo Priok / Zero ODOL 2027 / RUU denda proposals on-topic"
+    },
+    {
+      "rank": 2,
+      "key": "blank_sailing",
+      "theme": "T04 blank sailing",
+      "retrieved_90d": 45,
+      "hit_page_cap": true,
+      "prior_7d_count": 24,
+      "pollution": "highly on-topic freight/ops; some spam thread farms"
+    },
+    {
+      "rank": 3,
+      "key": "dd_freetime_broad",
+      "theme": "T01 D&D / free time",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 70,
+      "pollution": "truck detention / immigration / fan 'free time'; ~half on-topic container D&D"
+    },
+    {
+      "rank": 4,
+      "key": "red_sea",
+      "theme": "T05 Red Sea geopolitics",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 1200,
+      "pollution": "news/geopolitics dominant; market yellow not statute — volume >> page cap"
+    },
+    {
+      "rank": 5,
+      "key": "rolled_shutout",
+      "theme": "T04 rolled (wide)",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 19,
+      "pollution": "HEAVY: FPL/oats/politics; few true rolled-cargo hits"
+    },
+    {
+      "rank": 6,
+      "key": "rolled_tight",
+      "theme": "T04 rolled (tight)",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 19,
+      "pollution": "still polluted; rare genuine 'buffer for rolled cargo' hits"
+    },
+    {
+      "rank": 7,
+      "key": "scfi_rates",
+      "theme": "T05 SCFI/freight rates",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 65,
+      "pollution": "freight marketing + index commentary; B2C noise"
+    },
+    {
+      "rank": 8,
+      "key": "zh_shuai",
+      "theme": "T04 ZH 甩货",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 2,
+      "pollution": "NEARLY ALL off-topic ZH chatter (AI/history/stocks); maritime 甩柜 rare"
+    },
+    {
+      "rank": 9,
+      "key": "zh_yunjia",
+      "theme": "T05 ZH 运价",
+      "retrieved_90d": 25,
+      "hit_page_cap": true,
+      "prior_7d_count": 65,
+      "pollution": "A-share shipping stocks + tanker; container SCFI on-topic subset"
+    },
+    {
+      "rank": 10,
+      "key": "customs_hold_dd",
+      "theme": "T06 customs hold",
+      "retrieved_90d": 24,
+      "hit_page_cap": true,
+      "prior_7d_count": 6,
+      "pollution": "mixed politics/customs admin; some D&D+exam education"
+    },
+    {
+      "rank": 11,
+      "key": "free_time_strict",
+      "theme": "T01 free time strict",
+      "retrieved_90d": 24,
+      "hit_page_cap": true,
+      "prior_7d_count": 53,
+      "pollution": "trucker dock detention + ocean D&D mix"
+    },
+    {
+      "rank": 12,
+      "key": "misdeclaration",
+      "theme": "T09 misdeclaration",
+      "retrieved_90d": 23,
+      "hit_page_cap": true,
+      "prior_7d_count": 1,
+      "pollution": "PH politics SALN 'misdeclaration'; few cargo/customs hits"
+    },
+    {
+      "rank": 13,
+      "key": "vgm_solas",
+      "theme": "T02 VGM",
+      "retrieved_90d": 23,
+      "hit_page_cap": true,
+      "prior_7d_count": 2,
+      "pollution": "Video Games Monthly #vgm; rest mostly logistics edu/promo"
+    },
+    {
+      "rank": 14,
+      "key": "cre_rail",
+      "theme": "T12 CRE / 中欧班列",
+      "retrieved_90d": 22,
+      "hit_page_cap": true,
+      "prior_7d_count": 2,
+      "pollution": "CRE=Commercial Real Estate dominates; 中欧班列 hits few (拼箱/郑州)"
+    },
+    {
+      "rank": 15,
+      "key": "wdf_restow_accessorial",
+      "theme": "T08 WDF/restow",
+      "retrieved_90d": 21,
+      "hit_page_cap": true,
+      "prior_7d_count": 3,
+      "pollution": "MOSTLY courier/LTL/parcel accessorial + ecom weight discrepancy — NOT ocean WDF"
+    },
+    {
+      "rank": 16,
+      "key": "etle_odol",
+      "theme": "T11 Zero ODOL / ETLE",
+      "retrieved_90d": 19,
+      "hit_page_cap": true,
+      "prior_7d_count": 0,
+      "pollution": "ETLE Operasi Patuh spam dominates; Zero ODOL 2027 / Jatim subsidy sparse but real"
+    },
+    {
+      "rank": 17,
+      "key": "ispm15",
+      "theme": "T07 ISPM15",
+      "retrieved_90d": 19,
+      "hit_page_cap": true,
+      "prior_7d_count": 8,
+      "pollution": "pallet vendor promo-heavy; some gov quarantine edu"
+    },
+    {
+      "rank": 18,
+      "key": "abandon",
+      "theme": "T10 abandon cargo",
+      "retrieved_90d": 10,
+      "hit_page_cap": false,
+      "prior_7d_count": 56,
+      "pollution": "abandoned ships / slang; destination-charge organic thin"
+    },
+    {
+      "rank": 19,
+      "key": "zh_detention",
+      "theme": "T01 ZH 滞箱",
+      "retrieved_90d": 10,
+      "hit_page_cap": false,
+      "prior_7d_count": 5,
+      "pollution": "crypto/WINKLINK spam + DDP ads; sparse genuine ops"
+    },
+    {
+      "rank": 20,
+      "key": "customs_storage",
+      "theme": "T06 customs storage",
+      "retrieved_90d": 7,
+      "hit_page_cap": false,
+      "prior_7d_count": 10,
+      "pollution": "low volume; destination charge education useful"
+    }
+  ],
+  "notes": [
+    "Red Sea / freight / blank sailing saturate 25–50 page caps across 90d — consistent with huge 7d counts (red_sea 1200).",
+    "VGM 7d count was only 2 but 90d retrieved 23 with next_token — low weekly chatter, steady edu baseline.",
+    "ODOL: 7d=36 true count; 90d retrieved 49/2 pages still capped — sustained ID discourse + Zero ODOL 2027.",
+    "zh_shuai / rolled wide / misdeclaration / CRE: high retrieved but severe pollution — do not treat as maritime heat.",
+    "WDF/restow query polluted by parcel accessorial — ocean WDF still thin.",
+    "abandon 90d retrieved only 10 vs 7d count 56 — prior 7d query was broader ('abandon' alone); tighten honesty.",
+    "No invented fine amounts. X = heat/wording only."
+  ],
+  "heat_90d_for_topics": {
+    "T01": {
+      "dd_freetime_broad": "≥25 (capped)",
+      "free_time_strict": "≥24 (capped)",
+      "zh_detention": 10
+    },
+    "T02": {
+      "vgm_solas": "≥23 (capped)"
+    },
+    "T03": {
+      "odol": "≥49 (2 pages, still capped)"
+    },
+    "T04": {
+      "blank_sailing": "≥45 (2 pages)",
+      "rolled_tight": "≥25 polluted",
+      "zh_shuai": "≥25 nearly all off-topic"
+    },
+    "T05": {
+      "red_sea": "≥25 (capped; 7d=1200 ⇒ 90d >>)",
+      "scfi_rates": "≥25",
+      "zh_yunjia": "≥25"
+    },
+    "T06": {
+      "customs_hold_dd": "≥24",
+      "customs_storage": 7
+    },
+    "T07": {
+      "ispm15": "≥19"
+    },
+    "T08": {
+      "wdf_restow_accessorial": "≥21 mostly courier noise"
+    },
+    "T09": {
+      "misdeclaration": "≥23 mostly non-cargo"
+    },
+    "T10": {
+      "abandon": 10
+    },
+    "T11": {
+      "odol": "≥49",
+      "etle_odol": "≥19 ETLE spam + sparse Zero ODOL"
+    },
+    "T12": {
+      "cre_rail": "≥22 mostly CRE real-estate; 中欧班列 thin"
+    }
+  }
+}

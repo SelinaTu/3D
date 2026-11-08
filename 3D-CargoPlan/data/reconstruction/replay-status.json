@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-18T02:01:53.914Z",
+  "phase": "global-rearrangement-with-incomplete-fixed-replay",
+  "optimizationUnlocked": true,
+  "fixedReplayGateSatisfied": false,
+  "globalOptimizationAuthorized": true,
+  "workflowRecord": {
+    "path": "data/reconstruction/workflow.json",
+    "sha256": "9bc2e40e58e306cff322bdef1e66e04dfe6301b9ea7cad92bbf0f12dd9b1aaf4",
+    "decisionSource": "Agent workflow decision within the user-authorized continued optimization scope; not a claim that all original containers were reproduced.",
+    "originalReplayGateSatisfied": false
+  },
+  "supportCriterion": "centroid-hull",
+  "modelConflict": null,
+  "replayDefinition": "Original per-container unit identities, newly constructed coordinates, same explicit model, independent validation; exact raster-hidden original XYZ not recovered.",
+  "contract": "data/reconstruction/model-v3-contract.json",
+  "provenance": {
+    "status": "ready",
+    "projectRoot": "/Users/lege/Documents/ChatGPT/集装箱运筹",
+    "contractPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reconstruction/model-v3-contract.json",
+    "contractSha256": "4765ae81a6b1b295bc0dea12293c96781cb7894f993957f2b77c4abd36c2b4c8",
+    "calibrationHash": "2ef3676320217eb6a89f97f5e887eb4409a5d6b957ac9ea41098de3e51a0e224",
+    "auditPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/calibration/source-baseline.json",
+    "auditSha256": "bd63ef8ae8a5db88dad50e3fbed04f67b71af4bce2e1df92020e5749ea7c1547",
+    "manifestPath": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+    "manifestSha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+    "inputSha256": "a156204f41e25cd4ce55b81da0c4d7aa50330a6f23ae1a80205270968f78c831",
+    "configSha256": "a02119f641f5b4ebdc3f0a18117323aa7b319d747894d8a6ed7b739e104581dc",
+    "sourceFiles": [
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/reference/manual-11-container-baseline.pdf",
+        "sha256": "0973abedbcea5a043fe204cd60f500271f48012b521c361e4b31e2def1bcd740",
+        "role": "pdf"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/sample-cargo.xlsx",
+        "sha256": "3295585e6c58387b5b8840cc576615cfa18c1fb225c55519a816a906e82d1a92",
+        "role": "excel"
+      },
+      {
+        "path": "/Users/lege/Documents/ChatGPT/集装箱运筹/data/demo-items.json",
+        "sha256": "7deecc59b6ea940639e7bf9891fd6912b3e87145cc29a98a31b56f900cdf9aaf",
+        "role": "normalized-manifest"
+      }
+    ],
+    "support": {
+      "gapMm": 5,
+      "mechanism": "pdf-clearance-projection",
+      "confirmed": true
+    },
+    "pdfBaseline": {
+      "containerCount": 11,
+      "originalTailContainerNumber": 11,
+      "originalTailSolidVolumeMm3": 41549138446.5,
+      "permutationInvariantMinSolidVolumeMm3": 39312162536,
+      "sortedFirstTenMinimumSolidUtilization": 0.6352022895019157,
+      "allocationSha256": "cb2cd1b008a1e2d9cd6f83b866d63de67abe1cf5a5585d56fb653b3b11695c45"
+    }
+  },
+  "engineFiles": [
+    {
+      "path": "src/scripts/audit-pdf-replay.ts",
+      "sha256": "d155bae7301e93e7a6b9ef6b289040593a9600777bfc7d427ba00143bfa47d54"
+    },
+    {
+      "path": "src/core/packing-utils.ts",
+      "sha256": "19d21dd1a90f7411283970008ba85682fd19c231093533c21901d657dd6423be"
+    },
+    {
+      "path": "src/core/solid-geometry.ts",
+      "sha256": "b383e7f8a636b3336c6e8231c530b17b60505454facdce63653f6c57ae534985"
+    },
+    {
+      "path": "src/core/validation.ts",
+      "sha256": "d4b08a5608bece885f50e2d0b015d636f95efcf65abe262a565372b2e197f1b3"
+    },
+    {
+      "path": "src/core/loading-profile.ts",
+      "sha256": "fdd4da416cd0951f472f99d3b16c8ab54f6b3a081ef5062fbe47db9ea8a55d49"
+    },
+    {
+      "path": "src/core/greedy-algorithm.ts",
+      "sha256": "68dec14019035ba7110313c45dd4fe5a9328710bc620d9f35a6c6839ef17f230"
+    },
+    {
+      "path": "src/core/research-calibration.ts",
+      "sha256": "f58b63e71279448efa9c77cb955ae70ea1c41d48f35b90d69d7d6fec452484f1"
+    }
+  ],
+  "engineSha256": "bf536db6683a2dbbb639bd1a48d5de1627e0a34d5d4503b53b2d92fa0137d9ea",
+  "counts": {
+    "expectedContainers": 11,
+    "completeContainers": 5,
+    "selectedLoaded": 1308,
+    "expectedUnits": 1371
+  },
+  "containers": [
+    {
+      "sourceContainerNumber": 1,
+      "expected": 164,
+      "selected": {
+        "path": "data/reconstruction/v3/container-1/result.json",
+        "sha256": "dfb65d8bbf1e0cad2f6e6f7ac61e726d051382a5508e153a4cc494ced7eff7f2",
+        "sourceContainerNumber": 1,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 164,
+        "expected": 164,
+        "unpacked": 0,
+        "independentlyValid": true,
+        "complete": true,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 2,
+      "expected": 124,
+      "selected": {
+        "path": "data/reconstruction/v3/container-2/result.json",
+        "sha256": "f9a5a3248037f925a8ac326da72e3d2019a4b3601bb4280fee07e3f3546b4914",
+        "sourceContainerNumber": 2,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 124,
+        "expected": 124,
+        "unpacked": 0,
+        "independentlyValid": true,
+        "complete": true,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 3,
+      "expected": 180,
+      "selected": {
+        "path": "data/reconstruction/v3/container-3/result.json",
+        "sha256": "ee252c585ba3acde673e27d5d97104b26e16c942a0f0fbfcbf1fe769e661af33",
+        "sourceContainerNumber": 3,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 180,
+        "expected": 180,
+        "unpacked": 0,
+        "independentlyValid": true,
+        "complete": true,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 4,
+      "expected": 163,
+      "selected": {
+        "path": "data/reconstruction/v3/container-4/result.json",
+        "sha256": "d4d0cfdbc44517b1c35f9ea4206576b2766ccbdc5840d5f3dfe773cc09ebe485",
+        "sourceContainerNumber": 4,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 154,
+        "expected": 163,
+        "unpacked": 9,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 5,
+      "expected": 100,
+      "selected": {
+        "path": "data/reconstruction/v3/container-5/result.json",
+        "sha256": "a18eccc1145c8518cf178784da4308dcab9dec7d45c7d81f8d43846c981dd9b9",
+        "sourceContainerNumber": 5,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 89,
+        "expected": 100,
+        "unpacked": 11,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 6,
+      "expected": 111,
+      "selected": {
+        "path": "data/reconstruction/v3/container-6/result.json",
+        "sha256": "3ad79f73807b1c79c70eb24899e8bed31078a027fbcdc6d09a9fdb48367a911d",
+        "sourceContainerNumber": 6,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 88,
+        "expected": 111,
+        "unpacked": 23,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 7,
+      "expected": 112,
+      "selected": {
+        "path": "data/reconstruction/v3/container-7/result.json",
+        "sha256": "660613d95a25824f8bf9fe06844ef72973b872d405cdc7fb7b6f7226e440e247",
+        "sourceContainerNumber": 7,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 95,
+        "expected": 112,
+        "unpacked": 17,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 8,
+      "expected": 105,
+      "selected": {
+        "path": "data/reconstruction/v3/container-8/result.json",
+        "sha256": "70c32dd067c2dbc14fbee7b7b39f58f2af03bc6472a2ccb66883a8bb9f0b535d",
+        "sourceContainerNumber": 8,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 104,
+        "expected": 105,
+        "unpacked": 1,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 9,
+      "expected": 122,
+      "selected": {
+        "path": "data/reconstruction/v3-bounded-8-9/container-9.json",
+        "sha256": "6cbe1506853f7aed875e309217006c2e330f57a4349e21802abfa1661c48709b",
+        "sourceContainerNumber": 9,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 120,
+        "expected": 122,
+        "unpacked": 2,
+        "independentlyValid": true,
+        "complete": false,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 10,
+      "expected": 97,
+      "selected": {
+        "path": "data/reconstruction/v3/container-10/result.json",
+        "sha256": "64bb293cc2a05f3719b49c61611e82d600ee2d388182bd1292139070ba20cc35",
+        "sourceContainerNumber": 10,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 97,
+        "expected": 97,
+        "unpacked": 0,
+        "independentlyValid": true,
+        "complete": true,
+        "errors": []
+      }
+    },
+    {
+      "sourceContainerNumber": 11,
+      "expected": 93,
+      "selected": {
+        "path": "data/reconstruction/v3/container-11/result.json",
+        "sha256": "fa6b66e4e28de3a16c7d20131bd8817abd5e9ce69782ee112c394448df55c3ca",
+        "sourceContainerNumber": 11,
+        "sameModel": true,
+        "fixedAllocation": true,
+        "loaded": 93,
+        "expected": 93,
+        "unpacked": 0,
+        "independentlyValid": true,
+        "complete": true,
+        "errors": []
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "path": "data/reconstruction/pdf-container-eleven-seed/result.json",
+      "sha256": "3a553d7166b465270b3246a7e282fcf991d06a805f78af0d12259e0ba271ba54",
+      "sourceContainerNumber": 11,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 93,
+      "expected": 93,
+      "unpacked": 0,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-five-seed/result.json",
+      "sha256": "376c5d1df6a751aeb6207deda26822e7434576d25b5819513d5ad3e3774aa42a",
+      "sourceContainerNumber": 5,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 76,
+      "expected": 100,
+      "unpacked": 24,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-four-seed/result.json",
+      "sha256": "794817ef187654a5550ca9d249b485674dd051bd3f6bbc0bb6c3f1169082ea10",
+      "sourceContainerNumber": 4,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 154,
+      "expected": 163,
+      "unpacked": 9,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-nine-seed/result.json",
+      "sha256": "28821b6edd10c602feb64c78c5959d780577d9dac472e005eff4983618398c4d",
+      "sourceContainerNumber": 9,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 102,
+      "expected": 122,
+      "unpacked": 20,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-one-seed/result.json",
+      "sha256": "f15a00a77641c9d70aa115264aa1997ef668429556aef472f52a7e1de801762d",
+      "sourceContainerNumber": 1,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 164,
+      "expected": 164,
+      "unpacked": 0,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-seven-seed/result.json",
+      "sha256": "45e14fb65b2b131b86aafc77253cad4db1e62abc523f3d5d49f61e7dabc71f01",
+      "sourceContainerNumber": 7,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 91,
+      "expected": 112,
+      "unpacked": 21,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-six-seed/result.json",
+      "sha256": "6534f9c010024dd81e60e652733c32cec70391f688b59dcde3662fc64cb09117",
+      "sourceContainerNumber": 6,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 78,
+      "expected": 111,
+      "unpacked": 33,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-ten-seed/result.json",
+      "sha256": "3f8db211f22ca6dbec0a59de2d9411a41921f4401c87900a6bd5966a807c49e1",
+      "sourceContainerNumber": 10,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 97,
+      "expected": 97,
+      "unpacked": 0,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-three-seed/result.json",
+      "sha256": "1a73629ff63c0b8781e4e80c369c227ab60b12b363c0d5485a3afcd4814d42d6",
+      "sourceContainerNumber": 3,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 180,
+      "expected": 180,
+      "unpacked": 0,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/pdf-container-two-seed/result.json",
+      "sha256": "d5bc0ddca3a338d9942b6fb6a8f40b067277670587436f3ca72a0f83a8f9419c",
+      "sourceContainerNumber": 2,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 124,
+      "expected": 124,
+      "unpacked": 0,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "data/reconstruction/v3-bounded-8-9/container-8.json",
+      "sha256": "ae85e24b36fc619defcd683717ef9556cdf4f7509a62f251e977b3ca4f5773d3",
+      "sourceContainerNumber": 8,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 97,
+      "expected": 105,
+      "unpacked": 8,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3-bounded-8-9/container-9.json",
+      "sha256": "6cbe1506853f7aed875e309217006c2e330f57a4349e21802abfa1661c48709b",
+      "sourceContainerNumber": 9,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 120,
+      "expected": 122,
+      "unpacked": 2,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-1/result.json",
+      "sha256": "dfb65d8bbf1e0cad2f6e6f7ac61e726d051382a5508e153a4cc494ced7eff7f2",
+      "sourceContainerNumber": 1,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 164,
+      "expected": 164,
+      "unpacked": 0,
+      "independentlyValid": true,
+      "complete": true,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-10/result.json",
+      "sha256": "64bb293cc2a05f3719b49c61611e82d600ee2d388182bd1292139070ba20cc35",
+      "sourceContainerNumber": 10,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 97,
+      "expected": 97,
+      "unpacked": 0,
+      "independentlyValid": true,
+      "complete": true,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-11/result.json",
+      "sha256": "fa6b66e4e28de3a16c7d20131bd8817abd5e9ce69782ee112c394448df55c3ca",
+      "sourceContainerNumber": 11,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 93,
+      "expected": 93,
+      "unpacked": 0,
+      "independentlyValid": true,
+      "complete": true,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-2/result.json",
+      "sha256": "f9a5a3248037f925a8ac326da72e3d2019a4b3601bb4280fee07e3f3546b4914",
+      "sourceContainerNumber": 2,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 124,
+      "expected": 124,
+      "unpacked": 0,
+      "independentlyValid": true,
+      "complete": true,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-3/result.json",
+      "sha256": "ee252c585ba3acde673e27d5d97104b26e16c942a0f0fbfcbf1fe769e661af33",
+      "sourceContainerNumber": 3,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 180,
+      "expected": 180,
+      "unpacked": 0,
+      "independentlyValid": true,
+      "complete": true,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-4/result.json",
+      "sha256": "d4d0cfdbc44517b1c35f9ea4206576b2766ccbdc5840d5f3dfe773cc09ebe485",
+      "sourceContainerNumber": 4,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 154,
+      "expected": 163,
+      "unpacked": 9,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-5/result.json",
+      "sha256": "a18eccc1145c8518cf178784da4308dcab9dec7d45c7d81f8d43846c981dd9b9",
+      "sourceContainerNumber": 5,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 89,
+      "expected": 100,
+      "unpacked": 11,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-6/result.json",
+      "sha256": "3ad79f73807b1c79c70eb24899e8bed31078a027fbcdc6d09a9fdb48367a911d",
+      "sourceContainerNumber": 6,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 88,
+      "expected": 111,
+      "unpacked": 23,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-7/result.json",
+      "sha256": "660613d95a25824f8bf9fe06844ef72973b872d405cdc7fb7b6f7226e440e247",
+      "sourceContainerNumber": 7,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 95,
+      "expected": 112,
+      "unpacked": 17,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-8-band/result.json",
+      "sha256": "86abef92f2316f47789f00c94c40ce39b5e1cefbd7a8d7b8d2476e546120d906",
+      "sourceContainerNumber": 8,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 90,
+      "expected": 105,
+      "unpacked": 15,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-8/result.json",
+      "sha256": "70c32dd067c2dbc14fbee7b7b39f58f2af03bc6472a2ccb66883a8bb9f0b535d",
+      "sourceContainerNumber": 8,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 104,
+      "expected": 105,
+      "unpacked": 1,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "data/reconstruction/v3/container-9/result.json",
+      "sha256": "8ef1416ce6715a5006172986e45f9c4c10e1526b4425a598111bb3d54a894112",
+      "sourceContainerNumber": 9,
+      "sameModel": true,
+      "fixedAllocation": true,
+      "loaded": 120,
+      "expected": 122,
+      "unpacked": 2,
+      "independentlyValid": true,
+      "complete": false,
+      "errors": []
+    },
+    {
+      "path": "delivery-output/reconstruction/container-1.json",
+      "sha256": "2e65414f5888183cfc6193549228bb9c3698c60dd52ee9f2f781afe5499e29a2",
+      "sourceContainerNumber": 1,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 162,
+      "expected": 164,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/container-11.json",
+      "sha256": "cf9fd826a33822723e8347e8aa4fac89c948ba5884cc5845b20b2045db22010e",
+      "sourceContainerNumber": 11,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 91,
+      "expected": 93,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/container-2.json",
+      "sha256": "20adad5b86fe9f3a5f8ec6b1d0adab8a855d765d30100e324114d52af10a56d8",
+      "sourceContainerNumber": 2,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 121,
+      "expected": 124,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/pdf-eight-maxrects/result.json",
+      "sha256": "951391501fbd24da94fe7295678c56b3572b03a51b26203c6d4166c6a16ce7bb",
+      "sourceContainerNumber": 8,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 104,
+      "expected": 105,
+      "unpacked": 1,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-pdf-seed/container-11.json",
+      "sha256": "e7fda7b6b67e0d4979a168ab0be73170be3d24121edb31d9189e216bf4eef213",
+      "sourceContainerNumber": 11,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 80,
+      "expected": 93,
+      "unpacked": 13,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-4.json",
+      "sha256": "6ac02c8fc16a6bd5cdabc4850ddc695f0a7fec523a5cfd6d9f0ea6506854526e",
+      "sourceContainerNumber": 4,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 160,
+      "expected": 163,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-5.json",
+      "sha256": "d32d9ed72f03f479e4f577419fd5412ec918c2de4ef2c9c0d4d1bb3aea3f97f8",
+      "sourceContainerNumber": 5,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 98,
+      "expected": 100,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-6.json",
+      "sha256": "126e90f7031cc03dbcefc54349efd839d97806570bc12bbd3ce50a459b0e7c83",
+      "sourceContainerNumber": 6,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 109,
+      "expected": 111,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-7.json",
+      "sha256": "c4179026b701856fa453cbf966654d0b5dc5fa421670a494c38bdfd5c92d719c",
+      "sourceContainerNumber": 7,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 109,
+      "expected": 112,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-8.json",
+      "sha256": "ceff5e4a84e5fb7f862c4495b5c27b1616f9ae2420d2cad1fa6cbe9dce594428",
+      "sourceContainerNumber": 8,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 97,
+      "expected": 105,
+      "unpacked": 8,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2-racktop/container-9.json",
+      "sha256": "ff5f2674a11524337f260636a473165ffafd709e2b5a2515a8a4fa19396c6623",
+      "sourceContainerNumber": 9,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 120,
+      "expected": 122,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-1.json",
+      "sha256": "2d0293bf204a46a8b76e568b6fc8dfb460bcb156fe22a930293ce9029230283b",
+      "sourceContainerNumber": 1,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 163,
+      "expected": 164,
+      "unpacked": 1,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-10.json",
+      "sha256": "82ff84d9a126515e446859bbd4873eb012ba6be9015a06e7f324260d9bb260df",
+      "sourceContainerNumber": 10,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 95,
+      "expected": 97,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-11.json",
+      "sha256": "319f04b6d8dd2508570f882b1aa262fb59af188f6d6a58bc0bd2fa1c59ceef90",
+      "sourceContainerNumber": 11,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 91,
+      "expected": 93,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-2.json",
+      "sha256": "b6d3868fe582323febb067188281ed683b326a004416009de64a8616f570a9ac",
+      "sourceContainerNumber": 2,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 121,
+      "expected": 124,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-3.json",
+      "sha256": "2f0da72a11be7eed00f29b483422e4bcfe51416883df06e0d8e709544a8e7b0d",
+      "sourceContainerNumber": 3,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 170,
+      "expected": 180,
+      "unpacked": 10,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-4.json",
+      "sha256": "17f26051d14b2e8191eedc9adee6437b0b2ded30716e59a859ceaf5e819428e2",
+      "sourceContainerNumber": 4,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 160,
+      "expected": 163,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-5.json",
+      "sha256": "8f6f6b60882076b3e7ab973c545e1c16457e043ee1fedad20ead61d3ed7f294a",
+      "sourceContainerNumber": 5,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 98,
+      "expected": 100,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-6.json",
+      "sha256": "dbfcffde42ae4f5220c3ec377b39c1fd53b51c87f18f95faada33e6b3cb7cbcb",
+      "sourceContainerNumber": 6,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 109,
+      "expected": 111,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-7.json",
+      "sha256": "f745b2468b58c73dc6d7e956d6191869b50cfcf1110944bdeba898a1dabf7a04",
+      "sourceContainerNumber": 7,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 109,
+      "expected": 112,
+      "unpacked": 3,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-8.json",
+      "sha256": "b990cc25b74c45fe7e2f7663f428d159ab32a32586b7f58204aa97ba04269c48",
+      "sourceContainerNumber": 8,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 97,
+      "expected": 105,
+      "unpacked": 8,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    },
+    {
+      "path": "delivery-output/reconstruction/v2/container-9.json",
+      "sha256": "70c729b24e65f613a403ff7b30f96eb80bee1c2fb2a867733fb2c353406d02f8",
+      "sourceContainerNumber": 9,
+      "sameModel": false,
+      "fixedAllocation": true,
+      "loaded": 120,
+      "expected": 122,
+      "unpacked": 2,
+      "independentlyValid": false,
+      "complete": false,
+      "errors": [
+        "Model provenance or fixed allocation did not match; candidate excluded"
+      ]
+    }
+  ],
+  "rejectedFiles": [],
+  "combinedValidation": null,
+  "execution": {
+    "command": "node --import tsx src/scripts/audit-pdf-replay.ts data/reconstruction/model-v3-contract.json",
+    "elapsedMs": 424,
+    "cpuMicroseconds": {
+      "user": 508522,
+      "system": 43737
+    },
+    "nodeVersion": "v22.23.2"
+  },
+  "optimality": {
+    "established": false,
+    "reason": "Global heuristic research is authorized; fixed-allocation replay remains incomplete and no optimum is established"
+  }
+}

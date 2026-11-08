@@ -1,0 +1,289 @@
+#created 11/08/2026
+# Sources catalog — Port Knowledge v1.1
+# as_of: 2026-10-30 Asia/Shanghai
+
+sources:
+  - id: imo_vgm
+    title: IMO Verification of the gross mass of a packed container
+    url: https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx
+    layer: L1
+    topics: [vgm]
+    confidence: primary
+
+  - id: imo_msc_1475
+    title: MSC.1/Circ.1475 VGM Guidelines PDF
+    url: https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1%20Circ.1475.pdf
+    layer: L1
+    topics: [vgm]
+    confidence: primary
+
+  - id: unece_ctu
+    title: UNECE CTU Code downloads
+    url: https://unece.org/transport/documents/standards/ctu-code
+    layer: L1
+    topics: [ctu_packing]
+    confidence: primary
+
+  - id: imo_ctu
+    title: IMO CTU Code page
+    url: https://www.imo.org/en/ourwork/safety/pages/ctu-code.aspx
+    layer: L1
+    topics: [ctu_packing]
+    confidence: primary
+
+  - id: imo_csc
+    title: International Convention for Safe Containers (CSC)
+    url: https://www.imo.org/en/about/conventions/pages/international-convention-for-safe-containers-%28csc%29.aspx
+    layer: L1
+    topics: [csc_plate]
+    confidence: primary
+
+  - id: ispm15
+    title: ISPM 15 wood packaging (IPPC PDF)
+    url: https://www.ippc.int/static/media/files/publication/en/2019/02/ISPM_15_2018_En_WoodPackaging_Post-CPM13_Rev_Annex1and2_Fixed_2019-02-01.pdf
+    layer: L1
+    topics: [wood_packing_ispm15]
+    confidence: primary
+
+  - id: cn_overlimit_gov
+    title: 超限运输车辆行驶公路管理规定（2021修正）中国政府网
+    url: https://www.gov.cn/zhengce/zhengceku/2021-08/26/content_5633469.htm
+    layer: L2
+    topics: [overweight_road]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_overlimit_mot
+    title: 超限运输车辆行驶公路管理规定 MOT 公开
+    url: https://xxgk.mot.gov.cn/gz/202112/t20211221_3632243.html
+    layer: L2
+    topics: [overweight_road]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_highway_safety_ordinance
+    title: 公路安全保护条例（国务院令第593号）
+    url: https://www.gov.cn/gongbao/content/2011/content_1831543.htm
+    layer: L2
+    topics: [overweight_road]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_mot_vgm_notice
+    title: 交通运输部执行 SOLAS VI/2 修正案通知
+    url: https://xxgk.mot.gov.cn/2020/jigou/haishi/202006/t20200630_3319189.html
+    layer: L2
+    topics: [vgm]
+    confidence: primary
+    jurisdiction: CN
+    note: Gateway may 504; use mirrors
+
+  - id: cn_customs_container_iq
+    title: 进出境集装箱检验检疫管理办法
+    url: https://www.gov.cn/zhengce/2018-04/28/content_5723400.htm
+    layer: L2
+    topics: [quarantine_container, customs_inspection]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_customs_inspection
+    title: 海关进出口货物查验管理办法 PDF
+    url: http://www.customs.gov.cn/customs/attachDir/2026/01/2026010510333136663.pdf
+    layer: L2
+    topics: [customs_inspection]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_customs_declaration_277
+    title: 海关进出口货物申报管理规定（署令第277号）
+    url: https://www.gov.cn/gongbao/2025/issue_12026/202505/content_7022577.html
+    layer: L2
+    topics: [customs_inspection]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_port_dg
+    title: 港口危险货物安全管理规定
+    url: https://www.gov.cn/zhengce/2019-11-28/content_5711560.htm
+    layer: L2
+    topics: [dangerous_goods]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_gbt_1413
+    title: GB/T 1413-2023 系列1集装箱
+    url: https://std.samr.gov.cn/gb/search/gbDetailedCNF?id=F78920661043B223E05397BE0A0AE533
+    layer: L5
+    topics: [specs_iso]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: cn_container_std_system
+    title: 交通运输部集装箱标准体系 PDF
+    url: https://xxgk.mot.gov.cn/2020/jigou/kjs/202405/P020240507353162099354.pdf
+    layer: L5
+    topics: [specs_iso]
+    confidence: primary
+    jurisdiction: CN
+
+  - id: de_bkatv
+    title: BKatV Anhang (Germany)
+    url: https://www.gesetze-im-internet.de/bkatv_2013/anhang_2.html
+    layer: L2
+    topics: [overweight_road, axle_load]
+    confidence: primary
+    jurisdiction: DE
+
+  - id: nl_ilt_overbelading
+    title: ILT Overbelading (Netherlands)
+    url: https://www.ilent.nl/onderwerpen/goederenvervoer-over-de-weg/overbelading
+    layer: L2
+    topics: [overweight_road, axle_load]
+    confidence: primary
+    jurisdiction: NL
+
+  - id: uk_dvsa_fines
+    title: DVSA roadside checks fines
+    url: https://www.gov.uk/government/publications/guide-to-graduated-fixed-penalties-financial-deposits/dvsa-roadside-checks-fines-and-financial-deposits
+    layer: L2
+    topics: [overweight_road]
+    confidence: primary
+    jurisdiction: GB
+
+  - id: us_fhwa_sw_faq
+    title: FHWA Size/Weight FAQ
+    url: https://ops.fhwa.dot.gov/freight/SW/faqs/qa.cfm
+    layer: L2
+    topics: [overweight_road, axle_load]
+    confidence: primary
+    jurisdiction: US
+
+  - id: github_unlocode
+    title: datasets/un-locode
+    url: https://github.com/datasets/un-locode
+    layer: L5
+    topics: [opensource_data]
+    confidence: primary
+
+  - id: nga_wpi
+    title: NGA World Port Index
+    url: https://msi.nga.mil/Publications/WPI
+    layer: L5
+    topics: [opensource_data]
+    confidence: primary
+
+  - id: smdg_tcl
+    title: SMDG Terminal Code List
+    url: https://smdg.org/documents/smdg-code-lists/smdg-terminal-code-list/
+    layer: L5
+    topics: [opensource_data]
+    confidence: primary
+
+  - id: bic_facility
+    title: BIC Facility Code
+    url: https://github.com/bic-org/Facility-Code
+    layer: L5
+    topics: [opensource_data]
+    confidence: primary
+
+  - id: id_uu_22_2009
+    title: UU No. 22 Tahun 2009 Lalu Lintas dan Angkutan Jalan
+    url: https://pelayanan.jakarta.go.id/download/regulasi/undang-undang-nomor-22-tahun-2009-tentang-lalu-lintas-dan-angkutan-jalan.pdf
+    layer: L2
+    topics: [overweight_road, odol, axle_mst]
+    confidence: primary
+    jurisdiction: ID
+    note: Pasal 19 road class MST; Pasal 277/307 sanctions
+
+  - id: id_kemenhub_odol_2025
+    title: Menhub Dudy — penanganan angkutan ODOL
+    url: https://kemenhub.go.id/post/read/menhub-dudy-tegaskan-penanganan-angkutan-odol-harus-segera-dilaksanakan
+    layer: L2
+    topics: [odol]
+    confidence: primary
+    jurisdiction: ID
+
+  - id: id_korlantas_odol
+    title: Korlantas — sosialisasi strategi penegakan ODOL
+    url: https://korlantas.polri.go.id/pemerintah-komitmen-sosialisasikan-strategi-penegakan-hukum-terhadap-kendaraan-truk-over-dimension-dan-overload/
+    layer: L2
+    topics: [odol]
+    confidence: primary
+    jurisdiction: ID
+
+  - id: id_hubdat_stop_odol
+    title: Ditjen Hubdat — STOP ODOL (BPTD Sulteng)
+    url: https://hubdat.dephub.go.id/id/bptd/sulteng/publikasi/stop-odol/
+    layer: L2
+    topics: [odol, fines]
+    confidence: primary
+    jurisdiction: ID
+    note: May 502; cites Pasal 277 Rp24jt / Pasal 307 Rp500rb
+
+  - id: id_pm_25_2022
+    title: PM 25 Tahun 2022 Kelaikan Peti Kemas dan VGM
+    url: https://jdih.kemenhub.go.id/peraturan/detail?data=CXEkQHcG1lA3nJhtJQD3Fy4UptvQxfhhw8MOVkpzaLIo8glfHMQejH58QiPUsnmiSU4OdxTt0pap08MS8rlJtOoG4pHLlkqQUz84fXo7XijXNeAkGNwdG90ev67RlLzjbMuW7xK9Eq4wFmPBqgLEooipSh
+    layer: L2
+    topics: [vgm, csc_plate]
+    confidence: primary
+    jurisdiction: ID
+    note: Replaces PM 53/2018; secondary text mirror pasal.id
+
+  - id: id_pm_53_2018_revoked
+    title: PM 53/2018 VGM (revoked by PM 25/2022)
+    url: https://peraturan.bpk.go.id/Details/102597/permenhub-no-53-tahun-2018
+    layer: L2
+    topics: [vgm]
+    confidence: primary
+    jurisdiction: ID
+    status: revoked
+
+  - id: id_permenhub_18_2021
+    title: Permenhub 18/2021 pengawasan muatan angkutan barang (JBI/JBKI)
+    url: https://peraturan.bpk.go.id/Download/311148/2021pmkemenhub018.pdf
+    layer: L2
+    topics: [overweight_road, jbi]
+    confidence: primary
+    jurisdiction: ID
+
+  - id: id_maersk_wdf
+    title: Maersk Weight Discrepancy Fee Policy — Indonesia refresh
+    url: https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia
+    layer: L3
+    topics: [vgm, carrier_fee]
+    confidence: primary
+    jurisdiction: ID
+    note: USD300 commercial accessorial; not administrative fine
+
+  - id: id_jict_vgm_sop
+    title: Indonesia terminal weighing/VGM SOP (JICT flow via carrier PDF)
+    url: https://www.emiratesline.com/wp-content/uploads/2024/03/0042-Indonesia-SOP-For-Operation.pdf
+    layer: L3
+    topics: [vgm]
+    confidence: secondary
+    jurisdiction: ID
+
+  - id: id_priok_45t_2017
+    title: Liputan6 — Priok toll access 45t five-axle (2017)
+    url: https://www.liputan6.com/bisnis/read/2921553/kontainer-melebihi-45-ton-tak-boleh-lalui-akses-tol-priok
+    layer: L3
+    topics: [overweight_road]
+    confidence: secondary
+    jurisdiction: ID
+    note: 待核实 if still current
+
+  - id: id_ispm15_reg
+    title: Indonesia wood packaging quarantine (ISPM15) EN compilation
+    url: https://pflanzengesundheit.julius-kuehn.de/mediaPublic/PG-docs/pdf/Vorschriften_Nicht-EU/G-J/Indonesien/id_2009-12_spwm_en.pdf
+    layer: L2
+    topics: [wood_packing_ispm15]
+    confidence: secondary
+    jurisdiction: ID
+
+  - id: x_maritime_qa_v11
+    title: X sample maritime QA (CargoPlan scrape)
+    url: data/x_maritime_qa_sample.yaml
+    layer: L4
+    topics: [experience_qa]
+    confidence: secondary
+    note: Topic heat only; not law

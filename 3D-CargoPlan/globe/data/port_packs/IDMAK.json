@@ -1,0 +1,116 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "industry",
+  "port_id": "IDMAK",
+  "port_name": "Makassar",
+  "port_name_zh": "望加锡",
+  "country": "ID",
+  "tier": "P2",
+  "fine_profile": "ID-ODOL-road",
+  "dossier_depth": "stub",
+  "vgm": {
+    "required_for_load": true,
+    "tolerance_note": "PM25/2022 ≥5% reweigh → no load",
+    "statute": "PM 25 Tahun 2022"
+  },
+  "checklists": [
+    {
+      "id": "id_vgm_required",
+      "topic": "vgm",
+      "severity": "block",
+      "title": "PM 25/2022 VGM required",
+      "sources": [
+        "https://pasal.id/peraturan/permen/permenhub-pm-25-2022"
+      ]
+    },
+    {
+      "id": "id_csc_max_gross",
+      "topic": "csc",
+      "severity": "block",
+      "title": "Over CSC max gross → no load",
+      "sources": [
+        "https://pasal.id/peraturan/permen/permenhub-pm-25-2022"
+      ]
+    },
+    {
+      "id": "id_vgm_deviation_5pct",
+      "topic": "vgm",
+      "severity": "block",
+      "title": "Terminal reweigh ≥5% → new VGM",
+      "sources": [
+        "https://pasal.id/peraturan/permen/permenhub-pm-25-2022"
+      ]
+    },
+    {
+      "id": "id_road_mst_class",
+      "topic": "overweight_road",
+      "severity": "warn",
+      "title": "Road class MST (Kelas I = 10 t)",
+      "sources": [
+        "https://pelayanan.jakarta.go.id/download/regulasi/undang-undang-nomor-22-tahun-2009-tentang-lalu-lintas-dan-angkutan-jalan.pdf"
+      ]
+    },
+    {
+      "id": "id_jbi_vehicle_plate",
+      "topic": "overweight_road",
+      "severity": "warn",
+      "title": "Require carrier KIR JBI/JBKI — do not invent tonnage"
+    },
+    {
+      "id": "id_odol_pasal277_307",
+      "topic": "fine",
+      "severity": "info",
+      "title": "Statutory ODOL caps Pasal 277/307 (not a ticket calculator)"
+    },
+    {
+      "id": "id_ispm15_wood",
+      "topic": "ispm15",
+      "severity": "info",
+      "title": "ISPM15 wood packing"
+    }
+  ],
+  "fine_refs": [
+    {
+      "id": "ID-PASAL-277",
+      "currency": "IDR",
+      "cap": 24000000,
+      "formula_note": "UU 22/2009 Pasal 277 max Rp 24,000,000 (over-dimension / illegal mod context)",
+      "sources": [
+        "https://hubdat.dephub.go.id/id/bptd/sulteng/publikasi/stop-odol/"
+      ]
+    },
+    {
+      "id": "ID-PASAL-307",
+      "currency": "IDR",
+      "cap": 500000,
+      "formula_note": "UU 22/2009 Pasal 307 max Rp 500,000 (overload)",
+      "sources": [
+        "https://otomotif.kompas.com/read/2025/06/09/151200015/dasar-hukum-dan-sanksi-buat-pelaku-odol"
+      ]
+    }
+  ],
+  "commercial_cost_hints": [
+    {
+      "carrier": "Maersk Indonesia",
+      "id": "ID-WDF-MAERSK",
+      "amount_usd": 300,
+      "per": "container",
+      "type": "carrier_accessorial",
+      "note": "Weight Discrepancy Fee — commercial ≠ administrative fine",
+      "sources": [
+        "https://www.maersk.com/news/articles/2025/07/31/refresher-of-weight-discrepancy-fee-policy-indonesia"
+      ]
+    }
+  ],
+  "flags": {},
+  "notes": [
+    "National PM25/2022 + ODOL; terminal VGM pages 待核实"
+  ],
+  "sources": [],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/indonesia/makassar.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

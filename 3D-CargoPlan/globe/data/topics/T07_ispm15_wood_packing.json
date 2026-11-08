@@ -1,0 +1,141 @@
+{
+  "id": "T07_ispm15_wood_packing",
+  "title_zh": "ISPM15 木质包装",
+  "title_en": "ISPM 15 wood packaging",
+  "product_use": "faq_yellow",
+  "confidence": "high_definition_promo_heavy_on_x",
+  "why_attention": {
+    "summary_zh": "木包装合规。近 90 天抽样 ≥19（偏供应商广告）；近 7 天 counts=8。",
+    "heat_7d": {
+      "ispm15": 8
+    },
+    "heat_90d": {
+      "ispm15": "≥19"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "ISPM 15",
+      "zh": "国际植检措施标准第15号",
+      "def": "IPPC standard for wood packaging material in international trade — debarked wood + approved treatment + mark."
+    },
+    {
+      "term": "WPM",
+      "zh": "木质包装材料",
+      "def": "Pallets, crates, dunnage of raw wood; excludes processed wood like plywood (generally)."
+    },
+    {
+      "term": "Mark",
+      "zh": "IPPC 标识",
+      "def": "Symbol + ISO country + producer code + treatment code (HT/DH/MB/SF); legible, durable, not hand-drawn."
+    }
+  ],
+  "who_pays": {
+    "typical": "Exporter/packer arranges treatment & marking; non-compliance risks refusal/treatment/destruction at import — costs on cargo interest per local NPPO rules."
+  },
+  "who_responsible": [
+    "NPPO authorization of mark users",
+    "Packer/shipper compliance",
+    "Import NPPO inspection"
+  ],
+  "common_pitfalls": [
+    "Hand-drawn or incomplete marks.",
+    "Treating fumigation ads as statutory fine schedules.",
+    "Forgetting dunnage inside containers."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.ippc.int/en/publications/640/",
+      "org": "IPPC",
+      "note": "ISPM 15 publication page (fetched 2026-10-31)"
+    },
+    {
+      "url": "https://www.ippc.int/static/media/files/publication/en/2019/02/ISPM_15_2018_En_WoodPackaging_Post-CPM13_Rev_Annex1and2_Fixed_2019-02-01.pdf",
+      "org": "IPPC PDF",
+      "note": "ISPM 15 2018 EN with Annex 1–2"
+    },
+    {
+      "url": "https://food.ec.europa.eu/plants/plant-health-and-biosecurity/trade-plants-plant-products-non-eu-countries/requirements-wood-packaging-dunnage_en",
+      "org": "European Commission",
+      "note": "EU import WPM based on ISPM 15"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "note": "Checklist ispm15_if_wood in country pack"
+    },
+    {
+      "iso2": "US",
+      "note": "APHIS enforces ISPM15"
+    },
+    {
+      "iso2": "NL",
+      "note": "EU regime"
+    },
+    {
+      "iso2": "DE",
+      "note": "EU regime"
+    },
+    {
+      "iso2": "ID",
+      "note": "Quarantine interface"
+    }
+  ],
+  "port_hooks": [
+    {
+      "locode": "USLAX"
+    },
+    {
+      "locode": "NLRTM"
+    },
+    {
+      "locode": "DEHAM"
+    },
+    {
+      "locode": "CNSHA"
+    }
+  ],
+  "faq": [
+    {
+      "q": "哪些木头要 ISPM15？",
+      "a": "国际贸易中的原木包装（含垫木）；经胶合热压等加工材（如胶合板）通常除外——以 ISPM15 正文为准。"
+    },
+    {
+      "q": "没标记会怎样？",
+      "a": "进口 NPPO 可能拒绝入境、退运、销毁或责令处理；具体措施国别不同。勿用广告里的「罚款 $X」当全球标准。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "archive": 18
+    },
+    "samples": [
+      {
+        "url": "https://x.com/shivshakti_ti/status/2061305633379676231",
+        "kind": "promo",
+        "note": "Myth vs fact ISPM15 — marketing"
+      },
+      {
+        "url": "https://x.com/global_pallets/status/2103351465192640725",
+        "kind": "promo",
+        "note": "Compliance tip ad"
+      }
+    ],
+    "honesty": "Archive almost all promo; use IPPC as referee.",
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "ispm15": "≥19"
+    }
+  },
+  "gaps": [
+    "Per-country NPPO refusal fee tables not collected"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

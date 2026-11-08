@@ -1,0 +1,18 @@
+﻿/* #created 11/08/2026 */
+.cargo-scene{position:relative;width:100%;height:100%;min-height:240px;isolation:isolate;font-family:inherit;color:#284c5b;background:#edf3f5;overflow:hidden}
+.cargo-scene>div:has(>canvas){position:absolute!important;inset:0}
+.cargo-scene-toolbar{position:absolute;inset:12px 14px auto;z-index:60;display:flex;justify-content:space-between;gap:8px;align-items:start;pointer-events:none}
+.cargo-scene-badge{background:#fffffff0;border:1px solid #ccdee5;border-radius:8px;padding:7px 10px;box-shadow:0 3px 12px #34596a0c;font-size:11px;font-weight:700;line-height:1.5}
+.cargo-scene-badge small{display:block;font-size:10px;color:#6d8490;font-weight:400}
+.cargo-scene-toolbar>div{display:flex;gap:5px;pointer-events:auto}
+.cargo-scene button{font:inherit;cursor:pointer}
+.cargo-scene-toolbar button,.cargo-selection button{border:1px solid #cbdde4;border-radius:6px;background:#fffffff2;color:#215d70;padding:6px 9px;font-size:11px}
+.cargo-scene button:hover{background:#e3f3f5;border-color:#80b6bf}
+.cargo-scene button:focus-visible{outline:3px solid #21898c;outline-offset:2px}
+.cargo-scene-legend{position:absolute;top:75px;left:14px;z-index:40;display:flex;gap:10px;flex-wrap:wrap;font-size:10px;pointer-events:none}
+.cargo-scene-legend span{display:flex;gap:4px;align-items:center}.cargo-scene-legend i{width:7px;height:7px;border-radius:2px}
+.cargo-door-label{display:block;white-space:nowrap;background:#fffef4eb;border:1px solid #5aafa5;border-radius:5px;padding:4px 7px;font-size:10px;color:#116c64;box-shadow:0 3px 10px #1b51451a}.cargo-door-label b{font-weight:500;margin-left:5px}
+.cargo-selection{position:absolute;z-index:55;bottom:48px;left:14px;max-width:280px;padding:10px 12px;background:#ffffffed;box-shadow:0 5px 20px #2144541a;border:1px solid #acc9d6;border-radius:9px;display:flex;flex-direction:column;gap:4px;font-size:10px;overflow-wrap:anywhere;pointer-events:auto}.cargo-selection strong{font-size:12px}.cargo-selection small{color:#6f8994}.cargo-selection button{margin-top:3px;align-self:start}
+.cargo-scene-note{position:absolute;inset:auto 14px 12px;z-index:40;font-size:10px;color:#5d7886;pointer-events:none;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;background:#edf3f5d9;padding:4px 6px;border-radius:4px}
+.cargo-scene.dark{color:#c7dce6}.cargo-scene.dark .cargo-scene-badge,.cargo-scene.dark .cargo-selection{background:#1c3044ed;border-color:#42637b}.cargo-scene.dark .cargo-scene-note{background:#142333d9;color:#aac4d1}.cargo-scene.dark .cargo-scene-legend{color:#b4cdd9}
+@media(max-width:600px){.cargo-scene-toolbar{inset:8px 8px auto}.cargo-scene-toolbar button{font-size:10px;padding:5px 6px}.cargo-scene-legend{left:8px;top:72px;gap:6px}.cargo-selection{bottom:52px;left:8px;max-width:225px;font-size:9px}.cargo-scene-note{inset:auto 8px 8px;font-size:9px;gap:2px}}

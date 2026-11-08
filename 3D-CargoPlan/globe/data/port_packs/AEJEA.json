@@ -1,0 +1,36 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "industry",
+  "port_id": "AEJEA",
+  "port_name": "Jebel Ali",
+  "country": "AE",
+  "tier": "P0",
+  "fine_profile": "link_next_leg",
+  "vgm": {
+    "required_for_load": true,
+    "note": "UAE local implementing detail 待核实"
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    }
+  ],
+  "fine_refs": [],
+  "commercial_cost_hints": [],
+  "flags": {
+    "hub_reexport": true,
+    "climate_note": "hot"
+  },
+  "notes": [
+    "Hot climate lashing is engineering advice, not a fine."
+  ],
+  "sources": [],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/jebel_ali.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

@@ -1,0 +1,5 @@
+#created 11/08/2026
+DRAG_DIAG bounds=(0.0, 0.0, 1124.0, 853.0) projected=SCNVector3(x: 389.31365966796875, y: 444.0701904296875, z: 0.9679080247879028) window=(730.3136596679688, 444.0701904296875) hits=[]
+DRAG_PICKED 玻璃架:20#玻璃架:r24
+DRAG_MOVED x=1157.2325114430146 y=164.360913440829 dirty=true pending=0
+NATIVE_DRAG_SMOKE_OK picked_cargo=true moved=true click_preserved=true

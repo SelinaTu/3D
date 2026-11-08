@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- #created 11/08/2026 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D CargoPlan Knowledge Globe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/globe.css" />
+</head>
+<body>
+  <div id="globeViz"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">CARGOPLAN · KNOWLEDGE GLOBE</div>
+      <div class="sub">Convention → Country → Port → Carrier · offline JSON</div>
+    </div>
+    <div class="search-wrap">
+      <span class="icon">⌕</span>
+      <input id="searchInput" type="search" placeholder="Search locode / port / country (e.g. CNSHA, Priok, ID)" autocomplete="off" />
+      <div id="searchHits"></div>
+    </div>
+    <div class="stats" id="statsBox">loading…</div>
+  </header>
+
+  <div class="legend">
+    <div class="row"><span class="dot deep"></span> Deep Port Pack</div>
+    <div class="row"><span class="dot thin"></span> Thin UN/LOCODE seaport</div>
+  </div>
+
+  <aside class="panel hidden" id="sidePanel" aria-live="polite">
+    <div class="panel-head">
+      <div>
+        <h2 id="panelTitle">—</h2>
+        <div class="meta" id="panelMeta"></div>
+      </div>
+      <button class="close-btn" id="closePanel" type="button" aria-label="Close">×</button>
+    </div>
+    <div class="panel-body" id="panelBody"></div>
+  </aside>
+
+  <footer class="footer">
+    <div class="disc" id="footerDisc">Not legal advice. Thin ports marked thin. Carrier fees ≠ administrative fines.</div>
+    <div id="footerMeta"></div>
+  </footer>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <!-- globe.gl UMD expects global THREE -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.33.0"></script>
+  <script src="js/globe-app.js"></script>
+</body>
+</html>

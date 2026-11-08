@@ -1,0 +1,45 @@
+{
+  "port_pack_version": "0.1.0",
+  "as_of": "2026-10-30",
+  "disclaimer": "Not legal advice. Fines and local practices change. Show sources to user.",
+  "confidence": "industry",
+  "port_id": "USNYC",
+  "port_name": "New York / New Jersey",
+  "country": "US",
+  "tier": "P0",
+  "fine_profile": "US-NY/NJ",
+  "vgm": {
+    "required_for_load": true
+  },
+  "checklists": [
+    {
+      "id": "vgm_before_load",
+      "severity": "block",
+      "title": "SOLAS VGM"
+    },
+    {
+      "id": "bridge_formula",
+      "severity": "warn",
+      "title": "Bridge Formula + state/PANYNJ road limits"
+    }
+  ],
+  "fine_refs": [],
+  "commercial_cost_hints": [],
+  "flags": {
+    "bridge_formula": true
+  },
+  "notes": [
+    "Winter ops constraints 待核实"
+  ],
+  "sources": [
+    {
+      "url": "https://www.panynj.gov/",
+      "layer": "L3",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "knowledge_paths": [
+    "port-knowledge/04_global_ports/nynj.md"
+  ],
+  "stuffing_ban_machine_readable": false
+}

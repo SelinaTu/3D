@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-10-30",
+  "disclaimer": "High-level points + official URLs only. Not full treaty text.",
+  "items": [
+    {
+      "id": "SOLAS-VGM",
+      "title": "SOLAS · Verified Gross Mass (VGM)",
+      "title_zh": "SOLAS · 验证总质量（VGM）",
+      "layer": "L1",
+      "summary": "Shipper must verify packed container gross mass and provide VGM before stowage. Method 1 = weigh sealed container; Method 2 = sum cargo+dunnage+tare (authorized). No VGM → no load (unless master/terminal obtain VGM another way).",
+      "summary_zh": "托运人负责验证装箱集装箱毛重并提前提供 VGM。方法1整箱称重；方法2累加。无 VGM 不得装船。",
+      "effective": "2016-07-01",
+      "instrument": "SOLAS VI/2 · MSC.380(94)",
+      "sources": [
+        "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+        "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1%20Circ.1475.pdf"
+      ]
+    },
+    {
+      "id": "CTU-CODE",
+      "title": "IMO/ILO/UNECE CTU Code",
+      "title_zh": "CTU 装箱实践守则",
+      "layer": "L1",
+      "summary": "Non-mandatory global code of practice for packing cargo transport units (suitability, securing, DG, training). Often referenced by national law. Not a port-specific stuffing ban list.",
+      "summary_zh": "非强制全球实践守则；可被国内法引用。覆盖适宜性、系固、危货、培训。不是港别摆法禁令表。",
+      "sources": [
+        "https://www.imo.org/en/ourwork/safety/pages/ctu-code.aspx",
+        "https://unece.org/transport/documents/standards/ctu-code"
+      ]
+    },
+    {
+      "id": "CSC",
+      "title": "CSC · Safe Containers 1972",
+      "title_zh": "CSC · 国际集装箱安全公约",
+      "layer": "L1",
+      "summary": "Structural safety; CSC Safety Approval Plate (max gross, stacking, ACEP). cargo + tare ≤ rated max gross.",
+      "summary_zh": "结构安全与 CSC 铭牌；货重+皮重不得超过铭牌最大营运总质量。",
+      "sources": [
+        "https://www.imo.org/en/about/conventions/pages/international-convention-for-safe-containers-%28csc%29.aspx"
+      ]
+    },
+    {
+      "id": "ISPM15",
+      "title": "ISPM 15 · Wood packaging",
+      "title_zh": "ISPM 15 · 木质包装",
+      "layer": "L1",
+      "summary": "IPPC/FAO standard for wood packaging in international trade: debarked wood + approved treatment + ISPM 15 mark under NPPO authority.",
+      "summary_zh": "国际贸易木质包装：去皮 + 批准处理 + ISPM15 标识。",
+      "sources": [
+        "https://www.ippc.int/static/media/files/publication/en/2019/02/ISPM_15_2018_En_WoodPackaging_Post-CPM13_Rev_Annex1and2_Fixed_2019-02-01.pdf"
+      ]
+    },
+    {
+      "id": "IMDG",
+      "title": "IMDG Code (DG · high level)",
+      "title_zh": "IMDG 危规（高层）",
+      "layer": "L1",
+      "summary": "Mandatory DG rules under SOLAS. 3D CargoPlan MVP: DG flag → port DG ops / segregation hooks only — not a full UN-number classifier.",
+      "summary_zh": "SOLAS 下强制危货规则。MVP 只做危品标记→港口危货作业提示，不做完整 UN 编号引擎。",
+      "sources": [
+        "https://www.imo.org/en/ourwork/safety/pages/dangerousgoods.aspx"
+      ]
+    }
+  ]
+}

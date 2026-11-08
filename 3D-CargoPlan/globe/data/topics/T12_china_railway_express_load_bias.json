@@ -1,0 +1,94 @@
+{
+  "id": "T12_china_railway_express_load_bias",
+  "title_zh": "中欧班列偏载（薄）",
+  "title_en": "China Railway Express load bias (thin)",
+  "product_use": "faq_yellow",
+  "confidence": "low_thin",
+  "why_attention": {
+    "summary_zh": "中欧班列偏载刻意薄。90 天 CRE 查询 ≥22 多为 Commercial Real Estate；中欧班列/拼箱偶发。近 7 天 counts=2。",
+    "heat_7d": {
+      "cre_rail": 2
+    },
+    "heat_90d": {
+      "cre_rail": "≥22_CRE_real_estate_noise"
+    },
+    "heat_window": "90d_retrieved_via_search_posts_all_plus_7d_counts_retained",
+    "x_run": "docs/port-knowledge/data/_attention_topics_x_90d.json"
+  },
+  "definitions": [
+    {
+      "term": "CRE / 中欧班列",
+      "zh": "中欧班列",
+      "def": "China-Europe block trains — rail CTU load distribution rules differ from ocean but share overweight/bias concerns."
+    },
+    {
+      "term": "偏载偏重",
+      "zh": "偏载偏重",
+      "def": "Uneven or concentrated load — may force restow/delay; published public fine schedules scarce."
+    }
+  ],
+  "who_pays": {
+    "typical": "Shipper/operator for restow/delay — verify operator notices; no unified fine table in our sources."
+  },
+  "who_responsible": [
+    "Shipper packing",
+    "CRE operator acceptance"
+  ],
+  "common_pitfalls": [
+    "Inventing CRE administrative fine RMB amounts",
+    "Assuming ocean Port Pack rules apply unchanged to rail"
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.imo.org/en/ourwork/safety/pages/ctu-code.aspx",
+      "org": "IMO/ILO/UNECE CTU",
+      "note": "Load distribution practice applicable to CTUs generally"
+    },
+    {
+      "url": "https://unece.org/transport/documents/standards/ctu-code",
+      "org": "UNECE",
+      "note": "CTU Code downloads"
+    }
+  ],
+  "country_hooks": [
+    {
+      "iso2": "CN",
+      "note": "Origin CRE; see 05_fines CRE-BIAS stub"
+    },
+    {
+      "iso2": "DE",
+      "note": "EU rail destination practices vary"
+    },
+    {
+      "iso2": "NL",
+      "note": "Same"
+    }
+  ],
+  "port_hooks": [],
+  "faq": [
+    {
+      "q": "为什么几乎没内容？",
+      "a": "因为公开、可核、机器可读的班列偏载罚金表稀缺。诚实标薄优于编造。"
+    }
+  ],
+  "x_evidence": {
+    "sample_size_this_run": {
+      "counts": 2
+    },
+    "samples": [],
+    "honesty": "Insufficient organic evidence this run.",
+    "window": "2026-08-02..2026-10-31 Asia/Shanghai (~90d)",
+    "method": "search_posts_all page-capped; not full-archive counts",
+    "sample_size_90d": {
+      "cre_rail": "≥22_CRE_real_estate_noise"
+    }
+  },
+  "gaps": [
+    "Operator-specific loading notices",
+    "Unified admin fine schedule"
+  ],
+  "as_of": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "layer": "attention",
+  "disclaimer": "Not legal advice. Commercial fees ≠ administrative fines. Amounts require source URL + as_of. X evidence is heat/wording only."
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!-- #created 11/08/2026 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D装箱优化系统</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #05070C 0%, #0F131C 100%);
+      color: #e5e7eb;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: clamp(24px, 4vw, 36px);
+      font-weight: 700;
+      margin-bottom: 32px;
+      background: linear-gradient(135deg, #38BDF8 0%, #6EE7B7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .control-panel {
+      background: #0A0D12;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .button-group {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    button {
+      padding: 14px 24px;
+      border: none;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-primary {
+      background: #38BDF8;
+      color: #05070C;
+    }
+
+    .btn-success {
+      background: #6EE7B7;
+      color: #05070C;
+    }
+
+    .btn-danger {
+      background: #EF4444;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #1E2636;
+      color: #e5e7eb;
+      border: 1px solid #38BDF8;
+    }
+
+    .status {
+      padding: 12px 16px;
+      background: #0F131C;
+      border-radius: 8px;
+      border-left: 4px solid #38BDF8;
+      font-size: 14px;
+      margin-top: 16px;
+    }
+
+    .status.error {
+      border-left-color: #EF4444;
+      background: rgba(239, 68, 68, 0.1);
+    }
+
+    .status.success {
+      border-left-color: #6EE7B7;
+      background: rgba(110, 231, 183, 0.1);
+    }
+
+    .results-panel {
+      background: #0A0D12;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .result-card {
+      background: #0F131C;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border: 1px solid #1E2636;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .result-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #38BDF8;
+    }
+
+    .result-score {
+      font-size: 24px;
+      font-weight: 700;
+      color: #6EE7B7;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+
+    .stat-item {
+      background: #161D2B;
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #38BDF8;
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .viewer-container {
+      background: #0F131C;
+      border-radius: 12px;
+      height: 500px;
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed #1E2636;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 3D装箱优化系统</h1>
+
+    <div class="control-panel">
+      <h2 style="margin-bottom: 16px; font-size: 18px;">控制面板</h2>
+
+      <div class="button-group">
+        <button class="btn-success" onclick="startServer()" id="btn-start">
+          ▶️ 启动服务
+        </button>
+        <button class="btn-danger" onclick="stopServer()" id="btn-stop" disabled>
+          ⏸️ 停止服务
+        </button>
+        <button class="btn-primary" onclick="loadDemo()" id="btn-load" disabled>
+          📦 加载示例数据
+        </button>
+        <button class="btn-secondary" onclick="runOptimization()" id="btn-optimize" disabled>
+          🎯 运行优化
+        </button>
+      </div>
+
+      <div id="status" class="status hidden"></div>
+    </div>
+
+    <div class="results-panel">
+      <h2 style="margin-bottom: 16px; font-size: 18px;">优化结果</h2>
+      <div id="results"></div>
+      <div class="viewer-container" id="viewer">
+        <div>
+          <div style="font-size: 48px; margin-bottom: 16px;">📦</div>
+          <div>3D视图（加载数据后显示）</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let serverRunning = false
+    let cargoItems = []
+    let optimizationResults = null
+
+    function showStatus(message, type = 'info') {
+      const status = document.getElementById('status')
+      status.className = `status ${type}`
+      status.textContent = message
+      status.classList.remove('hidden')
+    }
+
+    function updateButtons() {
+      document.getElementById('btn-start').disabled = serverRunning
+      document.getElementById('btn-stop').disabled = !serverRunning
+      document.getElementById('btn-load').disabled = !serverRunning
+      document.getElementById('btn-optimize').disabled = !serverRunning || cargoItems.length === 0
+    }
+
+    async function startServer() {
+      try {
+        showStatus('🔄 正在启动服务...', 'info')
+
+        const response = await fetch('/api/server/start', { method: 'POST' })
+        const data = await response.json()
+
+        if (data.success) {
+          serverRunning = true
+          showStatus('✅ 服务已启动', 'success')
+          updateButtons()
+        } else {
+          throw new Error(data.error || '启动失败')
+        }
+      } catch (error) {
+        showStatus(`❌ 启动失败: ${error.message}`, 'error')
+      }
+    }
+
+    async function stopServer() {
+      try {
+        showStatus('🔄 正在停止服务...', 'info')
+
+        const response = await fetch('/api/server/stop', { method: 'POST' })
+        const data = await response.json()
+
+        if (data.success) {
+          serverRunning = false
+          showStatus('✅ 服务已停止', 'success')
+          updateButtons()
+        } else {
+          throw new Error(data.error || '停止失败')
+        }
+      } catch (error) {
+        showStatus(`❌ 停止失败: ${error.message}`, 'error')
+      }
+    }
+
+    async function loadDemo() {
+      try {
+        showStatus('🔄 正在加载示例数据...', 'info')
+
+        const response = await fetch('/api/load-demo')
+        const data = await response.json()
+
+        if (data.success) {
+          cargoItems = data.items
+          showStatus(`✅ 已加载 ${cargoItems.length} 个货物单元`, 'success')
+          updateButtons()
+        } else {
+          throw new Error(data.error || '加载失败')
+        }
+      } catch (error) {
+        showStatus(`❌ 加载失败: ${error.message}`, 'error')
+      }
+    }
+
+    async function runOptimization() {
+      try {
+        showStatus('🔄 正在优化装箱方案... (可能需要1-2分钟)', 'info')
+        document.getElementById('btn-optimize').innerHTML = '<span class="loading"></span> 计算中...'
+        document.getElementById('btn-optimize').disabled = true
+
+        const response = await fetch('/api/optimize', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: cargoItems })
+        })
+
+        const data = await response.json()
+
+        if (data.success) {
+          optimizationResults = data.solutions
+          displayResults(data.solutions)
+          showStatus(`✅ 优化完成！找到 ${data.solutions.length} 个方案`, 'success')
+        } else {
+          throw new Error(data.error || '优化失败')
+        }
+      } catch (error) {
+        showStatus(`❌ 优化失败: ${error.message}`, 'error')
+      } finally {
+        document.getElementById('btn-optimize').textContent = '🎯 运行优化'
+        updateButtons()
+      }
+    }
+
+    function displayResults(solutions) {
+      const resultsDiv = document.getElementById('results')
+      resultsDiv.innerHTML = ''
+
+      solutions.forEach((solution, index) => {
+        const card = document.createElement('div')
+        card.className = 'result-card'
+
+        const volumeUtilization = (solution.metrics.volumeUtilization * 100).toFixed(2)
+        const weightUtilization = (solution.metrics.weightUtilization * 100).toFixed(2)
+
+        card.innerHTML = `
+          <div class="result-header">
+            <div class="result-title">${solution.algorithm}</div>
+            <div class="result-score">${solution.score.toFixed(2)}</div>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">容器数量</div>
+              <div class="stat-value">${solution.containers.length}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">体积利用率</div>
+              <div class="stat-value">${volumeUtilization}%</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">重量利用率</div>
+              <div class="stat-value">${weightUtilization}%</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">计算时间</div>
+              <div class="stat-value">${solution.computeTime}ms</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">未装入</div>
+              <div class="stat-value">${solution.unplaced.length}</div>
+            </div>
+          </div>
+        `
+
+        resultsDiv.appendChild(card)
+      })
+    }
+
+    // 页面加载时检查服务状态
+    window.addEventListener('load', async () => {
+      try {
+        const response = await fetch('/api/health')
+        if (response.ok) {
+          serverRunning = true
+          showStatus('✅ 服务运行中', 'success')
+          updateButtons()
+        }
+      } catch {
+        showStatus('ℹ️ 请点击"启动服务"开始', 'info')
+      }
+    })
+  </script>
+</body>
+</html>
